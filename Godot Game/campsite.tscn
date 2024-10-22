@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://dcuu86pvjwvxt"]
+
+[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_dgchi"]
+height = 1.0
+radius = 3.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1124"]
+albedo_color = Color(0.0901961, 0.27451, 0.160784, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vrprf"]
+material = SubResource("StandardMaterial3D_f1124")
+top_radius = 3.0
+bottom_radius = 3.0
+height = 1.0
+
+[node name="Campsite" type="Node3D"]
+
+[node name="Ground" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("CylinderShape3D_dgchi")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+mesh = SubResource("CylinderMesh_vrprf")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.242007, 0.970275, 0, -0.970275, 0.242007, 0, 3.88229, 1.60809)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
+
+[node name="Player" parent="." instance=ExtResource("1_wfgnp")]
