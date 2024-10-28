@@ -34,3 +34,15 @@ transform = Transform3D(1, 0, 0, 0, 0.242007, 0.970275, 0, -0.970275, 0.242007, 
 transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
 
 [node name="Player" parent="." instance=ExtResource("1_wfgnp")]
+
+[node name="AkBank_init" type="AkBank" parent="."]
+bank = {
+"id": 1355168291,
+"name": "Init"
+}
+load_on = 1
+
+[node name="AkBank_MainMenu" type="AkBank" parent="AkBank_init"]
+load_on = 1
+
+[node name="AkListener3D" type="AkListener3D" parent="."]
