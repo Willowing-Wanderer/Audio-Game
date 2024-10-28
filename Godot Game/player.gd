@@ -2,7 +2,7 @@
 
 class_name Player extends CharacterBody3D
 
-@export_range(0.1, 3.0, 0.1, "or_greater") var player_sens: float = 1
+@export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.75
 
 var mouse_captured: bool = false
 
@@ -28,5 +28,5 @@ func release_mouse() -> void:
 	mouse_captured = false
 
 func _rotate_player(sens_mod: float = 1.0) -> void:
-	rotation.y -= look_dir.x * player_sens * sens_mod
+	rotation.y -= look_dir.x * player_sensitivity * sens_mod
 
