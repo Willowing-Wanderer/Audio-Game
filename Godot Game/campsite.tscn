@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://dcuu86pvjwvxt"]
+[gd_scene load_steps=8 format=3 uid="uid://dcuu86pvjwvxt"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
 
@@ -14,6 +14,16 @@ material = SubResource("StandardMaterial3D_f1124")
 top_radius = 3.0
 bottom_radius = 3.0
 height = 1.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xpwrj"]
+albedo_color = Color(1, 0.580392, 0.282353, 1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_muqwb"]
+material = SubResource("StandardMaterial3D_xpwrj")
+size = Vector3(0.5, 0.5, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b3rvj"]
+size = Vector3(0.235901, 0.538574, 0.918243)
 
 [node name="Campsite" type="Node3D"]
 
@@ -35,14 +45,44 @@ transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 
 
 [node name="Player" parent="." instance=ExtResource("1_wfgnp")]
 
-[node name="AkBank_init" type="AkBank" parent="."]
+[node name="AkListener3D" type="AkListener3D" parent="Player"]
+is_spatial = true
+
+[node name="AkBank" type="AkBank" parent="."]
 bank = {
 "id": 1355168291,
 "name": "Init"
 }
 load_on = 1
 
-[node name="AkBank_MainMenu" type="AkBank" parent="AkBank_init"]
+[node name="AkBank" type="AkBank" parent="AkBank"]
+bank = {
+"id": 3161908922,
+"name": "Main"
+}
 load_on = 1
 
-[node name="AkListener3D" type="AkListener3D" parent="."]
+[node name="Facing" type="AkEvent3D" parent="AkBank/AkBank"]
+event = {
+"id": 54298587,
+"name": "Facing"
+}
+
+[node name="Campfire" type="Area3D" parent="AkBank/AkBank/Facing"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AkBank/AkBank/Facing/Campfire"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.258542, 3.0205)
+mesh = SubResource("PrismMesh_muqwb")
+skeleton = NodePath("../../..")
+
+[node name="CampfireEvent" type="AkEvent3D" parent="AkBank/AkBank/Facing/Campfire/MeshInstance3D"]
+event = {
+"id": 1931646578,
+"name": "Campfire"
+}
+trigger_on = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.136189, 0.099592)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AkBank/AkBank/Facing/Campfire"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0563049, 0.230713, 2.85901)
+shape = SubResource("BoxShape3D_b3rvj")
