@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{14D914A9-EF1F-42D4-916F-48933A8C8FBB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Facing" ID="{2D5FA967-CCD3-4703-BE71-20DA6E840DEC}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Campfire" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

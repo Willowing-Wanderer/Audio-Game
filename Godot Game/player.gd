@@ -29,4 +29,5 @@ func release_mouse() -> void:
 
 func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
+	
 
