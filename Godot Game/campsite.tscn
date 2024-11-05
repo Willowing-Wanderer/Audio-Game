@@ -58,22 +58,23 @@ bank = {
 }
 load_on = 1
 
-[node name="Campfire" type="Area3D" parent="AkBank/AkBank"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="AkBank/AkBank/Campfire"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.258542, 3.0205)
-mesh = SubResource("PrismMesh_muqwb")
-skeleton = NodePath("../..")
-
-[node name="CampfireEvent" type="AkEvent3D" parent="AkBank/AkBank/Campfire/MeshInstance3D"]
+[node name="CampfireEvent" type="AkEvent3D" parent="AkBank/AkBank"]
 event = {
 "id": 1931646578,
 "name": "Campfire"
 }
 trigger_on = 1
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.136189, 0.099592)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.122353, 3.12009)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="AkBank/AkBank/Campfire"]
+[node name="Campfire" type="Area3D" parent="AkBank/AkBank/CampfireEvent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.122353, -3.12009)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AkBank/AkBank/CampfireEvent/Campfire"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.258542, 3.0205)
+mesh = SubResource("PrismMesh_muqwb")
+skeleton = NodePath("../../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AkBank/AkBank/CampfireEvent/Campfire"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0563049, 0.230713, 2.85901)
 shape = SubResource("BoxShape3D_b3rvj")
 
@@ -90,4 +91,4 @@ script = ExtResource("1_83j22")
 is_spatial = true
 transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
 
-[connection signal="body_entered" from="AkBank/AkBank/Campfire" to="AkBank/AkBank/Facing" method="_on_campfire_body_entered"]
+[connection signal="body_entered" from="AkBank/AkBank/CampfireEvent/Campfire" to="AkBank/AkBank/Facing" method="_on_campfire_body_entered"]
