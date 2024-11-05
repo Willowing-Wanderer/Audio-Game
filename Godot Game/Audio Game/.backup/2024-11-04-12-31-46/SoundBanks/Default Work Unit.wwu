@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7592B724-ABF0-423B-8B44-DAD59E1DD8D4}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7592B724-ABF0-423B-8B44-DAD59E1DD8D4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{14D914A9-EF1F-42D4-916F-48933A8C8FBB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Campfire" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

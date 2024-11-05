@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Audio Game" GUID="{4EB4DDA0-7D7B-4C07-98A2-3D46C3A74929}" Generator="2023.1.8.8601"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{0EA82C9B-470A-45DE-BC0E-EF441F95A049}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{7A9DB267-5FA9-4DDC-999E-57B5610FA83A}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{7167C1A0-56EA-6F33-6791-3002E6AAFE9F}</FileHash>
+</ProjectInfo>

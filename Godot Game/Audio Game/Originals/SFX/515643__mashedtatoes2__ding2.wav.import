@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://17qbyoooyrtw"
+path="res://.godot/imported/515643__mashedtatoes2__ding2.wav-f7e2282a46da3ad6508608abb1787674.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/515643__mashedtatoes2__ding2.wav"
+dest_files=["res://.godot/imported/515643__mashedtatoes2__ding2.wav-f7e2282a46da3ad6508608abb1787674.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
