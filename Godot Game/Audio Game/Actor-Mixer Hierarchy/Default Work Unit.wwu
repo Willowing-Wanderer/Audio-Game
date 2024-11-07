@@ -23,6 +23,8 @@
 						<AudioFileSource Name="106988__plingativator__fire1" ID="{667AC46A-1CC3-484B-B15F-F74DC0EF75AE}">
 							<PropertyList>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.55732141884532"/>
+								<Property Name="TrimEnd" Type="Real64" Value="33.972759667756"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>106988__plingativator__fire1.wav</AudioFile>
@@ -92,7 +94,10 @@
 						<ActiveSource Name="106988__plingativator__fire1" ID="{667AC46A-1CC3-484B-B15F-F74DC0EF75AE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Ding" ID="{0B2CD8E9-9845-41D7-93EB-423A5DF8ABDC}" ShortID="949074433">
+				<Sound Name="Dying_Fire" ID="{EC1C292F-822E-4831-9C93-841CCB8AFA09}" ShortID="446546186">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -102,16 +107,185 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="515643__mashedtatoes2__ding2" ID="{F2BDD1D0-5ACB-4ED0-B97C-96425483131A}">
+						<AudioFileSource Name="508845__augustsandberg__dying-fire" ID="{4F92451E-2374-418E-AE85-6D3EE4BAFAA8}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="74.5622901007625"/>
+								<Property Name="TrimEnd" Type="Real64" Value="118.922133578431"/>
+							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>515643__mashedtatoes2__ding2.wav</AudioFile>
+							<AudioFile>508845__augustsandberg__dying-fire.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="140431130"/>
+								<MediaID ID="178784164"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{F823B4C3-7E97-477A-8E6A-6AA6FC838DFF}" ShortID="166827047">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DDC4EDDA-0F0E-4971-8D49-6AB6E72C3170}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="508845__augustsandberg__dying-fire" ID="{4F92451E-2374-418E-AE85-6D3EE4BAFAA8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Fire_Whoosh" ID="{9DE2CD3C-8294-4C9A-B281-E2C5522D9379}" ShortID="935821072">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="181577__kingsrow__whoosh" ID="{FEF0E1FE-5875-48DC-B722-6A5A98C93B38}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.177441643323996"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.246446726838884"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.50825396825397"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.23773627969707"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>181577__kingsrow__whoosh.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="993805153"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="515643__mashedtatoes2__ding2" ID="{F2BDD1D0-5ACB-4ED0-B97C-96425483131A}" Platform="Linked"/>
+						<ActiveSource Name="181577__kingsrow__whoosh" ID="{FEF0E1FE-5875-48DC-B722-6A5A98C93B38}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Stick" ID="{4864B1EC-CF49-4A42-A33B-019D83C607E2}" ShortID="598554544">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="655627__hankof__stick-hitting-stick-2" ID="{EA22DBBB-69F9-4409-9327-F18B811DD6F8}">
+							<Language>SFX</Language>
+							<AudioFile>655627__hankof__stick-hitting-stick-2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="498893928"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="655627__hankof__stick-hitting-stick-2" ID="{EA22DBBB-69F9-4409-9327-F18B811DD6F8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pickup" ID="{E6D1FFE0-C82C-4FCF-9B7A-A9D1AB10A7D6}" ShortID="1031432950">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="441415__matrixxx__lucky-7-cheerful" ID="{427122C0-8E9E-4FF3-9B6B-8D0E953A5EDF}">
+							<Language>SFX</Language>
+							<AudioFile>441415__matrixxx__lucky-7-cheerful.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="763409988"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="441415__matrixxx__lucky-7-cheerful" ID="{427122C0-8E9E-4FF3-9B6B-8D0E953A5EDF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Facing_Hum" ID="{46617B37-2D85-4865-944D-6E796AB833CF}" ShortID="968657134">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="130507__duckduckpony__high-grainy-swirling-tone" ID="{F656FC83-898E-4524-A2C6-F0DB550CA6C9}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.05185481600047"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.30833666800053"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.77000400160064"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.82241726320158"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>130507__duckduckpony__high-grainy-swirling-tone.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="825823633"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="130507__duckduckpony__high-grainy-swirling-tone" ID="{F656FC83-898E-4524-A2C6-F0DB550CA6C9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

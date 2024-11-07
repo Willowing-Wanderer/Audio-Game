@@ -2,10 +2,18 @@ class_name AK
 
 class EVENTS:
 
+	const FACING_STICK = 2793518390
+	const FIRE_DIM = 135198910
+	const FIRE_WHOOSH = 3524664550
+	const PICKUP = 3978245845
 	const FACING = 54298587
 	const CAMPFIRE = 1931646578
 
 	const _dict = {
+		"Facing_Stick": FACING_STICK,
+		"Fire_Dim": FIRE_DIM,
+		"Fire_Whoosh": FIRE_WHOOSH,
+		"Pickup": PICKUP,
 		"Facing": FACING,
 		"Campfire": CAMPFIRE
 	}

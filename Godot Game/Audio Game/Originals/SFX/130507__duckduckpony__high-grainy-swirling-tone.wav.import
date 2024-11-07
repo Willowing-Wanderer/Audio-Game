@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0ujhrwoit80k"
+path="res://.godot/imported/130507__duckduckpony__high-grainy-swirling-tone.wav-b6e9df23b4bc505abf87e75d759c3fa7.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/130507__duckduckpony__high-grainy-swirling-tone.wav"
+dest_files=["res://.godot/imported/130507__duckduckpony__high-grainy-swirling-tone.wav-b6e9df23b4bc505abf87e75d759c3fa7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

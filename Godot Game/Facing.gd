@@ -1,5 +1,6 @@
 extends AkEvent3D
 
+var playing_id
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,5 +14,12 @@ func _process(delta):
 
 func _on_campfire_body_entered(body):
 	Wwise.register_game_obj(self, self.get_name())
-	Wwise.post_event_id(AK.EVENTS.FACING, self)
-	pass # Replace with function body.
+	playing_id = Wwise.post_event_id(AK.EVENTS.FACING, self)
+	#print(playing_id)
+	pass
+
+
+func _on_campfire_body_exited(body):
+	#print(playing_id)
+	Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+	pass

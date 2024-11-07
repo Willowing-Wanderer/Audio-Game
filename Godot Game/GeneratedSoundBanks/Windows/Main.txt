@@ -1,11 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
 	54298587	Facing			\Default Work Unit\Facing	
+	135198910	Fire_Dim			\Default Work Unit\Fire_Dim	
 	1931646578	Campfire			\Default Work Unit\Campfire	
+	2793518390	Facing_Stick			\Default Work Unit\Facing_Stick	
+	3524664550	Fire_Whoosh			\Default Work Unit\Fire_Whoosh	
+	3978245845	Pickup			\Default Work Unit\Pickup	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	140431130	Ding	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\515643__mashedtatoes2__ding2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ding		62624
-	894566245	Campfire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\106988__plingativator__fire1_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Campfire		12170630
+	178784164	Dying_Fire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\508845__augustsandberg__dying-fire_C5C95F0E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dying_Fire		8517184
+	498893928	Stick	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\655627__hankof__stick-hitting-stick-2_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stick		45624
+	763409988	Pickup	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\441415__matrixxx__lucky-7-cheerful_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickup		36704
+	825823633	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\130507__duckduckpony__high-grainy-swirling-tone_6B74BCA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Facing_Hum		714944
+	894566245	Campfire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\106988__plingativator__fire1_CC3DAF22.wem		\Actor-Mixer Hierarchy\Default Work Unit\Campfire		2823978
+	993805153	Fire_Whoosh	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\181577__kingsrow__whoosh_F3455C10.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire_Whoosh		128776
 

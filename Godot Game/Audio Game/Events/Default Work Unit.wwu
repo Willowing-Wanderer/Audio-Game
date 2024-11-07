@@ -19,7 +19,51 @@
 						<Action Name="" ID="{FB0C6E7E-32E3-4264-BD28-43CD6D6C1A2B}" ShortID="740457099">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ding" ID="{0B2CD8E9-9845-41D7-93EB-423A5DF8ABDC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									<ObjectRef Name="Facing_Hum" ID="{46617B37-2D85-4865-944D-6E796AB833CF}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fire_Dim" ID="{02B94341-4902-4CF4-8CE3-C9A00815E96A}">
+					<ChildrenList>
+						<Action Name="" ID="{2DCEB306-DD5E-47F9-9E95-4BC07B74007E}" ShortID="697952412">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dying_Fire" ID="{EC1C292F-822E-4831-9C93-841CCB8AFA09}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fire_Whoosh" ID="{FF8ACB5E-D656-465F-81B2-72237C02AB70}">
+					<ChildrenList>
+						<Action Name="" ID="{8EF9EBD3-E8AA-415D-ADF4-4C9E604EAFA7}" ShortID="233001048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Whoosh" ID="{9DE2CD3C-8294-4C9A-B281-E2C5522D9379}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Facing_Stick" ID="{9C3A0217-8A38-4DE4-A19E-C2180BB8002A}">
+					<ChildrenList>
+						<Action Name="" ID="{FC4C798C-90C2-472F-BE84-225376ECC168}" ShortID="476924030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stick" ID="{4864B1EC-CF49-4A42-A33B-019D83C607E2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pickup" ID="{735D5BA5-B159-43D5-90EE-BE7799C297E2}">
+					<ChildrenList>
+						<Action Name="" ID="{1AA7C3A7-3F87-40CE-AC6F-83842A4F5F66}" ShortID="157388388">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{E6D1FFE0-C82C-4FCF-9B7A-A9D1AB10A7D6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

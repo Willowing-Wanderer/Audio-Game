@@ -163,17 +163,33 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3C44102F-7F5D-BC92-E001-D5CAA6ACC9B2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6DE1240B-2A61-2E23-D2EE-0AB2B0FC7D5E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="140431130" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>515643__mashedtatoes2__ding2.wav</ShortName>
-					<CachePath>SFX/515643__mashedtatoes2__ding2_818F3B66.wem</CachePath>
+				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
+					<CachePath>SFX/508845__augustsandberg__dying-fire_C5C95F0E.wem</CachePath>
+				</File>
+				<File Id="498893928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
+					<CachePath>SFX/655627__hankof__stick-hitting-stick-2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="763409988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>441415__matrixxx__lucky-7-cheerful.wav</ShortName>
+					<CachePath>SFX/441415__matrixxx__lucky-7-cheerful_818F3B66.wem</CachePath>
+				</File>
+				<File Id="825823633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>130507__duckduckpony__high-grainy-swirling-tone.wav</ShortName>
+					<CachePath>SFX/130507__duckduckpony__high-grainy-swirling-tone_6B74BCA6.wem</CachePath>
 				</File>
 				<File Id="894566245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106988__plingativator__fire1.wav</ShortName>
-					<CachePath>SFX/106988__plingativator__fire1_11A93380.wem</CachePath>
+					<CachePath>SFX/106988__plingativator__fire1_CC3DAF22.wem</CachePath>
+				</File>
+				<File Id="993805153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>181577__kingsrow__whoosh.wav</ShortName>
+					<CachePath>SFX/181577__kingsrow__whoosh_F3455C10.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -184,7 +200,27 @@
 				</Event>
 				<Event Id="54298587" Name="Facing">
 					<MediaRefs>
-						<MediaRef Id="140431130"/>
+						<MediaRef Id="825823633"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2793518390" Name="Facing_Stick">
+					<MediaRefs>
+						<MediaRef Id="498893928"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="135198910" Name="Fire_Dim">
+					<MediaRefs>
+						<MediaRef Id="178784164"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3524664550" Name="Fire_Whoosh">
+					<MediaRefs>
+						<MediaRef Id="993805153"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3978245845" Name="Pickup">
+					<MediaRefs>
+						<MediaRef Id="763409988"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -193,5 +229,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B7305C04-EB35-81D7-976A-C923276214FE}</FileHash>
+	<FileHash>{54EC32CC-5B74-6F49-9AD3-04CF4AD45A0F}</FileHash>
 </SoundBanksInfo>
