@@ -2,6 +2,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	54298587	Facing			\Default Work Unit\Facing	
 	1931646578	Campfire			\Default Work Unit\Campfire	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	140431130	Ding	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\515643__mashedtatoes2__ding2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ding		62624
 	894566245	Campfire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\106988__plingativator__fire1_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Campfire		12170630
