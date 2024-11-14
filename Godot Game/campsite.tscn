@@ -1,8 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://dcuu86pvjwvxt"]
+[gd_scene load_steps=7 format=3 uid="uid://dcuu86pvjwvxt"]
 
-[ext_resource type="Script" path="res://Facing.gd" id="1_83j22"]
-[ext_resource type="Script" path="res://CampfireEvent.gd" id="1_aknyb"]
+[ext_resource type="PackedScene" uid="uid://d0h1goenxxqid" path="res://campfire.tscn" id="1_l0rjq"]
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
+[ext_resource type="PackedScene" uid="uid://csa3nubplyme" path="res://stick.tscn" id="4_s1628"]
 [ext_resource type="Script" path="res://Inventory.gd" id="6_uq3tv"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1124"]
@@ -13,16 +13,6 @@ material = SubResource("StandardMaterial3D_f1124")
 top_radius = 3.0
 bottom_radius = 3.0
 height = 1.0
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xpwrj"]
-albedo_color = Color(1, 0.580392, 0.282353, 1)
-
-[sub_resource type="PrismMesh" id="PrismMesh_muqwb"]
-material = SubResource("StandardMaterial3D_xpwrj")
-size = Vector3(0.5, 0.5, 0.5)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_b3rvj"]
-size = Vector3(0.235901, 0.538574, 0.918243)
 
 [node name="Campsite" type="Node3D"]
 
@@ -52,38 +42,19 @@ bank = {
 }
 load_on = 1
 
-[node name="CampfireEvent" type="AkEvent3D" parent="AkBank/AkBank"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.122353, 3.12009)
-script = ExtResource("1_aknyb")
-
-[node name="Campfire" type="Area3D" parent="AkBank/AkBank/CampfireEvent"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.122353, -3.12009)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="AkBank/AkBank/CampfireEvent/Campfire"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.258542, 3.0205)
-mesh = SubResource("PrismMesh_muqwb")
-skeleton = NodePath("../../..")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="AkBank/AkBank/CampfireEvent/Campfire"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0563049, 0.230713, 2.85901)
-shape = SubResource("BoxShape3D_b3rvj")
-
-[node name="Facing" type="AkEvent3D" parent="AkBank/AkBank"]
-event = {
-"id": 54298587,
-"name": "Facing"
-}
+[node name="Player" parent="AkBank/AkBank" instance=ExtResource("1_wfgnp")]
 transform = Transform3D(-0.684916, 0, 0.728622, 0, 1, 0, -0.728622, 0, -0.684916, 0, 0, 0)
-script = ExtResource("1_83j22")
 
-[node name="Player" parent="AkBank/AkBank/Facing" instance=ExtResource("1_wfgnp")]
+[node name="Campfire" parent="AkBank/AkBank" instance=ExtResource("1_l0rjq")]
 
-[node name="AkListener3D" type="AkListener3D" parent="AkBank/AkBank/Facing/Player"]
-is_spatial = true
-transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
+[node name="Stick" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.92343, 0, 0)
+
+[node name="Stick2" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.50545, 0, 1.31008)
+
+[node name="Stick3" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.65877, 0, -2.46017)
 
 [node name="Controller" type="Node3D" parent="."]
 script = ExtResource("6_uq3tv")
-
-[connection signal="body_entered" from="AkBank/AkBank/CampfireEvent/Campfire" to="AkBank/AkBank/Facing" method="_on_campfire_body_entered"]
-[connection signal="body_exited" from="AkBank/AkBank/CampfireEvent/Campfire" to="AkBank/AkBank/Facing" method="_on_campfire_body_exited"]

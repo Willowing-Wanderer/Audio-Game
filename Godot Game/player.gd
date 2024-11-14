@@ -14,6 +14,18 @@ var look_dir: Vector2 # Input direction for look/aim
 func _ready() -> void:
 	capture_mouse()
 
+func _input(event):
+	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT):
+		if(has_overlapping_areas()):
+			process_left_click(get_overlapping_areas()[0])
+		else:
+			print("Nothing here to click on")
+	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
+		if(has_overlapping_areas()):
+			process_right_click(get_overlapping_areas()[0])
+		else:
+			print("Narrate surroundings")
+
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		look_dir = event.relative * 0.001
@@ -29,5 +41,10 @@ func release_mouse() -> void:
 
 func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
-	
 
+func process_left_click(area: Area3D):
+	print(area.name)
+
+	
+func process_right_click(area: Area3D):
+	print("Narrate %s" % area.name)
