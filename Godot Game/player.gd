@@ -8,6 +8,9 @@ var mouse_captured: bool = false
 
 var look_dir: Vector2 # Input direction for look/aim
 
+var held_object: Area3D
+var hands_free = true
+
 
 @onready var player: Area3D = $Player
 
@@ -44,6 +47,15 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 
 func process_left_click(area: Area3D):
 	print(area.name)
+	if(area.name.begins_with("Stick") && hands_free):
+		held_object = area
+		hands_free = false
+		area.queue_free() #TODO: this is a problem if we ever want to see the stick again
+	if(!hands_free):
+		if(area.name.begins_with("Campfire") && held_object.name.begins_with("Stick")):
+			#TODO: play whoosh and increase fire volume
+			held_object = null
+			hands_free = true
 
 	
 func process_right_click(area: Area3D):
