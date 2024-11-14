@@ -1,10 +1,8 @@
-[gd_scene load_steps=12 format=3 uid="uid://dcuu86pvjwvxt"]
+[gd_scene load_steps=10 format=3 uid="uid://dcuu86pvjwvxt"]
 
 [ext_resource type="Script" path="res://Facing.gd" id="1_83j22"]
 [ext_resource type="Script" path="res://CampfireEvent.gd" id="1_aknyb"]
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
-[ext_resource type="Script" path="res://Stick.gd" id="4_gujqq"]
-[ext_resource type="PackedScene" uid="uid://deh7s6dum2l51" path="res://stick.tscn" id="4_s1628"]
 [ext_resource type="Script" path="res://Inventory.gd" id="6_uq3tv"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1124"]
@@ -84,30 +82,8 @@ script = ExtResource("1_83j22")
 is_spatial = true
 transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
 
-[node name="Stick" type="AkEvent3D" parent="AkBank/AkBank"]
-event = {
-"id": 2793518390,
-"name": "Facing_Stick"
-}
-script = ExtResource("4_gujqq")
-
-[node name="Stick" parent="AkBank/AkBank/Stick" instance=ExtResource("4_s1628")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.75628, -1.19209e-07, 1.08703)
-
-[node name="Stick2" parent="AkBank/AkBank/Stick" instance=ExtResource("4_s1628")]
-transform = Transform3D(0.427847, 0, -0.903851, 0, 1, 0, 0.903851, 0, 0.427847, -1.8064, 0, 2.25667)
-
-[node name="Stick3" parent="AkBank/AkBank/Stick" instance=ExtResource("4_s1628")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60504, 2.38419e-07, -2.39079)
-
 [node name="Controller" type="Node3D" parent="."]
 script = ExtResource("6_uq3tv")
 
 [connection signal="body_entered" from="AkBank/AkBank/CampfireEvent/Campfire" to="AkBank/AkBank/Facing" method="_on_campfire_body_entered"]
 [connection signal="body_exited" from="AkBank/AkBank/CampfireEvent/Campfire" to="AkBank/AkBank/Facing" method="_on_campfire_body_exited"]
-[connection signal="body_entered" from="AkBank/AkBank/Stick/Stick" to="AkBank/AkBank/Stick" method="_on_stick_body_entered"]
-[connection signal="body_exited" from="AkBank/AkBank/Stick/Stick" to="AkBank/AkBank/Stick" method="_on_stick_body_exited"]
-[connection signal="body_entered" from="AkBank/AkBank/Stick/Stick2" to="AkBank/AkBank/Stick" method="_on_stick_2_body_entered"]
-[connection signal="body_exited" from="AkBank/AkBank/Stick/Stick2" to="AkBank/AkBank/Stick" method="_on_stick_2_body_exited"]
-[connection signal="body_entered" from="AkBank/AkBank/Stick/Stick3" to="AkBank/AkBank/Stick" method="_on_stick_3_body_entered"]
-[connection signal="body_exited" from="AkBank/AkBank/Stick/Stick3" to="AkBank/AkBank/Stick" method="_on_stick_3_body_exited"]

@@ -1,4 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://deh7s6dum2l51"]
+[gd_scene load_steps=5 format=3 uid="uid://deh7s6dum2l51"]
+
+[ext_resource type="Script" path="res://stick.gd" id="1_s5yqs"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y7sj0"]
 albedo_color = Color(0.333333, 0.14902, 0.0117647, 1)
@@ -10,11 +12,18 @@ size = Vector3(0.1, 0.1, 1)
 [sub_resource type="SphereShape3D" id="SphereShape3D_5hsgd"]
 radius = 0.2
 
-[node name="Stick" type="Area3D"]
+[node name="Stick" type="AkEvent3D"]
+event = {
+"id": 2793518390,
+"name": "Facing_Stick"
+}
+script = ExtResource("1_s5yqs")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="Stick" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Stick"]
 transform = Transform3D(0.614795, 0, 0.788687, 0, 1, 0, -0.788687, 0, 0.614795, 0, 0, 0)
 mesh = SubResource("BoxMesh_g1xl6")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Stick"]
 shape = SubResource("SphereShape3D_5hsgd")

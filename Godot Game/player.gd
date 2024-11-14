@@ -1,6 +1,6 @@
 # appropriated from https://github.com/rbarongr/GodotFirstPersonController/blob/main/Player/player.gd
 
-class_name Player extends CharacterBody3D
+class_name Player extends Area3D
 
 @export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.75
 
@@ -9,7 +9,7 @@ var mouse_captured: bool = false
 var look_dir: Vector2 # Input direction for look/aim
 
 
-@onready var player: CharacterBody3D = $Player
+@onready var player: Area3D = $Player
 
 func _ready() -> void:
 	capture_mouse()
