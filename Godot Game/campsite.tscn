@@ -1,8 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://dcuu86pvjwvxt"]
+[gd_scene load_steps=10 format=3 uid="uid://dcuu86pvjwvxt"]
 
 [ext_resource type="PackedScene" uid="uid://d0h1goenxxqid" path="res://campfire.tscn" id="1_l0rjq"]
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
+[ext_resource type="Script" path="res://campfire.gd" id="3_ynfyq"]
+[ext_resource type="Script" path="res://Whoosh.gd" id="4_gimvh"]
 [ext_resource type="PackedScene" uid="uid://csa3nubplyme" path="res://stick.tscn" id="4_s1628"]
+[ext_resource type="Script" path="res://CampfireEvent.gd" id="5_vpnjj"]
 [ext_resource type="Script" path="res://Inventory.gd" id="6_uq3tv"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1124"]
@@ -46,6 +49,18 @@ load_on = 1
 transform = Transform3D(-0.684916, 0, 0.728622, 0, 1, 0, -0.728622, 0, -0.684916, 0, 0, 0)
 
 [node name="Campfire" parent="AkBank/AkBank" instance=ExtResource("1_l0rjq")]
+script = ExtResource("3_ynfyq")
+
+[node name="Whoosh" type="AkEvent3D" parent="AkBank/AkBank/Campfire"]
+event = {
+"id": 3524664550,
+"name": "Fire_Whoosh"
+}
+script = ExtResource("4_gimvh")
+
+[node name="CampfireEvent" type="AkEvent3D" parent="AkBank/AkBank/Campfire"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.122353, 3.12009)
+script = ExtResource("5_vpnjj")
 
 [node name="Stick" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.92343, 0, 0)
@@ -58,3 +73,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.65877, 0, -2.46017)
 
 [node name="Controller" type="Node3D" parent="."]
 script = ExtResource("6_uq3tv")
+
+[connection signal="stick_added" from="AkBank/AkBank/Player" to="AkBank/AkBank/Campfire/Whoosh" method="_on_player_stick_added"]
+[connection signal="fire_high" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_high"]
+[connection signal="fire_low" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_low"]
+[connection signal="fire_medium" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_medium"]

@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Campfire" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}">
+				<Event Name="Fire_High" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}">
 					<ChildrenList>
 						<Action Name="" ID="{09CBF6BF-DCD1-4879-8FF3-BCC80EA691E6}" ShortID="988070329">
 							<ReferenceList>
@@ -64,6 +64,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Pickup" ID="{E6D1FFE0-C82C-4FCF-9B7A-A9D1AB10A7D6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fire_Medium" ID="{F375190D-0DB0-4EE0-936E-2E95D6A4D761}">
+					<ChildrenList>
+						<Action Name="" ID="{2A05FB8B-AF1F-47DE-9D88-C7A531C47B89}" ShortID="400621764">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire_medium" ID="{87C17DEF-03BA-4132-986A-C61DA7F81AB4}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fire_Low" ID="{B39F6FCD-9CD6-4860-B11E-B361A23903B5}">
+					<ChildrenList>
+						<Action Name="" ID="{D178A2C1-6FB0-4B06-957C-9E9FF4FABD3D}" ShortID="308605503">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire_lower" ID="{57511545-384A-4922-9CAB-EB79B21BC557}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

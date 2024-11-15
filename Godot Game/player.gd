@@ -10,7 +10,7 @@ var look_dir: Vector2 # Input direction for look/aim
 
 var held_object: Area3D
 var hands_free = true
-
+signal stick_added
 
 @onready var player: Area3D = $Player
 
@@ -51,9 +51,13 @@ func process_left_click(area: Area3D):
 		held_object = area
 		hands_free = false
 		area.queue_free() #TODO: this is a problem if we ever want to see the stick again
+		#TODO make it so that the stick stops existing but is stored somewhere, and then is placed wherever you put it down
+		# This could be a thing for after Alpha fest, for now just need to put in fire (using hands_free variable)
 	if(!hands_free):
-		if(area.name.begins_with("Campfire") && held_object.name.begins_with("Stick")):
+		if(area.name.begins_with("Campfire")): # && held_object.name.begins_with("Stick")): > this doesn't work because
 			#TODO: play whoosh and increase fire volume
+			stick_added.emit()
+			print("stick added")
 			held_object = null
 			hands_free = true
 

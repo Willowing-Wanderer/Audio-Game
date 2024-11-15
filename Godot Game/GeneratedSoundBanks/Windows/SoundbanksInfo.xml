@@ -163,13 +163,13 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6DE1240B-2A61-2E23-D2EE-0AB2B0FC7D5E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43DCD8FE-9314-0FEE-B998-6BD94F3DD6B8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
-					<CachePath>SFX/508845__augustsandberg__dying-fire_C5C95F0E.wem</CachePath>
+					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
 				</File>
 				<File Id="498893928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
@@ -181,23 +181,18 @@
 				</File>
 				<File Id="825823633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>130507__duckduckpony__high-grainy-swirling-tone.wav</ShortName>
-					<CachePath>SFX/130507__duckduckpony__high-grainy-swirling-tone_6B74BCA6.wem</CachePath>
+					<CachePath>SFX/130507__duckduckpony__high-grainy-swirling-tone_CC57B61A.wem</CachePath>
 				</File>
 				<File Id="894566245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106988__plingativator__fire1.wav</ShortName>
-					<CachePath>SFX/106988__plingativator__fire1_CC3DAF22.wem</CachePath>
+					<CachePath>SFX/106988__plingativator__fire1_FA60EC3B.wem</CachePath>
 				</File>
 				<File Id="993805153" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>181577__kingsrow__whoosh.wav</ShortName>
-					<CachePath>SFX/181577__kingsrow__whoosh_F3455C10.wem</CachePath>
+					<CachePath>SFX/181577__kingsrow__whoosh_632EB7AB.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1931646578" Name="Campfire">
-					<MediaRefs>
-						<MediaRef Id="894566245"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="54298587" Name="Facing">
 					<MediaRefs>
 						<MediaRef Id="825823633"/>
@@ -211,6 +206,21 @@
 				<Event Id="135198910" Name="Fire_Dim">
 					<MediaRefs>
 						<MediaRef Id="178784164"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2673322736" Name="Fire_High">
+					<MediaRefs>
+						<MediaRef Id="894566245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="771468442" Name="Fire_Low">
+					<MediaRefs>
+						<MediaRef Id="894566245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1873888577" Name="Fire_Medium">
+					<MediaRefs>
+						<MediaRef Id="894566245"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3524664550" Name="Fire_Whoosh">
@@ -229,5 +239,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{54EC32CC-5B74-6F49-9AD3-04CF4AD45A0F}</FileHash>
+	<FileHash>{191DF3FC-3A01-3DDE-A580-761B22385932}</FileHash>
 </SoundBanksInfo>
