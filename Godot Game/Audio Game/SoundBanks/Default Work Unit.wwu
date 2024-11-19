@@ -8,9 +8,11 @@
 						<ObjectRef Name="Pickup" ID="{735D5BA5-B159-43D5-90EE-BE7799C297E2}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Whoosh" ID="{FF8ACB5E-D656-465F-81B2-72237C02AB70}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Facing" ID="{2D5FA967-CCD3-4703-BE71-20DA6E840DEC}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Campfire" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Low" ID="{B39F6FCD-9CD6-4860-B11E-B361A23903B5}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_High" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Dim" ID="{02B94341-4902-4CF4-8CE3-C9A00815E96A}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Facing_Stick" ID="{9C3A0217-8A38-4DE4-A19E-C2180BB8002A}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Medium" ID="{F375190D-0DB0-4EE0-936E-2E95D6A4D761}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

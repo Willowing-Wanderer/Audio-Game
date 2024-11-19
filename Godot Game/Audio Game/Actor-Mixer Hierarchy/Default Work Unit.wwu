@@ -7,6 +7,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -65,7 +70,7 @@
 																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>-0</XPos>
+																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
@@ -152,7 +157,7 @@
 															</Point>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log3</SegmentShape>
 															</Point>
@@ -286,6 +291,198 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="130507__duckduckpony__high-grainy-swirling-tone" ID="{F656FC83-898E-4524-A2C6-F0DB550CA6C9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Campfire_lower" ID="{57511545-384A-4922-9CAB-EB79B21BC557}" ShortID="579469818">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="106988__plingativator__fire1" ID="{FFADD35C-033D-46E8-AF85-78BC5F308CC8}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.55732141884532"/>
+								<Property Name="TrimEnd" Type="Real64" Value="33.972759667756"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>106988__plingativator__fire1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="894566245"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{05A2ECDF-76F3-4641-9620-17D7CF937F3F}" ShortID="71094089">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{85FF68E1-BA3A-4AE9-A76D-7B9FD3C245BD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="106988__plingativator__fire1" ID="{FFADD35C-033D-46E8-AF85-78BC5F308CC8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Campfire_medium" ID="{87C17DEF-03BA-4132-986A-C61DA7F81AB4}" ShortID="436192335">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="106988__plingativator__fire1" ID="{AE730756-2200-4764-8FD3-149790B1B7B1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.55732141884532"/>
+								<Property Name="TrimEnd" Type="Real64" Value="33.972759667756"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>106988__plingativator__fire1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="894566245"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{F1DEB3B5-489C-4F39-9BD0-94CC2A0A0260}" ShortID="415968979">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{5CD26725-BF2A-446C-B913-ADFE9B5E23DD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="106988__plingativator__fire1" ID="{AE730756-2200-4764-8FD3-149790B1B7B1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

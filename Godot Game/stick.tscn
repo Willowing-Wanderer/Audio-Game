@@ -1,20 +1,31 @@
-[gd_scene load_steps=4 format=3 uid="uid://deh7s6dum2l51"]
+[gd_scene load_steps=5 format=3 uid="uid://csa3nubplyme"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y7sj0"]
-albedo_color = Color(0.333333, 0.14902, 0.0117647, 1)
+[ext_resource type="Script" path="res://StickEvent.gd" id="1_7r72m"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_g1xl6"]
-material = SubResource("StandardMaterial3D_y7sj0")
+[sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v6jq5"]
+albedo_color = Color(0.392157, 0.215686, 0.0745098, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_s0o0b"]
+material = SubResource("StandardMaterial3D_v6jq5")
 size = Vector3(0.1, 0.1, 1)
-
-[sub_resource type="SphereShape3D" id="SphereShape3D_5hsgd"]
-radius = 0.2
 
 [node name="Stick" type="Area3D"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.614795, 0, 0.788687, 0, 1, 0, -0.788687, 0, 0.614795, 0, 0, 0)
-mesh = SubResource("BoxMesh_g1xl6")
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("SphereShape3D_5hsgd")
+shape = SubResource("SphereShape3D_fy6tf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 0)
+mesh = SubResource("BoxMesh_s0o0b")
+
+[node name="StickEvent" type="AkEvent3D" parent="."]
+event = {
+"id": 2793518390,
+"name": "Facing_Stick"
+}
+script = ExtResource("1_7r72m")
+
+[connection signal="area_entered" from="." to="StickEvent" method="_on_stick_area_entered"]
+[connection signal="area_exited" from="." to="StickEvent" method="_on_stick_area_exited"]

@@ -11,15 +11,11 @@ func _ready():
 func _process(delta):
 	pass
 
-
-func _on_campfire_body_entered(body):
+func _on_campfire_area_entered(area):
 	Wwise.register_game_obj(self, self.get_name())
+	Wwise.set_3d_position(self, get_global_transform())
 	playing_id = Wwise.post_event_id(AK.EVENTS.FACING, self)
-	#print(playing_id)
-	pass
 
 
-func _on_campfire_body_exited(body):
-	#print(playing_id)
+func _on_campfire_area_exited(area):
 	Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-	pass
