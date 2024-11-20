@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{14D914A9-EF1F-42D4-916F-48933A8C8FBB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Black_Wind" ID="{EB359F09-3F98-43C4-AA5E-D63CB8EA407B}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickup" ID="{735D5BA5-B159-43D5-90EE-BE7799C297E2}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Whoosh" ID="{FF8ACB5E-D656-465F-81B2-72237C02AB70}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Facing" ID="{2D5FA967-CCD3-4703-BE71-20DA6E840DEC}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>

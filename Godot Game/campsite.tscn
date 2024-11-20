@@ -71,6 +71,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.50545, 0, 1.31008)
 [node name="Stick3" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.65877, 0, -2.46017)
 
+[node name="Atmosphere" type="AkEvent3D" parent="AkBank/AkBank"]
+event = {
+"id": 4020366015,
+"name": "Black_Wind"
+}
+trigger_on = 1
+
 [node name="Controller" type="Node3D" parent="."]
 script = ExtResource("6_uq3tv")
 

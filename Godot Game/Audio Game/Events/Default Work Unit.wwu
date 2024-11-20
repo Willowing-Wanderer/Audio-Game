@@ -91,6 +91,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Black_Wind" ID="{EB359F09-3F98-43C4-AA5E-D63CB8EA407B}">
+					<ChildrenList>
+						<Action Name="" ID="{E765D35E-A405-4E06-8997-3B2BB63945AB}" ShortID="559838239">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BlackWind" ID="{EFBAF036-962C-42F6-AA7A-A2E11DE22FAC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tinder" ID="{69FEDF47-9F4A-48E6-89C3-24F23976DA3D}"/>
+				<Event Name="Kindling" ID="{E2AF9C36-A154-45B8-9375-759579C34482}"/>
+				<Event Name="Fuel" ID="{642CFB6B-8300-4E59-86AF-90FC67A508AD}"/>
+				<Event Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

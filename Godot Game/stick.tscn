@@ -11,7 +11,7 @@ albedo_color = Color(0.392157, 0.215686, 0.0745098, 1)
 material = SubResource("StandardMaterial3D_v6jq5")
 size = Vector3(0.1, 0.1, 1)
 
-[node name="Stick" type="Area3D"]
+[node name="Tinder" type="Area3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_fy6tf")
@@ -20,12 +20,12 @@ shape = SubResource("SphereShape3D_fy6tf")
 transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 0)
 mesh = SubResource("BoxMesh_s0o0b")
 
-[node name="StickEvent" type="AkEvent3D" parent="."]
+[node name="TinderEvent" type="AkEvent3D" parent="."]
 event = {
 "id": 2793518390,
 "name": "Facing_Stick"
 }
 script = ExtResource("1_7r72m")
 
-[connection signal="area_entered" from="." to="StickEvent" method="_on_stick_area_entered"]
-[connection signal="area_exited" from="." to="StickEvent" method="_on_stick_area_exited"]
+[connection signal="area_entered" from="." to="TinderEvent" method="_on_stick_area_entered"]
+[connection signal="area_exited" from="." to="TinderEvent" method="_on_stick_area_exited"]

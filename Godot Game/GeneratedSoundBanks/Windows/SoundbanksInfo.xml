@@ -163,10 +163,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43DCD8FE-9314-0FEE-B998-6BD94F3DD6B8}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AA29025F-6B72-985F-2401-B75AD5023205}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="26606717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AmbientDroneStab.wav</ShortName>
+					<CachePath>SFX/AmbientDroneStab_3E8FAA66.wem</CachePath>
+				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
 					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
@@ -175,13 +179,13 @@
 					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
 					<CachePath>SFX/655627__hankof__stick-hitting-stick-2_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BlackWind.wav</ShortName>
+					<CachePath>SFX/BlackWind_97F132EA.wem</CachePath>
+				</File>
 				<File Id="763409988" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>441415__matrixxx__lucky-7-cheerful.wav</ShortName>
 					<CachePath>SFX/441415__matrixxx__lucky-7-cheerful_818F3B66.wem</CachePath>
-				</File>
-				<File Id="825823633" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>130507__duckduckpony__high-grainy-swirling-tone.wav</ShortName>
-					<CachePath>SFX/130507__duckduckpony__high-grainy-swirling-tone_CC57B61A.wem</CachePath>
 				</File>
 				<File Id="894566245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106988__plingativator__fire1.wav</ShortName>
@@ -193,9 +197,14 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4020366015" Name="Black_Wind">
+					<MediaRefs>
+						<MediaRef Id="535661321"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="54298587" Name="Facing">
 					<MediaRefs>
-						<MediaRef Id="825823633"/>
+						<MediaRef Id="26606717"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2793518390" Name="Facing_Stick">
@@ -239,5 +248,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{191DF3FC-3A01-3DDE-A580-761B22385932}</FileHash>
+	<FileHash>{EDE138A5-BEF8-7A6C-5497-0DE5E0604E29}</FileHash>
 </SoundBanksInfo>

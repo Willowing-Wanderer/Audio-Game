@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0ys2m1hfd2b4"
+path="res://.godot/imported/Nothing1.wav-b8a896a185572e019b448869727dcea9.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/Voices/English(US)/Nothing1.wav"
+dest_files=["res://.godot/imported/Nothing1.wav-b8a896a185572e019b448869727dcea9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

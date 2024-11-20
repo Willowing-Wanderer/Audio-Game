@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chfevebqbq3id"
+path="res://.godot/imported/Kindling1.wav-9117f1da31f67eb4d76140a4cdf85973.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/Voices/English(US)/Kindling1.wav"
+dest_files=["res://.godot/imported/Kindling1.wav-9117f1da31f67eb4d76140a4cdf85973.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
