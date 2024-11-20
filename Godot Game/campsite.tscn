@@ -1,12 +1,14 @@
-[gd_scene load_steps=10 format=3 uid="uid://dcuu86pvjwvxt"]
+[gd_scene load_steps=12 format=3 uid="uid://dcuu86pvjwvxt"]
 
 [ext_resource type="PackedScene" uid="uid://d0h1goenxxqid" path="res://campfire.tscn" id="1_l0rjq"]
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
 [ext_resource type="Script" path="res://campfire.gd" id="3_ynfyq"]
 [ext_resource type="Script" path="res://Whoosh.gd" id="4_gimvh"]
-[ext_resource type="PackedScene" uid="uid://csa3nubplyme" path="res://stick.tscn" id="4_s1628"]
 [ext_resource type="Script" path="res://CampfireEvent.gd" id="5_vpnjj"]
+[ext_resource type="PackedScene" uid="uid://b6plkobn2i4qv" path="res://tinder.tscn" id="6_d3s5g"]
 [ext_resource type="Script" path="res://Inventory.gd" id="6_uq3tv"]
+[ext_resource type="PackedScene" uid="uid://cxjoj2c78mdrx" path="res://kindling.tscn" id="7_g1m3s"]
+[ext_resource type="PackedScene" uid="uid://c2pl7kg3w0x1p" path="res://fuel.tscn" id="8_6fb1v"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1124"]
 albedo_color = Color(0.0901961, 0.27451, 0.160784, 1)
@@ -62,21 +64,21 @@ script = ExtResource("4_gimvh")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.122353, 3.12009)
 script = ExtResource("5_vpnjj")
 
-[node name="Stick" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.92343, 0, 0)
-
-[node name="Stick2" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.50545, 0, 1.31008)
-
-[node name="Stick3" parent="AkBank/AkBank" instance=ExtResource("4_s1628")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.65877, 0, -2.46017)
-
 [node name="Atmosphere" type="AkEvent3D" parent="AkBank/AkBank"]
 event = {
 "id": 4020366015,
 "name": "Black_Wind"
 }
 trigger_on = 1
+
+[node name="Tinder" parent="AkBank/AkBank" instance=ExtResource("6_d3s5g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.89588, 0, -2.75778)
+
+[node name="Kindling" parent="AkBank/AkBank" instance=ExtResource("7_g1m3s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16786, 0, 2.59255)
+
+[node name="Fuel" parent="AkBank/AkBank" instance=ExtResource("8_6fb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.86628, 0, -0.611671)
 
 [node name="Controller" type="Node3D" parent="."]
 script = ExtResource("6_uq3tv")

@@ -96,7 +96,7 @@
 						<Action Name="" ID="{E765D35E-A405-4E06-8997-3B2BB63945AB}" ShortID="559838239">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BlackWind" ID="{EFBAF036-962C-42F6-AA7A-A2E11DE22FAC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									<ObjectRef Name="Black Wind" ID="{33E3096C-8F2F-4C21-AD1A-903327B7AACE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -136,6 +136,84 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}"/>
+				<Event Name="Narrate_Tinder" ID="{E65F6198-651A-4663-A313-EA5B74C6DEED}">
+					<ChildrenList>
+						<Action Name="" ID="{BB0922FC-C770-4A99-9AE0-AC2A50EFCEFF}" ShortID="550102507">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tinder1_narr" ID="{679E4B06-7630-4EA7-A105-2E3BA225645D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_Kindling" ID="{C5A06F21-2AD5-482D-9419-4FBA476A878C}">
+					<ChildrenList>
+						<Action Name="" ID="{4BCEDAD2-DC4F-4E59-80EA-EBAA9CA9D1CB}" ShortID="35103992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kindling1_narr" ID="{FDBA2551-ACCF-40A0-B1E0-0970B9397A39}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_Fuel" ID="{710479B5-ABB3-4ED8-8A9E-4A627CB75DD2}">
+					<ChildrenList>
+						<Action Name="" ID="{0A11E325-6BC6-4367-9B55-EB3D5BFD72C8}" ShortID="114116734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuel1_narr" ID="{6B904F7A-CB11-4DE6-954A-4BF99A400F27}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_Instructions" ID="{5F4D1AD1-9189-41C0-8A44-8AADC68F19B0}">
+					<ChildrenList>
+						<Action Name="" ID="{36ABBFE2-1A00-4675-AE56-4F93B38B3576}" ShortID="563553132">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Instructions_narr" ID="{5F1F0613-B8F9-4725-B01F-3B6110AA873A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_Intro" ID="{254D4FB7-F119-4994-B841-01109DA5C7F9}">
+					<ChildrenList>
+						<Action Name="" ID="{10911029-3034-4456-9963-A4D937380DAC}" ShortID="259437589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_narr" ID="{A63908DC-D7EC-4CFB-A7C9-6EDD01EC1709}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_Message" ID="{56C6690D-E31D-42A9-8F93-30278E2FF226}">
+					<ChildrenList>
+						<Action Name="" ID="{6F268CF1-E086-43B3-B81D-9CB3644AEFDF}" ShortID="186849022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Message" ID="{7053DF9E-A80F-4FD7-9F84-41CD1CD76B84}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_Nothing" ID="{89392620-B284-46CB-AFA2-0683DB895767}"/>
+				<Event Name="Narrate_TooLarge" ID="{5C7FB3DF-0D0E-4299-B396-4488E97635FC}">
+					<ChildrenList>
+						<Action Name="" ID="{B17BCE7C-AA92-421B-9E02-8DA49F8F9FBA}" ShortID="848461405">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TooLarge_narr" ID="{83CE2BB5-D07B-43FC-8E94-74E715B39933}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

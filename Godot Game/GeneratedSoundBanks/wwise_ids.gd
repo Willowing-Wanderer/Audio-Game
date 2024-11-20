@@ -10,10 +10,18 @@ class EVENTS:
 	const FIRE_DIM = 135198910
 	const FIRE_WHOOSH = 3524664550
 	const PICKUP = 3978245845
+	const NARRATE_INSTRUCTIONS = 127438362
+	const NARRATE_KINDLING = 3007520451
+	const NARRATE_NOTHING = 911107020
 	const TINDER = 2077643863
+	const NARRATE_TOOLARGE = 3170030618
 	const KINDLING = 3324137807
+	const NARRATE_MESSAGE = 2147751278
 	const BLACK_WIND = 4020366015
+	const NARRATE_INTRO = 2330071765
 	const FUEL = 2661514705
+	const NARRATE_TINDER = 2650740659
+	const NARRATE_FUEL = 318829741
 	const DRUIDS_MESSAGE = 518818430
 
 	const _dict = {
@@ -25,10 +33,18 @@ class EVENTS:
 		"Fire_Dim": FIRE_DIM,
 		"Fire_Whoosh": FIRE_WHOOSH,
 		"Pickup": PICKUP,
+		"Narrate_Instructions": NARRATE_INSTRUCTIONS,
+		"Narrate_Kindling": NARRATE_KINDLING,
+		"Narrate_Nothing": NARRATE_NOTHING,
 		"Tinder": TINDER,
+		"Narrate_TooLarge": NARRATE_TOOLARGE,
 		"Kindling": KINDLING,
+		"Narrate_Message": NARRATE_MESSAGE,
 		"Black_Wind": BLACK_WIND,
+		"Narrate_Intro": NARRATE_INTRO,
 		"Fuel": FUEL,
+		"Narrate_Tinder": NARRATE_TINDER,
+		"Narrate_Fuel": NARRATE_FUEL,
 		"Druids_Message": DRUIDS_MESSAGE
 	}
 

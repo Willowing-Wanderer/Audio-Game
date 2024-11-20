@@ -12,6 +12,8 @@ var held_object: Area3D
 var hands_free = true
 signal stick_added
 
+var playing_id
+
 @onready var player: Area3D = $Player
 
 func _ready() -> void:
@@ -55,7 +57,6 @@ func process_left_click(area: Area3D):
 		# This could be a thing for after Alpha fest, for now just need to put in fire (using hands_free variable)
 	if(!hands_free):
 		if(area.name.begins_with("Campfire")): # && held_object.name.begins_with("Stick")): > this doesn't work because
-			#TODO: play whoosh and increase fire volume
 			stick_added.emit()
 			print("stick added")
 			held_object = null
@@ -64,3 +65,12 @@ func process_left_click(area: Area3D):
 	
 func process_right_click(area: Area3D):
 	print("Narrate %s" % area.name)
+	Wwise.register_game_obj(self, self.get_name())
+	Wwise.set_3d_position(self, get_global_transform())
+	
+	if(area.name.begins_with("Tinder")):
+		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TINDER, self)
+	if(area.name.begins_with("Kindling")):
+		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_KINDLING, self)
+	if(area.name.begins_with("Fuel")):
+		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_FUEL, self)

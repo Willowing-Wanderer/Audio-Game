@@ -598,81 +598,6 @@
 						<ActiveSource Name="Kindling1" ID="{9C4BB00E-8B5E-4B3C-A1FA-2FE21FB395A2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Nothing1_narr" ID="{47AD437F-DEC9-4DD6-9104-6D9725B5155F}" ShortID="855366225">
-					<PropertyList>
-						<Property Name="IsVoice" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Nothing1" ID="{1C024C85-40E2-4935-BAA4-F8783D66742E}">
-							<Language>English(US)</Language>
-							<AudioFile>Nothing1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="342266122"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Nothing1" ID="{1C024C85-40E2-4935-BAA4-F8783D66742E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Nothing2_narr" ID="{2712B672-8E55-4CAB-9484-C4AE619B7851}" ShortID="139267054">
-					<PropertyList>
-						<Property Name="IsVoice" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Nothing2" ID="{99516066-DB1A-4D8D-ACFB-E27B5B16CB8E}">
-							<Language>English(US)</Language>
-							<AudioFile>Nothing2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="868504784"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Nothing2" ID="{99516066-DB1A-4D8D-ACFB-E27B5B16CB8E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Nothing3_narr" ID="{98DF626E-C8C4-47AC-BA6B-D9E9803ED12E}" ShortID="860826811">
-					<PropertyList>
-						<Property Name="IsVoice" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Nothing3" ID="{F7CD1A5E-B88C-4F37-B3D6-5124EDEB40F7}">
-							<Language>English(US)</Language>
-							<AudioFile>Nothing3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="333704279"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Nothing3" ID="{F7CD1A5E-B88C-4F37-B3D6-5124EDEB40F7}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Tinder1_narr" ID="{679E4B06-7630-4EA7-A105-2E3BA225645D}" ShortID="941628053">
 					<PropertyList>
 						<Property Name="IsVoice" Type="bool" Value="True"/>
@@ -723,36 +648,6 @@
 						<ActiveSource Name="TooLarge" ID="{CA49E60E-90F4-442C-A891-1B24A0B4109D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="BlackWind" ID="{EFBAF036-962C-42F6-AA7A-A2E11DE22FAC}" ShortID="1046752286">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="BlackWind" ID="{3B87340B-BA2F-40D2-BF1B-4DE308636FF5}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.140998621670891"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.112798897336713"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>BlackWind.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="535661321"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="BlackWind" ID="{3B87340B-BA2F-40D2-BF1B-4DE308636FF5}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Message" ID="{7053DF9E-A80F-4FD7-9F84-41CD1CD76B84}" ShortID="378394513">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -780,7 +675,7 @@
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.8"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -887,7 +782,7 @@
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.8"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -1016,7 +911,7 @@
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.8"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -1202,6 +1097,113 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Log17" ID="{1232C048-4FCD-4276-90B9-09B0C56515DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Black Wind" ID="{33E3096C-8F2F-4C21-AD1A-903327B7AACE}" ShortID="237574088">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BlackWind" ID="{EFBAF036-962C-42F6-AA7A-A2E11DE22FAC}" ShortID="1046752286">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BlackWind" ID="{3B87340B-BA2F-40D2-BF1B-4DE308636FF5}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BlackWind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="535661321"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BlackWind" ID="{3B87340B-BA2F-40D2-BF1B-4DE308636FF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="BlackWind" ID="{EFBAF036-962C-42F6-AA7A-A2E11DE22FAC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Nothing_narr" ID="{782EA94C-CAD9-4EEB-B2A1-086E97BE9C11}" ShortID="1070461770">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Nothing1" ID="{841953E5-0EA1-48B1-AA73-ADE20FA29E5E}" ShortID="635546900">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nothing1" ID="{9B2AAD05-5AA4-4F13-ADE7-6316C1599752}">
+									<Language>SFX</Language>
+									<AudioFile>Nothing1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="663920178"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nothing1" ID="{9B2AAD05-5AA4-4F13-ADE7-6316C1599752}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nothing2" ID="{7453FBB1-79DE-48C5-BE9E-E480E048743F}" ShortID="48322770">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nothing2" ID="{C6EFFB82-B0B9-4DFD-891B-1ABF6CA00D34}">
+									<Language>SFX</Language>
+									<AudioFile>Nothing2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="842907374"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nothing2" ID="{C6EFFB82-B0B9-4DFD-891B-1ABF6CA00D34}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

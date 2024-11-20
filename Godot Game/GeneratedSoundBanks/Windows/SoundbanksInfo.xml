@@ -163,9 +163,9 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4CD4EEE3-0F3D-F9E8-0473-5ABD9A51FBA1}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A756EE31-7CBB-E002-0CDC-16CD759286AA}">
 			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
+			<Path>English(US)/Main.bnk</Path>
 			<Media>
 				<File Id="24566004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks9.wav</ShortName>
@@ -178,6 +178,14 @@
 				<File Id="30777114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log17.wav</ShortName>
 					<CachePath>SFX/Log17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="100610895" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Fuel1.wav</ShortName>
+					<CachePath>Voices/English(US)/Fuel1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="114580091" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>TooLarge.wav</ShortName>
+					<CachePath>Voices/English(US)/TooLarge_818F3B66.wem</CachePath>
 				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
@@ -209,15 +217,27 @@
 				</File>
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
-					<CachePath>SFX/BlackWind_97F132EA.wem</CachePath>
+					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
 				</File>
 				<File Id="539779258" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Twig1.wav</ShortName>
 					<CachePath>SFX/Twig1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="563078865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Message.wav</ShortName>
+					<CachePath>SFX/Message_818F3B66.wem</CachePath>
+				</File>
+				<File Id="575115525" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Tinder1.wav</ShortName>
+					<CachePath>Voices/English(US)/Tinder1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="597491099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log11.wav</ShortName>
 					<CachePath>SFX/Log11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="673753702" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Kindling1.wav</ShortName>
+					<CachePath>Voices/English(US)/Kindling1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="675329998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Twig2.wav</ShortName>
@@ -238,6 +258,10 @@
 				<File Id="797686018" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log10.wav</ShortName>
 					<CachePath>SFX/Log10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="855543786" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Instructions.wav</ShortName>
+					<CachePath>Voices/English(US)/Instructions_818F3B66.wem</CachePath>
 				</File>
 				<File Id="881455822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks8.wav</ShortName>
@@ -263,6 +287,10 @@
 					<ShortName>Log14.wav</ShortName>
 					<CachePath>SFX/Log14_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1036186260" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Intro.wav</ShortName>
+					<CachePath>Voices/English(US)/Intro_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="4020366015" Name="Black_Wind">
@@ -270,6 +298,7 @@
 						<MediaRef Id="535661321"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="518818430" Name="Druids_Message"/>
 				<Event Id="54298587" Name="Facing">
 					<MediaRefs>
 						<MediaRef Id="26606717"/>
@@ -326,6 +355,42 @@
 						<MediaRef Id="881455822"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="318829741" Name="Narrate_Fuel">
+					<MediaRefs>
+						<MediaRef Id="100610895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="127438362" Name="Narrate_Instructions">
+					<MediaRefs>
+						<MediaRef Id="855543786"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2330071765" Name="Narrate_Intro">
+					<MediaRefs>
+						<MediaRef Id="1036186260"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3007520451" Name="Narrate_Kindling">
+					<MediaRefs>
+						<MediaRef Id="673753702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2147751278" Name="Narrate_Message">
+					<MediaRefs>
+						<MediaRef Id="563078865"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="911107020" Name="Narrate_Nothing"/>
+				<Event Id="2650740659" Name="Narrate_Tinder">
+					<MediaRefs>
+						<MediaRef Id="575115525"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3170030618" Name="Narrate_TooLarge">
+					<MediaRefs>
+						<MediaRef Id="114580091"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3978245845" Name="Pickup">
 					<MediaRefs>
 						<MediaRef Id="763409988"/>
@@ -345,5 +410,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2B9AFCFB-39A7-5306-642A-F309C480072D}</FileHash>
+	<FileHash>{2FA3AAA1-F3F8-E125-E29F-CA758A431C21}</FileHash>
 </SoundBanksInfo>

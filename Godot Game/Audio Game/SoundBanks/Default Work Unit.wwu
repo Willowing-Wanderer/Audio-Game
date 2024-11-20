@@ -5,14 +5,26 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{14D914A9-EF1F-42D4-916F-48933A8C8FBB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Instructions" ID="{5F4D1AD1-9189-41C0-8A44-8AADC68F19B0}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_TooLarge" ID="{5C7FB3DF-0D0E-4299-B396-4488E97635FC}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Message" ID="{56C6690D-E31D-42A9-8F93-30278E2FF226}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Black_Wind" ID="{EB359F09-3F98-43C4-AA5E-D63CB8EA407B}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickup" ID="{735D5BA5-B159-43D5-90EE-BE7799C297E2}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Kindling" ID="{E2AF9C36-A154-45B8-9375-759579C34482}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Whoosh" ID="{FF8ACB5E-D656-465F-81B2-72237C02AB70}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Tinder" ID="{E65F6198-651A-4663-A313-EA5B74C6DEED}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Nothing" ID="{89392620-B284-46CB-AFA2-0683DB895767}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Facing" ID="{2D5FA967-CCD3-4703-BE71-20DA6E840DEC}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Kindling" ID="{C5A06F21-2AD5-482D-9419-4FBA476A878C}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Low" ID="{B39F6FCD-9CD6-4860-B11E-B361A23903B5}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Tinder" ID="{69FEDF47-9F4A-48E6-89C3-24F23976DA3D}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Intro" ID="{254D4FB7-F119-4994-B841-01109DA5C7F9}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_High" ID="{FF00DEC8-4E5C-4AF5-8C16-51B9FB3F2BC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Dim" ID="{02B94341-4902-4CF4-8CE3-C9A00815E96A}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Facing_Stick" ID="{9C3A0217-8A38-4DE4-A19E-C2180BB8002A}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fuel" ID="{642CFB6B-8300-4E59-86AF-90FC67A508AD}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narrate_Fuel" ID="{710479B5-ABB3-4ED8-8A9E-4A627CB75DD2}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Medium" ID="{F375190D-0DB0-4EE0-936E-2E95D6A4D761}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
