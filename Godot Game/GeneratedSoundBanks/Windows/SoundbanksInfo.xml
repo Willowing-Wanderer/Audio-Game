@@ -163,17 +163,45 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AA29025F-6B72-985F-2401-B75AD5023205}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4CD4EEE3-0F3D-F9E8-0473-5ABD9A51FBA1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="24566004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks9.wav</ShortName>
+					<CachePath>SFX/Sticks9_818F3B66.wem</CachePath>
+				</File>
 				<File Id="26606717" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AmbientDroneStab.wav</ShortName>
 					<CachePath>SFX/AmbientDroneStab_3E8FAA66.wem</CachePath>
 				</File>
+				<File Id="30777114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log17.wav</ShortName>
+					<CachePath>SFX/Log17_818F3B66.wem</CachePath>
+				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
 					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
+				</File>
+				<File Id="194543630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks5.wav</ShortName>
+					<CachePath>SFX/Sticks5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="366187816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log15.wav</ShortName>
+					<CachePath>SFX/Log15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="443866069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log12.wav</ShortName>
+					<CachePath>SFX/Log12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="470849112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig3.wav</ShortName>
+					<CachePath>SFX/Twig3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="485730434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks7.wav</ShortName>
+					<CachePath>SFX/Sticks7_818F3B66.wem</CachePath>
 				</File>
 				<File Id="498893928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
@@ -183,17 +211,57 @@
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_97F132EA.wem</CachePath>
 				</File>
+				<File Id="539779258" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig1.wav</ShortName>
+					<CachePath>SFX/Twig1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="597491099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log11.wav</ShortName>
+					<CachePath>SFX/Log11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="675329998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig2.wav</ShortName>
+					<CachePath>SFX/Twig2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="694151481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks6.wav</ShortName>
+					<CachePath>SFX/Sticks6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="746467066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log13.wav</ShortName>
+					<CachePath>SFX/Log13_818F3B66.wem</CachePath>
+				</File>
 				<File Id="763409988" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>441415__matrixxx__lucky-7-cheerful.wav</ShortName>
 					<CachePath>SFX/441415__matrixxx__lucky-7-cheerful_818F3B66.wem</CachePath>
+				</File>
+				<File Id="797686018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log10.wav</ShortName>
+					<CachePath>SFX/Log10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="881455822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks8.wav</ShortName>
+					<CachePath>SFX/Sticks8_818F3B66.wem</CachePath>
 				</File>
 				<File Id="894566245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106988__plingativator__fire1.wav</ShortName>
 					<CachePath>SFX/106988__plingativator__fire1_FA60EC3B.wem</CachePath>
 				</File>
+				<File Id="908681741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log16.wav</ShortName>
+					<CachePath>SFX/Log16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="934746814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig4.wav</ShortName>
+					<CachePath>SFX/Twig4_818F3B66.wem</CachePath>
+				</File>
 				<File Id="993805153" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>181577__kingsrow__whoosh.wav</ShortName>
 					<CachePath>SFX/181577__kingsrow__whoosh_632EB7AB.wem</CachePath>
+				</File>
+				<File Id="1021220728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log14.wav</ShortName>
+					<CachePath>SFX/Log14_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -237,9 +305,38 @@
 						<MediaRef Id="993805153"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2661514705" Name="Fuel">
+					<MediaRefs>
+						<MediaRef Id="30777114"/>
+						<MediaRef Id="366187816"/>
+						<MediaRef Id="443866069"/>
+						<MediaRef Id="597491099"/>
+						<MediaRef Id="746467066"/>
+						<MediaRef Id="797686018"/>
+						<MediaRef Id="908681741"/>
+						<MediaRef Id="1021220728"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3324137807" Name="Kindling">
+					<MediaRefs>
+						<MediaRef Id="24566004"/>
+						<MediaRef Id="194543630"/>
+						<MediaRef Id="485730434"/>
+						<MediaRef Id="694151481"/>
+						<MediaRef Id="881455822"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3978245845" Name="Pickup">
 					<MediaRefs>
 						<MediaRef Id="763409988"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2077643863" Name="Tinder">
+					<MediaRefs>
+						<MediaRef Id="470849112"/>
+						<MediaRef Id="539779258"/>
+						<MediaRef Id="675329998"/>
+						<MediaRef Id="934746814"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -248,5 +345,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EDE138A5-BEF8-7A6C-5497-0DE5E0604E29}</FileHash>
+	<FileHash>{2B9AFCFB-39A7-5306-642A-F309C480072D}</FileHash>
 </SoundBanksInfo>

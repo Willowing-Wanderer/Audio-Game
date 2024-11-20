@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cg3cpq282c3ao"
+path="res://.godot/imported/Log15.wav-ee6d9af4d41d287c567714bf640ed680.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Log15.wav"
+dest_files=["res://.godot/imported/Log15.wav-ee6d9af4d41d287c567714bf640ed680.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -102,9 +102,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Tinder" ID="{69FEDF47-9F4A-48E6-89C3-24F23976DA3D}"/>
-				<Event Name="Kindling" ID="{E2AF9C36-A154-45B8-9375-759579C34482}"/>
-				<Event Name="Fuel" ID="{642CFB6B-8300-4E59-86AF-90FC67A508AD}"/>
+				<Event Name="Tinder" ID="{69FEDF47-9F4A-48E6-89C3-24F23976DA3D}">
+					<ChildrenList>
+						<Action Name="" ID="{4D37FC70-725C-4967-99D6-B6886C75EBEF}" ShortID="775282142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tinder" ID="{0D2B3F17-2EE2-418A-914D-FCC007BED9BE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Kindling" ID="{E2AF9C36-A154-45B8-9375-759579C34482}">
+					<ChildrenList>
+						<Action Name="" ID="{4349955B-5CFD-41E8-8D4E-DC51FA95D32A}" ShortID="316816049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kindling" ID="{26A64636-D2D7-4001-9FBC-B3EACD02F0C1}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fuel" ID="{642CFB6B-8300-4E59-86AF-90FC67A508AD}">
+					<ChildrenList>
+						<Action Name="" ID="{6975ABCB-6A6D-4DDA-B49D-4D7A239FFDF1}" ShortID="1032188867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuel" ID="{59AF4D95-D364-44A4-95D9-7FAAAECC80D6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}"/>
 			</ChildrenList>
 		</WorkUnit>

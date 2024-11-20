@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://da8hvb1pe4nj7"
+path="res://.godot/imported/Log13.wav-fdadf73f666c0f51b5bf5f380bb49eab.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Log13.wav"
+dest_files=["res://.godot/imported/Log13.wav-fdadf73f666c0f51b5bf5f380bb49eab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
