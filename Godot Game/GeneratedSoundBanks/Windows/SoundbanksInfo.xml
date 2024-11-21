@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A756EE31-7CBB-E002-0CDC-16CD759286AA}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{18FE5B1B-E735-9722-EAF5-FA908694E01D}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -173,7 +173,7 @@
 				</File>
 				<File Id="26606717" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AmbientDroneStab.wav</ShortName>
-					<CachePath>SFX/AmbientDroneStab_3E8FAA66.wem</CachePath>
+					<CachePath>SFX/AmbientDroneStab_A201F3CF.wem</CachePath>
 				</File>
 				<File Id="30777114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log17.wav</ShortName>
@@ -187,6 +187,10 @@
 					<ShortName>TooLarge.wav</ShortName>
 					<CachePath>Voices/English(US)/TooLarge_818F3B66.wem</CachePath>
 				</File>
+				<File Id="154989429" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>DyingFire.wav</ShortName>
+					<CachePath>Voices/English(US)/DyingFire_818F3B66.wem</CachePath>
+				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
 					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
@@ -195,9 +199,17 @@
 					<ShortName>Sticks5.wav</ShortName>
 					<CachePath>SFX/Sticks5_818F3B66.wem</CachePath>
 				</File>
+				<File Id="335959736" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>HungryFire.wav</ShortName>
+					<CachePath>Voices/English(US)/HungryFire_818F3B66.wem</CachePath>
+				</File>
 				<File Id="366187816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log15.wav</ShortName>
 					<CachePath>SFX/Log15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="405745055" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Small Flame.wav</ShortName>
+					<CachePath>Voices/English(US)/Small Flame_818F3B66.wem</CachePath>
 				</File>
 				<File Id="443866069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log12.wav</ShortName>
@@ -235,6 +247,10 @@
 					<ShortName>Log11.wav</ShortName>
 					<CachePath>SFX/Log11_818F3B66.wem</CachePath>
 				</File>
+				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Nothing1.wav</ShortName>
+					<CachePath>SFX/Nothing1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="673753702" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Kindling1.wav</ShortName>
 					<CachePath>Voices/English(US)/Kindling1_818F3B66.wem</CachePath>
@@ -258,6 +274,10 @@
 				<File Id="797686018" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log10.wav</ShortName>
 					<CachePath>SFX/Log10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="842907374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Nothing2.wav</ShortName>
+					<CachePath>SFX/Nothing2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="855543786" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Instructions.wav</ShortName>
@@ -355,9 +375,19 @@
 						<MediaRef Id="881455822"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1966613816" Name="Narrate_DyingFire">
+					<MediaRefs>
+						<MediaRef Id="154989429"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="318829741" Name="Narrate_Fuel">
 					<MediaRefs>
 						<MediaRef Id="100610895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2952214358" Name="Narrate_HungryFire">
+					<MediaRefs>
+						<MediaRef Id="335959736"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="127438362" Name="Narrate_Instructions">
@@ -380,7 +410,17 @@
 						<MediaRef Id="563078865"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="911107020" Name="Narrate_Nothing"/>
+				<Event Id="911107020" Name="Narrate_Nothing">
+					<MediaRefs>
+						<MediaRef Id="663920178"/>
+						<MediaRef Id="842907374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2447220767" Name="Narrate_SmallFlame">
+					<MediaRefs>
+						<MediaRef Id="405745055"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2650740659" Name="Narrate_Tinder">
 					<MediaRefs>
 						<MediaRef Id="575115525"/>
@@ -410,5 +450,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2FA3AAA1-F3F8-E125-E29F-CA758A431C21}</FileHash>
+	<FileHash>{7B6CB291-5A3E-955B-B661-0EDB43650CBD}</FileHash>
 </SoundBanksInfo>

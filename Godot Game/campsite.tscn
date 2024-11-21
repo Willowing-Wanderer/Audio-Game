@@ -1,12 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://dcuu86pvjwvxt"]
+[gd_scene load_steps=11 format=3 uid="uid://dcuu86pvjwvxt"]
 
 [ext_resource type="PackedScene" uid="uid://d0h1goenxxqid" path="res://campfire.tscn" id="1_l0rjq"]
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_wfgnp"]
-[ext_resource type="Script" path="res://campfire.gd" id="3_ynfyq"]
 [ext_resource type="Script" path="res://Whoosh.gd" id="4_gimvh"]
 [ext_resource type="Script" path="res://CampfireEvent.gd" id="5_vpnjj"]
 [ext_resource type="PackedScene" uid="uid://b6plkobn2i4qv" path="res://tinder.tscn" id="6_d3s5g"]
-[ext_resource type="Script" path="res://Inventory.gd" id="6_uq3tv"]
 [ext_resource type="PackedScene" uid="uid://cxjoj2c78mdrx" path="res://kindling.tscn" id="7_g1m3s"]
 [ext_resource type="PackedScene" uid="uid://c2pl7kg3w0x1p" path="res://fuel.tscn" id="8_6fb1v"]
 
@@ -18,6 +16,20 @@ material = SubResource("StandardMaterial3D_f1124")
 top_radius = 3.0
 bottom_radius = 3.0
 height = 1.0
+
+[sub_resource type="GDScript" id="GDScript_r7u44"]
+script/source = "extends Area3D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
 
 [node name="Campsite" type="Node3D"]
 
@@ -51,7 +63,7 @@ load_on = 1
 transform = Transform3D(-0.684916, 0, 0.728622, 0, 1, 0, -0.728622, 0, -0.684916, 0, 0, 0)
 
 [node name="Campfire" parent="AkBank/AkBank" instance=ExtResource("1_l0rjq")]
-script = ExtResource("3_ynfyq")
+script = SubResource("GDScript_r7u44")
 
 [node name="Whoosh" type="AkEvent3D" parent="AkBank/AkBank/Campfire"]
 event = {
@@ -72,16 +84,22 @@ event = {
 trigger_on = 1
 
 [node name="Tinder" parent="AkBank/AkBank" instance=ExtResource("6_d3s5g")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.89588, 0, -2.75778)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.515504, 0, -2.72655)
+
+[node name="Tinder2" parent="AkBank/AkBank" instance=ExtResource("6_d3s5g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.10608, 0, 2.65909)
 
 [node name="Kindling" parent="AkBank/AkBank" instance=ExtResource("7_g1m3s")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16786, 0, 2.59255)
 
-[node name="Fuel" parent="AkBank/AkBank" instance=ExtResource("8_6fb1v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.86628, 0, -0.611671)
+[node name="Kindling2" parent="AkBank/AkBank" instance=ExtResource("7_g1m3s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.93652, 0, -0.011529)
 
-[node name="Controller" type="Node3D" parent="."]
-script = ExtResource("6_uq3tv")
+[node name="Fuel" parent="AkBank/AkBank" instance=ExtResource("8_6fb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.58845, 0, 1.34512)
+
+[node name="Fuel2" parent="AkBank/AkBank" instance=ExtResource("8_6fb1v")]
+transform = Transform3D(0.999956, 0, 0.00933738, 0, 1, 0, -0.00933738, 0, 0.999956, 1.21802, 0, -2.42201)
 
 [connection signal="stick_added" from="AkBank/AkBank/Player" to="AkBank/AkBank/Campfire/Whoosh" method="_on_player_stick_added"]
 [connection signal="fire_high" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_high"]

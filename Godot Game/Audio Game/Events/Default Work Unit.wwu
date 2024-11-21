@@ -202,13 +202,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Narrate_Nothing" ID="{89392620-B284-46CB-AFA2-0683DB895767}"/>
+				<Event Name="Narrate_Nothing" ID="{89392620-B284-46CB-AFA2-0683DB895767}">
+					<ChildrenList>
+						<Action Name="" ID="{F0EFB0E5-FB03-4472-9F2B-3555A18ADB30}" ShortID="42715868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nothing_narr" ID="{782EA94C-CAD9-4EEB-B2A1-086E97BE9C11}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Narrate_TooLarge" ID="{5C7FB3DF-0D0E-4299-B396-4488E97635FC}">
 					<ChildrenList>
 						<Action Name="" ID="{B17BCE7C-AA92-421B-9E02-8DA49F8F9FBA}" ShortID="848461405">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TooLarge_narr" ID="{83CE2BB5-D07B-43FC-8E94-74E715B39933}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_DyingFire" ID="{0F3BFD21-DFA7-464B-BCEA-236B263C0897}">
+					<ChildrenList>
+						<Action Name="" ID="{8C591BF4-7862-4A41-9A7D-22C69CBFD48E}" ShortID="75282919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DyingFire_narr" ID="{3F7615F9-8802-42C2-922B-F3A5C9AF5B27}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_SmallFlame" ID="{0CC71925-55B8-46D0-9270-E3794EAD348C}">
+					<ChildrenList>
+						<Action Name="" ID="{BBB48C76-129F-430A-BF77-E945AF14FE6D}" ShortID="1045278618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small Flame_narr" ID="{AE0EAD70-A9BA-4950-BF8E-1918FA7B0A53}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narrate_HungryFire" ID="{000B1F9A-A35D-47C8-BD25-217796D8F605}">
+					<ChildrenList>
+						<Action Name="" ID="{1904E229-3B0A-4BAA-A66E-C10BBEC85BA1}" ShortID="715242012">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HungryFire_narr" ID="{CEF5DB05-3D2B-4A11-909C-9DE4796A171F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

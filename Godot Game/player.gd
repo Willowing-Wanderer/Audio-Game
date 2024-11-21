@@ -13,6 +13,8 @@ var hands_free = true
 signal stick_added
 
 var playing_id
+var level = "tinder"
+var sticks_to_next_level = 2
 
 @onready var player: Area3D = $Player
 
@@ -23,13 +25,18 @@ func _input(event):
 	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT):
 		if(has_overlapping_areas()):
 			process_left_click(get_overlapping_areas()[0])
-		else:
-			print("Nothing here to click on")
+		#else:
+			#print("Nothing here to click on")
 	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
 		if(has_overlapping_areas()):
 			process_right_click(get_overlapping_areas()[0])
 		else:
-			print("Narrate surroundings")
+			#print("Narrate Nothing")
+			if(playing_id):
+				Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+			Wwise.register_game_obj(self, self.get_name())
+			Wwise.set_3d_position(self, get_global_transform())
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -46,10 +53,26 @@ func release_mouse() -> void:
 
 func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
+	
+func increase_level():
+	if(level == "tinder"):
+		sticks_to_next_level = 2
+		level = "kindling"
+	else:
+		if(level == "kindling"):
+			level = "fuel"
+			sticks_to_next_level = 2
+		else:
+			if(level == "fuel"):
+				level = "done"
 
 func process_left_click(area: Area3D):
-	print(area.name)
-	if(area.name.begins_with("Stick") && hands_free):
+	#print(area.name)
+	if(hands_free &&
+		(area.name.begins_with("Tinder") && level == "tinder" ||
+		area.name.begins_with("Kindling") && level == "kindling" ||
+		area.name.begins_with("Fuel") && level == "fuel")
+		):
 		held_object = area
 		hands_free = false
 		area.queue_free() #TODO: this is a problem if we ever want to see the stick again
@@ -58,19 +81,40 @@ func process_left_click(area: Area3D):
 	if(!hands_free):
 		if(area.name.begins_with("Campfire")): # && held_object.name.begins_with("Stick")): > this doesn't work because
 			stick_added.emit()
-			print("stick added")
+			#print("level")
+			#print(level)
+			#print("stick added")
+			sticks_to_next_level -= 1
+			if(sticks_to_next_level == 0):
+				increase_level()
 			held_object = null
 			hands_free = true
 
 	
 func process_right_click(area: Area3D):
-	print("Narrate %s" % area.name)
+	#print("Narrate %s" % area.name)
+	if(playing_id):
+		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	
 	if(area.name.begins_with("Tinder")):
 		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TINDER, self)
 	if(area.name.begins_with("Kindling")):
-		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_KINDLING, self)
+		if(level == "kindling"):
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_KINDLING, self)
+		else:
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
 	if(area.name.begins_with("Fuel")):
-		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_FUEL, self)
+		if(level == "fuel"):
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_FUEL, self)
+		else:
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
+	if(area.name.begins_with("Campfire")):
+		if(level == "tinder"):
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_DYINGFIRE, self)
+		if(level == "kindling"):
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_SMALLFLAME, self)
+		if(level == "fuel"):
+			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_HUNGRYFIRE, self)
+		

@@ -16,15 +16,15 @@ func _process(delta):
 
 
 func _on_player_stick_added():
-	print("campfire received")
-	print(self.get_name())
+	#print("campfire received")
+	#print(self.get_name())
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	Wwise.post_event_id(AK.EVENTS.FIRE_WHOOSH, self)
 	sticks += 1
-	if(sticks == 1):
+	if(sticks >= 2):
 		fire_low.emit()
-	if(sticks == 2):
-		fire_medium.emit()
-	if(sticks == 3):
+	if(sticks >= 4):
+		fire_low.emit()
+	if(sticks >= 6):
 		fire_high.emit()

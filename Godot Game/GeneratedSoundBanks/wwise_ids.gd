@@ -2,50 +2,56 @@ class_name AK
 
 class EVENTS:
 
-	const FACING = 54298587
-	const FIRE_LOW = 771468442
-	const FACING_STICK = 2793518390
-	const FIRE_MEDIUM = 1873888577
-	const FIRE_HIGH = 2673322736
-	const FIRE_DIM = 135198910
-	const FIRE_WHOOSH = 3524664550
-	const PICKUP = 3978245845
-	const NARRATE_INSTRUCTIONS = 127438362
-	const NARRATE_KINDLING = 3007520451
 	const NARRATE_NOTHING = 911107020
+	const FIRE_MEDIUM = 1873888577
 	const TINDER = 2077643863
-	const NARRATE_TOOLARGE = 3170030618
-	const KINDLING = 3324137807
-	const NARRATE_MESSAGE = 2147751278
-	const BLACK_WIND = 4020366015
-	const NARRATE_INTRO = 2330071765
 	const FUEL = 2661514705
+	const BLACK_WIND = 4020366015
+	const FIRE_DIM = 135198910
 	const NARRATE_TINDER = 2650740659
+	const NARRATE_KINDLING = 3007520451
+	const NARRATE_INSTRUCTIONS = 127438362
+	const NARRATE_INTRO = 2330071765
+	const NARRATE_MESSAGE = 2147751278
+	const FIRE_HIGH = 2673322736
+	const FACING_STICK = 2793518390
+	const KINDLING = 3324137807
+	const FIRE_LOW = 771468442
+	const FIRE_WHOOSH = 3524664550
+	const FACING = 54298587
 	const NARRATE_FUEL = 318829741
+	const NARRATE_TOOLARGE = 3170030618
+	const PICKUP = 3978245845
 	const DRUIDS_MESSAGE = 518818430
+	const NARRATE_HUNGRYFIRE = 2952214358
+	const NARRATE_SMALLFLAME = 2447220767
+	const NARRATE_DYINGFIRE = 1966613816
 
 	const _dict = {
-		"Facing": FACING,
-		"Fire_Low": FIRE_LOW,
-		"Facing_Stick": FACING_STICK,
-		"Fire_Medium": FIRE_MEDIUM,
-		"Fire_High": FIRE_HIGH,
-		"Fire_Dim": FIRE_DIM,
-		"Fire_Whoosh": FIRE_WHOOSH,
-		"Pickup": PICKUP,
-		"Narrate_Instructions": NARRATE_INSTRUCTIONS,
-		"Narrate_Kindling": NARRATE_KINDLING,
 		"Narrate_Nothing": NARRATE_NOTHING,
+		"Fire_Medium": FIRE_MEDIUM,
 		"Tinder": TINDER,
-		"Narrate_TooLarge": NARRATE_TOOLARGE,
-		"Kindling": KINDLING,
-		"Narrate_Message": NARRATE_MESSAGE,
-		"Black_Wind": BLACK_WIND,
-		"Narrate_Intro": NARRATE_INTRO,
 		"Fuel": FUEL,
+		"Black_Wind": BLACK_WIND,
+		"Fire_Dim": FIRE_DIM,
 		"Narrate_Tinder": NARRATE_TINDER,
+		"Narrate_Kindling": NARRATE_KINDLING,
+		"Narrate_Instructions": NARRATE_INSTRUCTIONS,
+		"Narrate_Intro": NARRATE_INTRO,
+		"Narrate_Message": NARRATE_MESSAGE,
+		"Fire_High": FIRE_HIGH,
+		"Facing_Stick": FACING_STICK,
+		"Kindling": KINDLING,
+		"Fire_Low": FIRE_LOW,
+		"Fire_Whoosh": FIRE_WHOOSH,
+		"Facing": FACING,
 		"Narrate_Fuel": NARRATE_FUEL,
-		"Druids_Message": DRUIDS_MESSAGE
+		"Narrate_TooLarge": NARRATE_TOOLARGE,
+		"Pickup": PICKUP,
+		"Druids_Message": DRUIDS_MESSAGE,
+		"Narrate_HungryFire": NARRATE_HUNGRYFIRE,
+		"Narrate_SmallFlame": NARRATE_SMALLFLAME,
+		"Narrate_DyingFire": NARRATE_DYINGFIRE
 	}
 
 class STATES:
@@ -58,30 +64,30 @@ class SWITCHES:
 
 class GAME_PARAMETERS:
 
-	const SS_AIR_SIZE = 3074696722
 	const SS_AIR_TIMEOFDAY = 3203397129
 	const SS_AIR_PRESENCE = 3847924954
-	const SS_AIR_TURBULENCE = 4160247818
-	const SS_AIR_RPM = 822163944
-	const SS_AIR_STORM = 3715662592
-	const SS_AIR_FURY = 1029930033
 	const SS_AIR_FREEFALL = 3002758120
-	const SS_AIR_MONTH = 2648548617
+	const SS_AIR_SIZE = 3074696722
+	const SS_AIR_STORM = 3715662592
 	const PLAYER_CONE = 2039612124
 	const SS_AIR_FEAR = 1351367891
+	const SS_AIR_RPM = 822163944
+	const SS_AIR_MONTH = 2648548617
+	const SS_AIR_TURBULENCE = 4160247818
+	const SS_AIR_FURY = 1029930033
 
 	const _dict = {
-		"SS_Air_Size": SS_AIR_SIZE,
 		"SS_Air_TimeOfDay": SS_AIR_TIMEOFDAY,
 		"SS_Air_Presence": SS_AIR_PRESENCE,
-		"SS_Air_Turbulence": SS_AIR_TURBULENCE,
-		"SS_Air_RPM": SS_AIR_RPM,
-		"SS_Air_Storm": SS_AIR_STORM,
-		"SS_Air_Fury": SS_AIR_FURY,
 		"SS_Air_Freefall": SS_AIR_FREEFALL,
-		"SS_Air_Month": SS_AIR_MONTH,
+		"SS_Air_Size": SS_AIR_SIZE,
+		"SS_Air_Storm": SS_AIR_STORM,
 		"Player_Cone": PLAYER_CONE,
-		"SS_Air_Fear": SS_AIR_FEAR
+		"SS_Air_Fear": SS_AIR_FEAR,
+		"SS_Air_RPM": SS_AIR_RPM,
+		"SS_Air_Month": SS_AIR_MONTH,
+		"SS_Air_Turbulence": SS_AIR_TURBULENCE,
+		"SS_Air_Fury": SS_AIR_FURY
 	}
 
 class TRIGGERS:

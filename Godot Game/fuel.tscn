@@ -3,13 +3,14 @@
 [ext_resource type="Script" path="res://StickEvent.gd" id="1_u3oxl"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
+radius = 0.1
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v6jq5"]
 albedo_color = Color(0.392157, 0.215686, 0.0745098, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_s0o0b"]
 material = SubResource("StandardMaterial3D_v6jq5")
-size = Vector3(-0.4, 0.4, 1.5)
+size = Vector3(0.4, 0.4, 1.5)
 
 [node name="Fuel" type="Area3D"]
 
