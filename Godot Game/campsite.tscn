@@ -65,6 +65,8 @@ transform = Transform3D(-0.684916, 0, 0.728622, 0, 1, 0, -0.728622, 0, -0.684916
 [node name="Campfire" parent="AkBank/AkBank" instance=ExtResource("1_l0rjq")]
 script = SubResource("GDScript_r7u44")
 
+[node name="Ending Message" type="AkEvent3D" parent="AkBank/AkBank/Campfire"]
+
 [node name="Whoosh" type="AkEvent3D" parent="AkBank/AkBank/Campfire"]
 event = {
 "id": 3524664550,
@@ -100,6 +102,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.58845, 0, 1.34512)
 
 [node name="Fuel2" parent="AkBank/AkBank" instance=ExtResource("8_6fb1v")]
 transform = Transform3D(0.999956, 0, 0.00933738, 0, 1, 0, -0.00933738, 0, 0.999956, 1.21802, 0, -2.42201)
+
+[node name="Intro" type="AkEvent3D" parent="AkBank/AkBank"]
+event = {
+"id": 2330071765,
+"name": "Narrate_Intro"
+}
+trigger_on = 1
 
 [connection signal="stick_added" from="AkBank/AkBank/Player" to="AkBank/AkBank/Campfire/Whoosh" method="_on_player_stick_added"]
 [connection signal="fire_high" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_high"]

@@ -537,6 +537,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Instructions" ID="{8F9CECEE-8EA9-408E-97D0-0E6D305C0102}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.45781724010359"/>
+								<Property Name="TrimEnd" Type="Real64" Value="8.78028856825749"/>
+							</PropertyList>
 							<Language>English(US)</Language>
 							<AudioFile>Instructions.wav</AudioFile>
 							<MediaIDList>
@@ -562,6 +567,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Intro" ID="{585D3BB1-3FFA-4B8A-91A9-A404B3EACC47}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.10600073991861"/>
+								<Property Name="TrimEnd" Type="Real64" Value="18.9466045135035"/>
+							</PropertyList>
 							<Language>English(US)</Language>
 							<AudioFile>Intro.wav</AudioFile>
 							<MediaIDList>

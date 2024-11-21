@@ -169,23 +169,22 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Narrate_Instructions" ID="{5F4D1AD1-9189-41C0-8A44-8AADC68F19B0}">
-					<ChildrenList>
-						<Action Name="" ID="{36ABBFE2-1A00-4675-AE56-4F93B38B3576}" ShortID="563553132">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Instructions_narr" ID="{5F1F0613-B8F9-4725-B01F-3B6110AA873A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Narrate_Intro" ID="{254D4FB7-F119-4994-B841-01109DA5C7F9}">
 					<ChildrenList>
-						<Action Name="" ID="{10911029-3034-4456-9963-A4D937380DAC}" ShortID="259437589">
+						<Action Name="" ID="{4AA68B6A-D9B0-413D-B57A-B1A940C8CC6F}" ShortID="41901565">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Intro_narr" ID="{A63908DC-D7EC-4CFB-A7C9-6EDD01EC1709}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{10911029-3034-4456-9963-A4D937380DAC}" ShortID="259437589">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="17"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Instructions_narr" ID="{5F1F0613-B8F9-4725-B01F-3B6110AA873A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

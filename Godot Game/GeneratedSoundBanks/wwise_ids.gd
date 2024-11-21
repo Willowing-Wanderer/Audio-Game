@@ -10,7 +10,6 @@ class EVENTS:
 	const FIRE_DIM = 135198910
 	const NARRATE_TINDER = 2650740659
 	const NARRATE_KINDLING = 3007520451
-	const NARRATE_INSTRUCTIONS = 127438362
 	const NARRATE_INTRO = 2330071765
 	const NARRATE_MESSAGE = 2147751278
 	const FIRE_HIGH = 2673322736
@@ -36,7 +35,6 @@ class EVENTS:
 		"Fire_Dim": FIRE_DIM,
 		"Narrate_Tinder": NARRATE_TINDER,
 		"Narrate_Kindling": NARRATE_KINDLING,
-		"Narrate_Instructions": NARRATE_INSTRUCTIONS,
 		"Narrate_Intro": NARRATE_INTRO,
 		"Narrate_Message": NARRATE_MESSAGE,
 		"Fire_High": FIRE_HIGH,

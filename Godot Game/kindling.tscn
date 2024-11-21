@@ -26,6 +26,7 @@ event = {
 "id": 2793518390,
 "name": "Facing_Stick"
 }
+stop_on = 3
 script = ExtResource("1_qa3f0")
 
 [connection signal="area_entered" from="." to="KindlingEvent" method="_on_stick_area_entered"]

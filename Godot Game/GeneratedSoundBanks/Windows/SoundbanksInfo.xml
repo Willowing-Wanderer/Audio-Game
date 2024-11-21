@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{18FE5B1B-E735-9722-EAF5-FA908694E01D}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{473C5DF6-9AD4-63F7-C9BC-6674D5101297}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -281,7 +281,7 @@
 				</File>
 				<File Id="855543786" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Instructions.wav</ShortName>
-					<CachePath>Voices/English(US)/Instructions_818F3B66.wem</CachePath>
+					<CachePath>Voices/English(US)/Instructions_146D19D2.wem</CachePath>
 				</File>
 				<File Id="881455822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks8.wav</ShortName>
@@ -309,7 +309,7 @@
 				</File>
 				<File Id="1036186260" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Intro.wav</ShortName>
-					<CachePath>Voices/English(US)/Intro_818F3B66.wem</CachePath>
+					<CachePath>Voices/English(US)/Intro_D78D131C.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -390,13 +390,9 @@
 						<MediaRef Id="335959736"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="127438362" Name="Narrate_Instructions">
-					<MediaRefs>
-						<MediaRef Id="855543786"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2330071765" Name="Narrate_Intro">
 					<MediaRefs>
+						<MediaRef Id="855543786"/>
 						<MediaRef Id="1036186260"/>
 					</MediaRefs>
 				</Event>
@@ -450,5 +446,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7B6CB291-5A3E-955B-B661-0EDB43650CBD}</FileHash>
+	<FileHash>{078B3732-4799-6082-C9EB-32D9D1345E55}</FileHash>
 </SoundBanksInfo>

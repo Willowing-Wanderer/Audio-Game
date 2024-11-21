@@ -2,7 +2,7 @@
 
 class_name Player extends Area3D
 
-@export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.75
+@export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.0
 
 var mouse_captured: bool = false
 

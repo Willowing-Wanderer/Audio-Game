@@ -26,6 +26,7 @@ event = {
 "id": 2793518390,
 "name": "Facing_Stick"
 }
+stop_on = 3
 script = ExtResource("1_u3oxl")
 
 [connection signal="area_entered" from="." to="FuelEvent" method="_on_stick_area_entered"]
