@@ -32,3 +32,10 @@ func _on_whoosh_fire_high():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	playing_id = Wwise.post_event_id(AK.EVENTS.FIRE_HIGH, self)
+
+
+func _on_whoosh_fire_done():
+	#Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+	Wwise.register_game_obj(self, self.get_name())
+	Wwise.set_3d_position(self, get_global_transform())
+	playing_id = Wwise.post_event_id(AK.EVENTS.DRUIDS_MESSAGE, self)

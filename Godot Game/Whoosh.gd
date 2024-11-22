@@ -4,6 +4,7 @@ var sticks = 0
 signal fire_low
 signal fire_medium
 signal fire_high
+signal fire_done
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -28,3 +29,4 @@ func _on_player_stick_added():
 		fire_low.emit()
 	if(sticks >= 6):
 		fire_high.emit()
+		fire_done.emit()

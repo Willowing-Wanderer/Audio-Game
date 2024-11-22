@@ -560,9 +560,16 @@
 								<MediaID ID="855543786"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Instructions V2 (1)" ID="{62A8C130-CF4B-4167-A937-766820CAB65C}">
+							<Language>English(US)</Language>
+							<AudioFile>Instructions V2 (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="88784881"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Instructions" ID="{8F9CECEE-8EA9-408E-97D0-0E6D305C0102}" Platform="Linked"/>
+						<ActiveSource Name="Instructions V2 (1)" ID="{62A8C130-CF4B-4167-A937-766820CAB65C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Intro_narr" ID="{A63908DC-D7EC-4CFB-A7C9-6EDD01EC1709}" ShortID="632157646">
@@ -718,7 +725,6 @@
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>
@@ -830,7 +836,6 @@
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -959,7 +964,6 @@
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>7</Value>
@@ -1160,6 +1164,11 @@
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

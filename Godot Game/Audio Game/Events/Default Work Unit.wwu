@@ -131,7 +131,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}"/>
+				<Event Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}">
+					<ChildrenList>
+						<Action Name="" ID="{6C004BA7-D2E7-4255-A546-DE074C22725D}" ShortID="739107355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Message" ID="{7053DF9E-A80F-4FD7-9F84-41CD1CD76B84}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Narrate_Tinder" ID="{E65F6198-651A-4663-A313-EA5B74C6DEED}">
 					<ChildrenList>
 						<Action Name="" ID="{BB0922FC-C770-4A99-9AE0-AC2A50EFCEFF}" ShortID="550102507">

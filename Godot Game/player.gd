@@ -22,23 +22,24 @@ func _ready() -> void:
 	capture_mouse()
 
 func _input(event):
-	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT):
-		if(has_overlapping_areas()):
-			process_left_click(get_overlapping_areas()[0])
-		else:
-			Wwise.register_game_obj(self, self.get_name())
-			Wwise.set_3d_position(self, get_global_transform())
-			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
-	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
-		if(has_overlapping_areas()):
-			process_right_click(get_overlapping_areas()[0])
-		else:
-			#print("Narrate Nothing")
-			if(playing_id):
-				Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-			Wwise.register_game_obj(self, self.get_name())
-			Wwise.set_3d_position(self, get_global_transform())
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
+	if(event is InputEventMouseButton):
+		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT):
+			if(has_overlapping_areas()):
+				process_left_click(get_overlapping_areas()[0])
+			else:
+				Wwise.register_game_obj(self, self.get_name())
+				Wwise.set_3d_position(self, get_global_transform())
+				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
+			if(has_overlapping_areas()):
+				process_right_click(get_overlapping_areas()[0])
+			else:
+				#print("Narrate Nothing")
+				if(playing_id):
+					Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+				Wwise.register_game_obj(self, self.get_name())
+				Wwise.set_3d_position(self, get_global_transform())
+				playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:

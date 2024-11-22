@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../Audio Game</ProjectRoot>
+		<SourceFilesRoot>../../Audio Game/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../Audio Game/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0FEA8B05-854F-9BA6-496E-CBB65D72FFEC}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2039612124" Name="Player_Cone"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{901B3A57-E52E-AD68-3CEF-7172BDD803DA}">
+			<ShortName>Main</ShortName>
+			<Path>English(US)/Main.bnk</Path>
+			<Media>
+				<File Id="24566004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks9.wav</ShortName>
+					<CachePath>SFX/Sticks9_818F3B66.wem</CachePath>
+				</File>
+				<File Id="30777114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log17.wav</ShortName>
+					<CachePath>SFX/Log17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="76911740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Facing.wav</ShortName>
+					<CachePath>SFX/Facing_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="87182428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FailedClickV2.wav</ShortName>
+					<CachePath>SFX/FailedClickV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="88784881" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Instructions V2 (1).wav</ShortName>
+					<CachePath>Voices/English(US)/Instructions V2 (1)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="100610895" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Fuel1.wav</ShortName>
+					<CachePath>Voices/English(US)/Fuel1_72A24532.wem</CachePath>
+				</File>
+				<File Id="114580091" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>TooLarge.wav</ShortName>
+					<CachePath>Voices/English(US)/TooLarge_415A1E5A.wem</CachePath>
+				</File>
+				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
+					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
+				</File>
+				<File Id="187603988" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>HungryFire (1).wav</ShortName>
+					<CachePath>Voices/English(US)/HungryFire (1)_C5A79E86.wem</CachePath>
+				</File>
+				<File Id="194543630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks5.wav</ShortName>
+					<CachePath>SFX/Sticks5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="283375708" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Small Flame (1).wav</ShortName>
+					<CachePath>Voices/English(US)/Small Flame (1)_6F11A359.wem</CachePath>
+				</File>
+				<File Id="366187816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log15.wav</ShortName>
+					<CachePath>SFX/Log15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="443866069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log12.wav</ShortName>
+					<CachePath>SFX/Log12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="470849112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig3.wav</ShortName>
+					<CachePath>SFX/Twig3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="485730434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks7.wav</ShortName>
+					<CachePath>SFX/Sticks7_818F3B66.wem</CachePath>
+				</File>
+				<File Id="498893928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
+					<CachePath>SFX/655627__hankof__stick-hitting-stick-2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="535447453" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>DyingFire (1).wav</ShortName>
+					<CachePath>Voices/English(US)/DyingFire (1)_6AA0A535.wem</CachePath>
+				</File>
+				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BlackWind.wav</ShortName>
+					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
+				</File>
+				<File Id="539779258" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig1.wav</ShortName>
+					<CachePath>SFX/Twig1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="563078865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Message.wav</ShortName>
+					<CachePath>SFX/Message_8ACA5CB9.wem</CachePath>
+				</File>
+				<File Id="575115525" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Tinder1.wav</ShortName>
+					<CachePath>Voices/English(US)/Tinder1_49C3A52C.wem</CachePath>
+				</File>
+				<File Id="597491099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log11.wav</ShortName>
+					<CachePath>SFX/Log11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Nothing1.wav</ShortName>
+					<CachePath>SFX/Nothing1_199E879F.wem</CachePath>
+				</File>
+				<File Id="673753702" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Kindling1.wav</ShortName>
+					<CachePath>Voices/English(US)/Kindling1_2B2E4D53.wem</CachePath>
+				</File>
+				<File Id="675329998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig2.wav</ShortName>
+					<CachePath>SFX/Twig2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="694151481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks6.wav</ShortName>
+					<CachePath>SFX/Sticks6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="746467066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log13.wav</ShortName>
+					<CachePath>SFX/Log13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="797686018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log10.wav</ShortName>
+					<CachePath>SFX/Log10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PickupGenericV2.wav</ShortName>
+					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="842907374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Nothing2.wav</ShortName>
+					<CachePath>SFX/Nothing2_7C618BD6.wem</CachePath>
+				</File>
+				<File Id="881455822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sticks8.wav</ShortName>
+					<CachePath>SFX/Sticks8_818F3B66.wem</CachePath>
+				</File>
+				<File Id="894566245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>106988__plingativator__fire1.wav</ShortName>
+					<CachePath>SFX/106988__plingativator__fire1_FA60EC3B.wem</CachePath>
+				</File>
+				<File Id="908681741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log16.wav</ShortName>
+					<CachePath>SFX/Log16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="934746814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Twig4.wav</ShortName>
+					<CachePath>SFX/Twig4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="993805153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>181577__kingsrow__whoosh.wav</ShortName>
+					<CachePath>SFX/181577__kingsrow__whoosh_632EB7AB.wem</CachePath>
+				</File>
+				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PutdownV1.wav</ShortName>
+					<CachePath>SFX/PutdownV1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1021220728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Log14.wav</ShortName>
+					<CachePath>SFX/Log14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1036186260" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Intro.wav</ShortName>
+					<CachePath>Voices/English(US)/Intro_D6F6F6B8.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4020366015" Name="Black_Wind">
+					<MediaRefs>
+						<MediaRef Id="535661321"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1352158686" Name="Click_Fail">
+					<MediaRefs>
+						<MediaRef Id="87182428"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="518818430" Name="Druids_Message">
+					<MediaRefs>
+						<MediaRef Id="563078865"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="54298587" Name="Facing">
+					<MediaRefs>
+						<MediaRef Id="76911740"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2793518390" Name="Facing_Stick">
+					<MediaRefs>
+						<MediaRef Id="498893928"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="135198910" Name="Fire_Dim">
+					<MediaRefs>
+						<MediaRef Id="178784164"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2673322736" Name="Fire_High">
+					<MediaRefs>
+						<MediaRef Id="894566245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="771468442" Name="Fire_Low">
+					<MediaRefs>
+						<MediaRef Id="894566245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1873888577" Name="Fire_Medium">
+					<MediaRefs>
+						<MediaRef Id="894566245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3524664550" Name="Fire_Whoosh">
+					<MediaRefs>
+						<MediaRef Id="993805153"/>
+						<MediaRef Id="994445067"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2661514705" Name="Fuel">
+					<MediaRefs>
+						<MediaRef Id="30777114"/>
+						<MediaRef Id="366187816"/>
+						<MediaRef Id="443866069"/>
+						<MediaRef Id="597491099"/>
+						<MediaRef Id="746467066"/>
+						<MediaRef Id="797686018"/>
+						<MediaRef Id="908681741"/>
+						<MediaRef Id="1021220728"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3324137807" Name="Kindling">
+					<MediaRefs>
+						<MediaRef Id="24566004"/>
+						<MediaRef Id="194543630"/>
+						<MediaRef Id="485730434"/>
+						<MediaRef Id="694151481"/>
+						<MediaRef Id="881455822"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1966613816" Name="Narrate_DyingFire">
+					<MediaRefs>
+						<MediaRef Id="535447453"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="318829741" Name="Narrate_Fuel">
+					<MediaRefs>
+						<MediaRef Id="100610895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2952214358" Name="Narrate_HungryFire">
+					<MediaRefs>
+						<MediaRef Id="187603988"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2330071765" Name="Narrate_Intro">
+					<MediaRefs>
+						<MediaRef Id="88784881"/>
+						<MediaRef Id="1036186260"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3007520451" Name="Narrate_Kindling">
+					<MediaRefs>
+						<MediaRef Id="673753702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2147751278" Name="Narrate_Message">
+					<MediaRefs>
+						<MediaRef Id="563078865"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="911107020" Name="Narrate_Nothing">
+					<MediaRefs>
+						<MediaRef Id="663920178"/>
+						<MediaRef Id="842907374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2447220767" Name="Narrate_SmallFlame">
+					<MediaRefs>
+						<MediaRef Id="283375708"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2650740659" Name="Narrate_Tinder">
+					<MediaRefs>
+						<MediaRef Id="575115525"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3170030618" Name="Narrate_TooLarge">
+					<MediaRefs>
+						<MediaRef Id="114580091"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="467838998" Name="Pick_Up">
+					<MediaRefs>
+						<MediaRef Id="807619168"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2077643863" Name="Tinder">
+					<MediaRefs>
+						<MediaRef Id="470849112"/>
+						<MediaRef Id="539779258"/>
+						<MediaRef Id="675329998"/>
+						<MediaRef Id="934746814"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2039612124" Name="Player_Cone"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A2443F9B-CB33-1073-2539-8376EE63FCD5}</FileHash>
+</SoundBanksInfo>

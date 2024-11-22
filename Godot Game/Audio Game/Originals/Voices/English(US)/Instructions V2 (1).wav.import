@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://djw41d2t8y566"
+path="res://.godot/imported/Instructions V2 (1).wav-84766ac7b36441dca89a662ee67e5181.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/Voices/English(US)/Instructions V2 (1).wav"
+dest_files=["res://.godot/imported/Instructions V2 (1).wav-84766ac7b36441dca89a662ee67e5181.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

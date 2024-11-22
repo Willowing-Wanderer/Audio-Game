@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3bam02ip7k43"]
+
+[ext_resource type="Script" path="res://Intro.gd" id="1_w3aqn"]
+
+[node name="Intro" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("1_w3aqn")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="AkBank" type="AkBank" parent="."]
+bank = {
+"id": 1355168291,
+"name": "Init"
+}
+load_on = 1
+
+[node name="AkBank" type="AkBank" parent="AkBank"]
+bank = {
+"id": 3161908922,
+"name": "Main"
+}
+load_on = 1
+
+[node name="AkEvent3D" type="AkEvent3D" parent="AkBank/AkBank"]
+event = {
+"id": 2330071765,
+"name": "Narrate_Intro"
+}
+trigger_on = 1
+
+[connection signal="timeout" from="Timer" to="Node3D" method="_on_timer_timeout"]
