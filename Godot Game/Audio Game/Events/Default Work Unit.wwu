@@ -41,6 +41,13 @@
 						<Action Name="" ID="{8EF9EBD3-E8AA-415D-ADF4-4C9E604EAFA7}" ShortID="233001048">
 							<ReferenceList>
 								<Reference Name="Target">
+									<ObjectRef Name="PutdownV1" ID="{B93264D3-2F31-41FE-B106-62F75966090A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E14B8ADA-2FC3-4205-AD38-3FEC9CEB37BF}" ShortID="536925030">
+							<ReferenceList>
+								<Reference Name="Target">
 									<ObjectRef Name="Fire_Whoosh" ID="{9DE2CD3C-8294-4C9A-B281-E2C5522D9379}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
@@ -53,17 +60,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Stick" ID="{4864B1EC-CF49-4A42-A33B-019D83C607E2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Pickup" ID="{735D5BA5-B159-43D5-90EE-BE7799C297E2}">
-					<ChildrenList>
-						<Action Name="" ID="{1AA7C3A7-3F87-40CE-AC6F-83842A4F5F66}" ShortID="157388388">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pickup" ID="{E6D1FFE0-C82C-4FCF-9B7A-A9D1AB10A7D6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -251,6 +247,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="HungryFire_narr" ID="{CEF5DB05-3D2B-4A11-909C-9DE4796A171F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Click_Fail" ID="{6B5201EB-C936-4CC7-BFF8-970F47A07C38}">
+					<ChildrenList>
+						<Action Name="" ID="{B379C96A-A932-441A-8E01-83843CC4E5B1}" ShortID="106698987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FailedClickV2" ID="{C4DCB4D1-539F-4C55-90D4-CA8E88DF33E7}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pick_Up" ID="{C3F8C011-D0F0-47D5-BFA6-A9E124EF9F8A}">
+					<ChildrenList>
+						<Action Name="" ID="{E34E17DA-07BE-44E0-9FDA-7A30B5272386}" ShortID="152730539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickupGenericV2" ID="{0277D713-64A3-4A31-BA89-250022DC587E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

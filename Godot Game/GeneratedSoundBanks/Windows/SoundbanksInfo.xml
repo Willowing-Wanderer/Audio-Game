@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{473C5DF6-9AD4-63F7-C9BC-6674D5101297}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7E3EC0F0-3E1C-5125-5C2B-AF93D658DEE3}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -171,45 +171,45 @@
 					<ShortName>Sticks9.wav</ShortName>
 					<CachePath>SFX/Sticks9_818F3B66.wem</CachePath>
 				</File>
-				<File Id="26606717" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AmbientDroneStab.wav</ShortName>
-					<CachePath>SFX/AmbientDroneStab_A201F3CF.wem</CachePath>
-				</File>
 				<File Id="30777114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log17.wav</ShortName>
 					<CachePath>SFX/Log17_818F3B66.wem</CachePath>
 				</File>
+				<File Id="76911740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Facing.wav</ShortName>
+					<CachePath>SFX/Facing_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="87182428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FailedClickV2.wav</ShortName>
+					<CachePath>SFX/FailedClickV2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="100610895" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Fuel1.wav</ShortName>
-					<CachePath>Voices/English(US)/Fuel1_818F3B66.wem</CachePath>
+					<CachePath>Voices/English(US)/Fuel1_8AA5C20E.wem</CachePath>
 				</File>
 				<File Id="114580091" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>TooLarge.wav</ShortName>
-					<CachePath>Voices/English(US)/TooLarge_818F3B66.wem</CachePath>
-				</File>
-				<File Id="154989429" Language="English(US)" Streaming="false" Location="Memory">
-					<ShortName>DyingFire.wav</ShortName>
-					<CachePath>Voices/English(US)/DyingFire_818F3B66.wem</CachePath>
+					<CachePath>Voices/English(US)/TooLarge_BDE0BACF.wem</CachePath>
 				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
 					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
 				</File>
+				<File Id="187603988" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>HungryFire (1).wav</ShortName>
+					<CachePath>Voices/English(US)/HungryFire (1)_79E55BC4.wem</CachePath>
+				</File>
 				<File Id="194543630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks5.wav</ShortName>
 					<CachePath>SFX/Sticks5_818F3B66.wem</CachePath>
 				</File>
-				<File Id="335959736" Language="English(US)" Streaming="false" Location="Memory">
-					<ShortName>HungryFire.wav</ShortName>
-					<CachePath>Voices/English(US)/HungryFire_818F3B66.wem</CachePath>
+				<File Id="283375708" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Small Flame (1).wav</ShortName>
+					<CachePath>Voices/English(US)/Small Flame (1)_F049F01C.wem</CachePath>
 				</File>
 				<File Id="366187816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log15.wav</ShortName>
 					<CachePath>SFX/Log15_818F3B66.wem</CachePath>
-				</File>
-				<File Id="405745055" Language="English(US)" Streaming="false" Location="Memory">
-					<ShortName>Small Flame.wav</ShortName>
-					<CachePath>Voices/English(US)/Small Flame_818F3B66.wem</CachePath>
 				</File>
 				<File Id="443866069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log12.wav</ShortName>
@@ -227,6 +227,10 @@
 					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
 					<CachePath>SFX/655627__hankof__stick-hitting-stick-2_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="535447453" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>DyingFire (1).wav</ShortName>
+					<CachePath>Voices/English(US)/DyingFire (1)_07B28053.wem</CachePath>
+				</File>
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
@@ -237,11 +241,11 @@
 				</File>
 				<File Id="563078865" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Message.wav</ShortName>
-					<CachePath>SFX/Message_818F3B66.wem</CachePath>
+					<CachePath>SFX/Message_902BEE93.wem</CachePath>
 				</File>
 				<File Id="575115525" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Tinder1.wav</ShortName>
-					<CachePath>Voices/English(US)/Tinder1_818F3B66.wem</CachePath>
+					<CachePath>Voices/English(US)/Tinder1_5FC20ABB.wem</CachePath>
 				</File>
 				<File Id="597491099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log11.wav</ShortName>
@@ -249,11 +253,11 @@
 				</File>
 				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Nothing1.wav</ShortName>
-					<CachePath>SFX/Nothing1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Nothing1_9E130802.wem</CachePath>
 				</File>
 				<File Id="673753702" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Kindling1.wav</ShortName>
-					<CachePath>Voices/English(US)/Kindling1_818F3B66.wem</CachePath>
+					<CachePath>Voices/English(US)/Kindling1_B04C7BD7.wem</CachePath>
 				</File>
 				<File Id="675329998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Twig2.wav</ShortName>
@@ -267,17 +271,17 @@
 					<ShortName>Log13.wav</ShortName>
 					<CachePath>SFX/Log13_818F3B66.wem</CachePath>
 				</File>
-				<File Id="763409988" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>441415__matrixxx__lucky-7-cheerful.wav</ShortName>
-					<CachePath>SFX/441415__matrixxx__lucky-7-cheerful_818F3B66.wem</CachePath>
-				</File>
 				<File Id="797686018" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log10.wav</ShortName>
 					<CachePath>SFX/Log10_818F3B66.wem</CachePath>
 				</File>
+				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PickupGenericV2.wav</ShortName>
+					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="842907374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Nothing2.wav</ShortName>
-					<CachePath>SFX/Nothing2_818F3B66.wem</CachePath>
+					<CachePath>SFX/Nothing2_D9A77931.wem</CachePath>
 				</File>
 				<File Id="855543786" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Instructions.wav</ShortName>
@@ -303,6 +307,10 @@
 					<ShortName>181577__kingsrow__whoosh.wav</ShortName>
 					<CachePath>SFX/181577__kingsrow__whoosh_632EB7AB.wem</CachePath>
 				</File>
+				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PutdownV1.wav</ShortName>
+					<CachePath>SFX/PutdownV1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1021220728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log14.wav</ShortName>
 					<CachePath>SFX/Log14_818F3B66.wem</CachePath>
@@ -318,10 +326,15 @@
 						<MediaRef Id="535661321"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1352158686" Name="Click_Fail">
+					<MediaRefs>
+						<MediaRef Id="87182428"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="518818430" Name="Druids_Message"/>
 				<Event Id="54298587" Name="Facing">
 					<MediaRefs>
-						<MediaRef Id="26606717"/>
+						<MediaRef Id="76911740"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2793518390" Name="Facing_Stick">
@@ -352,6 +365,7 @@
 				<Event Id="3524664550" Name="Fire_Whoosh">
 					<MediaRefs>
 						<MediaRef Id="993805153"/>
+						<MediaRef Id="994445067"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2661514705" Name="Fuel">
@@ -377,7 +391,7 @@
 				</Event>
 				<Event Id="1966613816" Name="Narrate_DyingFire">
 					<MediaRefs>
-						<MediaRef Id="154989429"/>
+						<MediaRef Id="535447453"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="318829741" Name="Narrate_Fuel">
@@ -387,7 +401,7 @@
 				</Event>
 				<Event Id="2952214358" Name="Narrate_HungryFire">
 					<MediaRefs>
-						<MediaRef Id="335959736"/>
+						<MediaRef Id="187603988"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2330071765" Name="Narrate_Intro">
@@ -414,7 +428,7 @@
 				</Event>
 				<Event Id="2447220767" Name="Narrate_SmallFlame">
 					<MediaRefs>
-						<MediaRef Id="405745055"/>
+						<MediaRef Id="283375708"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2650740659" Name="Narrate_Tinder">
@@ -427,9 +441,9 @@
 						<MediaRef Id="114580091"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3978245845" Name="Pickup">
+				<Event Id="467838998" Name="Pick_Up">
 					<MediaRefs>
-						<MediaRef Id="763409988"/>
+						<MediaRef Id="807619168"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2077643863" Name="Tinder">
@@ -446,5 +460,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{078B3732-4799-6082-C9EB-32D9D1345E55}</FileHash>
+	<FileHash>{2EE2475C-7231-859C-EA28-9C1A79C7BF92}</FileHash>
 </SoundBanksInfo>

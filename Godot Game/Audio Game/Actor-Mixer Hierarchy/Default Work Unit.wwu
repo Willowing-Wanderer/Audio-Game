@@ -301,9 +301,16 @@
 								<MediaID ID="26606717"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Facing" ID="{B1F45864-6E8D-4CBB-A29C-ABB9B8D7A978}">
+							<Language>SFX</Language>
+							<AudioFile>Facing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="76911740"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="AmbientDroneStab" ID="{C506BD24-8988-46D3-BF7F-E6723DF3DF16}" Platform="Linked"/>
+						<ActiveSource Name="Facing" ID="{B1F45864-6E8D-4CBB-A29C-ABB9B8D7A978}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Campfire_lower" ID="{57511545-384A-4922-9CAB-EB79B21BC557}" ShortID="579469818">
@@ -512,6 +519,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Fuel1" ID="{809726B0-5A98-43F6-BED5-0DAC10913871}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.26792452830189"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.05735849056604"/>
+							</PropertyList>
 							<Language>English(US)</Language>
 							<AudioFile>Fuel1.wav</AudioFile>
 							<MediaIDList>
@@ -597,6 +609,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Kindling1" ID="{9C4BB00E-8B5E-4B3C-A1FA-2FE21FB395A2}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.15924528301887"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.96528301886792"/>
+							</PropertyList>
 							<Language>English(US)</Language>
 							<AudioFile>Kindling1.wav</AudioFile>
 							<MediaIDList>
@@ -622,6 +639,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Tinder1" ID="{3D4F1898-77B5-456F-A6A2-26CCFBA48B64}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.23122456529782"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.67249722530522"/>
+							</PropertyList>
 							<Language>English(US)</Language>
 							<AudioFile>Tinder1.wav</AudioFile>
 							<MediaIDList>
@@ -647,6 +669,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="TooLarge" ID="{CA49E60E-90F4-442C-A891-1B24A0B4109D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.667276359600445"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.51836625971143"/>
+							</PropertyList>
 							<Language>English(US)</Language>
 							<AudioFile>TooLarge.wav</AudioFile>
 							<MediaIDList>
@@ -669,6 +696,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Message" ID="{CA98DF50-E978-41F1-A0A5-FEDA3B5E2801}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.12541028486866"/>
+								<Property Name="TrimEnd" Type="Real64" Value="32.1324039955605"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Message.wav</AudioFile>
 							<MediaIDList>
@@ -1193,6 +1225,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Nothing1" ID="{9B2AAD05-5AA4-4F13-ADE7-6316C1599752}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.37660377358491"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.3148679245283"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Nothing1.wav</AudioFile>
 									<MediaIDList>
@@ -1215,6 +1252,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Nothing2" ID="{C6EFFB82-B0B9-4DFD-891B-1ABF6CA00D34}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.828235294117647"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.09741176470588"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Nothing2.wav</AudioFile>
 									<MediaIDList>
@@ -1248,9 +1290,19 @@
 								<MediaID ID="154989429"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="DyingFire (1)" ID="{9E256CDD-BA33-415A-B96E-25871F114286}">
+							<PropertyList>
+								<Property Name="TrimBegin" Type="Real64" Value="0.204259942970899"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>DyingFire (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="535447453"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="DyingFire" ID="{B68C073C-7DA7-4C26-8452-55BF1654F1D1}" Platform="Linked"/>
+						<ActiveSource Name="DyingFire (1)" ID="{9E256CDD-BA33-415A-B96E-25871F114286}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="HungryFire_narr" ID="{CEF5DB05-3D2B-4A11-909C-9DE4796A171F}" ShortID="27748981">
@@ -1273,9 +1325,19 @@
 								<MediaID ID="335959736"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="HungryFire (1)" ID="{3C6EF9BD-FD31-43EC-B668-AEBB556343F7}">
+							<PropertyList>
+								<Property Name="TrimBegin" Type="Real64" Value="0.165969784140071"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>HungryFire (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="187603988"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="HungryFire" ID="{A3579CB0-7BC4-41B6-AE66-C6D02E10B19B}" Platform="Linked"/>
+						<ActiveSource Name="HungryFire (1)" ID="{3C6EF9BD-FD31-43EC-B668-AEBB556343F7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Small Flame_narr" ID="{AE0EAD70-A9BA-4950-BF8E-1918FA7B0A53}" ShortID="994039078">
@@ -1298,9 +1360,110 @@
 								<MediaID ID="405745055"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Small Flame (1)" ID="{B42A8FCD-7AC9-41A5-A8A0-27865BE5D425}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.112695140949462"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.112695140949462"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.95858620177631"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>Small Flame (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="283375708"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Small Flame" ID="{8ABDC0F5-4FCC-4506-8F5C-F11CE1C6EC1F}" Platform="Linked"/>
+						<ActiveSource Name="Small Flame (1)" ID="{B42A8FCD-7AC9-41A5-A8A0-27865BE5D425}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PutdownV1" ID="{B93264D3-2F31-41FE-B106-62F75966090A}" ShortID="593556710">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PutdownV1" ID="{627521F7-E2CB-44D4-91A8-8AA1CD875F9C}">
+							<Language>SFX</Language>
+							<AudioFile>PutdownV1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="994445067"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PutdownV1" ID="{627521F7-E2CB-44D4-91A8-8AA1CD875F9C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PickupGenericV2" ID="{0277D713-64A3-4A31-BA89-250022DC587E}" ShortID="996660013">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PickupGenericV2" ID="{A94A8AF7-5253-49EE-8A61-2CA3309033B8}">
+							<Language>SFX</Language>
+							<AudioFile>PickupGenericV2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="807619168"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PickupGenericV2" ID="{A94A8AF7-5253-49EE-8A61-2CA3309033B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FailedClickV2" ID="{C4DCB4D1-539F-4C55-90D4-CA8E88DF33E7}" ShortID="886692174">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FailedClickV2" ID="{73E5A940-62F2-4261-9E15-F62529A579D5}">
+							<Language>SFX</Language>
+							<AudioFile>FailedClickV2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="87182428"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FailedClickV2" ID="{73E5A940-62F2-4261-9E15-F62529A579D5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GeneralPickupSound" ID="{10C0FF0F-BDDA-4449-B2E8-23EB2348E6CB}" ShortID="278570168">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GeneralPickupSound" ID="{52BF1374-286C-4898-B905-4DB6CEBACEFD}">
+							<Language>SFX</Language>
+							<AudioFile>GeneralPickupSound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="503186075"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GeneralPickupSound" ID="{52BF1374-286C-4898-B905-4DB6CEBACEFD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

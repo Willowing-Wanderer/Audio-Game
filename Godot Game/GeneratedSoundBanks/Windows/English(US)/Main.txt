@@ -2,9 +2,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	54298587	Facing			\Default Work Unit\Facing	
 	135198910	Fire_Dim			\Default Work Unit\Fire_Dim	
 	318829741	Narrate_Fuel			\Default Work Unit\Narrate_Fuel	
+	467838998	Pick_Up			\Default Work Unit\Pick_Up	
 	518818430	Druids_Message			\Default Work Unit\Druids_Message	
 	771468442	Fire_Low			\Default Work Unit\Fire_Low	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrate_Nothing	
+	1352158686	Click_Fail			\Default Work Unit\Click_Fail	
 	1873888577	Fire_Medium			\Default Work Unit\Fire_Medium	
 	1966613816	Narrate_DyingFire			\Default Work Unit\Narrate_DyingFire	
 	2077643863	Tinder			\Default Work Unit\Tinder	
@@ -20,7 +22,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3170030618	Narrate_TooLarge			\Default Work Unit\Narrate_TooLarge	
 	3324137807	Kindling			\Default Work Unit\Kindling	
 	3524664550	Fire_Whoosh			\Default Work Unit\Fire_Whoosh	
-	3978245845	Pickup			\Default Work Unit\Pickup	
 	4020366015	Black_Wind			\Default Work Unit\Black_Wind	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -28,39 +29,41 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24566004	Sticks9	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks9		110688
-	26606717	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\AmbientDroneStab_A201F3CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Facing_Hum		444872
 	30777114	Log17	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log17_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log17		253536
-	100610895	Fuel1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Fuel1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel1_narr		487520
-	114580091	TooLarge_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\TooLarge_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TooLarge_narr		374880
-	154989429	DyingFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\DyingFire_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\DyingFire_narr		835680
+	76911740	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Facing_Hum		651468
+	87182428	FailedClickV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\FailedClickV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FailedClickV2		325804
+	100610895	Fuel1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Fuel1_8AA5C20E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel1_narr		267882
+	114580091	TooLarge_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\TooLarge_BDE0BACF.wem		\Actor-Mixer Hierarchy\Default Work Unit\TooLarge_narr		273802
 	178784164	Dying_Fire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\508845__augustsandberg__dying-fire_1DBFC80B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dying_Fire		8517184
+	187603988	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\HungryFire (1)_79E55BC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\HungryFire_narr		703608
 	194543630	Sticks5	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks5		152160
-	335959736	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\HungryFire_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\HungryFire_narr		649312
+	283375708	Small Flame_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Small Flame (1)_F049F01C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Flame_narr		854960
 	366187816	Log15	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log15		212064
-	405745055	Small Flame_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Small Flame_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Flame_narr		706656
 	443866069	Log12	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log12		129120
 	470849112	Twig3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig3		129120
 	485730434	Sticks7	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks7		189024
 	498893928	Stick	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\655627__hankof__stick-hitting-stick-2_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stick		45624
+	535447453	DyingFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\DyingFire (1)_07B28053.wem		\Actor-Mixer Hierarchy\Default Work Unit\DyingFire_narr		1083572
 	535661321	BlackWind	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Black Wind\BlackWind		4566624
 	539779258	Twig1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig1		212064
-	563078865	Message	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Message_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Message		3356768
-	575115525	Tinder1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Tinder1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder1_narr		532576
+	563078865	Message	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Message_902BEE93.wem		\Actor-Mixer Hierarchy\Default Work Unit\Message		2976766
+	575115525	Tinder1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Tinder1_5FC20ABB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder1_narr		330458
 	597491099	Log11	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log11		212064
-	663920178	Nothing1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nothing_narr\Nothing1		313440
-	673753702	Kindling1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Kindling1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling1_narr		696416
+	663920178	Nothing1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing1_9E130802.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nothing_narr\Nothing1		90170
+	673753702	Kindling1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Kindling1_B04C7BD7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling1_narr		461476
 	675329998	Twig2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig2		290400
 	694151481	Sticks6	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks6		110688
 	746467066	Log13	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log13		212064
-	763409988	Pickup	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\441415__matrixxx__lucky-7-cheerful_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickup		36704
 	797686018	Log10	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log10		253536
-	842907374	Nothing2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nothing_narr\Nothing2		651360
+	807619168	PickupGenericV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickupGenericV2		488636
+	842907374	Nothing2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing2_D9A77931.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nothing_narr\Nothing2		409938
 	855543786	Instructions_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Instructions_146D19D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Instructions_narr		703054
 	881455822	Sticks8	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks8		129120
 	894566245	Campfire_lower	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\106988__plingativator__fire1_FA60EC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Campfire_lower		2823978
 	908681741	Log16	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log16_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log16		170592
 	934746814	Twig4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig4		87648
 	993805153	Fire_Whoosh	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\181577__kingsrow__whoosh_632EB7AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire_Whoosh		128776
+	994445067	PutdownV1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PutdownV1		488636
 	1021220728	Log14	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log14		170592
 	1036186260	Intro_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Intro_D78D131C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intro_narr		1520794
 

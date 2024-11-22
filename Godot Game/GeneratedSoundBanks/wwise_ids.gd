@@ -20,11 +20,12 @@ class EVENTS:
 	const FACING = 54298587
 	const NARRATE_FUEL = 318829741
 	const NARRATE_TOOLARGE = 3170030618
-	const PICKUP = 3978245845
 	const DRUIDS_MESSAGE = 518818430
 	const NARRATE_HUNGRYFIRE = 2952214358
+	const CLICK_FAIL = 1352158686
 	const NARRATE_SMALLFLAME = 2447220767
 	const NARRATE_DYINGFIRE = 1966613816
+	const PICK_UP = 467838998
 
 	const _dict = {
 		"Narrate_Nothing": NARRATE_NOTHING,
@@ -45,11 +46,12 @@ class EVENTS:
 		"Facing": FACING,
 		"Narrate_Fuel": NARRATE_FUEL,
 		"Narrate_TooLarge": NARRATE_TOOLARGE,
-		"Pickup": PICKUP,
 		"Druids_Message": DRUIDS_MESSAGE,
 		"Narrate_HungryFire": NARRATE_HUNGRYFIRE,
+		"Click_Fail": CLICK_FAIL,
 		"Narrate_SmallFlame": NARRATE_SMALLFLAME,
-		"Narrate_DyingFire": NARRATE_DYINGFIRE
+		"Narrate_DyingFire": NARRATE_DYINGFIRE,
+		"Pick_Up": PICK_UP
 	}
 
 class STATES:

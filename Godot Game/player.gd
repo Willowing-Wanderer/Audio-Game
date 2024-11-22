@@ -25,8 +25,10 @@ func _input(event):
 	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT):
 		if(has_overlapping_areas()):
 			process_left_click(get_overlapping_areas()[0])
-		#else:
-			#print("Nothing here to click on")
+		else:
+			Wwise.register_game_obj(self, self.get_name())
+			Wwise.set_3d_position(self, get_global_transform())
+			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 	if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
 		if(has_overlapping_areas()):
 			process_right_click(get_overlapping_areas()[0])
@@ -68,17 +70,23 @@ func increase_level():
 
 func process_left_click(area: Area3D):
 	#print(area.name)
-	if(hands_free &&
-		(area.name.begins_with("Tinder") && level == "tinder" ||
-		area.name.begins_with("Kindling") && level == "kindling" ||
-		area.name.begins_with("Fuel") && level == "fuel")
-		):
-		held_object = area
-		hands_free = false
-		area.queue_free() #TODO: this is a problem if we ever want to see the stick again
+	if(hands_free):
+		if(area.name.begins_with("Tinder") && level == "tinder" ||
+			area.name.begins_with("Kindling") && level == "kindling" ||
+			area.name.begins_with("Fuel") && level == "fuel"):
+			held_object = area
+			hands_free = false
+			area.queue_free() #TODO: this is a problem if we ever want to see the stick again
+			Wwise.register_game_obj(self, self.get_name())
+			Wwise.set_3d_position(self, get_global_transform())
+			playing_id = Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 		#TODO make it so that the stick stops existing but is stored somewhere, and then is placed wherever you put it down
 		# This could be a thing for after Alpha fest, for now just need to put in fire (using hands_free variable)
-	if(!hands_free):
+		else:
+			Wwise.register_game_obj(self, self.get_name())
+			Wwise.set_3d_position(self, get_global_transform())
+			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+	else:
 		if(area.name.begins_with("Campfire")): # && held_object.name.begins_with("Stick")): > this doesn't work because
 			stick_added.emit()
 			#print("level")
@@ -89,6 +97,10 @@ func process_left_click(area: Area3D):
 				increase_level()
 			held_object = null
 			hands_free = true
+		else:
+			Wwise.register_game_obj(self, self.get_name())
+			Wwise.set_3d_position(self, get_global_transform())
+			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 
 	
 func process_right_click(area: Area3D):
