@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0ccojmiowmsc"]
+
+[ext_resource type="Texture2D" uid="uid://dxlh14c5mqrew" path="res://squirrelDark.png" id="1_mcs20"]
+
+[node name="ColorRect" type="ColorRect"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 1)
+
+[node name="Retry" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -138.0
+offset_top = -106.0
+offset_right = 109.0
+offset_bottom = -83.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Press Enter to restart the demo."
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -707.0
+offset_top = -603.0
+offset_right = 3012.29
+offset_bottom = 1947.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_mcs20")
+expand_mode = 3

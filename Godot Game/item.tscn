@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://clantsb5a5txu"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
+radius = 0.25
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l873f"]
+albedo_color = Color(0.113725, 1, 1, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_l8fq6"]
+material = SubResource("StandardMaterial3D_l873f")
+radius = 0.25
+height = 0.5
+
+[node name="Item" type="Area3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_fy6tf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 0)
+mesh = SubResource("SphereMesh_l8fq6")
+
+[node name="ItemEvent" type="AkEvent3D" parent="."]
+event = {
+"id": 2793518390,
+"name": "Facing_Stick"
+}
+stop_on = 3
+
+[connection signal="area_entered" from="." to="ItemEvent" method="_on_stick_area_entered"]
+[connection signal="area_exited" from="." to="ItemEvent" method="_on_stick_area_exited"]

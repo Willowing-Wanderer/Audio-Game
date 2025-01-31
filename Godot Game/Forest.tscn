@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4ie4etgybfxm"]
+
+[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_347oc"]
+[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://ModularCircle.tscn" id="2_ckpgk"]
+
+[node name="Forest" type="Node3D"]
+visible = false
+
+[node name="AkBank" type="AkBank" parent="."]
+bank = {
+"id": 1355168291,
+"name": "Init"
+}
+load_on = 1
+
+[node name="AkBank2" type="AkBank" parent="AkBank"]
+bank = {
+"id": 3161908922,
+"name": "Main"
+}
+load_on = 1
+
+[node name="Player" parent="AkBank/AkBank2" instance=ExtResource("1_347oc")]
+
+[node name="Camera3D" type="Camera3D" parent="AkBank/AkBank2/Player"]
+transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153, 0.565648, 0.0244612, 0.566285, -0.823846, 0.0357521, 0.907363, -0.671099)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="AkBank/AkBank2/Player"]
+transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
+
+[node name="Circle" parent="AkBank/AkBank2" instance=ExtResource("2_ckpgk")]
