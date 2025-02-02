@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{901B3A57-E52E-AD68-3CEF-7172BDD803DA}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{95C717FC-5DD6-E9E9-76E4-DB969B2A0127}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -230,6 +230,10 @@
 				<File Id="498893928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
 					<CachePath>SFX/655627__hankof__stick-hitting-stick-2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="503186075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GeneralPickupSound.wav</ShortName>
+					<CachePath>SFX/GeneralPickupSound_050672F5.wem</CachePath>
 				</File>
 				<File Id="535447453" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>DyingFire (1).wav</ShortName>
@@ -384,6 +388,16 @@
 						<MediaRef Id="1021220728"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1466384055" Name="Interact">
+					<MediaRefs>
+						<MediaRef Id="994445067"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="49143091" Name="Item_Ping">
+					<MediaRefs>
+						<MediaRef Id="503186075"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3324137807" Name="Kindling">
 					<MediaRefs>
 						<MediaRef Id="24566004"/>
@@ -464,5 +478,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2C6EF035-3BEB-40B4-BEB5-E4E6D83E5A94}</FileHash>
+	<FileHash>{03CEEA83-513D-A1DB-63EA-9D4BE8E8A97E}</FileHash>
 </SoundBanksInfo>

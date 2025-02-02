@@ -29,3 +29,5 @@ transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153
 transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
 
 [node name="Circle" parent="AkBank/AkBank2" instance=ExtResource("2_ckpgk")]
+
+[editable path="AkBank/AkBank2/Circle"]

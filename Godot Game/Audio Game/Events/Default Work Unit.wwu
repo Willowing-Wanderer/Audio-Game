@@ -284,6 +284,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Item_Ping" ID="{DD5C8EB7-3BCF-44AA-B6F9-5FAE4356D8E3}">
+					<ChildrenList>
+						<Action Name="" ID="{532BCC1B-F211-4318-B49E-D893DCC3D4B6}" ShortID="151763168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Item_Ping" ID="{10C0FF0F-BDDA-4449-B2E8-23EB2348E6CB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Path_Wind" ID="{8109A888-BE27-4E9C-A0A1-FDEC6FC19CF2}">
+					<ChildrenList>
+						<Action Name="" ID="{F584EC78-C9BC-4C32-80F9-A2AC85664894}" ShortID="638639142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PathWind" ID="{AD358375-AB10-4F41-B973-8E98EFB6AC2D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interact" ID="{79E48885-786A-4290-BDA6-EB2BD7CB55D7}">
+					<ChildrenList>
+						<Action Name="" ID="{01FFF3DD-E7B5-4E34-908B-74E9C1ABA97D}" ShortID="566811423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PutdownV1" ID="{B93264D3-2F31-41FE-B106-62F75966090A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

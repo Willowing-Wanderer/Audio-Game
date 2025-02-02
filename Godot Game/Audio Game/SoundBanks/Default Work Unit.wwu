@@ -6,9 +6,11 @@
 				<SoundBank Name="Main" ID="{14D914A9-EF1F-42D4-916F-48933A8C8FBB}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Druids_Message" ID="{4EFBE420-31DB-4175-A51C-B59C05543CC7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interact" ID="{79E48885-786A-4290-BDA6-EB2BD7CB55D7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Narrate_TooLarge" ID="{5C7FB3DF-0D0E-4299-B396-4488E97635FC}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Narrate_Message" ID="{56C6690D-E31D-42A9-8F93-30278E2FF226}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Black_Wind" ID="{EB359F09-3F98-43C4-AA5E-D63CB8EA407B}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Item_Ping" ID="{DD5C8EB7-3BCF-44AA-B6F9-5FAE4356D8E3}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Kindling" ID="{E2AF9C36-A154-45B8-9375-759579C34482}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Narrate_DyingFire" ID="{0F3BFD21-DFA7-464B-BCEA-236B263C0897}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Whoosh" ID="{FF8ACB5E-D656-465F-81B2-72237C02AB70}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>

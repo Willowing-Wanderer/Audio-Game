@@ -1,4 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://clantsb5a5txu"]
+[gd_scene load_steps=5 format=3 uid="uid://clantsb5a5txu"]
+
+[ext_resource type="Script" path="res://item.gd" id="1_euadn"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
 radius = 0.25
@@ -12,6 +14,7 @@ radius = 0.25
 height = 0.5
 
 [node name="Item" type="Area3D"]
+script = ExtResource("1_euadn")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_fy6tf")
@@ -22,10 +25,8 @@ mesh = SubResource("SphereMesh_l8fq6")
 
 [node name="ItemEvent" type="AkEvent3D" parent="."]
 event = {
-"id": 2793518390,
-"name": "Facing_Stick"
+"id": 49143091,
+"name": "Item_Ping"
 }
+trigger_on = 1
 stop_on = 3
-
-[connection signal="area_entered" from="." to="ItemEvent" method="_on_stick_area_entered"]
-[connection signal="area_exited" from="." to="ItemEvent" method="_on_stick_area_exited"]

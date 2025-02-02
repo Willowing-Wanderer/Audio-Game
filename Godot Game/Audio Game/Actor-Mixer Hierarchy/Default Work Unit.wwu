@@ -389,6 +389,7 @@
 																<XPos>75</XPos>
 																<YPos>-12</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>180</XPos>
@@ -485,6 +486,7 @@
 																<XPos>75</XPos>
 																<YPos>-12</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>180</XPos>
@@ -1453,8 +1455,15 @@
 						<ActiveSource Name="FailedClickV2" ID="{73E5A940-62F2-4261-9E15-F62529A579D5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="GeneralPickupSound" ID="{10C0FF0F-BDDA-4449-B2E8-23EB2348E6CB}" ShortID="278570168">
+				<Sound Name="Item_Ping" ID="{10C0FF0F-BDDA-4449-B2E8-23EB2348E6CB}" ShortID="278570168">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
 						</Reference>
@@ -1464,6 +1473,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="GeneralPickupSound" ID="{52BF1374-286C-4898-B905-4DB6CEBACEFD}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="1.67720100385833"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>GeneralPickupSound.wav</AudioFile>
 							<MediaIDList>
@@ -1471,8 +1484,168 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{DDB88F8A-D92D-464D-91C4-B2E52DF1017C}"/>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{7063A8BF-A700-48E5-A43A-4785125EF7C1}" ShortID="175930690">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{4B8C8FB4-C4A2-4FE2-8046-21773AA53F47}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-12</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>11.47081</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>12</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="GeneralPickupSound" ID="{52BF1374-286C-4898-B905-4DB6CEBACEFD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PathWind" ID="{AD358375-AB10-4F41-B973-8E98EFB6AC2D}" ShortID="393052976">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BlackWind" ID="{0397D84B-7EA4-4B00-AFCF-2B8F6D6200F3}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>BlackWind.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="535661321"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{E68EFFF6-F128-44A2-9BEF-44A3D0A3E1BE}" ShortID="460338240">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{38B7433F-DB14-4453-B1D9-A249C8B81D25}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="BlackWind" ID="{0397D84B-7EA4-4B00-AFCF-2B8F6D6200F3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

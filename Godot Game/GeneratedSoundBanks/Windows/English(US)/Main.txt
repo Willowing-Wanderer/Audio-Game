@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	49143091	Item_Ping			\Default Work Unit\Item_Ping	
 	54298587	Facing			\Default Work Unit\Facing	
 	135198910	Fire_Dim			\Default Work Unit\Fire_Dim	
 	318829741	Narrate_Fuel			\Default Work Unit\Narrate_Fuel	
@@ -7,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	771468442	Fire_Low			\Default Work Unit\Fire_Low	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrate_Nothing	
 	1352158686	Click_Fail			\Default Work Unit\Click_Fail	
+	1466384055	Interact			\Default Work Unit\Interact	
 	1873888577	Fire_Medium			\Default Work Unit\Fire_Medium	
 	1966613816	Narrate_DyingFire			\Default Work Unit\Narrate_DyingFire	
 	2077643863	Tinder			\Default Work Unit\Tinder	
@@ -44,6 +46,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	470849112	Twig3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig3		129120
 	485730434	Sticks7	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks7		189024
 	498893928	Stick	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\655627__hankof__stick-hitting-stick-2_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stick		45624
+	503186075	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\GeneralPickupSound_050672F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item_Ping		488636
 	535447453	DyingFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\DyingFire (1)_6AA0A535.wem		\Actor-Mixer Hierarchy\Default Work Unit\DyingFire_narr		1083572
 	535661321	BlackWind	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Black Wind\BlackWind		4566624
 	539779258	Twig1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig1		212064

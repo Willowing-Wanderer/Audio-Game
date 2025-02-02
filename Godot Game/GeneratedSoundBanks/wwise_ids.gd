@@ -2,56 +2,62 @@ class_name AK
 
 class EVENTS:
 
+	const FACING = 54298587
+	const PICK_UP = 467838998
+	const FUEL = 2661514705
+	const NARRATE_TINDER = 2650740659
+	const PATH_WIND = 1008262333
+	const ITEM_PING = 49143091
 	const FIRE_WHOOSH = 3524664550
 	const FIRE_LOW = 771468442
-	const NARRATE_INTRO = 2330071765
-	const CLICK_FAIL = 1352158686
-	const KINDLING = 3324137807
-	const FIRE_MEDIUM = 1873888577
-	const BLACK_WIND = 4020366015
-	const NARRATE_FUEL = 318829741
-	const TINDER = 2077643863
-	const NARRATE_SMALLFLAME = 2447220767
-	const NARRATE_MESSAGE = 2147751278
-	const NARRATE_DYINGFIRE = 1966613816
-	const NARRATE_TOOLARGE = 3170030618
 	const NARRATE_HUNGRYFIRE = 2952214358
-	const FUEL = 2661514705
-	const DRUIDS_MESSAGE = 518818430
-	const PICK_UP = 467838998
-	const FACING = 54298587
-	const FIRE_HIGH = 2673322736
-	const FIRE_DIM = 135198910
+	const BLACK_WIND = 4020366015
+	const INTERACT = 1466384055
 	const FACING_STICK = 2793518390
-	const NARRATE_TINDER = 2650740659
+	const DRUIDS_MESSAGE = 518818430
+	const KINDLING = 3324137807
+	const NARRATE_SMALLFLAME = 2447220767
+	const CLICK_FAIL = 1352158686
+	const NARRATE_FUEL = 318829741
+	const FIRE_DIM = 135198910
+	const TINDER = 2077643863
+	const NARRATE_TOOLARGE = 3170030618
+	const NARRATE_MESSAGE = 2147751278
+	const FIRE_MEDIUM = 1873888577
+	const FIRE_HIGH = 2673322736
 	const NARRATE_KINDLING = 3007520451
 	const NARRATE_NOTHING = 911107020
+	const NARRATE_DYINGFIRE = 1966613816
+	const NARRATE_INTRO = 2330071765
 
 	const _dict = {
+		"Facing": FACING,
+		"Pick_Up": PICK_UP,
+		"Fuel": FUEL,
+		"Narrate_Tinder": NARRATE_TINDER,
+		"Path_Wind": PATH_WIND,
+		"Item_Ping": ITEM_PING,
 		"Fire_Whoosh": FIRE_WHOOSH,
 		"Fire_Low": FIRE_LOW,
-		"Narrate_Intro": NARRATE_INTRO,
-		"Click_Fail": CLICK_FAIL,
-		"Kindling": KINDLING,
-		"Fire_Medium": FIRE_MEDIUM,
-		"Black_Wind": BLACK_WIND,
-		"Narrate_Fuel": NARRATE_FUEL,
-		"Tinder": TINDER,
-		"Narrate_SmallFlame": NARRATE_SMALLFLAME,
-		"Narrate_Message": NARRATE_MESSAGE,
-		"Narrate_DyingFire": NARRATE_DYINGFIRE,
-		"Narrate_TooLarge": NARRATE_TOOLARGE,
 		"Narrate_HungryFire": NARRATE_HUNGRYFIRE,
-		"Fuel": FUEL,
-		"Druids_Message": DRUIDS_MESSAGE,
-		"Pick_Up": PICK_UP,
-		"Facing": FACING,
-		"Fire_High": FIRE_HIGH,
-		"Fire_Dim": FIRE_DIM,
+		"Black_Wind": BLACK_WIND,
+		"Interact": INTERACT,
 		"Facing_Stick": FACING_STICK,
-		"Narrate_Tinder": NARRATE_TINDER,
+		"Druids_Message": DRUIDS_MESSAGE,
+		"Kindling": KINDLING,
+		"Narrate_SmallFlame": NARRATE_SMALLFLAME,
+		"Click_Fail": CLICK_FAIL,
+		"Narrate_Fuel": NARRATE_FUEL,
+		"Fire_Dim": FIRE_DIM,
+		"Tinder": TINDER,
+		"Narrate_TooLarge": NARRATE_TOOLARGE,
+		"Narrate_Message": NARRATE_MESSAGE,
+		"Fire_Medium": FIRE_MEDIUM,
+		"Fire_High": FIRE_HIGH,
 		"Narrate_Kindling": NARRATE_KINDLING,
-		"Narrate_Nothing": NARRATE_NOTHING
+		"Narrate_Nothing": NARRATE_NOTHING,
+		"Narrate_DyingFire": NARRATE_DYINGFIRE,
+		"Narrate_Intro": NARRATE_INTRO
 	}
 
 class STATES:
@@ -64,30 +70,30 @@ class SWITCHES:
 
 class GAME_PARAMETERS:
 
-	const SS_AIR_FEAR = 1351367891
-	const SS_AIR_STORM = 3715662592
-	const SS_AIR_FURY = 1029930033
-	const SS_AIR_SIZE = 3074696722
-	const PLAYER_CONE = 2039612124
-	const SS_AIR_FREEFALL = 3002758120
-	const SS_AIR_RPM = 822163944
-	const SS_AIR_PRESENCE = 3847924954
 	const SS_AIR_MONTH = 2648548617
+	const PLAYER_CONE = 2039612124
+	const SS_AIR_PRESENCE = 3847924954
+	const SS_AIR_FURY = 1029930033
+	const SS_AIR_RPM = 822163944
 	const SS_AIR_TIMEOFDAY = 3203397129
+	const SS_AIR_STORM = 3715662592
 	const SS_AIR_TURBULENCE = 4160247818
+	const SS_AIR_FREEFALL = 3002758120
+	const SS_AIR_SIZE = 3074696722
+	const SS_AIR_FEAR = 1351367891
 
 	const _dict = {
-		"SS_Air_Fear": SS_AIR_FEAR,
-		"SS_Air_Storm": SS_AIR_STORM,
-		"SS_Air_Fury": SS_AIR_FURY,
-		"SS_Air_Size": SS_AIR_SIZE,
-		"Player_Cone": PLAYER_CONE,
-		"SS_Air_Freefall": SS_AIR_FREEFALL,
-		"SS_Air_RPM": SS_AIR_RPM,
-		"SS_Air_Presence": SS_AIR_PRESENCE,
 		"SS_Air_Month": SS_AIR_MONTH,
+		"Player_Cone": PLAYER_CONE,
+		"SS_Air_Presence": SS_AIR_PRESENCE,
+		"SS_Air_Fury": SS_AIR_FURY,
+		"SS_Air_RPM": SS_AIR_RPM,
 		"SS_Air_TimeOfDay": SS_AIR_TIMEOFDAY,
-		"SS_Air_Turbulence": SS_AIR_TURBULENCE
+		"SS_Air_Storm": SS_AIR_STORM,
+		"SS_Air_Turbulence": SS_AIR_TURBULENCE,
+		"SS_Air_Freefall": SS_AIR_FREEFALL,
+		"SS_Air_Size": SS_AIR_SIZE,
+		"SS_Air_Fear": SS_AIR_FEAR
 	}
 
 class TRIGGERS:
