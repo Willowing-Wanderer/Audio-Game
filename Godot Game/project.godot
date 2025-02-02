@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Audio Game"
-run/main_scene="res://campsite.tscn"
+run/main_scene="res://Forest.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 

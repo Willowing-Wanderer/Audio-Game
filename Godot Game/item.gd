@@ -10,6 +10,7 @@ func _ready():
 func _process(delta):
 	pass
 
+# All items must include the followuing functions:
 func on_click():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
