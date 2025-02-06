@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://b4ie4etgybfxm"]
 
-[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://player.tscn" id="1_347oc"]
-[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://ModularCircle.tscn" id="2_ckpgk"]
-[ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://path.tscn" id="3_lnxl2"]
+[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
+[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_ojsyl"]
+[ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="3_nwtgi"]
 
 [node name="Forest" type="Node3D"]
 visible = false
@@ -21,7 +21,7 @@ bank = {
 }
 load_on = 1
 
-[node name="Player" parent="AkBank/AkBank2" instance=ExtResource("1_347oc")]
+[node name="Player" parent="AkBank/AkBank2" instance=ExtResource("1_7bjl8")]
 
 [node name="Camera3D" type="Camera3D" parent="AkBank/AkBank2/Player"]
 transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153, 0.565648, 0.0244612, 0.566285, -0.823846, 0.0357521, 0.907363, -0.671099)
@@ -29,21 +29,21 @@ transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="AkBank/AkBank2/Player"]
 transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
 
-[node name="Circle" parent="AkBank/AkBank2" instance=ExtResource("2_ckpgk")]
+[node name="Circle" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 
-[node name="Circle2" parent="AkBank/AkBank2" instance=ExtResource("2_ckpgk")]
+[node name="Circle2" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
 
-[node name="Circle3" parent="AkBank/AkBank2" instance=ExtResource("2_ckpgk")]
+[node name="Circle3" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
 
-[node name="Path" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_lnxl2")]
+[node name="Path" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.7385)
 circle1 = NodePath("../Circle")
 circle2 = NodePath("../Circle2")
 player = NodePath("../Player")
 
-[node name="Path2" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_lnxl2")]
+[node name="Path2" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
 transform = Transform3D(0.71183, 0, -0.702352, 0, 1, 0, 0.702352, 0, 0.71183, 1.46435, 0, -11.6068)
 circle1 = NodePath("../Circle2")
 circle2 = NodePath("../Circle3")

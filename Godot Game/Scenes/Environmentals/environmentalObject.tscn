@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://kjlf5k1kqet4"]
 
-[ext_resource type="Script" path="res://environmentalObject.gd" id="1_oonb0"]
+[ext_resource type="Script" path="res://Scripts/environmentalObject.gd" id="1_a1502"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
 
@@ -11,7 +11,7 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 material = SubResource("StandardMaterial3D_wd75v")
 
 [node name="Environmental" type="Area3D"]
-script = ExtResource("1_oonb0")
+script = ExtResource("1_a1502")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_2lhut")

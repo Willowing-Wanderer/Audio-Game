@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://b0ccojmiowmsc"]
 
-[ext_resource type="Texture2D" uid="uid://dxlh14c5mqrew" path="res://squirrelDark.png" id="1_mcs20"]
+[ext_resource type="Texture2D" uid="uid://dxlh14c5mqrew" path="res://Images/squirrelDark.png" id="1_mcs20"]
 
 [node name="ColorRect" type="ColorRect"]
 visible = false

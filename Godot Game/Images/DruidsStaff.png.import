@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxlh14c5mqrew"
-path="res://.godot/imported/squirrelDark.png-0164a20f531d717302abcfbb2a982f90.ctex"
+uid="uid://b2e3h5etvsnte"
+path="res://.godot/imported/DruidsStaff.png-8c5fd038a4bc08dcf52ee91676ba2707.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://squirrelDark.png"
-dest_files=["res://.godot/imported/squirrelDark.png-0164a20f531d717302abcfbb2a982f90.ctex"]
+source_file="res://Images/DruidsStaff.png"
+dest_files=["res://.godot/imported/DruidsStaff.png-8c5fd038a4bc08dcf52ee91676ba2707.ctex"]
 
 [params]
 

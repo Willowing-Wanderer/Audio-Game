@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://c2pl7kg3w0x1p"]
+[gd_scene load_steps=5 format=3 uid="uid://cxjoj2c78mdrx"]
 
-[ext_resource type="Script" path="res://StickEvent.gd" id="1_u3oxl"]
+[ext_resource type="Script" path="res://Scripts/StickEvent.gd" id="1_qa3f0"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
 
@@ -9,9 +9,9 @@ albedo_color = Color(0.392157, 0.215686, 0.0745098, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_s0o0b"]
 material = SubResource("StandardMaterial3D_v6jq5")
-size = Vector3(0.4, 0.4, 1.5)
+size = Vector3(0.1, 0.1, 1)
 
-[node name="Fuel" type="Area3D"]
+[node name="Kindling" type="Area3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_fy6tf")
@@ -20,13 +20,13 @@ shape = SubResource("SphereShape3D_fy6tf")
 transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 0)
 mesh = SubResource("BoxMesh_s0o0b")
 
-[node name="FuelEvent" type="AkEvent3D" parent="."]
+[node name="KindlingEvent" type="AkEvent3D" parent="."]
 event = {
 "id": 2793518390,
 "name": "Facing_Stick"
 }
 stop_on = 3
-script = ExtResource("1_u3oxl")
+script = ExtResource("1_qa3f0")
 
-[connection signal="area_entered" from="." to="FuelEvent" method="_on_stick_area_entered"]
-[connection signal="area_exited" from="." to="FuelEvent" method="_on_stick_area_exited"]
+[connection signal="area_entered" from="." to="KindlingEvent" method="_on_stick_area_entered"]
+[connection signal="area_exited" from="." to="KindlingEvent" method="_on_stick_area_exited"]
