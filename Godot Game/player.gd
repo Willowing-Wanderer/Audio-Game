@@ -61,7 +61,7 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
 
 func process_left_click(area: Area3D):
-	if(area.name.begins_with("Environmental") || area.name.begins_with("Item")):
+	if(area.name.begins_with("Environmental") || area.name.begins_with("Item")) || area.name.begins_with("Path"):
 		area.on_click()
 	else:
 		Wwise.register_game_obj(self, self.get_name())
