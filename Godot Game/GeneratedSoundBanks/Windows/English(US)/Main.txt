@@ -1,30 +1,30 @@
 Event	ID	Name			Wwise Object Path	Notes
-	49143091	Item_Ping			\Default Work Unit\Item_Ping	
-	54298587	Facing			\Default Work Unit\Facing	
-	135198910	Fire_Dim			\Default Work Unit\Fire_Dim	
-	318829741	Narrate_Fuel			\Default Work Unit\Narrate_Fuel	
-	467838998	Pick_Up			\Default Work Unit\Pick_Up	
-	518818430	Druids_Message			\Default Work Unit\Druids_Message	
-	771468442	Fire_Low			\Default Work Unit\Fire_Low	
-	911107020	Narrate_Nothing			\Default Work Unit\Narrate_Nothing	
-	1352158686	Click_Fail			\Default Work Unit\Click_Fail	
-	1466384055	Interact			\Default Work Unit\Interact	
-	1873888577	Fire_Medium			\Default Work Unit\Fire_Medium	
-	1966613816	Narrate_DyingFire			\Default Work Unit\Narrate_DyingFire	
-	2077643863	Tinder			\Default Work Unit\Tinder	
-	2147751278	Narrate_Message			\Default Work Unit\Narrate_Message	
-	2330071765	Narrate_Intro			\Default Work Unit\Narrate_Intro	
-	2447220767	Narrate_SmallFlame			\Default Work Unit\Narrate_SmallFlame	
-	2650740659	Narrate_Tinder			\Default Work Unit\Narrate_Tinder	
-	2661514705	Fuel			\Default Work Unit\Fuel	
-	2673322736	Fire_High			\Default Work Unit\Fire_High	
-	2793518390	Facing_Stick			\Default Work Unit\Facing_Stick	
-	2952214358	Narrate_HungryFire			\Default Work Unit\Narrate_HungryFire	
-	3007520451	Narrate_Kindling			\Default Work Unit\Narrate_Kindling	
-	3170030618	Narrate_TooLarge			\Default Work Unit\Narrate_TooLarge	
-	3324137807	Kindling			\Default Work Unit\Kindling	
-	3524664550	Fire_Whoosh			\Default Work Unit\Fire_Whoosh	
-	4020366015	Black_Wind			\Default Work Unit\Black_Wind	
+	49143091	Item_Ping			\Default Work Unit\Environmentals\Item_Ping	
+	54298587	Facing			\Default Work Unit\UI\Facing	
+	135198910	Fire_Dim			\Default Work Unit\Environmentals\Fire_Dim	
+	318829741	Narrate_Fuel			\Default Work Unit\Narrations\Narrate_Fuel	
+	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
+	518818430	Druids_Message			\Default Work Unit\Narrations\Druids_Message	
+	771468442	Fire_Low			\Default Work Unit\Environmentals\Fire_Low	
+	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
+	1008262333	Path_Wind			\Default Work Unit\Environmentals\Path_Wind	
+	1352158686	Click_Fail			\Default Work Unit\UI\Click_Fail	
+	1466384055	Interact			\Default Work Unit\UI\Interact	
+	1873888577	Fire_Medium			\Default Work Unit\Environmentals\Fire_Medium	
+	1966613816	Narrate_DyingFire			\Default Work Unit\Narrations\Narrate_DyingFire	
+	2077643863	Tinder			\Default Work Unit\Items\Tinder	
+	2147751278	Narrate_Message			\Default Work Unit\Narrations\Narrate_Message	
+	2330071765	Narrate_Intro			\Default Work Unit\Narrations\Narrate_Intro	
+	2447220767	Narrate_SmallFlame			\Default Work Unit\Narrations\Narrate_SmallFlame	
+	2650740659	Narrate_Tinder			\Default Work Unit\Narrations\Narrate_Tinder	
+	2661514705	Fuel			\Default Work Unit\Items\Fuel	
+	2673322736	Fire_High			\Default Work Unit\Environmentals\Fire_High	
+	2952214358	Narrate_HungryFire			\Default Work Unit\Narrations\Narrate_HungryFire	
+	3007520451	Narrate_Kindling			\Default Work Unit\Narrations\Narrate_Kindling	
+	3170030618	Narrate_TooLarge			\Default Work Unit\Narrations\Narrate_TooLarge	
+	3324137807	Kindling			\Default Work Unit\Items\Kindling	
+	3524664550	Fire_Whoosh			\Default Work Unit\SoundEvents\Fire_Whoosh	
+	4020366015	Black_Wind			\Default Work Unit\Backdrops\Black_Wind	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
@@ -45,7 +45,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	443866069	Log12	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Log12		129120
 	470849112	Twig3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tinder\Twig3		129120
 	485730434	Sticks7	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kindling\Sticks7		189024
-	498893928	Stick	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\655627__hankof__stick-hitting-stick-2_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stick		45624
 	503186075	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\GeneralPickupSound_050672F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item_Ping		488636
 	535447453	DyingFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\DyingFire (1)_6AA0A535.wem		\Actor-Mixer Hierarchy\Default Work Unit\DyingFire_narr		1083572
 	535661321	BlackWind	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Black Wind\BlackWind		4566624

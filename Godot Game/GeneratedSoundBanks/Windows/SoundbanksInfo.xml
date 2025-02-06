@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{95C717FC-5DD6-E9E9-76E4-DB969B2A0127}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{3A228D31-91D9-B345-8D83-769B9B01F210}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -226,10 +226,6 @@
 				<File Id="485730434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks7.wav</ShortName>
 					<CachePath>SFX/Sticks7_818F3B66.wem</CachePath>
-				</File>
-				<File Id="498893928" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>655627__hankof__stick-hitting-stick-2.wav</ShortName>
-					<CachePath>SFX/655627__hankof__stick-hitting-stick-2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="503186075" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GeneralPickupSound.wav</ShortName>
@@ -345,11 +341,6 @@
 						<MediaRef Id="76911740"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2793518390" Name="Facing_Stick">
-					<MediaRefs>
-						<MediaRef Id="498893928"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="135198910" Name="Fire_Dim">
 					<MediaRefs>
 						<MediaRef Id="178784164"/>
@@ -459,6 +450,11 @@
 						<MediaRef Id="114580091"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1008262333" Name="Path_Wind">
+					<MediaRefs>
+						<MediaRef Id="535661321"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="467838998" Name="Pick_Up">
 					<MediaRefs>
 						<MediaRef Id="807619168"/>
@@ -478,5 +474,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{03CEEA83-513D-A1DB-63EA-9D4BE8E8A97E}</FileHash>
+	<FileHash>{D64EE495-A72A-7E21-4615-4643EF41C59F}</FileHash>
 </SoundBanksInfo>
