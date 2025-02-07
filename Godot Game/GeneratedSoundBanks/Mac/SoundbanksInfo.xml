@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{3A228D31-91D9-B345-8D83-769B9B01F210}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{6864D4F2-6BA3-CD9C-2A71-4C0D65EFD710}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -195,6 +195,10 @@
 					<ShortName>TooLarge.wav</ShortName>
 					<CachePath>Voices/English(US)/TooLarge_415A1E5A.wem</CachePath>
 				</File>
+				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LeafCrunchHard2.wav</ShortName>
+					<CachePath>SFX/LeafCrunchHard2_E850E20F.wem</CachePath>
+				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
 					<CachePath>SFX/508845__augustsandberg__dying-fire_1DBFC80B.wem</CachePath>
@@ -215,6 +219,10 @@
 					<ShortName>Log15.wav</ShortName>
 					<CachePath>SFX/Log15_818F3B66.wem</CachePath>
 				</File>
+				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LeafCrunchHard4.wav</ShortName>
+					<CachePath>SFX/LeafCrunchHard4_E5FAB405.wem</CachePath>
+				</File>
 				<File Id="443866069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log12.wav</ShortName>
 					<CachePath>SFX/Log12_818F3B66.wem</CachePath>
@@ -226,6 +234,10 @@
 				<File Id="485730434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks7.wav</ShortName>
 					<CachePath>SFX/Sticks7_818F3B66.wem</CachePath>
+				</File>
+				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LeafCrunchHard3.wav</ShortName>
+					<CachePath>SFX/LeafCrunchHard3_4C2B7C84.wem</CachePath>
 				</File>
 				<File Id="503186075" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GeneralPickupSound.wav</ShortName>
@@ -311,6 +323,10 @@
 					<ShortName>PutdownV1.wav</ShortName>
 					<CachePath>SFX/PutdownV1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="997994923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LeafCrunchHard1.wav</ShortName>
+					<CachePath>SFX/LeafCrunchHard1_49EF2AFA.wem</CachePath>
+				</File>
 				<File Id="1021220728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log14.wav</ShortName>
 					<CachePath>SFX/Log14_818F3B66.wem</CachePath>
@@ -365,6 +381,14 @@
 					<MediaRefs>
 						<MediaRef Id="993805153"/>
 						<MediaRef Id="994445067"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps">
+					<MediaRefs>
+						<MediaRef Id="150446866"/>
+						<MediaRef Id="413952810"/>
+						<MediaRef Id="501403929"/>
+						<MediaRef Id="997994923"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2661514705" Name="Fuel">
@@ -474,5 +498,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8DA55002-6711-E658-4727-18238F32869B}</FileHash>
+	<FileHash>{7329A7EF-C4E4-8AE2-2DF8-E7D865B098EC}</FileHash>
 </SoundBanksInfo>

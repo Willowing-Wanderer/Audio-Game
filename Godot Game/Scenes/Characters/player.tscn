@@ -30,9 +30,15 @@ shape = SubResource("BoxShape3D_4xfgn")
 is_spatial = true
 transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
 
+[node name="AkEvent3D" type="AkEvent3D" parent="."]
+transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
+
 [node name="Hotbar" type="ItemList" parent="."]
 offset_right = 445.0
 offset_bottom = 121.0
+allow_reselect = true
+allow_rmb_select = true
+allow_search = false
 item_count = 4
 max_columns = 5
 item_0/text = ""

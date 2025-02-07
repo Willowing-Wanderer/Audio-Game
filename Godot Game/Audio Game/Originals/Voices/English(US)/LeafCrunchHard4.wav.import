@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqd2bwnh7o037"
+path="res://.godot/imported/LeafCrunchHard4.wav-d36b6c096be03bbf2eedc7269b03c631.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/Voices/English(US)/LeafCrunchHard4.wav"
+dest_files=["res://.godot/imported/LeafCrunchHard4.wav-d36b6c096be03bbf2eedc7269b03c631.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

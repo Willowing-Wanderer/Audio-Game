@@ -14,10 +14,11 @@ material = SubResource("StandardMaterial3D_wd75v")
 script = ExtResource("1_a1502")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 shape = SubResource("SphereShape3D_2lhut")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 0)
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 
 [node name="EnvironmentalEvent2" type="AkEvent3D" parent="."]
@@ -27,3 +28,4 @@ event = {
 }
 trigger_on = 1
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

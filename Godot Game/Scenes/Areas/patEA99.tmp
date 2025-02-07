@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://baa4i4m4kcg6t"]
+
+[ext_resource type="Script" path="res://Scripts/path.gd" id="1_xcxt1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lgsfq"]
+size = Vector3(1, 1, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ko3h"]
+albedo_color = Color(0.380392, 0.396078, 0.211765, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_qiuc4"]
+material = SubResource("StandardMaterial3D_3ko3h")
+size = Vector3(1, 1, 3)
+
+[node name="Path" type="Area3D"]
+script = ExtResource("1_xcxt1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_lgsfq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_qiuc4")
+
+[node name="PathEvent" type="AkEvent3D" parent="."]
+event = {
+"id": 1008262333,
+"name": "Path_Wind"
+}
+trigger_on = 1

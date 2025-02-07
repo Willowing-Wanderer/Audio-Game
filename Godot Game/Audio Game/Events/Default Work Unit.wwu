@@ -200,7 +200,7 @@
 								<Action Name="" ID="{F584EC78-C9BC-4C32-80F9-A2AC85664894}" ShortID="638639142">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="PathWind" ID="{AD358375-AB10-4F41-B973-8E98EFB6AC2D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -323,6 +323,47 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Fire_Whoosh" ID="{9DE2CD3C-8294-4C9A-B281-E2C5522D9379}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footsteps" ID="{185E937A-5DC9-405F-8772-A63532417EF0}">
+							<ChildrenList>
+								<Action Name="" ID="{70A9D6AE-426D-47C6-8B25-5F76B5B73E22}" ShortID="778710815">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4341525C-323D-4C83-8E80-B1B11023E2D8}" ShortID="1018913003">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DFA61B28-8073-466C-B852-DB61A8109B53}" ShortID="1066617606">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B0AC6C35-2E0A-41FF-BB60-B574FF7033E3}" ShortID="734510015">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

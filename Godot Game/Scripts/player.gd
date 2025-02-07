@@ -102,23 +102,23 @@ func process_right_click(area: Area3D):
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	
-	if(area.name.begins_with("Tinder")):
-		playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TINDER, self)
-	if(area.name.begins_with("Kindling")):
-		if(level == "kindling"):
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_KINDLING, self)
-		else:
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
-	if(area.name.begins_with("Fuel")):
-		if(level == "fuel"):
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_FUEL, self)
-		else:
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
-	if(area.name.begins_with("Campfire")):
-		if(level == "tinder"):
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_DYINGFIRE, self)
-		if(level == "kindling"):
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_SMALLFLAME, self)
-		if(level == "fuel"):
-			playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_HUNGRYFIRE, self)
+	#if(area.name.begins_with("Tinder")):
+		#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TINDER, self)
+	#if(area.name.begins_with("Kindling")):
+		#if(level == "kindling"):
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_KINDLING, self)
+		#else:
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
+	#if(area.name.begins_with("Fuel")):
+		#if(level == "fuel"):
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_FUEL, self)
+		#else:
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
+	#if(area.name.begins_with("Campfire")):
+		#if(level == "tinder"):
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_DYINGFIRE, self)
+		#if(level == "kindling"):
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_SMALLFLAME, self)
+		#if(level == "fuel"):
+			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_HUNGRYFIRE, self)
 		

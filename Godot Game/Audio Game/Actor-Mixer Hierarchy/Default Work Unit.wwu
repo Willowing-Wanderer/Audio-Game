@@ -3,6 +3,36 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{3D1E0581-0F2A-4156-935C-60FF920602E7}" PersistMode="Standalone">
 			<ChildrenList>
+				<Sound Name="TooLarge_narr" ID="{83CE2BB5-D07B-43FC-8E94-74E715B39933}" ShortID="1015881012">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TooLarge" ID="{CA49E60E-90F4-442C-A891-1B24A0B4109D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.667276359600445"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.51836625971143"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>TooLarge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="114580091"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TooLarge" ID="{CA49E60E-90F4-442C-A891-1B24A0B4109D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 				<Folder Name="Backdrops" ID="{B606E958-E179-47FD-A40D-4916E01ED71D}" ShortID="476079637">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Black Wind" ID="{33E3096C-8F2F-4C21-AD1A-903327B7AACE}" ShortID="237574088">
@@ -28,6 +58,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="BlackWind" ID="{EFBAF036-962C-42F6-AA7A-A2E11DE22FAC}" ShortID="1046752286">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -504,20 +541,8 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-12</XPos>
-																		<YPos>-0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>11.47081</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>12</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
@@ -545,14 +570,20 @@
 								<ActiveSource Name="GeneralPickupSound" ID="{52BF1374-286C-4898-B905-4DB6CEBACEFD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PathWind" ID="{AD358375-AB10-4F41-B973-8E98EFB6AC2D}" ShortID="393052976">
+						<RandomSequenceContainer Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" ShortID="500576924">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
 								</Reference>
@@ -561,79 +592,47 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BlackWind" ID="{0397D84B-7EA4-4B00-AFCF-2B8F6D6200F3}">
+								<Sound Name="BlackWind" ID="{4296F7CC-1662-487C-9B81-28D98F799965}" ShortID="336337282">
 									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>BlackWind.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="535661321"/>
-									</MediaIDList>
-								</AudioFileSource>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BlackWind" ID="{6B27E203-4DF0-4244-BB83-7861EEFA016C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BlackWind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="535661321"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BlackWind" ID="{6B27E203-4DF0-4244-BB83-7861EEFA016C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists>
-								<ObjectList Name="RTPC">
+								<ObjectList Name="Playlist">
 									<Reference>
-										<Local>
-											<RTPC Name="" ID="{E68EFFF6-F128-44A2-9BEF-44A3D0A3E1BE}" ShortID="460338240">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{38B7433F-DB14-4453-B1D9-A249C8B81D25}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
+										<ObjectRef Name="BlackWind" ID="{4296F7CC-1662-487C-9B81-28D98F799965}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="BlackWind" ID="{0397D84B-7EA4-4B00-AFCF-2B8F6D6200F3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Items" ID="{97051ECD-F8EF-4609-A123-FFA2F1BB2D33}" ShortID="635504885">
@@ -1463,36 +1462,6 @@
 								<ActiveSource Name="Tinder1" ID="{3D4F1898-77B5-456F-A6A2-26CCFBA48B64}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="TooLarge_narr" ID="{83CE2BB5-D07B-43FC-8E94-74E715B39933}" ShortID="1015881012">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="TooLarge" ID="{CA49E60E-90F4-442C-A891-1B24A0B4109D}">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.667276359600445"/>
-										<Property Name="TrimEnd" Type="Real64" Value="3.51836625971143"/>
-									</PropertyList>
-									<Language>English(US)</Language>
-									<AudioFile>TooLarge.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="114580091"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="TooLarge" ID="{CA49E60E-90F4-442C-A891-1B24A0B4109D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8B5F6294-60D7-4F4D-A279-7A769B5A4A5A}" ShortID="601243140">
@@ -1670,6 +1639,144 @@
 								<ActiveSource Name="181577__kingsrow__whoosh" ID="{FEF0E1FE-5875-48DC-B722-6A5A98C93B38}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" ShortID="309870926">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LeafCrunchHard1" ID="{D8AC2AB3-4491-43C5-B222-5F47AAEECF08}" ShortID="950540335">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafCrunchHard1" ID="{4E715C2C-176B-4E08-B4FD-C53469EF8B47}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0569622702354079"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.888340166766481"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafCrunchHard1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="997994923"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafCrunchHard1" ID="{4E715C2C-176B-4E08-B4FD-C53469EF8B47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafCrunchHard2" ID="{1C749146-41B5-4DF2-98C6-ADBB9C01F39F}" ShortID="929130599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafCrunchHard2" ID="{8CFD8E83-954A-4F8B-8DDC-3C1DFFF34ABA}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.782553093472152"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafCrunchHard2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="150446866"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafCrunchHard2" ID="{8CFD8E83-954A-4F8B-8DDC-3C1DFFF34ABA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafCrunchHard3" ID="{D5772668-561F-4851-9A5B-CE213BE659E0}" ShortID="535649656">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafCrunchHard3" ID="{07C0868B-609B-43FF-AD6D-6B12DC74D3FB}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.611990602109919"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafCrunchHard3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="501403929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafCrunchHard3" ID="{07C0868B-609B-43FF-AD6D-6B12DC74D3FB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafCrunchHard4" ID="{AE1BA85A-5D2F-46D1-8E41-CBF8D178AD2C}" ShortID="683471513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafCrunchHard4" ID="{61F63623-006E-4F93-BF5B-77380FEF842D}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0956742064771733"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.97782282213111"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafCrunchHard4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413952810"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafCrunchHard4" ID="{61F63623-006E-4F93-BF5B-77380FEF842D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="LeafCrunchHard1" ID="{D8AC2AB3-4491-43C5-B222-5F47AAEECF08}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="LeafCrunchHard2" ID="{1C749146-41B5-4DF2-98C6-ADBB9C01F39F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="LeafCrunchHard3" ID="{D5772668-561F-4851-9A5B-CE213BE659E0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="LeafCrunchHard4" ID="{AE1BA85A-5D2F-46D1-8E41-CBF8D178AD2C}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

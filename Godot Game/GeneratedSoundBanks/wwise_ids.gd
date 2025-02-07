@@ -28,6 +28,7 @@ class EVENTS:
 	const NARRATE_NOTHING = 911107020
 	const NARRATE_DYINGFIRE = 1966613816
 	const NARRATE_INTRO = 2330071765
+	const FOOTSTEPS = 2385628198
 
 	const _dict = {
 		"Facing": FACING,
@@ -55,7 +56,8 @@ class EVENTS:
 		"Narrate_Kindling": NARRATE_KINDLING,
 		"Narrate_Nothing": NARRATE_NOTHING,
 		"Narrate_DyingFire": NARRATE_DYINGFIRE,
-		"Narrate_Intro": NARRATE_INTRO
+		"Narrate_Intro": NARRATE_INTRO,
+		"Footsteps": FOOTSTEPS
 	}
 
 class STATES:
