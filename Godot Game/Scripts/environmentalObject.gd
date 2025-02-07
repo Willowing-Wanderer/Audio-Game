@@ -10,7 +10,7 @@ func _process(delta):
 	pass
 
 # All environmentals must include the following functions
-func on_click():
+func interact(selected):
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)

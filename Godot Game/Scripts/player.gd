@@ -16,6 +16,11 @@ var playing_id
 var level = "tinder"
 var sticks_to_next_level = 2
 
+var selected = 3 # empty by default
+var selected_max = 3
+
+@onready var hotbar = $Hotbar
+
 @onready var player: Area3D = $Player
 
 func _ready() -> void:
@@ -29,6 +34,8 @@ func _input(event):
 			if(has_overlapping_areas()):
 				process_left_click(get_overlapping_areas()[0])
 			else:
+				# TODO: Make selcted item sound
+				print(selected)
 				Wwise.register_game_obj(self, self.get_name())
 				Wwise.set_3d_position(self, get_global_transform())
 				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
@@ -43,6 +50,19 @@ func _input(event):
 				Wwise.register_game_obj(self, self.get_name())
 				Wwise.set_3d_position(self, get_global_transform())
 				playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
+		# Scroll
+		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
+			if(selected == selected_max):
+				selected = 0
+			else:
+				selected += 1
+			hotbar.select(selected)
+		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_DOWN):
+			if(selected == 0):
+				selected = selected_max
+			else:
+				selected -= 1
+			hotbar.select(selected)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -61,39 +81,17 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
 
 func process_left_click(area: Area3D):
-	if(area.name.begins_with("Environmental") || area.name.begins_with("Item")) || area.name.begins_with("Path"):
+	if(area.name.begins_with("Item")) || area.name.begins_with("Path"):
+		# pass the selected item into the environmental
 		area.on_click()
 	else:
-		Wwise.register_game_obj(self, self.get_name())
-		Wwise.set_3d_position(self, get_global_transform())
-		playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
-	#if(hands_free):
-		#if(area.name.begins_with("Tinder") && level == "tinder" ||
-			#area.name.begins_with("Kindling") && level == "kindling" ||
-			#area.name.begins_with("Fuel") && level == "fuel"):
-			#held_object = area
-			#hands_free = false
-			#area.queue_free() #TODO: this is a problem if we ever want to see the stick again
-			#Wwise.register_game_obj(self, self.get_name())
-			#Wwise.set_3d_position(self, get_global_transform())
-			#playing_id = Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
-		##TODO make it so that the stick stops existing but is stored somewhere, and then is placed wherever you put it down
-		## This could be a thing for after Alpha fest, for now just need to put in fire (using hands_free variable)
-		#else:
-			#Wwise.register_game_obj(self, self.get_name())
-			#Wwise.set_3d_position(self, get_global_transform())
-			#playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
-	#else:
-		#if(area.name.begins_with("Campfire")): # && held_object.name.begins_with("Stick")): > this doesn't work because
-			#stick_added.emit()
-			##print("level")
-			##print(level)
-			##print("stick added")
-			#sticks_to_next_level -= 1
-			#if(sticks_to_next_level == 0):
-				#increase_level()
-			#held_object = null
-			#hands_free = true
+		if(area.name.begins_with("Environmental")):
+			area.interact(selected)
+		else:
+			Wwise.register_game_obj(self, self.get_name())
+			Wwise.set_3d_position(self, get_global_transform())
+			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+ 
 
 
 	
