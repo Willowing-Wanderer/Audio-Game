@@ -19,12 +19,16 @@ var sticks_to_next_level = 2
 var selected = 3 # empty by default
 var selected_max = 3
 
+var facing_playing_id
+
 @onready var hotbar = $Hotbar
 
 @onready var player: Area3D = $Player
 
 func _ready() -> void:
 	capture_mouse()
+	Wwise.register_game_obj(self, self.get_name())
+	Wwise.set_3d_position(self, get_global_transform())
 
 # Process mouse inputs
 func _input(event):
@@ -36,8 +40,6 @@ func _input(event):
 			else:
 				# TODO: Make selcted item sound
 				print(selected)
-				Wwise.register_game_obj(self, self.get_name())
-				Wwise.set_3d_position(self, get_global_transform())
 				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 		# Right click
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
@@ -47,8 +49,6 @@ func _input(event):
 				#print("Narrate Nothing")
 				if(playing_id):
 					Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-				Wwise.register_game_obj(self, self.get_name())
-				Wwise.set_3d_position(self, get_global_transform())
 				playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
 		# Scroll
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
@@ -88,8 +88,6 @@ func process_left_click(area: Area3D):
 		if(area.name.begins_with("Environmental")):
 			area.interact(selected)
 		else:
-			Wwise.register_game_obj(self, self.get_name())
-			Wwise.set_3d_position(self, get_global_transform())
 			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
  
 
@@ -99,9 +97,7 @@ func process_right_click(area: Area3D):
 	#print("Narrate %s" % area.name)
 	if(playing_id):
 		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
-	
+		
 	#if(area.name.begins_with("Tinder")):
 		#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TINDER, self)
 	#if(area.name.begins_with("Kindling")):
@@ -122,3 +118,16 @@ func process_right_click(area: Area3D):
 		#if(level == "fuel"):
 			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_HUNGRYFIRE, self)
 		
+
+
+
+func _on_area_entered(area):
+	print("entered")
+	if(facing_playing_id):
+		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+	facing_playing_id = Wwise.post_event_id(AK.EVENTS.FACING, self)
+
+func _on_area_exited(area):
+	print("exited")
+	if(facing_playing_id):
+		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
