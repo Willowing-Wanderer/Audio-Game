@@ -1,9 +1,6 @@
-[gd_scene load_steps=11 format=3 uid="uid://byyxtxk5u1yrq"]
+[gd_scene load_steps=8 format=3 uid="uid://byyxtxk5u1yrq"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_kkkgv"]
-[ext_resource type="Texture2D" uid="uid://bq60ejpkpif2" path="res://Images/Apple.png" id="2_rt7rc"]
-[ext_resource type="Texture2D" uid="uid://b2e3h5etvsnte" path="res://Images/DruidsStaff.png" id="3_5jkgx"]
-[ext_resource type="Texture2D" uid="uid://ctrvapqcl7oae" path="res://Images/Stick.png" id="4_55gp0"]
 [ext_resource type="Script" path="res://Scripts/Inventory.gd" id="5_0abx7"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nndr8"]
@@ -41,21 +38,7 @@ mesh = SubResource("BoxMesh_tb3ab")
 is_spatial = true
 transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
 
-[node name="Inventory" type="ItemList" parent="."]
-offset_right = 445.0
-offset_bottom = 121.0
-allow_reselect = true
-allow_rmb_select = true
-allow_search = false
-item_count = 4
-max_columns = 5
-item_0/text = ""
-item_0/icon = ExtResource("2_rt7rc")
-item_1/text = ""
-item_1/icon = ExtResource("3_5jkgx")
-item_2/text = ""
-item_2/icon = ExtResource("4_55gp0")
-item_3/text = "empty"
+[node name="Inventory" type="Node" parent="."]
 script = ExtResource("5_0abx7")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

@@ -3,13 +3,9 @@ extends Node
 var arr = [2,3,4]
 
 var items = {"Empty": null,
-			"Apple": 1,
 			"Druid's Staff" : 1}
 			
 var selected = 0
-
-func _ready():
-	print(items)
 
 func _process(delta):
 	var itemsToDelete = []
@@ -34,9 +30,11 @@ func scroll_up():
 		selected = 0
 	else:
 		selected += 1
+	play_selected_sound()
 
 func scroll_down():
 	if(selected == 0):
 		selected = items.size()-1
 	else:
 		selected -= 1
+	play_selected_sound()
