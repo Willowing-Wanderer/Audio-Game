@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://b4ie4etgybfxm"]
+[gd_scene load_steps=6 format=3 uid="uid://b4ie4etgybfxm"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_ojsyl"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="3_nwtgi"]
 [ext_resource type="PackedScene" uid="uid://kjlf5k1kqet4" path="res://Scenes/Environmentals/environmentalObject.tscn" id="3_ykrs4"]
+[ext_resource type="PackedScene" uid="uid://clantsb5a5txu" path="res://Scenes/Items/item.tscn" id="4_suvrx"]
 
 [node name="Forest" type="Node3D"]
 visible = false
@@ -35,11 +36,19 @@ transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 
 [node name="Environmental" parent="AkBank/AkBank2/Circle" instance=ExtResource("3_ykrs4")]
 transform = Transform3D(0.920027, 0, -0.391855, 0, 1, 0, 0.391855, 0, 0.920027, 0, 0, 0)
 
+[node name="Item" parent="AkBank/AkBank2/Circle" node_paths=PackedStringArray("player") instance=ExtResource("4_suvrx")]
+player = NodePath("../../Player")
+item_name = "Apple"
+
 [node name="Circle2" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
 
 [node name="Circle3" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
+
+[node name="Item" parent="AkBank/AkBank2/Circle3" node_paths=PackedStringArray("player") instance=ExtResource("4_suvrx")]
+player = NodePath("../../Player")
+item_name = "Apple"
 
 [node name="Path" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.7385)

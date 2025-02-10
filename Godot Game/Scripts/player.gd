@@ -10,18 +10,15 @@ var look_dir: Vector2 # Input direction for look/aim
 
 var held_object: Area3D
 var hands_free = true
-signal stick_added
 
 var playing_id
-var level = "tinder"
-var sticks_to_next_level = 2
 
 var selected = 3 # empty by default
 var selected_max = 3
 
 var facing_playing_id
 
-@onready var hotbar = $Hotbar
+@onready var inventory = $Inventory
 
 @onready var player: Area3D = $Player
 
@@ -56,13 +53,13 @@ func _input(event):
 				selected = 0
 			else:
 				selected += 1
-			hotbar.select(selected)
+			inventory.select(selected)
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_DOWN):
 			if(selected == 0):
 				selected = selected_max
 			else:
 				selected -= 1
-			hotbar.select(selected)
+			inventory.select(selected)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -90,36 +87,14 @@ func process_left_click(area: Area3D):
 		else:
 			playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
  
-
-
 	
 func process_right_click(area: Area3D):
-	#print("Narrate %s" % area.name)
+	# Narrations
 	if(playing_id):
 		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-		
-	#if(area.name.begins_with("Tinder")):
-		#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TINDER, self)
-	#if(area.name.begins_with("Kindling")):
-		#if(level == "kindling"):
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_KINDLING, self)
-		#else:
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
-	#if(area.name.begins_with("Fuel")):
-		#if(level == "fuel"):
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_FUEL, self)
-		#else:
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_TOOLARGE, self)
-	#if(area.name.begins_with("Campfire")):
-		#if(level == "tinder"):
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_DYINGFIRE, self)
-		#if(level == "kindling"):
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_SMALLFLAME, self)
-		#if(level == "fuel"):
-			#playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_HUNGRYFIRE, self)
-		
 
-
+func add_to_inventory(item_name):
+	inventory.add(item_name)
 
 func _on_area_entered(area):
 	print("entered")

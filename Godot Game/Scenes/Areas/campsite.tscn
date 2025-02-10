@@ -157,7 +157,6 @@ scale = Vector2(0.4, 0.4)
 texture = ExtResource("9_7ucor")
 expand_mode = 3
 
-[connection signal="stick_added" from="AkBank/AkBank/Player" to="AkBank/AkBank/Campfire/Whoosh" method="_on_player_stick_added"]
 [connection signal="fire_done" from="AkBank/AkBank/Campfire/Whoosh" to="." method="_on_whoosh_fire_done"]
 [connection signal="fire_done" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_done"]
 [connection signal="fire_high" from="AkBank/AkBank/Campfire/Whoosh" to="AkBank/AkBank/Campfire/CampfireEvent" method="_on_whoosh_fire_high"]
