@@ -3,15 +3,28 @@ extends Node
 var arr = [2,3,4]
 
 var items = {"Empty": null,
-			"Apple" : 0,
-			"Stick" : 0,
+			"Apple": 1,
 			"Druid's Staff" : 1}
 			
 var selected = 0
-			
+
+func _ready():
+	print(items)
+
+func _process(delta):
+	var itemsToDelete = []
+	for item in items.keys():
+		if(items[item] == 0):
+			itemsToDelete.append(item)
+	for item in itemsToDelete:
+		items.erase(item)
+	
 			
 func add_item(item_name):
-	items[item_name] += 1
+	if(item_name in items.keys()):
+		items[item_name] += 1
+	else:
+		items[item_name] = 1
 	
 func play_selected_sound():
 	print(items.keys()[selected])
@@ -27,7 +40,3 @@ func scroll_down():
 		selected = items.size()-1
 	else:
 		selected -= 1
-	
-#func place(item_name):
-	#print("placing " + item_name)
-	# This is actually not how our game works at the moment, items will be placed with interactables only
