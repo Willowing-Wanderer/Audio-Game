@@ -35,8 +35,7 @@ func _input(event):
 			if(has_overlapping_areas()):
 				process_left_click(get_overlapping_areas()[0])
 			else:
-				# TODO: Make selcted item sound
-				print(selected)
+				inventory.play_selected_sound()
 				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 		# Right click
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
@@ -49,17 +48,9 @@ func _input(event):
 				playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
 		# Scroll
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
-			if(selected == selected_max):
-				selected = 0
-			else:
-				selected += 1
-			inventory.select(selected)
+			inventory.scroll_up()
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_DOWN):
-			if(selected == 0):
-				selected = selected_max
-			else:
-				selected -= 1
-			inventory.select(selected)
+			inventory.scroll_down()
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -94,15 +85,13 @@ func process_right_click(area: Area3D):
 		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
 
 func add_to_inventory(item_name):
-	inventory.add(item_name)
+	inventory.add_item(item_name)
 
 func _on_area_entered(area):
-	print("entered")
 	if(facing_playing_id):
 		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
 	facing_playing_id = Wwise.post_event_id(AK.EVENTS.FACING, self)
 
 func _on_area_exited(area):
-	print("exited")
 	if(facing_playing_id):
 		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
