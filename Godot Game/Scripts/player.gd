@@ -36,7 +36,6 @@ func _input(event):
 				process_left_click(get_overlapping_areas()[0])
 			else:
 				inventory.play_selected_sound()
-				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 		# Right click
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
 			if(has_overlapping_areas()):
