@@ -1,9 +1,9 @@
 extends Node
 
-var arr = [2,3,4]
+var sounds = {"Empty": AK.EVENTS.CLICK_FAIL,
+				"Apple": AK.EVENTS.APPLE}
 
-var items = {"Empty": null,
-			"Druid's Staff" : 1}
+var items = {"Empty": null}
 			
 var selected = 0
 
@@ -24,6 +24,8 @@ func add_item(item_name):
 	
 func play_selected_sound():
 	print(items.keys()[selected])
+	Wwise.register_game_obj(self, self.get_name())
+	Wwise.post_event_id(sounds[items.keys()[selected]], self)
 	
 func scroll_up():
 	if(selected == items.size()-1):
