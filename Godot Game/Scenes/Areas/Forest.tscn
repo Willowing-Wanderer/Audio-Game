@@ -50,14 +50,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
 player = NodePath("../../Player")
 item_name = "Apple"
 
-[node name="Path" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.7385)
-circle1 = NodePath("../Circle")
-circle2 = NodePath("../Circle2")
-player = NodePath("../Player")
-
 [node name="Path2" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
-transform = Transform3D(0.71183, 0, -0.702352, 0, 1, 0, 0.702352, 0, 0.71183, 1.46435, 0, -11.6068)
+transform = Transform3D(-0.882127, 0, 0.471012, 0, 1, 0, -0.471012, 0, -0.882127, 2.0769, 0, -11.207)
 circle1 = NodePath("../Circle2")
 circle2 = NodePath("../Circle3")
+player = NodePath("../Player")
+
+[node name="Path" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
+transform = Transform3D(0.999844, 0, -0.0176617, 0, 1, 0, 0.0176617, 0, 0.999844, 0, 0, -3.89259)
+circle1 = NodePath("../Circle")
+circle2 = NodePath("../Circle2")
 player = NodePath("../Player")
