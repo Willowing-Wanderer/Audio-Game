@@ -306,6 +306,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Apple" ID="{C40F07D5-83F1-48B7-BA4A-EDCD9D7B0272}">
+							<ChildrenList>
+								<Action Name="" ID="{102E211E-44DA-4B03-B0C5-FBC893483DA0}" ShortID="575599530">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PutdownV1" ID="{B93264D3-2F31-41FE-B106-62F75966090A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SoundEvents" ID="{722EBB8E-647E-45AD-81D1-ECC2C835E5E7}" ShortID="662507383">

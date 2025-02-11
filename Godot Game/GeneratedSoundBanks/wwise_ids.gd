@@ -12,6 +12,7 @@ class EVENTS:
 	const FIRE_LOW = 771468442
 	const NARRATE_HUNGRYFIRE = 2952214358
 	const BLACK_WIND = 4020366015
+	const APPLE = 67176023
 	const INTERACT = 1466384055
 	const DRUIDS_MESSAGE = 518818430
 	const KINDLING = 3324137807
@@ -41,6 +42,7 @@ class EVENTS:
 		"Fire_Low": FIRE_LOW,
 		"Narrate_HungryFire": NARRATE_HUNGRYFIRE,
 		"Black_Wind": BLACK_WIND,
+		"Apple": APPLE,
 		"Interact": INTERACT,
 		"Druids_Message": DRUIDS_MESSAGE,
 		"Kindling": KINDLING,

@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	49143091	Item_Ping			\Default Work Unit\Environmentals\Item_Ping	
 	54298587	Facing			\Default Work Unit\UI\Facing	
+	67176023	Apple			\Default Work Unit\Items\Apple	
 	135198910	Fire_Dim			\Default Work Unit\Environmentals\Fire_Dim	
 	318829741	Narrate_Fuel			\Default Work Unit\Narrations\Narrate_Fuel	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
@@ -38,18 +39,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	88784881	Instructions_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Instructions V2 (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Instructions_narr		1913404
 	100610895	Fuel1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Fuel1_72A24532.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Fuel1_narr		267882
 	114580091	TooLarge_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\TooLarge_415A1E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TooLarge_narr		273802
-	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_E850E20F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
+	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
 	178784164	Dying_Fire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\508845__augustsandberg__dying-fire_1DBFC80B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Dying_Fire		8517184
 	187603988	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\HungryFire (1)_C5A79E86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\HungryFire_narr		703608
 	194543630	Sticks5	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks5		152160
 	283375708	Small Flame_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Small Flame (1)_6F11A359.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Small Flame_narr		854960
 	366187816	Log15	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log15		212064
-	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_E5FAB405.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
+	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
 	443866069	Log12	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log12		129120
 	470849112	Twig3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig3		129120
 	485730434	Sticks7	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks7		189024
-	501403929	LeafCrunchHard3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard3_4C2B7C84.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
-	503186075	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\GeneralPickupSound_050672F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		488636
+	501403929	LeafCrunchHard3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
+	503186075	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\GeneralPickupSound_5FC83462.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		488636
 	535447453	DyingFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\DyingFire (1)_6AA0A535.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\DyingFire_narr		1083572
 	535661321	BlackWind	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
 	539779258	Twig1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig1		212064
@@ -70,7 +71,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	934746814	Twig4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig4		87648
 	993805153	Fire_Whoosh	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\181577__kingsrow__whoosh_632EB7AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Fire_Whoosh		128776
 	994445067	PutdownV1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
-	997994923	LeafCrunchHard1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_49EF2AFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
+	997994923	LeafCrunchHard1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
 	1021220728	Log14	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log14		170592
 	1036186260	Intro_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Intro_D6F6F6B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Intro_narr		1520794
 
