@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7048BAED-C06E-6BDE-666B-31FF842DC33C}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{5A4B61D0-A5BC-AD39-F0A9-5CAC9F0FE63D}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -205,11 +205,15 @@
 				</File>
 				<File Id="187603988" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>HungryFire (1).wav</ShortName>
-					<CachePath>Voices/English(US)/HungryFire (1)_C5A79E86.wem</CachePath>
+					<CachePath>Voices/English(US)/HungryFire (1)_962C11A4.wem</CachePath>
 				</File>
 				<File Id="194543630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks5.wav</ShortName>
 					<CachePath>SFX/Sticks5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="194724780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Backdrop_Placeholder.wav</ShortName>
+					<CachePath>SFX/Backdrop_Placeholder_DBBD14FC.wem</CachePath>
 				</File>
 				<File Id="283375708" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Small Flame (1).wav</ShortName>
@@ -217,7 +221,7 @@
 				</File>
 				<File Id="349029664" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Narration_Placeholder.wav</ShortName>
-					<CachePath>Voices/English(US)/Narration_Placeholder_DE23EA51.wem</CachePath>
+					<CachePath>Voices/English(US)/Narration_Placeholder_0A617491.wem</CachePath>
 				</File>
 				<File Id="366187816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log15.wav</ShortName>
@@ -225,7 +229,7 @@
 				</File>
 				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sound_Placeholder.wav</ShortName>
-					<CachePath>SFX/Sound_Placeholder_3B90D4E0.wem</CachePath>
+					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
 				</File>
 				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard4.wav</ShortName>
@@ -344,6 +348,11 @@
 				<Event Id="67176023" Name="Apple">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4000258095" Name="Backdrop_1">
+					<MediaRefs>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4020366015" Name="Black_Wind">
@@ -521,5 +530,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D93AA187-05E6-9495-135E-22A41791C324}</FileHash>
+	<FileHash>{547EF8F3-5311-695F-A427-145F5786097B}</FileHash>
 </SoundBanksInfo>

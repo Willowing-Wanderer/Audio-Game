@@ -302,6 +302,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Backdrop_1" ID="{5DF1B089-A34C-48F0-9A94-0086E1774439}">
+							<ChildrenList>
+								<Action Name="" ID="{843F77CF-6522-46F2-9FFA-29A86AD153ED}" ShortID="797429999">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Backdrop_Placeholder" ID="{1C8F7914-D29D-4C2F-B7C5-CFA36BED043D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Items" ID="{571C9BBC-739B-458E-A87F-5B1A4B160DEA}" ShortID="966768017">
