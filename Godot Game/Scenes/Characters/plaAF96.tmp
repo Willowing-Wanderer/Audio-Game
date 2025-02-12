@@ -1,0 +1,49 @@
+[gd_scene load_steps=9 format=3 uid="uid://byyxtxk5u1yrq"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_kkkgv"]
+[ext_resource type="Script" path="res://Scripts/Narrator.gd" id="3_sxwdk"]
+[ext_resource type="Script" path="res://Scripts/Inventory.gd" id="5_0abx7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nndr8"]
+albedo_color = Color(0.929412, 0.337255, 0.054902, 1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_fwfd5"]
+material = SubResource("StandardMaterial3D_nndr8")
+size = Vector3(0.5, 0.5, 0.25)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4xfgn"]
+size = Vector3(0.25, 0.25, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_weo8d"]
+albedo_color = Color(0.27451, 0.47451, 0.768627, 0.454902)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tb3ab"]
+material = SubResource("StandardMaterial3D_weo8d")
+size = Vector3(0.25, 0.25, 3)
+
+[node name="Player" type="Area3D"]
+script = ExtResource("1_kkkgv")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.125, 0)
+mesh = SubResource("PrismMesh_fwfd5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 1.5)
+shape = SubResource("BoxShape3D_4xfgn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+mesh = SubResource("BoxMesh_tb3ab")
+
+[node name="AkListener3D" type="AkListener3D" parent="."]
+is_spatial = true
+transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("5_0abx7")
+
+[node name="Narrator" type="Node" parent="."]
+script = ExtResource("3_sxwdk")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

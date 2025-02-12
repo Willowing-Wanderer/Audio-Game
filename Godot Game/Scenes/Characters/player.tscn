@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://byyxtxk5u1yrq"]
+[gd_scene load_steps=9 format=3 uid="uid://byyxtxk5u1yrq"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_kkkgv"]
+[ext_resource type="Script" path="res://Scripts/Narrator.gd" id="3_sxwdk"]
 [ext_resource type="Script" path="res://Scripts/Inventory.gd" id="5_0abx7"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nndr8"]
@@ -40,6 +41,9 @@ transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247
 
 [node name="Inventory" type="Node" parent="."]
 script = ExtResource("5_0abx7")
+
+[node name="Narrator" type="Node" parent="."]
+script = ExtResource("3_sxwdk")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_area_exited"]

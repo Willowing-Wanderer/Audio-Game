@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{947854BE-2A1E-A2BA-8FB0-2776C0D2090D}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7048BAED-C06E-6BDE-666B-31FF842DC33C}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -215,9 +215,17 @@
 					<ShortName>Small Flame (1).wav</ShortName>
 					<CachePath>Voices/English(US)/Small Flame (1)_6F11A359.wem</CachePath>
 				</File>
+				<File Id="349029664" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Narration_Placeholder.wav</ShortName>
+					<CachePath>Voices/English(US)/Narration_Placeholder_DE23EA51.wem</CachePath>
+				</File>
 				<File Id="366187816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Log15.wav</ShortName>
 					<CachePath>SFX/Log15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound_Placeholder.wav</ShortName>
+					<CachePath>SFX/Sound_Placeholder_3B90D4E0.wem</CachePath>
 				</File>
 				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard4.wav</ShortName>
@@ -295,10 +303,6 @@
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="842907374" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Nothing2.wav</ShortName>
-					<CachePath>SFX/Nothing2_7C618BD6.wem</CachePath>
-				</File>
 				<File Id="881455822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks8.wav</ShortName>
 					<CachePath>SFX/Sticks8_818F3B66.wem</CachePath>
@@ -339,7 +343,7 @@
 			<Events>
 				<Event Id="67176023" Name="Apple">
 					<MediaRefs>
-						<MediaRef Id="994445067"/>
+						<MediaRef Id="401630820"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4020366015" Name="Black_Wind">
@@ -427,9 +431,19 @@
 						<MediaRef Id="881455822"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2194565643" Name="Narrate_Apple">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1966613816" Name="Narrate_DyingFire">
 					<MediaRefs>
 						<MediaRef Id="535447453"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3961441301" Name="Narrate_Fire">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="318829741" Name="Narrate_Fuel">
@@ -461,7 +475,11 @@
 				<Event Id="911107020" Name="Narrate_Nothing">
 					<MediaRefs>
 						<MediaRef Id="663920178"/>
-						<MediaRef Id="842907374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4104917964" Name="Narrate_Path">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2447220767" Name="Narrate_SmallFlame">
@@ -503,5 +521,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0C6DD3B3-452A-D543-E377-2F5F85B0E344}</FileHash>
+	<FileHash>{D93AA187-05E6-9495-135E-22A41791C324}</FileHash>
 </SoundBanksInfo>

@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1966613816	Narrate_DyingFire			\Default Work Unit\Narrations\Narrate_DyingFire	
 	2077643863	Tinder			\Default Work Unit\Items\Tinder	
 	2147751278	Narrate_Message			\Default Work Unit\Narrations\Narrate_Message	
+	2194565643	Narrate_Apple			\Default Work Unit\Narrations\Narrate_Apple	
 	2330071765	Narrate_Intro			\Default Work Unit\Narrations\Narrate_Intro	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
 	2447220767	Narrate_SmallFlame			\Default Work Unit\Narrations\Narrate_SmallFlame	
@@ -26,7 +27,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3170030618	Narrate_TooLarge			\Default Work Unit\Narrations\Narrate_TooLarge	
 	3324137807	Kindling			\Default Work Unit\Items\Kindling	
 	3524664550	Fire_Whoosh			\Default Work Unit\SoundEvents\Fire_Whoosh	
+	3961441301	Narrate_Fire			\Default Work Unit\Narrations\Narrate_Fire	
 	4020366015	Black_Wind			\Default Work Unit\Backdrops\Black_Wind	
+	4104917964	Narrate_Path			\Default Work Unit\Narrations\Narrate_Path	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
@@ -44,7 +47,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	187603988	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\HungryFire (1)_C5A79E86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\HungryFire_narr		703608
 	194543630	Sticks5	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks5		152160
 	283375708	Small Flame_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Small Flame (1)_6F11A359.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Small Flame_narr		854960
+	349029664	Narration_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Narration_Placeholder_DE23EA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
 	366187816	Log15	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log15		212064
+	401630820	Sound_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sound_Placeholder_3B90D4E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
 	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
 	443866069	Log12	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log12		129120
 	470849112	Twig3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig3		129120
@@ -64,7 +69,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	746467066	Log13	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log13		212064
 	797686018	Log10	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log10		253536
 	807619168	PickupGenericV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
-	842907374	Nothing2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing2_7C618BD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing2		409938
 	881455822	Sticks8	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks8		129120
 	894566245	Campfire_lower	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\106988__plingativator__fire1_FA60EC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Campfire_lower		2823978
 	908681741	Log16	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log16_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log16		170592

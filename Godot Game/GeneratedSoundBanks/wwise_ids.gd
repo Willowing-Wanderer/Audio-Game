@@ -11,9 +11,12 @@ class EVENTS:
 	const FIRE_WHOOSH = 3524664550
 	const FIRE_LOW = 771468442
 	const NARRATE_HUNGRYFIRE = 2952214358
+	const NARRATE_PATH = 4104917964
 	const BLACK_WIND = 4020366015
 	const APPLE = 67176023
 	const INTERACT = 1466384055
+	const NARRATE_APPLE = 2194565643
+	const NARRATE_FIRE = 3961441301
 	const DRUIDS_MESSAGE = 518818430
 	const KINDLING = 3324137807
 	const NARRATE_SMALLFLAME = 2447220767
@@ -41,9 +44,12 @@ class EVENTS:
 		"Fire_Whoosh": FIRE_WHOOSH,
 		"Fire_Low": FIRE_LOW,
 		"Narrate_HungryFire": NARRATE_HUNGRYFIRE,
+		"Narrate_Path": NARRATE_PATH,
 		"Black_Wind": BLACK_WIND,
 		"Apple": APPLE,
 		"Interact": INTERACT,
+		"Narrate_Apple": NARRATE_APPLE,
+		"Narrate_Fire": NARRATE_FIRE,
 		"Druids_Message": DRUIDS_MESSAGE,
 		"Kindling": KINDLING,
 		"Narrate_SmallFlame": NARRATE_SMALLFLAME,

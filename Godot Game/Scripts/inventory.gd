@@ -15,12 +15,19 @@ func _process(delta):
 	for item in itemsToDelete:
 		items.erase(item)
 	
+func get_selected():
+	return items.keys()[selected]
 			
 func add_item(item_name):
 	if(item_name in items.keys()):
 		items[item_name] += 1
 	else:
 		items[item_name] = 1
+	
+	for i in range(0, items.size()):
+		if(items.keys()[i] == item_name):
+			selected = i
+	
 	
 func play_selected_sound():
 	print(items.keys()[selected])
