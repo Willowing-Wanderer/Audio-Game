@@ -87,7 +87,7 @@
 								<Action Name="" ID="{F0EFB0E5-FB03-4472-9F2B-3555A18ADB30}" ShortID="42715868">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Nothing_narr" ID="{782EA94C-CAD9-4EEB-B2A1-086E97BE9C11}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Nothing1" ID="{841953E5-0EA1-48B1-AA73-ADE20FA29E5E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -131,6 +131,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Message" ID="{7053DF9E-A80F-4FD7-9F84-41CD1CD76B84}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Apple" ID="{5E3374D3-2CA7-47BB-A41B-5C51ABE91ACB}">
+							<ChildrenList>
+								<Action Name="" ID="{ACC4A3DC-6AE4-4876-A378-4F346751E91A}" ShortID="330678674">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Path" ID="{C05D9732-9958-4BD5-8680-422129FD5BEF}">
+							<ChildrenList>
+								<Action Name="" ID="{8A1D5106-DD75-45D4-8930-7FCD936BD284}" ShortID="935115348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Fire" ID="{850477C0-70BE-414C-9FCD-CF543489F32A}">
+							<ChildrenList>
+								<Action Name="" ID="{56491C36-CD34-492F-9B14-51BE698009B0}" ShortID="789541088">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -311,7 +344,7 @@
 								<Action Name="" ID="{102E211E-44DA-4B03-B0C5-FBC893483DA0}" ShortID="575599530">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="PutdownV1" ID="{B93264D3-2F31-41FE-B106-62F75966090A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

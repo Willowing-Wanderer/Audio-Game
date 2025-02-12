@@ -1469,6 +1469,36 @@
 								<ActiveSource Name="Tinder1" ID="{3D4F1898-77B5-456F-A6A2-26CCFBA48B64}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" ShortID="55504551">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Narration_Placeholder" ID="{5174EAC6-379B-4E1F-9C6C-83E8EE321A2B}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.825446623093681"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.5279302832244"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>Narration_Placeholder.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="349029664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Narration_Placeholder" ID="{5174EAC6-379B-4E1F-9C6C-83E8EE321A2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8B5F6294-60D7-4F4D-A279-7A769B5A4A5A}" ShortID="601243140">
@@ -1589,6 +1619,33 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="PutdownV1" ID="{627521F7-E2CB-44D4-91A8-8AA1CD875F9C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" ShortID="781590144">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sound_Placeholder" ID="{2B2C2676-3F64-4431-81E4-EA50C6D0BDF2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.85918954248366"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.4796862745098"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sound_Placeholder.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="401630820"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sound_Placeholder" ID="{2B2C2676-3F64-4431-81E4-EA50C6D0BDF2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -35,10 +35,11 @@ transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 
 
 [node name="Environmental" parent="AkBank/AkBank2/Circle" instance=ExtResource("3_ykrs4")]
 transform = Transform3D(0.920027, 0, -0.391855, 0, 1, 0, 0.391855, 0, 0.920027, 0, 0, 0)
+object_name = "Campfire"
 
 [node name="Item" parent="AkBank/AkBank2/Circle" node_paths=PackedStringArray("player") instance=ExtResource("4_suvrx")]
 player = NodePath("../../Player")
-item_name = "Apple"
+object_name = "Apple"
 
 [node name="Circle2" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
@@ -48,7 +49,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
 
 [node name="Item" parent="AkBank/AkBank2/Circle3" node_paths=PackedStringArray("player") instance=ExtResource("4_suvrx")]
 player = NodePath("../../Player")
-item_name = "Apple"
+object_name = "Apple"
 
 [node name="Path2" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
 transform = Transform3D(-0.882127, 0, 0.471012, 0, 1, 0, -0.471012, 0, -0.882127, 2.0769, 0, -11.207)

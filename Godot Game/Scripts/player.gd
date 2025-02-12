@@ -19,6 +19,7 @@ var selected_max = 3
 var facing_playing_id
 
 @onready var inventory = $Inventory
+@onready var narrator = $Narrator
 
 @onready var player: Area3D = $Player
 
@@ -41,10 +42,7 @@ func _input(event):
 			if(has_overlapping_areas()):
 				process_right_click(get_overlapping_areas()[0])
 			else:
-				#print("Narrate Nothing")
-				if(playing_id):
-					Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-				playing_id = Wwise.post_event_id(AK.EVENTS.NARRATE_NOTHING, self)
+				narrator.narrate(inventory.get_selected())
 		# Scroll
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
 			inventory.scroll_up()
@@ -79,13 +77,12 @@ func process_left_click(area: Area3D):
 				Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
 				area.on_click()
 			else:
+				print("Error")
 				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
  
 	
 func process_right_click(area: Area3D):
-	# Narrations
-	if(playing_id):
-		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+	narrator.narrate(area.object_name)
 
 func add_to_inventory(item_name):
 	inventory.add_item(item_name)
