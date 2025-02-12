@@ -28,6 +28,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3324137807	Kindling			\Default Work Unit\Items\Kindling	
 	3524664550	Fire_Whoosh			\Default Work Unit\SoundEvents\Fire_Whoosh	
 	3961441301	Narrate_Fire			\Default Work Unit\Narrations\Narrate_Fire	
+	4000258095	Backdrop_1			\Default Work Unit\Backdrops\Backdrop_1	
 	4020366015	Black_Wind			\Default Work Unit\Backdrops\Black_Wind	
 	4104917964	Narrate_Path			\Default Work Unit\Narrations\Narrate_Path	
 
@@ -44,12 +45,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	114580091	TooLarge_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\TooLarge_415A1E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TooLarge_narr		273802
 	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
 	178784164	Dying_Fire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\508845__augustsandberg__dying-fire_1DBFC80B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Dying_Fire		8517184
-	187603988	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\HungryFire (1)_C5A79E86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\HungryFire_narr		703608
+	187603988	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\HungryFire (1)_962C11A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\HungryFire_narr		703608
 	194543630	Sticks5	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sticks5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks5		152160
+	194724780	Backdrop_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Backdrop_Placeholder_DBBD14FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
 	283375708	Small Flame_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Small Flame (1)_6F11A359.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Small Flame_narr		854960
-	349029664	Narration_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Narration_Placeholder_DE23EA51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
+	349029664	Narration_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\Voices\English(US)\Narration_Placeholder_0A617491.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
 	366187816	Log15	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log15		212064
-	401630820	Sound_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sound_Placeholder_3B90D4E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
+	401630820	Sound_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
 	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
 	443866069	Log12	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log12		129120
 	470849112	Twig3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig3		129120

@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://b4ie4etgybfxm"]
+[gd_scene load_steps=7 format=3 uid="uid://b4ie4etgybfxm"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_ojsyl"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="3_nwtgi"]
 [ext_resource type="PackedScene" uid="uid://kjlf5k1kqet4" path="res://Scenes/Environmentals/environmentalObject.tscn" id="3_ykrs4"]
 [ext_resource type="PackedScene" uid="uid://clantsb5a5txu" path="res://Scenes/Items/item.tscn" id="4_suvrx"]
+[ext_resource type="PackedScene" uid="uid://bphfm2hlph2fo" path="res://Scenes/Backdrops/Backdrop.tscn" id="6_s7tvo"]
 
 [node name="Forest" type="Node3D"]
 visible = false
@@ -62,3 +63,6 @@ transform = Transform3D(0.999844, 0, -0.0176617, 0, 1, 0, 0.0176617, 0, 0.999844
 circle1 = NodePath("../Circle")
 circle2 = NodePath("../Circle2")
 player = NodePath("../Player")
+
+[node name="Backdrop" parent="AkBank/AkBank2" instance=ExtResource("6_s7tvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.42703, 0, -4.49337)
