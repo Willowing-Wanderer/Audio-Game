@@ -7,6 +7,8 @@ var items = {"Empty": null}
 			
 var selected = 0
 
+var playing_id
+
 func _process(delta):
 	var itemsToDelete = []
 	for item in items.keys():
@@ -30,7 +32,8 @@ func add_item(item_name):
 	
 	
 func play_selected_sound():
-	print(items.keys()[selected])
+	if(playing_id):
+		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.post_event_id(sounds[items.keys()[selected]], self)
 	
