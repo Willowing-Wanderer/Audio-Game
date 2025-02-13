@@ -40,7 +40,7 @@ object_name = "Campfire"
 
 [node name="Item" parent="AkBank/AkBank2/Circle" node_paths=PackedStringArray("player") instance=ExtResource("4_suvrx")]
 player = NodePath("../../Player")
-object_name = "Apple"
+object_name = "Crystal"
 
 [node name="Circle2" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)

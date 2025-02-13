@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	67176023	Apple			\Default Work Unit\Items\Apple	
 	135198910	Fire_Dim			\Default Work Unit\Environmentals\Fire_Dim	
 	318829741	Narrate_Fuel			\Default Work Unit\Narrations\Narrate_Fuel	
+	422905841	Crystal_Item			\Default Work Unit\Items\Crystal_Item	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
 	518818430	Druids_Message			\Default Work Unit\Narrations\Druids_Message	
 	771468442	Fire_Low			\Default Work Unit\Environmentals\Fire_Low	
@@ -19,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2330071765	Narrate_Intro			\Default Work Unit\Narrations\Narrate_Intro	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
 	2447220767	Narrate_SmallFlame			\Default Work Unit\Narrations\Narrate_SmallFlame	
+	2580949965	Narrate_Crystal			\Default Work Unit\Narrations\Narrate_Crystal	
 	2650740659	Narrate_Tinder			\Default Work Unit\Narrations\Narrate_Tinder	
 	2661514705	Fuel			\Default Work Unit\Items\Fuel	
 	2673322736	Fire_High			\Default Work Unit\Environmentals\Fire_High	
@@ -44,6 +46,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	100610895	Fuel1_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Fuel1_72A24532.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Fuel1_narr		267882
 	114580091	TooLarge_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\TooLarge_415A1E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TooLarge_narr		273802
 	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
+	171344150	Crystal_Item	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		895712
 	178784164	Dying_Fire	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\508845__augustsandberg__dying-fire_1DBFC80B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Dying_Fire		8517184
 	187603988	HungryFire_narr	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\HungryFire (1)_962C11A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\HungryFire_narr		703608
 	194543630	Sticks5	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks5		152160

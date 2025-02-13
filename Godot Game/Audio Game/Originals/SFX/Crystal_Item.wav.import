@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dih417fymw2x5"
+path="res://.godot/imported/Crystal_Item.wav-29c98b033563f0c3ccb536d700b4b9d6.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Crystal_Item.wav"
+dest_files=["res://.godot/imported/Crystal_Item.wav-29c98b033563f0c3ccb536d700b4b9d6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

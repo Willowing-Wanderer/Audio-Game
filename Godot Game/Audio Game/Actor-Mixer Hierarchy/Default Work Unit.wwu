@@ -1241,6 +1241,31 @@
 								<ActiveSource Name="655627__hankof__stick-hitting-stick-2" ID="{EA22DBBB-69F9-4409-9327-F18B811DD6F8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Crystal_Item" ID="{D2AB88A7-D8E7-4A37-B9A4-6C0A0AF8E6ED}" ShortID="1037337957">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal_Item" ID="{A37CE19D-49F3-43C7-A44E-E2CD5EA9DA72}">
+									<Language>SFX</Language>
+									<AudioFile>Crystal_Item.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="171344150"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal_Item" ID="{A37CE19D-49F3-43C7-A44E-E2CD5EA9DA72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Narrations" ID="{1F3DC1C3-20D6-46C6-90CE-ED160B57D2F4}" ShortID="31758874">
