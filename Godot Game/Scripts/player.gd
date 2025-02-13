@@ -66,19 +66,7 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
 
 func process_left_click(area: Area3D):
-	if(area.name.begins_with("Item")):
-		# pass the selected item into the environmental
-		area.on_click()
-	else:
-		if(area.name.begins_with("Environmental")):
-			area.interact(selected)
-		else:
-			if(area.name.begins_with("Path")):
-				Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-				area.on_click()
-			else:
-				print("Error")
-				playing_id = Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+	area.on_click(selected)
  
 	
 func process_right_click(area: Area3D):

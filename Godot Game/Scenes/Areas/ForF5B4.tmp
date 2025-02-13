@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b4ie4etgybfxm"]
+[gd_scene load_steps=9 format=3 uid="uid://b4ie4etgybfxm"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_ojsyl"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://clantsb5a5txu" path="res://Scenes/Items/item.tscn" id="4_suvrx"]
 [ext_resource type="Script" path="res://Scripts/Apple_Tree.gd" id="5_uqx5r"]
 [ext_resource type="PackedScene" uid="uid://bphfm2hlph2fo" path="res://Scenes/Backdrops/Backdrop.tscn" id="6_s7tvo"]
+[ext_resource type="PackedScene" uid="uid://d06jr0s42ptn" path="res://Scenes/Items/apple.tscn" id="6_tgiy7"]
 
 [node name="Forest" type="Node3D"]
 visible = false
@@ -52,6 +53,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
 [node name="Environmental" parent="AkBank/AkBank2/Circle3" node_paths=PackedStringArray("circle") instance=ExtResource("3_ykrs4")]
 transform = Transform3D(-0.831334, 0, -0.555773, 0, 1, 0, 0.555773, 0, -0.831334, 0, 0, 0)
 script = ExtResource("5_uqx5r")
+object_name = null
 circle = NodePath("..")
 
 [node name="MeshInstance3D" parent="AkBank/AkBank2/Circle3/Environmental" index="1"]
@@ -62,6 +64,10 @@ event = {
 "id": 162560690,
 "name": "Tree_Swish"
 }
+
+[node name="Apple" parent="AkBank/AkBank2/Circle3" node_paths=PackedStringArray("player") instance=ExtResource("6_tgiy7")]
+transform = Transform3D(-0.953549, 0, -0.301238, 0, 1, 0, 0.301238, 0, -0.953549, 0, 0, 0)
+player = NodePath("../../Player")
 
 [node name="Path2" parent="AkBank/AkBank2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_nwtgi")]
 transform = Transform3D(-0.882127, 0, 0.471012, 0, 1, 0, -0.471012, 0, -0.882127, 2.0769, 0, -11.207)
