@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{5A4B61D0-A5BC-AD39-F0A9-5CAC9F0FE63D}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{00CE851E-458C-3957-95E0-DA7CBA9E1E61}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -198,6 +198,10 @@
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard2_00D9E3E6.wem</CachePath>
+				</File>
+				<File Id="171344150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crystal_Item.wav</ShortName>
+					<CachePath>SFX/Crystal_Item_818F3B66.wem</CachePath>
 				</File>
 				<File Id="178784164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>508845__augustsandberg__dying-fire.wav</ShortName>
@@ -365,6 +369,11 @@
 						<MediaRef Id="87182428"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="422905841" Name="Crystal_Item">
+					<MediaRefs>
+						<MediaRef Id="171344150"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="518818430" Name="Druids_Message">
 					<MediaRefs>
 						<MediaRef Id="563078865"/>
@@ -441,6 +450,11 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2580949965" Name="Narrate_Crystal">
 					<MediaRefs>
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
@@ -530,5 +544,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{547EF8F3-5311-695F-A427-145F5786097B}</FileHash>
+	<FileHash>{6BEA1843-B63A-1F83-52BF-C5715F148CE6}</FileHash>
 </SoundBanksInfo>
