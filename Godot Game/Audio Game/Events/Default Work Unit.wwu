@@ -180,6 +180,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Narrate_Apple_Tree" ID="{A177CEEF-F538-4213-BEF8-0E40B3374CE1}">
+							<ChildrenList>
+								<Action Name="" ID="{68EEFA61-C690-45DB-8C2F-14E44ECA3F3E}" ShortID="247306387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Druid" ID="{FBEA5E2A-B8F8-4B0E-8499-4FA7F2E0704B}">
+							<ChildrenList>
+								<Action Name="" ID="{165E4EAA-0FAC-406C-AEE6-1BE04781F024}" ShortID="910924240">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Pixie" ID="{5D6A62F2-83A0-44E7-B7AB-79DF3ECFD852}">
+							<ChildrenList>
+								<Action Name="" ID="{DACF9B96-69EF-457F-9E04-C9FEB2D504B3}" ShortID="552516444">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Raccoon" ID="{AEBE19BC-96B2-400E-A375-6DF721F01A52}">
+							<ChildrenList>
+								<Action Name="" ID="{E8B9B73A-5D20-40F5-B902-00C3861819E4}" ShortID="136236207">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environmentals" ID="{AC700D64-3E47-464F-A0F3-15488D483A1B}" ShortID="573598719">
@@ -245,6 +289,50 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tree_Swish" ID="{D9DF771F-79CE-4789-8869-85C7F665C5AA}">
+							<ChildrenList>
+								<Action Name="" ID="{241F5FC8-9CE6-4863-88D1-D0F92CB7025A}" ShortID="548605181">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hungry_Raccoon" ID="{44BF0183-B353-4187-8612-1C8E18E0CB4A}">
+							<ChildrenList>
+								<Action Name="" ID="{61C31B3F-3129-49F8-AF4B-8C255E4134AC}" ShortID="487687831">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Raccoon_Eating" ID="{D98C73F0-192A-4322-9DED-26D4E0BB0545}">
+							<ChildrenList>
+								<Action Name="" ID="{6708C688-C1AA-451F-A241-03C9EFBBA4FF}" ShortID="220055352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Druid_Hum" ID="{0CD527F1-6906-443D-B800-04E5B6530F54}">
+							<ChildrenList>
+								<Action Name="" ID="{A6AFF4EF-A1D4-4C7D-A82C-CD4EB4DC57D0}" ShortID="986001081">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -383,6 +471,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Crystal_Hum" ID="{63CBBA79-E10B-4883-B89F-56F6FE3527CA}">
+							<ChildrenList>
+								<Action Name="" ID="{06F069DD-2E07-4D12-A108-447279C3FE02}" ShortID="271026808">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SoundEvents" ID="{722EBB8E-647E-45AD-81D1-ECC2C835E5E7}" ShortID="662507383">
@@ -441,6 +540,131 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Apples_Fall" ID="{1E5129C2-9251-426E-AF7F-C44A63E8C56E}">
+							<ChildrenList>
+								<Action Name="" ID="{D21B2910-CD60-4716-A855-27DE32D01D74}" ShortID="275153094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Crystal_Drop" ID="{96E43A14-B74D-42CE-8D1E-5BA35A74B1A3}">
+							<ChildrenList>
+								<Action Name="" ID="{3791A0E6-E78F-428A-9AAE-7EE181454D31}" ShortID="969160343">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tree_Shake" ID="{05B597D2-9E00-47AD-A9C0-4BE93C91BBCB}">
+							<ChildrenList>
+								<Action Name="" ID="{54DDCCEC-FDED-4FE9-AC27-9441B6802D9F}" ShortID="631649854">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pixie_Flyoff" ID="{4477A65F-C2C2-4081-BE39-8EC2D8E9DD96}">
+							<ChildrenList>
+								<Action Name="" ID="{A12C7081-AB9E-4153-8C10-3953F5A04BDE}" ShortID="1057724913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pixie_Aww" ID="{028C09F4-4F54-41D9-94FC-D238E0902399}">
+							<ChildrenList>
+								<Action Name="" ID="{4468681D-889E-4BA6-BABC-6FD11DD25EAD}" ShortID="867181631">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pixie_Giggle" ID="{4A5C5181-96C8-4B91-A109-2DA416B7094A}">
+							<ChildrenList>
+								<Action Name="" ID="{D34B833B-C2F9-4086-9276-6BB3A0D21BF6}" ShortID="950043432">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dialogue" ID="{F38B0A6C-9B10-462B-81D3-99D740E48F8D}" ShortID="1009246318">
+					<ChildrenList>
+						<Event Name="Raccoon_Thanks" ID="{212070C8-C49B-4491-8441-22C6503357D9}">
+							<ChildrenList>
+								<Action Name="" ID="{D6BE4C2F-D5CC-4302-BEEC-D912A0CFDD06}" ShortID="316681822">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pixie1_Dialog" ID="{1A230153-E438-4A4A-B44A-556F4D8918B3}">
+							<ChildrenList>
+								<Action Name="" ID="{3B2EB71D-1E73-41BE-8C97-6C19B4B2CA6A}" ShortID="139973186">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Druid_Dialog" ID="{2140BAFA-88ED-4E03-8FE1-5742B8B9E58C}">
+							<ChildrenList>
+								<Action Name="" ID="{7AAD8133-EC70-408E-B221-F12AFBE1452E}" ShortID="429230689">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Druid_Help" ID="{C17FF7F2-8391-4304-ABCF-34AAC1E0CE8F}">
+							<ChildrenList>
+								<Action Name="" ID="{0B0126A8-F502-41E1-8316-F2B4FBDA2C75}" ShortID="790280318">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Druid_Thanks" ID="{880F38EB-D315-4C98-B2D2-9ECC91B71E9C}">
+							<ChildrenList>
+								<Action Name="" ID="{76964CF6-8FB1-4A80-BA3D-EC8DB6C0DDB1}" ShortID="958158265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
