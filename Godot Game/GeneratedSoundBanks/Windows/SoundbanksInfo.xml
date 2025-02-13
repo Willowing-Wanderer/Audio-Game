@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{00CE851E-458C-3957-95E0-DA7CBA9E1E61}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{47569032-753B-7560-FD68-39B177F5AA7A}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -217,7 +217,7 @@
 				</File>
 				<File Id="194724780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Backdrop_Placeholder.wav</ShortName>
-					<CachePath>SFX/Backdrop_Placeholder_DBBD14FC.wem</CachePath>
+					<CachePath>SFX/Backdrop_Placeholder_1EF53104.wem</CachePath>
 				</File>
 				<File Id="283375708" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Small Flame (1).wav</ShortName>
@@ -283,6 +283,10 @@
 					<ShortName>Log11.wav</ShortName>
 					<CachePath>SFX/Log11_818F3B66.wem</CachePath>
 				</File>
+				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Event_Placeholder.wav</ShortName>
+					<CachePath>SFX/Event_Placeholder_3AFE9243.wem</CachePath>
+				</File>
 				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Nothing1.wav</ShortName>
 					<CachePath>SFX/Nothing1_199E879F.wem</CachePath>
@@ -294,6 +298,10 @@
 				<File Id="675329998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Twig2.wav</ShortName>
 					<CachePath>SFX/Twig2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="686063000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environmental_Placeholder (1).wav</ShortName>
+					<CachePath>SFX/Environmental_Placeholder (1)_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="694151481" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks6.wav</ShortName>
@@ -354,6 +362,11 @@
 						<MediaRef Id="401630820"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1251517266" Name="Apples_Fall">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4000258095" Name="Backdrop_1">
 					<MediaRefs>
 						<MediaRef Id="194724780"/>
@@ -369,9 +382,24 @@
 						<MediaRef Id="87182428"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1757040115" Name="Crystal_Drop">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1127138550" Name="Crystal_Hum">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="422905841" Name="Crystal_Item">
 					<MediaRefs>
 						<MediaRef Id="171344150"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2213069164" Name="Druid_Hum">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="518818430" Name="Druids_Message">
@@ -430,6 +458,11 @@
 						<MediaRef Id="1021220728"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1621431280" Name="Hungry_Raccoon">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1466384055" Name="Interact">
 					<MediaRefs>
 						<MediaRef Id="994445067"/>
@@ -454,7 +487,17 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3477674050" Name="Narrate_Apple_Tree">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="267359535" Name="Narrate_Druid">
 					<MediaRefs>
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
@@ -505,6 +548,16 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2298942422" Name="Narrate_Pixie">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1785858692" Name="Narrate_Raccoon">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2447220767" Name="Narrate_SmallFlame">
 					<MediaRefs>
 						<MediaRef Id="283375708"/>
@@ -530,6 +583,26 @@
 						<MediaRef Id="807619168"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3300195252" Name="Pixie_Aww">
+					<MediaRefs>
+						<MediaRef Id="651076579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1075103351" Name="Pixie_Flyoff">
+					<MediaRefs>
+						<MediaRef Id="651076579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="848414374" Name="Pixie_Giggle">
+					<MediaRefs>
+						<MediaRef Id="651076579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1146653945" Name="Raccoon_Eating">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2077643863" Name="Tinder">
 					<MediaRefs>
 						<MediaRef Id="470849112"/>
@@ -538,11 +611,21 @@
 						<MediaRef Id="934746814"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3363276846" Name="Tree_Shake">
+					<MediaRefs>
+						<MediaRef Id="651076579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="162560690" Name="Tree_Swish">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="2039612124" Name="Player_Cone"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6BEA1843-B63A-1F83-52BF-C5715F148CE6}</FileHash>
+	<FileHash>{A0561C24-1A9E-B132-E9B3-B8DB2D94FC23}</FileHash>
 </SoundBanksInfo>
