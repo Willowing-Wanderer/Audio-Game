@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7441FEBE-6A88-2D7C-8C61-068C358D2401}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C0784496-99E3-6254-EE26-5A37CD9E66D3}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -339,6 +339,10 @@
 					<ShortName>Twig4.wav</ShortName>
 					<CachePath>SFX/Twig4_818F3B66.wem</CachePath>
 				</File>
+				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Apple.wav</ShortName>
+					<CachePath>SFX/Apple_818F3B66.wem</CachePath>
+				</File>
 				<File Id="993805153" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>181577__kingsrow__whoosh.wav</ShortName>
 					<CachePath>SFX/181577__kingsrow__whoosh_632EB7AB.wem</CachePath>
@@ -363,7 +367,7 @@
 			<Events>
 				<Event Id="67176023" Name="Apple">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="981327475"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1251517266" Name="Apples_Fall">
@@ -631,5 +635,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A13977F6-3816-89CA-1077-29B1880AED1A}</FileHash>
+	<FileHash>{39C34D76-2900-43C2-CDB8-43E82B4EFEE7}</FileHash>
 </SoundBanksInfo>

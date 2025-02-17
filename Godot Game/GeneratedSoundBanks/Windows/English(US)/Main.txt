@@ -96,6 +96,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	894566245	Campfire_lower	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\106988__plingativator__fire1_FA60EC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Campfire_lower		2823978
 	908681741	Log16	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Log16_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log16		170592
 	934746814	Twig4	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Twig4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig4		87648
+	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
 	993805153	Fire_Whoosh	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\181577__kingsrow__whoosh_632EB7AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Fire_Whoosh		128776
 	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
 	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
