@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8y7pa0t1lyy8"
+path="res://.godot/imported/Apple.wav-dc48b61d08fdcad2430de66d6bba2480.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Apple.wav"
+dest_files=["res://.godot/imported/Apple.wav-dc48b61d08fdcad2430de66d6bba2480.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

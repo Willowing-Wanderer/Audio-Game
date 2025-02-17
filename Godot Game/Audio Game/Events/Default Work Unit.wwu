@@ -454,7 +454,7 @@
 								<Action Name="" ID="{102E211E-44DA-4B03-B0C5-FBC893483DA0}" ShortID="575599530">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Apple" ID="{5D01D126-EAEF-4305-8605-51E16709C919}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
