@@ -561,7 +561,7 @@
 								<Action Name="" ID="{3791A0E6-E78F-428A-9AAE-7EE181454D31}" ShortID="969160343">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Crystal_Drop" ID="{325EEF7D-87E9-4C3D-8A46-E557015F87F5}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

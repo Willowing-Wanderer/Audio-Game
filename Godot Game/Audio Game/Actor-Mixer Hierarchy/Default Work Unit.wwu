@@ -1295,6 +1295,28 @@
 								<ActiveSource Name="Crystal_Item" ID="{A37CE19D-49F3-43C7-A44E-E2CD5EA9DA72}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Crystal_Drop" ID="{325EEF7D-87E9-4C3D-8A46-E557015F87F5}" ShortID="427339152">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal_Drop" ID="{DFA59961-FB4B-44A4-89BF-1908F10CD24B}">
+									<Language>SFX</Language>
+									<AudioFile>Crystal_Drop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289673027"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal_Drop" ID="{DFA59961-FB4B-44A4-89BF-1908F10CD24B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Narrations" ID="{1F3DC1C3-20D6-46C6-90CE-ED160B57D2F4}" ShortID="31758874">
