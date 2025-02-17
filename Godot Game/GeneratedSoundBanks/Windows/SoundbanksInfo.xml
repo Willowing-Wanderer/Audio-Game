@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{47569032-753B-7560-FD68-39B177F5AA7A}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7441FEBE-6A88-2D7C-8C61-068C358D2401}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -222,6 +222,10 @@
 				<File Id="283375708" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Small Flame (1).wav</ShortName>
 					<CachePath>Voices/English(US)/Small Flame (1)_6F11A359.wem</CachePath>
+				</File>
+				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crystal_Drop.wav</ShortName>
+					<CachePath>SFX/Crystal_Drop_818F3B66.wem</CachePath>
 				</File>
 				<File Id="349029664" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Narration_Placeholder.wav</ShortName>
@@ -285,7 +289,7 @@
 				</File>
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
-					<CachePath>SFX/Event_Placeholder_3AFE9243.wem</CachePath>
+					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
 				</File>
 				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Nothing1.wav</ShortName>
@@ -384,7 +388,7 @@
 				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="289673027"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1127138550" Name="Crystal_Hum">
@@ -627,5 +631,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A0561C24-1A9E-B132-E9B3-B8DB2D94FC23}</FileHash>
+	<FileHash>{A13977F6-3816-89CA-1077-29B1880AED1A}</FileHash>
 </SoundBanksInfo>
