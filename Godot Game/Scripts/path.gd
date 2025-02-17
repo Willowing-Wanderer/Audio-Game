@@ -8,7 +8,7 @@ var object_name = "Path"
 
 signal path_triggered
 
-func on_click():
+func on_click(selected):
 	path_triggered.emit()
 	player.set_process_input(false)
 	player.set_process_unhandled_input(false)

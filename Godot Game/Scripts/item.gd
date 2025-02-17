@@ -3,17 +3,8 @@ extends Area3D
 
 @export var object_name:String
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 # All items must include the following functions:
-func on_click():
+func on_click(selected):
 	player.add_to_inventory(object_name)
 	
 	Wwise.register_game_obj(self, self.get_name())
