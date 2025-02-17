@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C0784496-99E3-6254-EE26-5A37CD9E66D3}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{EE3BC80C-AAE9-C374-7E92-AD5813269E67}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -210,6 +210,10 @@
 				<File Id="187603988" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>HungryFire (1).wav</ShortName>
 					<CachePath>Voices/English(US)/HungryFire (1)_962C11A4.wem</CachePath>
+				</File>
+				<File Id="194047344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Apples_Fall.wav</ShortName>
+					<CachePath>SFX/Apples_Fall_818F3B66.wem</CachePath>
 				</File>
 				<File Id="194543630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sticks5.wav</ShortName>
@@ -372,7 +376,7 @@
 				</Event>
 				<Event Id="1251517266" Name="Apples_Fall">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194047344"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4000258095" Name="Backdrop_1">
@@ -635,5 +639,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{39C34D76-2900-43C2-CDB8-43E82B4EFEE7}</FileHash>
+	<FileHash>{D06A5219-C965-7ADF-B3FC-8C3EB2F6511B}</FileHash>
 </SoundBanksInfo>
