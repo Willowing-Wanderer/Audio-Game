@@ -23,8 +23,8 @@ mesh = SubResource("SphereMesh_ltkxe")
 
 [node name="EnvironmentalEvent2" type="AkEvent3D" parent="."]
 event = {
-"id": 2673322736,
-"name": "Fire_High"
+"id": 1008262333,
+"name": "Path_Wind"
 }
 trigger_on = 1
 stop_on = 3

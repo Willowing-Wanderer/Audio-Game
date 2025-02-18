@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://dpxwuhk0fr0ue"]
+
+[ext_resource type="Script" path="res://Scripts/item.gd" id="1_tqe0t"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
+radius = 0.25
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l873f"]
+albedo_color = Color(0.113725, 1, 1, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_l8fq6"]
+material = SubResource("StandardMaterial3D_l873f")
+radius = 0.25
+height = 0.5
+
+[node name="Crystal" type="Area3D"]
+script = ExtResource("1_tqe0t")
+object_name = "Crystal"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+shape = SubResource("SphereShape3D_fy6tf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 3, 0, 0)
+mesh = SubResource("SphereMesh_l8fq6")
+
+[node name="ItemEvent" type="AkEvent3D" parent="."]
+event = {
+"id": 49143091,
+"name": "Item_Ping"
+}
+trigger_on = 1
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
