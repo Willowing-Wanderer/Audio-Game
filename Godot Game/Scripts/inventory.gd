@@ -17,7 +17,7 @@ func _process(delta):
 			itemsToDelete.append(item)
 	for item in itemsToDelete:
 		items.erase(item)
-	
+	 
 func get_selected():
 	return items.keys()[selected]
 			

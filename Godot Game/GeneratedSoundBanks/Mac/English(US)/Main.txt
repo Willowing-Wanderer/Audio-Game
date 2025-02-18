@@ -2,14 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	49143091	Item_Ping			\Default Work Unit\Environmentals\Item_Ping	
 	54298587	Facing			\Default Work Unit\UI\Facing	
 	67176023	Apple			\Default Work Unit\Items\Apple	
-	135198910	Fire_Dim			\Default Work Unit\Environmentals\Fire_Dim	
 	162560690	Tree_Swish			\Default Work Unit\Environmentals\Tree_Swish	
 	267359535	Narrate_Druid			\Default Work Unit\Narrations\Narrate_Druid	
-	318829741	Narrate_Fuel			\Default Work Unit\Narrations\Narrate_Fuel	
 	422905841	Crystal_Item			\Default Work Unit\Items\Crystal_Item	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
-	518818430	Druids_Message			\Default Work Unit\Narrations\Druids_Message	
-	771468442	Fire_Low			\Default Work Unit\Environmentals\Fire_Low	
 	848414374	Pixie_Giggle			\Default Work Unit\SoundEvents\Pixie_Giggle	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
 	1008262333	Path_Wind			\Default Work Unit\Environmentals\Path_Wind	
@@ -22,29 +18,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	1621431280	Hungry_Raccoon			\Default Work Unit\Environmentals\Hungry_Raccoon	
 	1757040115	Crystal_Drop			\Default Work Unit\SoundEvents\Crystal_Drop	
 	1785858692	Narrate_Raccoon			\Default Work Unit\Narrations\Narrate_Raccoon	
-	1873888577	Fire_Medium			\Default Work Unit\Environmentals\Fire_Medium	
-	1966613816	Narrate_DyingFire			\Default Work Unit\Narrations\Narrate_DyingFire	
-	2077643863	Tinder			\Default Work Unit\Items\Tinder	
-	2147751278	Narrate_Message			\Default Work Unit\Narrations\Narrate_Message	
 	2194565643	Narrate_Apple			\Default Work Unit\Narrations\Narrate_Apple	
 	2213069164	Druid_Hum			\Default Work Unit\Environmentals\Druid_Hum	
 	2298942422	Narrate_Pixie			\Default Work Unit\Narrations\Narrate_Pixie	
-	2330071765	Narrate_Intro			\Default Work Unit\Narrations\Narrate_Intro	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
-	2447220767	Narrate_SmallFlame			\Default Work Unit\Narrations\Narrate_SmallFlame	
 	2580949965	Narrate_Crystal			\Default Work Unit\Narrations\Narrate_Crystal	
-	2650740659	Narrate_Tinder			\Default Work Unit\Narrations\Narrate_Tinder	
-	2661514705	Fuel			\Default Work Unit\Items\Fuel	
-	2673322736	Fire_High			\Default Work Unit\Environmentals\Fire_High	
-	2952214358	Narrate_HungryFire			\Default Work Unit\Narrations\Narrate_HungryFire	
-	3007520451	Narrate_Kindling			\Default Work Unit\Narrations\Narrate_Kindling	
-	3170030618	Narrate_TooLarge			\Default Work Unit\Narrations\Narrate_TooLarge	
 	3300195252	Pixie_Aww			\Default Work Unit\SoundEvents\Pixie_Aww	
-	3324137807	Kindling			\Default Work Unit\Items\Kindling	
 	3363276846	Tree_Shake			\Default Work Unit\SoundEvents\Tree_Shake	
 	3477674050	Narrate_Apple_Tree			\Default Work Unit\Narrations\Narrate_Apple_Tree	
-	3524664550	Fire_Whoosh			\Default Work Unit\SoundEvents\Fire_Whoosh	
-	3961441301	Narrate_Fire			\Default Work Unit\Narrations\Narrate_Fire	
 	4000258095	Backdrop_1			\Default Work Unit\Backdrops\Backdrop_1	
 	4020366015	Black_Wind			\Default Work Unit\Backdrops\Black_Wind	
 	4104917964	Narrate_Path			\Default Work Unit\Narrations\Narrate_Path	
@@ -56,54 +37,24 @@ Effect plug-ins	ID	Name	Type				Notes
 	840125335	Stereo Delay (Custom)	Wwise Stereo Delay			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	24566004	Sticks9	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks9		110688
-	30777114	Log17	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log17_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log17		253536
-	76911740	Facing_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
-	87182428	FailedClickV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\FailedClickV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		325804
-	88784881	Instructions_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Instructions V2 (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Instructions_narr		1913404
-	100610895	Fuel1_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Fuel1_72A24532.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Fuel1_narr		267882
-	114580091	TooLarge_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\TooLarge_415A1E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TooLarge_narr		273802
-	150446866	LeafCrunchHard2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
-	171344150	Crystal_Item	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
-	178784164	Dying_Fire	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\508845__augustsandberg__dying-fire_1DBFC80B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Dying_Fire		8517184
-	187603988	HungryFire_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\HungryFire (1)_962C11A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\HungryFire_narr		703608
-	194047344	Apples_Fall	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apples_Fall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apples_Fall		162976
-	194543630	Sticks5	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks5		152160
-	194724780	Backdrop_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Backdrop_Placeholder_1EF53104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
-	283375708	Small Flame_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Small Flame (1)_6F11A359.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Small Flame_narr		854960
-	289673027	Crystal_Drop	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Drop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Drop		651468
-	349029664	Narration_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Narration_Placeholder_0A617491.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
-	366187816	Log15	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log15		212064
-	401630820	Sound_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
-	413952810	LeafCrunchHard4	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
-	443866069	Log12	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log12		129120
-	470849112	Twig3	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Twig3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig3		129120
-	485730434	Sticks7	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks7		189024
-	501403929	LeafCrunchHard3	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
-	503186075	Item_Ping	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\GeneralPickupSound_5FC83462.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		488636
-	535447453	DyingFire_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\DyingFire (1)_6AA0A535.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\DyingFire_narr		1083572
-	535661321	BlackWind	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
-	539779258	Twig1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Twig1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig1		212064
-	563078865	Message	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Message_8ACA5CB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Message		2976766
-	575115525	Tinder1_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Tinder1_49C3A52C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Tinder1_narr		330458
-	597491099	Log11	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log11		212064
-	651076579	Event_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
-	663920178	Nothing1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Nothing1_199E879F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing1		90170
-	673753702	Kindling1_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Kindling1_2B2E4D53.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Kindling1_narr		461476
-	675329998	Twig2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Twig2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig2		290400
-	686063000	Environmental_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Environmental_Placeholder (1)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Environmental_Placeholder		403552
-	694151481	Sticks6	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks6		110688
-	746467066	Log13	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log13		212064
-	797686018	Log10	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log10		253536
-	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
-	881455822	Sticks8	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks8		129120
-	894566245	Campfire_lower	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\106988__plingativator__fire1_FA60EC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Campfire_lower		2823978
-	908681741	Log16	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log16_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log16		170592
-	934746814	Twig4	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Twig4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Tinder\Twig4		87648
-	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
-	993805153	Fire_Whoosh	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\181577__kingsrow__whoosh_632EB7AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Fire_Whoosh		128776
-	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
-	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
-	1021220728	Log14	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log14		170592
-	1036186260	Intro_narr	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Intro_D6F6F6B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Intro_narr		1520794
+	76911740	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
+	87182428	FailedClickV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\FailedClickV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		325804
+	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
+	171344150	Crystal_Item	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
+	194047344	Apples_Fall	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apples_Fall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Apples_Fall		162976
+	194724780	Backdrop_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Backdrop_Placeholder_1EF53104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
+	289673027	Crystal_Drop	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Drop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Crystal_Drop		651468
+	349029664	Narration_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Narration_Placeholder_0A617491.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
+	401630820	Sound_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
+	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
+	501403929	LeafCrunchHard3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
+	503186075	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\GeneralPickupSound_5FC83462.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		488636
+	535661321	BlackWind	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
+	651076579	Event_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
+	663920178	Nothing1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Nothing1_199E879F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing1		90170
+	686063000	Environmental_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Environmental_Placeholder (1)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Environmental_Placeholder		403552
+	807619168	PickupGenericV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
+	981327475	Apple	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
+	994445067	PutdownV1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
+	997994923	LeafCrunchHard1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
 
