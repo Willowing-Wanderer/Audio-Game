@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0FEA8B05-854F-9BA6-496E-CBB65D72FFEC}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{27444BFD-75EB-5AFB-AAF3-166D47228922}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{9A5D7167-1CF2-235E-E09F-E1EE2F663193}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{F2F85337-CA02-5C2A-B4B9-6A784A395180}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -368,6 +368,11 @@
 					<CachePath>Voices/English(US)/Intro_D6F6F6B8.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="840125335" Name="Stereo Delay (Custom)" LibName="Wwise Stereo Delay" LibId="8847363"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="67176023" Name="Apple">
 					<MediaRefs>
@@ -378,6 +383,11 @@
 					<MediaRefs>
 						<MediaRef Id="194047344"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="840125335"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="4000258095" Name="Backdrop_1">
 					<MediaRefs>
@@ -639,5 +649,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE86EE10-332A-E3E4-BE95-B3AECE22ACC8}</FileHash>
+	<FileHash>{ECD4493B-44EA-FF97-E4F7-4CDC3EFCC9C1}</FileHash>
 </SoundBanksInfo>

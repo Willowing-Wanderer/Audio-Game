@@ -1318,6 +1318,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Apple" ID="{5D01D126-EAEF-4305-8605-51E16709C919}" ShortID="525048276">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0A7439BA-FA45-42A3-A119-0985280BC80B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1340,6 +1355,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Apples_Fall" ID="{6CF81F20-ED09-480D-9907-41FB794E570B}" ShortID="384180672">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{504110EB-9A57-4A1B-9AC2-76B4341726D3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1357,6 +1387,30 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DCDCD9F7-C49C-4DCD-86F4-6FEAE8982602}" ShortID="155128985">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Stereo Delay (Custom)" ID="{463946CB-9A08-4436-B3BC-61802ADFCA3B}" ShortID="840125335" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+																<PropertyList>
+																	<Property Name="FrontRearBalance" Type="Real32" Value="-30"/>
+																	<Property Name="LeftDelayTime" Type="Real32" Value="0.09"/>
+																	<Property Name="RightDelayTime" Type="Real32" Value="0.32"/>
+																	<Property Name="WetLevel" Type="Real32" Value="-9"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Apples_Fall" ID="{3071FAFF-F7B6-49E5-8112-280D2EFAE3C4}" Platform="Linked"/>
 							</ActiveSourceList>

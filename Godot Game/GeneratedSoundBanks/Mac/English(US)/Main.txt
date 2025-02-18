@@ -52,6 +52,9 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
 
+Effect plug-ins	ID	Name	Type				Notes
+	840125335	Stereo Delay (Custom)	Wwise Stereo Delay			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24566004	Sticks9	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sticks9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Kindling\Sticks9		110688
 	30777114	Log17	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Log17_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Fuel\Log17		253536
