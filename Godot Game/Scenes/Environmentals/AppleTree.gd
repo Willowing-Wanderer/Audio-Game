@@ -1,6 +1,6 @@
 extends Area3D
 
-@export var object_name:String
+@export var object_name:String = "Apple Tree"
 @export var circle:Node
 @export var player:Node3D
 
@@ -22,10 +22,13 @@ func on_click(selected):
 	var apple3 = apple_scene.instantiate()
 	apple1.rotation = Vector3(0,deg_to_rad(20),0)
 	apple1.player = player
+	apple1.object_name = "Apple"
 	apple2.rotation = Vector3(0,deg_to_rad(-50),0)
 	apple2.player = player
+	apple2.object_name = "Apple"
 	apple3.rotation = Vector3(0,deg_to_rad(150),0)
 	apple3.player = player
+	apple3.object_name = "Apple"
 
 	circle.add_child(apple1)
 	circle.add_child(apple2)
