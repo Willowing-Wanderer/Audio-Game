@@ -13,7 +13,6 @@ var hands_free = true
 
 var playing_id
 
-var selected = 3 # empty by default
 var selected_max = 3
 
 var facing_playing_id
@@ -66,7 +65,7 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 	rotation.y -= look_dir.x * player_sensitivity * sens_mod
 
 func process_left_click(area: Area3D):
-	area.on_click(selected)
+	area.on_click(inventory.get_selected())
  
 	
 func process_right_click(area: Area3D):
@@ -81,7 +80,9 @@ func _on_area_entered(area):
 	facing_playing_id = Wwise.post_event_id(AK.EVENTS.FACING, self)
 
 func _on_area_exited(area):
+	stop_facing()
+
+func stop_facing():
 	if(facing_playing_id):
 		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-		
 

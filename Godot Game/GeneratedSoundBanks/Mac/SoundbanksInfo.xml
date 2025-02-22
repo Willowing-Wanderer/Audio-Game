@@ -163,10 +163,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{E46CF305-34F0-E1DE-C991-2C1DBD75BD81}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{617E806E-D93A-A7CD-56CB-5C6963D985F2}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
+				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialog_Placeholder.wav</ShortName>
+					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
+				</File>
 				<File Id="76911740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Facing.wav</ShortName>
 					<CachePath>SFX/Facing_FBC78EF0.wem</CachePath>
@@ -299,9 +303,24 @@
 						<MediaRef Id="171344150"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3393591398" Name="Druid_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="876613367" Name="Druid_Help">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2213069164" Name="Druid_Hum">
 					<MediaRefs>
 						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3109325365" Name="Druid_Thanks">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="54298587" Name="Facing">
@@ -382,6 +401,11 @@
 						<MediaRef Id="807619168"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2704494418" Name="Pixie1_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3300195252" Name="Pixie_Aww">
 					<MediaRefs>
 						<MediaRef Id="651076579"/>
@@ -402,6 +426,11 @@
 						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2129084912" Name="Raccoon_Thanks">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
 					<MediaRefs>
 						<MediaRef Id="651076579"/>
@@ -418,5 +447,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{44044065-1B41-9176-58DE-951B0DA8FF84}</FileHash>
+	<FileHash>{A7CFD3DD-C1B0-75E1-C6B2-360726491DC4}</FileHash>
 </SoundBanksInfo>

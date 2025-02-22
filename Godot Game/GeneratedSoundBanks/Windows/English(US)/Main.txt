@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	422905841	Crystal_Item			\Default Work Unit\Items\Crystal_Item	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
 	848414374	Pixie_Giggle			\Default Work Unit\SoundEvents\Pixie_Giggle	
+	876613367	Druid_Help			\Default Work Unit\Dialogue\Druid_Help	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
 	1008262333	Path_Wind			\Default Work Unit\Environmentals\Path_Wind	
 	1075103351	Pixie_Flyoff			\Default Work Unit\SoundEvents\Pixie_Flyoff	
@@ -18,13 +19,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	1621431280	Hungry_Raccoon			\Default Work Unit\Environmentals\Hungry_Raccoon	
 	1757040115	Crystal_Drop			\Default Work Unit\SoundEvents\Crystal_Drop	
 	1785858692	Narrate_Raccoon			\Default Work Unit\Narrations\Narrate_Raccoon	
+	2129084912	Raccoon_Thanks			\Default Work Unit\Dialogue\Raccoon_Thanks	
 	2194565643	Narrate_Apple			\Default Work Unit\Narrations\Narrate_Apple	
 	2213069164	Druid_Hum			\Default Work Unit\Environmentals\Druid_Hum	
 	2298942422	Narrate_Pixie			\Default Work Unit\Narrations\Narrate_Pixie	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
 	2580949965	Narrate_Crystal			\Default Work Unit\Narrations\Narrate_Crystal	
+	2704494418	Pixie1_Dialog			\Default Work Unit\Dialogue\Pixie1_Dialog	
+	3109325365	Druid_Thanks			\Default Work Unit\Dialogue\Druid_Thanks	
 	3300195252	Pixie_Aww			\Default Work Unit\SoundEvents\Pixie_Aww	
 	3363276846	Tree_Shake			\Default Work Unit\SoundEvents\Tree_Shake	
+	3393591398	Druid_Dialog			\Default Work Unit\Dialogue\Druid_Dialog	
 	3477674050	Narrate_Apple_Tree			\Default Work Unit\Narrations\Narrate_Apple_Tree	
 	4000258095	Backdrop_1			\Default Work Unit\Backdrops\Backdrop_1	
 	4020366015	Black_Wind			\Default Work Unit\Backdrops\Black_Wind	
@@ -37,6 +42,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	840125335	Stereo Delay (Custom)	Wwise Stereo Delay			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	61460548	Dialog_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Dialog_Placeholder_6C53839B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialog_Placeholder		147926
 	76911740	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
 	87182428	FailedClickV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\FailedClickV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		325804
 	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
