@@ -379,7 +379,7 @@
 								<Action Name="" ID="{D34B833B-C2F9-4086-9276-6BB3A0D21BF6}" ShortID="950043432">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Pixie_Giggle" ID="{B2CB8F61-2D57-4770-B816-B6291C1F94CA}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

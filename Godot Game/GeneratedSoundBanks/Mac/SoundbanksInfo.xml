@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{B08C94AF-1DB1-5BB9-541F-CCC4AAC85B16}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{F565CEA6-09E6-ED81-F563-6BED17E218C0}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -198,6 +198,10 @@
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
 					<CachePath>SFX/Crystal_Drop_818F3B66.wem</CachePath>
+				</File>
+				<File Id="300550434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie_Giggle.wav</ShortName>
+					<CachePath>SFX/Pixie_Giggle_818F3B66.wem</CachePath>
 				</File>
 				<File Id="347548140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Dialog.wav</ShortName>
@@ -253,7 +257,7 @@
 				</File>
 				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Eating.wav</ShortName>
-					<CachePath>SFX/Raccoon_Eating_54A572F1.wem</CachePath>
+					<CachePath>SFX/Raccoon_Eating_A7790D41.wem</CachePath>
 				</File>
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
@@ -442,7 +446,7 @@
 				</Event>
 				<Event Id="848414374" Name="Pixie_Giggle">
 					<MediaRefs>
-						<MediaRef Id="651076579"/>
+						<MediaRef Id="300550434"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1146653945" Name="Raccoon_Eating">
@@ -471,5 +475,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{77DE7999-5DAE-D91F-B7E1-9D014FB3C123}</FileHash>
+	<FileHash>{6D681255-2D1D-E07F-5D24-7FFCAF815370}</FileHash>
 </SoundBanksInfo>
