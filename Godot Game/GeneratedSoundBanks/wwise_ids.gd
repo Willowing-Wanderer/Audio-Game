@@ -2,78 +2,78 @@ class_name AK
 
 class EVENTS:
 
-	const RACCOON_EATING = 1146653945
-	const CLICK_FAIL = 1352158686
+	const DRUID_DIALOG = 3393591398
+	const CRYSTAL_DROP = 1757040115
+	const DRUID_THANKS = 3109325365
+	const FOOTSTEPS = 2385628198
+	const APPLE = 67176023
+	const CRYSTAL_ITEM = 422905841
+	const CRYSTAL_HUM = 1127138550
+	const PIXIE_FLYOFF = 1075103351
+	const RACCOON_THANKS = 2129084912
+	const PIXIE_AWW = 3300195252
+	const APPLES_FALL = 1251517266
+	const TREE_SHAKE = 3363276846
+	const PIXIE_GIGGLE = 848414374
+	const PIXIE1_DIALOG = 2704494418
+	const DRUID_HELP = 876613367
 	const NARRATE_APPLE = 2194565643
+	const NARRATE_PATH = 4104917964
 	const NARRATE_APPLE_TREE = 3477674050
 	const NARRATE_DRUID = 267359535
-	const NARRATE_CRYSTAL = 2580949965
-	const NARRATE_RACCOON = 1785858692
 	const NARRATE_PIXIE = 2298942422
-	const ITEM_PING = 49143091
-	const TREE_SWISH = 162560690
-	const PATH_WIND = 1008262333
-	const NARRATE_PATH = 4104917964
-	const HUNGRY_RACCOON = 1621431280
 	const NARRATE_NOTHING = 911107020
+	const NARRATE_CRYSTAL = 2580949965
+	const TREE_SWISH = 162560690
 	const DRUID_HUM = 2213069164
-	const INTERACT = 1466384055
+	const ITEM_PING = 49143091
 	const FACING = 54298587
 	const PICK_UP = 467838998
-	const APPLE = 67176023
-	const FOOTSTEPS = 2385628198
-	const APPLES_FALL = 1251517266
-	const CRYSTAL_DROP = 1757040115
-	const TREE_SHAKE = 3363276846
-	const PIXIE_FLYOFF = 1075103351
-	const PIXIE_AWW = 3300195252
 	const BLACK_WIND = 4020366015
-	const PIXIE_GIGGLE = 848414374
-	const RACCOON_THANKS = 2129084912
 	const BACKDROP_1 = 4000258095
-	const CRYSTAL_HUM = 1127138550
-	const CRYSTAL_ITEM = 422905841
-	const DRUID_DIALOG = 3393591398
-	const DRUID_THANKS = 3109325365
-	const DRUID_HELP = 876613367
-	const PIXIE1_DIALOG = 2704494418
+	const NARRATE_RACCOON = 1785858692
+	const PATH_WIND = 1008262333
+	const CLICK_FAIL = 1352158686
+	const RACCOON_EATING = 1146653945
+	const HUNGRY_RACCOON = 1621431280
+	const INTERACT = 1466384055
 
 	const _dict = {
-		"Raccoon_Eating": RACCOON_EATING,
-		"Click_Fail": CLICK_FAIL,
+		"Druid_Dialog": DRUID_DIALOG,
+		"Crystal_Drop": CRYSTAL_DROP,
+		"Druid_Thanks": DRUID_THANKS,
+		"Footsteps": FOOTSTEPS,
+		"Apple": APPLE,
+		"Crystal_Item": CRYSTAL_ITEM,
+		"Crystal_Hum": CRYSTAL_HUM,
+		"Pixie_Flyoff": PIXIE_FLYOFF,
+		"Raccoon_Thanks": RACCOON_THANKS,
+		"Pixie_Aww": PIXIE_AWW,
+		"Apples_Fall": APPLES_FALL,
+		"Tree_Shake": TREE_SHAKE,
+		"Pixie_Giggle": PIXIE_GIGGLE,
+		"Pixie1_Dialog": PIXIE1_DIALOG,
+		"Druid_Help": DRUID_HELP,
 		"Narrate_Apple": NARRATE_APPLE,
+		"Narrate_Path": NARRATE_PATH,
 		"Narrate_Apple_Tree": NARRATE_APPLE_TREE,
 		"Narrate_Druid": NARRATE_DRUID,
-		"Narrate_Crystal": NARRATE_CRYSTAL,
-		"Narrate_Raccoon": NARRATE_RACCOON,
 		"Narrate_Pixie": NARRATE_PIXIE,
-		"Item_Ping": ITEM_PING,
-		"Tree_Swish": TREE_SWISH,
-		"Path_Wind": PATH_WIND,
-		"Narrate_Path": NARRATE_PATH,
-		"Hungry_Raccoon": HUNGRY_RACCOON,
 		"Narrate_Nothing": NARRATE_NOTHING,
+		"Narrate_Crystal": NARRATE_CRYSTAL,
+		"Tree_Swish": TREE_SWISH,
 		"Druid_Hum": DRUID_HUM,
-		"Interact": INTERACT,
+		"Item_Ping": ITEM_PING,
 		"Facing": FACING,
 		"Pick_Up": PICK_UP,
-		"Apple": APPLE,
-		"Footsteps": FOOTSTEPS,
-		"Apples_Fall": APPLES_FALL,
-		"Crystal_Drop": CRYSTAL_DROP,
-		"Tree_Shake": TREE_SHAKE,
-		"Pixie_Flyoff": PIXIE_FLYOFF,
-		"Pixie_Aww": PIXIE_AWW,
 		"Black_Wind": BLACK_WIND,
-		"Pixie_Giggle": PIXIE_GIGGLE,
-		"Raccoon_Thanks": RACCOON_THANKS,
 		"Backdrop_1": BACKDROP_1,
-		"Crystal_Hum": CRYSTAL_HUM,
-		"Crystal_Item": CRYSTAL_ITEM,
-		"Druid_Dialog": DRUID_DIALOG,
-		"Druid_Thanks": DRUID_THANKS,
-		"Druid_Help": DRUID_HELP,
-		"Pixie1_Dialog": PIXIE1_DIALOG
+		"Narrate_Raccoon": NARRATE_RACCOON,
+		"Path_Wind": PATH_WIND,
+		"Click_Fail": CLICK_FAIL,
+		"Raccoon_Eating": RACCOON_EATING,
+		"Hungry_Raccoon": HUNGRY_RACCOON,
+		"Interact": INTERACT
 	}
 
 class STATES:
