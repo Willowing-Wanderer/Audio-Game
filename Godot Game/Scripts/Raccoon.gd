@@ -18,4 +18,15 @@ func narrate():
 	narrate_raccoon.post_event()
 
 func on_click(selected):
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
+	if(selected == "Apple"):
+		Wwise.post_event_id(AK.EVENTS.INTERACT, self)
+		hungry_raccoon.stop_event()
+		raccoon_thanks.post_event()
+		await get_tree().create_timer(5).timeout
+		raccoon_eating.post_event()
+		drop_crystal()
+	else:
+		Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+		
+func drop_crystal():
+	pass
