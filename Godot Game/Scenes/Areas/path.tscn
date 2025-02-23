@@ -27,11 +27,3 @@ event = {
 "name": "Path_Wind"
 }
 trigger_on = 1
-
-[node name="PathEvent2" type="AkEvent3D" parent="."]
-event = {
-"id": 1008262333,
-"name": "Path_Wind"
-}
-trigger_on = 1
-transform = Transform3D(-0.999915, 0, 0.0130198, 0, 1, 0, -0.0130198, 0, -0.999915, 0, 0, 0)

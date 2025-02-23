@@ -4,6 +4,8 @@ extends Area3D
 @export var circle:Node
 @export var player:Node3D
 
+@export var tree_swish:AkEvent3D
+
 var apple_scene = preload("res://Scenes/Items/apple.tscn")
 
 func _ready():
