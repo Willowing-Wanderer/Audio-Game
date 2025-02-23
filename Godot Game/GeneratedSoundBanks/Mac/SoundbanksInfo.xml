@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C1902D48-321D-916C-09BC-17DB2E761270}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{20E2A425-AB4D-CCBC-3FAD-CF1CFA085D08}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -226,6 +226,10 @@
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
+				</File>
+				<File Id="607972558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Thanks.wav</ShortName>
+					<CachePath>SFX/Raccoon_Thanks_818F3B66.wem</CachePath>
 				</File>
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
@@ -440,7 +444,7 @@
 				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="607972558"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
@@ -459,5 +463,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{698C63A1-CF30-A1EF-DBB8-4334BC4BF4A1}</FileHash>
+	<FileHash>{9846988D-496A-D67E-1FC6-60C7B00A0BF7}</FileHash>
 </SoundBanksInfo>
