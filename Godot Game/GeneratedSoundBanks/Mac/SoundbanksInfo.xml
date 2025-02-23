@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{AA9C74E5-5F1D-C187-0CE8-C6DBFD290F14}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{B08C94AF-1DB1-5BB9-541F-CCC4AAC85B16}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -250,6 +250,10 @@
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Eating.wav</ShortName>
+					<CachePath>SFX/Raccoon_Eating_54A572F1.wem</CachePath>
 				</File>
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
@@ -443,7 +447,7 @@
 				</Event>
 				<Event Id="1146653945" Name="Raccoon_Eating">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="918725472"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
@@ -467,5 +471,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0A37BED8-DA9C-B7D5-006C-AE5C43B3F647}</FileHash>
+	<FileHash>{77DE7999-5DAE-D91F-B7E1-9D014FB3C123}</FileHash>
 </SoundBanksInfo>

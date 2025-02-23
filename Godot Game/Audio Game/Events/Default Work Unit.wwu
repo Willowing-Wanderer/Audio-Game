@@ -146,7 +146,7 @@
 								<Action Name="" ID="{6708C688-C1AA-451F-A241-03C9EFBBA4FF}" ShortID="220055352">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Eating" ID="{390BC8A4-3F18-4B50-AB9B-696E12E20E07}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

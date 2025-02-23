@@ -63,6 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	663920178	Nothing1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing1_199E879F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing1		90170
 	686063000	Environmental_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Environmental_Placeholder (1)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Environmental_Placeholder		403552
 	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
+	918725472	Raccoon_Eating	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Eating_54A572F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
 	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
 	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
 	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
