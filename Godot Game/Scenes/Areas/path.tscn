@@ -12,8 +12,9 @@ albedo_color = Color(0.380392, 0.396078, 0.211765, 1)
 material = SubResource("StandardMaterial3D_3ko3h")
 size = Vector3(1, 1, 3)
 
-[node name="Path" type="Area3D"]
+[node name="Path" type="Area3D" node_paths=PackedStringArray("narrate_path")]
 script = ExtResource("1_xcxt1")
+narrate_path = NodePath("Narrate_Path")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_lgsfq")
@@ -21,9 +22,15 @@ shape = SubResource("BoxShape3D_lgsfq")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_qiuc4")
 
-[node name="PathEvent" type="AkEvent3D" parent="."]
+[node name="Path_Wind" type="AkEvent3D" parent="."]
 event = {
 "id": 1008262333,
 "name": "Path_Wind"
 }
 trigger_on = 1
+
+[node name="Narrate_Path" type="AkEvent3D" parent="."]
+event = {
+"id": 4104917964,
+"name": "Narrate_Path"
+}

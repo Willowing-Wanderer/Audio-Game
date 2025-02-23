@@ -5,18 +5,25 @@ extends Area3D
 @export var player:Node3D
 
 @export var tree_swish:AkEvent3D
+@export var tree_shake:AkEvent3D
+@export var apples_fall:AkEvent3D
+@export var narrate_apple_tree:AkEvent3D
 
 var apple_scene = preload("res://Scenes/Items/apple.tscn")
 
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
+	tree_swish.post_event()
+	
+func narrate():
+	narrate_apple_tree.post_event()
 
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, player)
-	Wwise.post_event_id(AK.EVENTS.TREE_SHAKE, self)
+	tree_shake.post_event()
 	await get_tree().create_timer(3).timeout
-	Wwise.post_event_id(AK.EVENTS.APPLES_FALL, self)
+	apples_fall.post_event()
 	# Could refactor this to make the sounds of the apples happen where the apples actually fall
 	
 	var apple1 = apple_scene.instantiate()

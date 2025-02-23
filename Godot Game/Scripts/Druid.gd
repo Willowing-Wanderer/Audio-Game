@@ -6,6 +6,7 @@ extends Area3D
 @export var druid_dialog:AkEvent3D
 @export var druid_help:AkEvent3D
 @export var druid_thanks:AkEvent3D
+@export var narrate_druid:AkEvent3D
 
 # Needed if you want to do anything with the player's controls
 @export var player:Node3D
@@ -16,6 +17,9 @@ func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	druid_hum.post_event()
+	
+func narrate():
+	narrate_druid.post_event()
 
 func on_click(selected):
 	druid_hum.stop_event()
