@@ -10,12 +10,13 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="Raccoon" type="Area3D" node_paths=PackedStringArray("hungry_raccoon", "raccoon_eating", "raccoon_thanks", "narrate_raccoon")]
+[node name="Raccoon" type="Area3D" node_paths=PackedStringArray("hungry_raccoon", "raccoon_eating", "raccoon_thanks", "narrate_raccoon", "crystal_drop")]
 script = ExtResource("1_b6jrx")
 hungry_raccoon = NodePath("Hungry_Raccoon")
 raccoon_eating = NodePath("Raccoon_Eating")
 raccoon_thanks = NodePath("Raccoon_Thanks")
 narrate_raccoon = NodePath("Narrate_Raccoon")
+crystal_drop = NodePath("Crystal_Drop")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -50,5 +51,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 event = {
 "id": 1785858692,
 "name": "Narrate_Raccoon"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Crystal_Drop" type="AkEvent3D" parent="."]
+event = {
+"id": 1757040115,
+"name": "Crystal_Drop"
 }
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

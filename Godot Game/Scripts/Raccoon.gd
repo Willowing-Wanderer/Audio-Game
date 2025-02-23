@@ -1,13 +1,16 @@
 extends Area3D
 
 @export var object_name:String
+@export var circle:Node
+@export var player:Node3D
 
 @export var hungry_raccoon:AkEvent3D
 @export var raccoon_eating:AkEvent3D
 @export var raccoon_thanks:AkEvent3D
 @export var narrate_raccoon:AkEvent3D
+@export var crystal_drop:AkEvent3D
 
-# All environmentals must include the following functions
+var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
 
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
@@ -29,4 +32,8 @@ func on_click(selected):
 		Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 		
 func drop_crystal():
-	pass
+	crystal_drop.post_event()
+	var crystal = crystal_scene.instantiate()
+	crystal.player = player
+	crystal.object_name = "Crystal"
+	circle.add_child(crystal)
