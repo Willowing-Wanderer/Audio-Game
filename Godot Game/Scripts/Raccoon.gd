@@ -10,6 +10,8 @@ extends Area3D
 @export var narrate_raccoon:AkEvent3D
 @export var crystal_drop:AkEvent3D
 
+signal raccoon_fed
+
 var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
 
 func _ready():
@@ -37,3 +39,4 @@ func drop_crystal():
 	crystal.player = player
 	crystal.object_name = "Crystal"
 	circle.add_child(crystal)
+	raccoon_fed.emit()
