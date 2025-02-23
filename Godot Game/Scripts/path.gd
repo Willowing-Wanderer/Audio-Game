@@ -4,9 +4,14 @@ extends Area3D
 @export var circle2:Node3D
 @export var player:Node3D
 
+@export var narrate_path:AkEvent3D
+
 var object_name = "Path"
 
 signal path_triggered
+
+func narrate():
+	narrate_path.post_event()
 
 func on_click(selected):
 	path_triggered.emit()

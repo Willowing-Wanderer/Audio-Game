@@ -69,7 +69,7 @@ func process_left_click(area: Area3D):
  
 	
 func process_right_click(area: Area3D):
-	narrator.narrate(area.object_name)
+	area.narrate()
 
 func add_to_inventory(item_name):
 	inventory.add_item(item_name)

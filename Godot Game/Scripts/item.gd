@@ -3,7 +3,11 @@ extends Area3D
 
 @export var object_name:String
 
+@export var narrate_item:AkEvent3D
 # All items must include the following functions:
+func narrate():
+	narrate_item.post_event()
+
 func on_click(selected):
 	player.add_to_inventory(object_name)
 	
