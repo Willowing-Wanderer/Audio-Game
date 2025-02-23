@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://k08hjy6wr6f"
+path="res://.godot/imported/Hungry_Raccoon.wav-9c5405b99800aa0d1a34e7678eb089b3.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Hungry_Raccoon.wav"
+dest_files=["res://.godot/imported/Hungry_Raccoon.wav-9c5405b99800aa0d1a34e7678eb089b3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

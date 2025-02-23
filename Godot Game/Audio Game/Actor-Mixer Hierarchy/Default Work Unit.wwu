@@ -435,6 +435,39 @@
 								<ActiveSource Name="Druid_Hum" ID="{09BA7B97-AA3D-4C18-B585-3F49B3B81A26}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Hungry_Raccoon" ID="{2B5D0C7D-0947-4E98-8858-A9110D787E32}" ShortID="510259666">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hungry_Raccoon" ID="{AFD5BECE-D4FB-4275-9110-B5E56BC9C0E8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.202525941719972"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.839036044268454"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0289322773885674"/>
+										<Property Name="LoopEnd" Type="Real64" Value="17.2725469252378"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="17.6197569296375"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Hungry_Raccoon.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="371776505"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hungry_Raccoon" ID="{AFD5BECE-D4FB-4275-9110-B5E56BC9C0E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Items" ID="{97051ECD-F8EF-4609-A123-FFA2F1BB2D33}" ShortID="635504885">

@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{20E2A425-AB4D-CCBC-3FAD-CF1CFA085D08}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2110E0B6-C070-E6BE-47D3-FB401903C56A}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -207,6 +207,10 @@
 					<ShortName>Narration_Placeholder.wav</ShortName>
 					<CachePath>Voices/English(US)/Narration_Placeholder_0A617491.wem</CachePath>
 				</File>
+				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hungry_Raccoon.wav</ShortName>
+					<CachePath>SFX/Hungry_Raccoon_12CE6FAC.wem</CachePath>
+				</File>
 				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sound_Placeholder.wav</ShortName>
 					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
@@ -226,10 +230,6 @@
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
-				</File>
-				<File Id="607972558" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Raccoon_Thanks.wav</ShortName>
-					<CachePath>SFX/Raccoon_Thanks_818F3B66.wem</CachePath>
 				</File>
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
@@ -354,7 +354,7 @@
 				</Event>
 				<Event Id="1621431280" Name="Hungry_Raccoon">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="371776505"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1466384055" Name="Interact">
@@ -444,7 +444,7 @@
 				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
-						<MediaRef Id="607972558"/>
+						<MediaRef Id="61460548"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
@@ -463,5 +463,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9846988D-496A-D67E-1FC6-60C7B00A0BF7}</FileHash>
+	<FileHash>{A6497BAA-8F5C-E9CA-B51C-536171D832AE}</FileHash>
 </SoundBanksInfo>
