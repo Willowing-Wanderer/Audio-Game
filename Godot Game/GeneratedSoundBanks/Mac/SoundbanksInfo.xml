@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{529D4578-CE98-296A-CCF7-317607BE62DD}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{52FCC21C-E738-DE63-3FF1-D9CB53B635D7}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -218,10 +218,6 @@
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
-				</File>
-				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Sound_Placeholder.wav</ShortName>
-					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
 				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
@@ -327,7 +323,7 @@
 				</Event>
 				<Event Id="1127138550" Name="Crystal_Hum">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="422905841" Name="Crystal_Item">
@@ -479,5 +475,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9E910CC-572B-C190-EC60-56DAC8FDA65D}</FileHash>
+	<FileHash>{6ACA51A7-C1B2-9944-3D14-45F315A6BF91}</FileHash>
 </SoundBanksInfo>

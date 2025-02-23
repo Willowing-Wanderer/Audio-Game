@@ -11,7 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
 	1008262333	Path_Wind			\Default Work Unit\Environmentals\Path_Wind	
 	1075103351	Pixie_Flyoff			\Default Work Unit\SoundEvents\Pixie_Flyoff	
-	1127138550	Crystal_Hum			\Default Work Unit\Items\Crystal_Hum	
+	1127138550	Crystal_Hum			\Default Work Unit\Environmentals\Crystal_Hum	
 	1146653945	Raccoon_Eating			\Default Work Unit\Environmentals\Raccoon_Eating	
 	1251517266	Apples_Fall			\Default Work Unit\SoundEvents\Apples_Fall	
 	1352158686	Click_Fail			\Default Work Unit\UI\Click_Fail	
@@ -55,7 +55,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	347548140	Druid_Dialog	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Druid_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Dialog		8793004
 	349029664	Narration_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Narration_Placeholder_0A617491.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
 	371776505	Hungry_Raccoon	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Hungry_Raccoon_49D83F2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Hungry_Raccoon		3108268
-	401630820	Sound_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
 	412105083	Pixie1_Dialog	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie1_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog		1709868
 	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
 	501403929	LeafCrunchHard3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
