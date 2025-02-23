@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{13D45616-2930-8816-9F6B-42F1CD70B7ED}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{89FA2B19-4CA1-57B1-5F75-45D10FA7D2E8}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -255,6 +255,10 @@
 					<ShortName>LeafCrunchHard1.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard1_B6E23DAA.wem</CachePath>
 				</File>
+				<File Id="1048699721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Hum.wav</ShortName>
+					<CachePath>SFX/Druid_Hum_C2B3FD84.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<Custom>
@@ -319,7 +323,7 @@
 				</Event>
 				<Event Id="2213069164" Name="Druid_Hum">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="1048699721"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3109325365" Name="Druid_Thanks">
@@ -451,5 +455,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9AA5583F-B1C8-00C7-9977-52298CB8EE28}</FileHash>
+	<FileHash>{67AE2A33-7A86-C4AF-3D59-C4F144E1C237}</FileHash>
 </SoundBanksInfo>
