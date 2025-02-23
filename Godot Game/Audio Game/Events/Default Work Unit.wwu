@@ -405,7 +405,7 @@
 								<Action Name="" ID="{3B2EB71D-1E73-41BE-8C97-6C19B4B2CA6A}" ShortID="139973186">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Pixie1_Dialog" ID="{C99713B3-A554-49B4-9B53-1B19632F27BF}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

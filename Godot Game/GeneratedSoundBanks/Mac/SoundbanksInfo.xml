@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2110E0B6-C070-E6BE-47D3-FB401903C56A}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{AA9C74E5-5F1D-C187-0CE8-C6DBFD290F14}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -209,11 +209,15 @@
 				</File>
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
-					<CachePath>SFX/Hungry_Raccoon_12CE6FAC.wem</CachePath>
+					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
 				</File>
 				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sound_Placeholder.wav</ShortName>
 					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
+				</File>
+				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie1_Dialog.wav</ShortName>
+					<CachePath>SFX/Pixie1_Dialog_818F3B66.wem</CachePath>
 				</File>
 				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard4.wav</ShortName>
@@ -419,7 +423,7 @@
 				</Event>
 				<Event Id="2704494418" Name="Pixie1_Dialog">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="412105083"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3300195252" Name="Pixie_Aww">
@@ -463,5 +467,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A6497BAA-8F5C-E9CA-B51C-536171D832AE}</FileHash>
+	<FileHash>{0A37BED8-DA9C-B7D5-006C-AE5C43B3F647}</FileHash>
 </SoundBanksInfo>
