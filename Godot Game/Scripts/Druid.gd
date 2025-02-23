@@ -29,14 +29,15 @@ func on_click(selected):
 	#TODO: turn off facing sounds as well somehow
 	#player.set_process_unhandled_input(false)
 	await get_tree().create_timer(1).timeout
-	if(first_click):
-		druid_dialog.post_event()
-		first_click = false
-		await get_tree().create_timer(50).timeout
+	
+	if(selected == "Crystal"):
+		druid_thanks.post_event()
+		await get_tree().create_timer(5).timeout
 	else:
-		if(selected == "Crystal"): # win condition
-			druid_thanks.post_event()
-			await get_tree().create_timer(5).timeout
+		if(first_click):
+			druid_dialog.post_event()
+			first_click = false
+			await get_tree().create_timer(50).timeout
 		else:
 			druid_help.post_event()
 			await get_tree().create_timer(11.1).timeout

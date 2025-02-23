@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://bvme6p87bknvw"]
+
+[ext_resource type="Script" path="res://Scripts/Raccoon.gd" id="1_b6jrx"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plhd5"]
+albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
+material = SubResource("StandardMaterial3D_plhd5")
+
+[node name="Raccoon" type="Area3D" node_paths=PackedStringArray("hungry_raccoon", "raccoon_eating", "raccoon_thanks", "narrate_raccoon", "crystal_drop")]
+script = ExtResource("1_b6jrx")
+hungry_raccoon = NodePath("Hungry_Raccoon")
+raccoon_eating = NodePath("Raccoon_Eating")
+raccoon_thanks = NodePath("Raccoon_Thanks")
+narrate_raccoon = NodePath("Narrate_Raccoon")
+crystal_drop = NodePath("Crystal_Drop")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+shape = SubResource("SphereShape3D_2lhut")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+mesh = SubResource("SphereMesh_ltkxe")
+
+[node name="Hungry_Raccoon" type="AkEvent3D" parent="."]
+event = {
+"id": 1621431280,
+"name": "Hungry_Raccoon"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Raccoon_Eating" type="AkEvent3D" parent="."]
+event = {
+"id": 1146653945,
+"name": "Raccoon_Eating"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Raccoon_Thanks" type="AkEvent3D" parent="."]
+event = {
+"id": 2129084912,
+"name": "Raccoon_Thanks"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Narrate_Raccoon" type="AkEvent3D" parent="."]
+event = {
+"id": 1785858692,
+"name": "Narrate_Raccoon"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Crystal_Drop" type="AkEvent3D" parent="."]
+event = {
+"id": 1757040115,
+"name": "Crystal_Drop"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

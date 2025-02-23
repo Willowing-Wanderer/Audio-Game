@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_ojsyl"]
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="3_hwvxf"]
-[ext_resource type="PackedScene" uid="uid://dpxwuhk0fr0ue" path="res://Scenes/Items/crystal.tscn" id="3_msi6b"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="3_nwtgi"]
 [ext_resource type="PackedScene" uid="uid://hlssl26jhl27" path="res://Scenes/Characters/Druid.tscn" id="3_wia7u"]
+[ext_resource type="PackedScene" uid="uid://bvme6p87bknvw" path="res://Scenes/Characters/Raccoon.tscn" id="5_gus2k"]
 [ext_resource type="PackedScene" uid="uid://bphfm2hlph2fo" path="res://Scenes/Backdrops/Backdrop.tscn" id="6_s7tvo"]
 
 [node name="Forest" type="Node3D"]
@@ -42,8 +42,9 @@ player = NodePath("../../Player")
 [node name="Circle2" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]
 transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
 
-[node name="Crystal" parent="AkBank/AkBank2/Circle2" node_paths=PackedStringArray("player") instance=ExtResource("3_msi6b")]
-transform = Transform3D(-0.949403, 0, -0.314059, 0, 1, 0, 0.314059, 0, -0.949403, 0, 0, 0)
+[node name="Raccoon" parent="AkBank/AkBank2/Circle2" node_paths=PackedStringArray("circle", "player") instance=ExtResource("5_gus2k")]
+transform = Transform3D(0.6102, 0, -0.792247, 0, 1, 0, 0.792247, 0, 0.6102, 0, 0, 0)
+circle = NodePath("..")
 player = NodePath("../../Player")
 
 [node name="Circle3" parent="AkBank/AkBank2" instance=ExtResource("2_ojsyl")]

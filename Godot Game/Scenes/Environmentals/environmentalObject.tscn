@@ -1,6 +1,39 @@
 [gd_scene load_steps=5 format=3 uid="uid://kjlf5k1kqet4"]
 
-[ext_resource type="Script" path="res://Scripts/environmentalObject.gd" id="1_a1502"]
+[sub_resource type="GDScript" id="GDScript_wn5r7"]
+script/source = "extends Area3D
+
+@export var object_name:String
+
+@export var hungry_raccoon:AkEvent3D
+@export var raccoon_eating:AkEvent3D
+@export var raccoon_thanks:AkEvent3D
+@export var narrate_raccoon:AkEvent3D
+
+var crystal_scene = preload(\"res://Scenes/Items/crystal.tscn\")
+
+func _ready():
+	Wwise.register_game_obj(self, self.get_name())
+	Wwise.set_3d_position(self, get_global_transform())
+	hungry_raccoon.post_event()
+
+func narrate():
+	narrate_raccoon.post_event()
+
+func on_click(selected):
+	if(selected == \"Apple\"):
+		Wwise.post_event_id(AK.EVENTS.INTERACT, self)
+		hungry_raccoon.stop_event()
+		raccoon_thanks.post_event()
+		await get_tree().create_timer(5).timeout
+		raccoon_eating.post_event()
+		drop_crystal()
+	else:
+		Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+		
+func drop_crystal():
+	pass
+"
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
 
@@ -11,7 +44,7 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 material = SubResource("StandardMaterial3D_plhd5")
 
 [node name="Environmental" type="Area3D"]
-script = ExtResource("1_a1502")
+script = SubResource("GDScript_wn5r7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
