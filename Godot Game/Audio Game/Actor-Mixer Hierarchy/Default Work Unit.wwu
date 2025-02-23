@@ -1107,6 +1107,28 @@
 								<ActiveSource Name="Druid_Help" ID="{5EA60900-3DDB-432E-9CD8-7CBC4839BD2D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Pixie1_Dialog" ID="{C99713B3-A554-49B4-9B53-1B19632F27BF}" ShortID="820350014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pixie1_Dialog" ID="{409900B8-70C5-46E9-B98C-232916ADCBA0}">
+									<Language>SFX</Language>
+									<AudioFile>Pixie1_Dialog.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="412105083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pixie1_Dialog" ID="{409900B8-70C5-46E9-B98C-232916ADCBA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
