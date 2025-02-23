@@ -988,6 +988,28 @@
 								<ActiveSource Name="Dialog_Placeholder" ID="{5153A314-51EC-4D99-A05F-6B78F05FC4C8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Druid_Dialog" ID="{091CEB50-A4CB-4036-BD7A-301A273461BF}" ShortID="58607344">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Druid_Dialog" ID="{DF6CC17F-76E8-483B-A983-F1D19382FEC6}">
+									<Language>SFX</Language>
+									<AudioFile>Druid_Dialog.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="347548140"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Druid_Dialog" ID="{DF6CC17F-76E8-483B-A983-F1D19382FEC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
