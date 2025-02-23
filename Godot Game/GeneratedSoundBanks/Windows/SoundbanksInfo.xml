@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{F565CEA6-09E6-ED81-F563-6BED17E218C0}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{B4CC8DF7-C0AA-348B-5356-5B9D405D63AC}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -198,6 +198,10 @@
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
 					<CachePath>SFX/Crystal_Drop_818F3B66.wem</CachePath>
+				</File>
+				<File Id="297512709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie_Aww.wav</ShortName>
+					<CachePath>SFX/Pixie_Aww_818F3B66.wem</CachePath>
 				</File>
 				<File Id="300550434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Giggle.wav</ShortName>
@@ -436,7 +440,7 @@
 				</Event>
 				<Event Id="3300195252" Name="Pixie_Aww">
 					<MediaRefs>
-						<MediaRef Id="651076579"/>
+						<MediaRef Id="297512709"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1075103351" Name="Pixie_Flyoff">
@@ -475,5 +479,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{97F54808-D034-1884-9E20-A2A248D493C3}</FileHash>
+	<FileHash>{FBFAED23-2205-96CD-D232-8BB7CA2C893B}</FileHash>
 </SoundBanksInfo>

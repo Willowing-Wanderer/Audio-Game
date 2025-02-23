@@ -368,7 +368,7 @@
 								<Action Name="" ID="{4468681D-889E-4BA6-BABC-6FD11DD25EAD}" ShortID="867181631">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Pixie_Aww" ID="{7E89E6A2-5E09-4740-8FD3-EAE2DEB75006}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
