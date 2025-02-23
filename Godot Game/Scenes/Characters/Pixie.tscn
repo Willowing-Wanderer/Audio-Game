@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://75074s6brwaf"]
+
+[ext_resource type="Script" path="res://Scripts/Pixie.gd" id="1_cvsng"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plhd5"]
+albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
+material = SubResource("StandardMaterial3D_plhd5")
+
+[node name="Pixie" type="Area3D" node_paths=PackedStringArray("pixie_giggle", "pixie_aww", "pixie_flyoff", "pixie1_dialog", "narrate_pixie")]
+script = ExtResource("1_cvsng")
+pixie_giggle = NodePath("Pixie_Giggle")
+pixie_aww = NodePath("Pixie_Aww")
+pixie_flyoff = NodePath("Pixie_Flyoff")
+pixie1_dialog = NodePath("Pixie1_Dialog")
+narrate_pixie = NodePath("Narrate_Pixie")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+shape = SubResource("SphereShape3D_2lhut")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+mesh = SubResource("SphereMesh_ltkxe")
+
+[node name="Pixie_Giggle" type="AkEvent3D" parent="."]
+event = {
+"id": 848414374,
+"name": "Pixie_Giggle"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Pixie_Aww" type="AkEvent3D" parent="."]
+event = {
+"id": 3300195252,
+"name": "Pixie_Aww"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Pixie_Flyoff" type="AkEvent3D" parent="."]
+event = {
+"id": 1075103351,
+"name": "Pixie_Flyoff"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Pixie1_Dialog" type="AkEvent3D" parent="."]
+event = {
+"id": 2704494418,
+"name": "Pixie1_Dialog"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Narrate_Pixie" type="AkEvent3D" parent="."]
+event = {
+"id": 3477674050,
+"name": "Narrate_Apple_Tree"
+}
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
