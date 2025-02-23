@@ -416,7 +416,7 @@
 								<Action Name="" ID="{7AAD8133-EC70-408E-B221-F12AFBE1452E}" ShortID="429230689">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Druid_Dialog" ID="{091CEB50-A4CB-4036-BD7A-301A273461BF}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
