@@ -163,10 +163,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{52FCC21C-E738-DE63-3FF1-D9CB53B635D7}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8D064615-0798-0ABD-97FE-BC82498C1009}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
+				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Item_Ping.wav</ShortName>
+					<CachePath>SFX/Item_Ping_23781546.wem</CachePath>
+				</File>
 				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dialog_Placeholder.wav</ShortName>
 					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
@@ -230,10 +234,6 @@
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard3_04F63888.wem</CachePath>
-				</File>
-				<File Id="503186075" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>GeneralPickupSound.wav</ShortName>
-					<CachePath>SFX/GeneralPickupSound_5FC83462.wem</CachePath>
 				</File>
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
@@ -376,7 +376,7 @@
 				</Event>
 				<Event Id="49143091" Name="Item_Ping">
 					<MediaRefs>
-						<MediaRef Id="503186075"/>
+						<MediaRef Id="9349052"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
@@ -475,5 +475,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6ACA51A7-C1B2-9944-3D14-45F315A6BF91}</FileHash>
+	<FileHash>{475C0568-F800-02EA-0338-E28A8F378B49}</FileHash>
 </SoundBanksInfo>
