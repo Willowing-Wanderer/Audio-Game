@@ -11,6 +11,7 @@ extends Area3D
 @export var crystal_drop:AkEvent3D
 
 signal raccoon_fed
+var fed = false
 
 var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
 
@@ -24,12 +25,20 @@ func narrate():
 
 func on_click(selected):
 	if(selected == "Apple"):
+		player.stop_facing()
+		player.set_process_input(false)
+		
+		player.remove_from_inventory("Apple")
+		
 		Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 		hungry_raccoon.stop_event()
 		raccoon_thanks.post_event()
 		await get_tree().create_timer(5).timeout
 		raccoon_eating.post_event()
-		drop_crystal()
+		if(!fed):
+			drop_crystal()
+		player.set_process_input(true)
+		
 	else:
 		Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
 		
@@ -40,3 +49,4 @@ func drop_crystal():
 	crystal.object_name = "Crystal"
 	circle.add_child(crystal)
 	raccoon_fed.emit()
+	fed = true

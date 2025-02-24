@@ -31,6 +31,7 @@ func on_click(selected):
 	await get_tree().create_timer(1).timeout
 	
 	if(selected == "Crystal"):
+		player.remove_from_inventory("Crystal")
 		druid_thanks.post_event()
 		await get_tree().create_timer(5).timeout
 	else:
