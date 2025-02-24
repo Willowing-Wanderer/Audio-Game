@@ -178,6 +178,18 @@
 										<MediaID ID="503186075"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Item_Ping" ID="{1B52E5E8-47FD-4A6E-AA31-775747088957}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.220436254103631"/>
+										<Property Name="LoopEnd" Type="Real64" Value="14.1740284631265"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Item_Ping.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="9349052"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
 								<Position Name="" ID="{DDB88F8A-D92D-464D-91C4-B2E52DF1017C}"/>
@@ -239,7 +251,7 @@
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="GeneralPickupSound" ID="{52BF1374-286C-4898-B905-4DB6CEBACEFD}" Platform="Linked"/>
+								<ActiveSource Name="Item_Ping" ID="{1B52E5E8-47FD-4A6E-AA31-775747088957}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" ShortID="500576924">
