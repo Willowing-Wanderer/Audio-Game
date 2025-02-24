@@ -2,24 +2,19 @@
 
 class_name Player extends Area3D
 
+@export var hover_select:AkEvent3D
+@export var hover_deselect:AkEvent3D
+
 @export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.0
-
 var mouse_captured: bool = false
-
 var look_dir: Vector2 # Input direction for look/aim
 
-var held_object: Area3D
-var hands_free = true
-
 var playing_id
-
 var selected_max = 3
-
 var facing_playing_id
 
 @onready var inventory = $Inventory
 @onready var narrator = $Narrator
-
 @onready var player: Area3D = $Player
 
 func _ready() -> void:
@@ -75,12 +70,10 @@ func add_to_inventory(item_name):
 	inventory.add_item(item_name)
 
 func _on_area_entered(area):
-	if(facing_playing_id):
-		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-	facing_playing_id = Wwise.post_event_id(AK.EVENTS.FACING, self)
+	hover_select.post_event()
 
 func _on_area_exited(area):
-	stop_facing()
+	hover_deselect.post_event()
 
 func stop_facing():
 	if(facing_playing_id):

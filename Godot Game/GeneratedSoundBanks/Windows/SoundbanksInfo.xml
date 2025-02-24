@@ -163,13 +163,13 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8D064615-0798-0ABD-97FE-BC82498C1009}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2D9F5E38-D5C4-2B25-225A-0EA759F85320}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
 				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Item_Ping.wav</ShortName>
-					<CachePath>SFX/Item_Ping_23781546.wem</CachePath>
+					<CachePath>SFX/Item_Ping_69AD4CCB.wem</CachePath>
 				</File>
 				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dialog_Placeholder.wav</ShortName>
@@ -219,6 +219,10 @@
 					<ShortName>Narration_Placeholder.wav</ShortName>
 					<CachePath>Voices/English(US)/Narration_Placeholder_0A617491.wem</CachePath>
 				</File>
+				<File Id="353048489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ItemHoverSelect.wav</ShortName>
+					<CachePath>SFX/ItemHoverSelect_818F3B66.wem</CachePath>
+				</File>
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
@@ -234,6 +238,10 @@
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard3_04F63888.wem</CachePath>
+				</File>
+				<File Id="525294819" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ItemHoverDeselect.wav</ShortName>
+					<CachePath>SFX/ItemHoverDeselect_818F3B66.wem</CachePath>
 				</File>
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
@@ -364,6 +372,16 @@
 						<MediaRef Id="997994923"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1523466505" Name="Hover_Deselect">
+					<MediaRefs>
+						<MediaRef Id="525294819"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3971078520" Name="Hover_Select">
+					<MediaRefs>
+						<MediaRef Id="353048489"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1621431280" Name="Hungry_Raccoon">
 					<MediaRefs>
 						<MediaRef Id="371776505"/>
@@ -475,5 +493,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEA45551-615D-2435-1C9E-F293DA4785D3}</FileHash>
+	<FileHash>{1A1BF58A-404E-C0B4-0C14-901CCBF66C83}</FileHash>
 </SoundBanksInfo>

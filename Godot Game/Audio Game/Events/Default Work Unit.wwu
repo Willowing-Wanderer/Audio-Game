@@ -222,6 +222,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Hover_Select" ID="{7F335CAC-1A9F-4CB0-88CE-9F96EE4259BC}">
+							<ChildrenList>
+								<Action Name="" ID="{136F0F9E-C223-4889-AE2A-A1852AF2A9B9}" ShortID="272143214">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ItemHoverSelect" ID="{C203F59F-AD4B-444A-97F1-C3C278FC6CD5}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hover_Deselect" ID="{4FFBBA16-B41B-461B-BB45-BB5B35265560}">
+							<ChildrenList>
+								<Action Name="" ID="{2114A08A-C065-4ED0-BD56-BE05A0C20381}" ShortID="659282156">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ItemHoverDeselect" ID="{548FB56F-7F03-4219-BAC4-7D26CC4514BB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Backdrops" ID="{6A4A2A2B-95FC-43EE-B477-62932B446C43}" ShortID="26039172">
