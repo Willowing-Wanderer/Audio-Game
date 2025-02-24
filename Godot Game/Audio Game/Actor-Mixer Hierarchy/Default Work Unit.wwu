@@ -1076,6 +1076,50 @@
 								<ActiveSource Name="Sound_Placeholder" ID="{2B2C2676-3F64-4431-81E4-EA50C6D0BDF2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="ItemHoverSelect" ID="{C203F59F-AD4B-444A-97F1-C3C278FC6CD5}" ShortID="84102326">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ItemHoverSelect" ID="{D717FB0B-8CD7-4BB3-9879-732537C197A0}">
+									<Language>SFX</Language>
+									<AudioFile>ItemHoverSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="353048489"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ItemHoverSelect" ID="{D717FB0B-8CD7-4BB3-9879-732537C197A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ItemHoverDeselect" ID="{548FB56F-7F03-4219-BAC4-7D26CC4514BB}" ShortID="558951728">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ItemHoverDeselect" ID="{2C4D5D66-2BB6-4F81-A9DD-1FA7E34BE939}">
+									<Language>SFX</Language>
+									<AudioFile>ItemHoverDeselect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="525294819"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ItemHoverDeselect" ID="{2C4D5D66-2BB6-4F81-A9DD-1FA7E34BE939}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SoundEvents" ID="{C318B1B1-E23A-4861-8499-09F44D0BBAAD}" ShortID="68459454">
