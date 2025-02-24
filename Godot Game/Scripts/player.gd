@@ -73,6 +73,9 @@ func process_right_click(area: Area3D):
 
 func add_to_inventory(item_name):
 	inventory.add_item(item_name)
+	
+func remove_from_inventory(item_name):
+	inventory.remove_item(item_name)
 
 func _on_area_entered(area):
 	if(facing_playing_id):

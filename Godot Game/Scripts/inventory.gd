@@ -10,14 +10,14 @@ var selected = 0
 
 var playing_id
 
-func _process(delta):
+func clean_up():
 	var itemsToDelete = []
 	for item in items.keys():
 		if(items[item] == 0):
 			itemsToDelete.append(item)
 	for item in itemsToDelete:
 		items.erase(item)
-	 
+
 func get_selected():
 	return items.keys()[selected]
 			
@@ -31,6 +31,11 @@ func add_item(item_name):
 		if(items.keys()[i] == item_name):
 			selected = i
 	
+func remove_item(item_name):
+	if(item_name in items.keys()):
+		items[item_name] -= 1
+	clean_up()
+	selected = 0
 	
 func play_selected_sound():
 	if(playing_id):
