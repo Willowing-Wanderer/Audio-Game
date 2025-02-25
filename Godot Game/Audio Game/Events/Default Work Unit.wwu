@@ -416,7 +416,7 @@
 								<Action Name="" ID="{D6BE4C2F-D5CC-4302-BEEC-D912A0CFDD06}" ShortID="316681822">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Thanks" ID="{005890A6-B897-45DB-8604-A058D85BB702}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
