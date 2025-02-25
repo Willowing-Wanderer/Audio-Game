@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{32B082D6-0441-94D3-B402-C12D50C38597}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C781529F-7BF4-3D85-03E3-566EAF40788A}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -178,6 +178,10 @@
 				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dialog_Placeholder.wav</ShortName>
 					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
+				</File>
+				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tree_Shake.wav</ShortName>
+					<CachePath>SFX/Tree_Shake_818F3B66.wem</CachePath>
 				</File>
 				<File Id="76911740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Facing.wav</ShortName>
@@ -487,7 +491,7 @@
 				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
 					<MediaRefs>
-						<MediaRef Id="651076579"/>
+						<MediaRef Id="74561833"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="162560690" Name="Tree_Swish">
@@ -501,5 +505,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{978BD75D-59E5-7446-384A-4D6814FD22D0}</FileHash>
+	<FileHash>{02A9A576-92A6-9A53-4FB8-2F1DC6B1B3D2}</FileHash>
 </SoundBanksInfo>

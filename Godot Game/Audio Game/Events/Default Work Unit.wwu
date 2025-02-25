@@ -368,7 +368,7 @@
 								<Action Name="" ID="{54DDCCEC-FDED-4FE9-AC27-9441B6802D9F}" ShortID="631649854">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Tree_Shake" ID="{8BF563A9-E209-46B6-BB6A-9BEB48E1E694}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

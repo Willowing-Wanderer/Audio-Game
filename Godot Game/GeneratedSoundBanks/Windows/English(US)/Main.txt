@@ -47,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9349052	Item_Ping	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Item_Ping_69AD4CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		2605436
 	23917326	Tree_Swish	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Swish_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Tree_Swish		3338176
 	61460548	Dialog_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Dialog_Placeholder_6C53839B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialog_Placeholder		147926
+	74561833	Tree_Shake	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
 	76911740	Facing_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
 	87182428	FailedClickV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\FailedClickV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		325804
 	150446866	LeafCrunchHard2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140

@@ -3,81 +3,81 @@ class_name AK
 class EVENTS:
 
 	const NARRATE_PATH = 4104917964
-	const HOVER_SELECT = 3971078520
-	const INTERACT = 1466384055
-	const NARRATE_PIXIE = 2298942422
-	const NARRATE_RACCOON = 1785858692
-	const RACCOON_EATING = 1146653945
-	const CRYSTAL_ITEM = 422905841
-	const DRUID_DIALOG = 3393591398
-	const DRUID_THANKS = 3109325365
+	const PATH_WIND = 1008262333
 	const CLICK_FAIL = 1352158686
-	const NARRATE_NOTHING = 911107020
+	const INTERACT = 1466384055
+	const FACING = 54298587
 	const ITEM_PING = 49143091
+	const NARRATE_DRUID = 267359535
+	const NARRATE_APPLE_TREE = 3477674050
+	const RACCOON_EATING = 1146653945
+	const DRUID_HUM = 2213069164
+	const NARRATE_PIXIE = 2298942422
+	const NARRATE_CRYSTAL = 2580949965
+	const NARRATE_NOTHING = 911107020
+	const NARRATE_APPLE = 2194565643
+	const NARRATE_RACCOON = 1785858692
+	const TREE_SWISH = 162560690
+	const HUNGRY_RACCOON = 1621431280
+	const CRYSTAL_HUM = 1127138550
+	const PICK_UP = 467838998
+	const HOVER_SELECT = 3971078520
+	const HOVER_DESELECT = 1523466505
 	const BLACK_WIND = 4020366015
 	const BACKDROP_1 = 4000258095
-	const PATH_WIND = 1008262333
-	const HUNGRY_RACCOON = 1621431280
-	const NARRATE_CRYSTAL = 2580949965
-	const DRUID_HUM = 2213069164
-	const CRYSTAL_HUM = 1127138550
-	const FACING = 54298587
-	const PICK_UP = 467838998
-	const NARRATE_APPLE_TREE = 3477674050
-	const HOVER_DESELECT = 1523466505
 	const APPLE = 67176023
+	const CRYSTAL_ITEM = 422905841
 	const FOOTSTEPS = 2385628198
 	const APPLES_FALL = 1251517266
-	const NARRATE_DRUID = 267359535
-	const NARRATE_APPLE = 2194565643
-	const TREE_SWISH = 162560690
 	const CRYSTAL_DROP = 1757040115
+	const TREE_SHAKE = 3363276846
+	const DRUID_HELP = 876613367
+	const PIXIE_GIGGLE = 848414374
+	const DRUID_DIALOG = 3393591398
 	const PIXIE_FLYOFF = 1075103351
 	const PIXIE_AWW = 3300195252
-	const TREE_SHAKE = 3363276846
-	const PIXIE_GIGGLE = 848414374
 	const RACCOON_THANKS = 2129084912
+	const DRUID_THANKS = 3109325365
 	const PIXIE1_DIALOG = 2704494418
-	const DRUID_HELP = 876613367
 
 	const _dict = {
 		"Narrate_Path": NARRATE_PATH,
-		"Hover_Select": HOVER_SELECT,
-		"Interact": INTERACT,
-		"Narrate_Pixie": NARRATE_PIXIE,
-		"Narrate_Raccoon": NARRATE_RACCOON,
-		"Raccoon_Eating": RACCOON_EATING,
-		"Crystal_Item": CRYSTAL_ITEM,
-		"Druid_Dialog": DRUID_DIALOG,
-		"Druid_Thanks": DRUID_THANKS,
+		"Path_Wind": PATH_WIND,
 		"Click_Fail": CLICK_FAIL,
-		"Narrate_Nothing": NARRATE_NOTHING,
+		"Interact": INTERACT,
+		"Facing": FACING,
 		"Item_Ping": ITEM_PING,
+		"Narrate_Druid": NARRATE_DRUID,
+		"Narrate_Apple_Tree": NARRATE_APPLE_TREE,
+		"Raccoon_Eating": RACCOON_EATING,
+		"Druid_Hum": DRUID_HUM,
+		"Narrate_Pixie": NARRATE_PIXIE,
+		"Narrate_Crystal": NARRATE_CRYSTAL,
+		"Narrate_Nothing": NARRATE_NOTHING,
+		"Narrate_Apple": NARRATE_APPLE,
+		"Narrate_Raccoon": NARRATE_RACCOON,
+		"Tree_Swish": TREE_SWISH,
+		"Hungry_Raccoon": HUNGRY_RACCOON,
+		"Crystal_Hum": CRYSTAL_HUM,
+		"Pick_Up": PICK_UP,
+		"Hover_Select": HOVER_SELECT,
+		"Hover_Deselect": HOVER_DESELECT,
 		"Black_Wind": BLACK_WIND,
 		"Backdrop_1": BACKDROP_1,
-		"Path_Wind": PATH_WIND,
-		"Hungry_Raccoon": HUNGRY_RACCOON,
-		"Narrate_Crystal": NARRATE_CRYSTAL,
-		"Druid_Hum": DRUID_HUM,
-		"Crystal_Hum": CRYSTAL_HUM,
-		"Facing": FACING,
-		"Pick_Up": PICK_UP,
-		"Narrate_Apple_Tree": NARRATE_APPLE_TREE,
-		"Hover_Deselect": HOVER_DESELECT,
 		"Apple": APPLE,
+		"Crystal_Item": CRYSTAL_ITEM,
 		"Footsteps": FOOTSTEPS,
 		"Apples_Fall": APPLES_FALL,
-		"Narrate_Druid": NARRATE_DRUID,
-		"Narrate_Apple": NARRATE_APPLE,
-		"Tree_Swish": TREE_SWISH,
 		"Crystal_Drop": CRYSTAL_DROP,
+		"Tree_Shake": TREE_SHAKE,
+		"Druid_Help": DRUID_HELP,
+		"Pixie_Giggle": PIXIE_GIGGLE,
+		"Druid_Dialog": DRUID_DIALOG,
 		"Pixie_Flyoff": PIXIE_FLYOFF,
 		"Pixie_Aww": PIXIE_AWW,
-		"Tree_Shake": TREE_SHAKE,
-		"Pixie_Giggle": PIXIE_GIGGLE,
 		"Raccoon_Thanks": RACCOON_THANKS,
-		"Pixie1_Dialog": PIXIE1_DIALOG,
-		"Druid_Help": DRUID_HELP
+		"Druid_Thanks": DRUID_THANKS,
+		"Pixie1_Dialog": PIXIE1_DIALOG
 	}
 
 class STATES:
