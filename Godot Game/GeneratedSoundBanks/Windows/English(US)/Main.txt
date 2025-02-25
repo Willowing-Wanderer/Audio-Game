@@ -73,6 +73,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
 	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
 	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
-	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		1954112
+	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		2442604
 	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		2442604
 
