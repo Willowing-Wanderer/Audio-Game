@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2D9F5E38-D5C4-2B25-225A-0EA759F85320}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{6D27B1E2-4CD0-3848-3B76-6D96A8DE17E5}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -234,6 +234,10 @@
 				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
+				</File>
+				<File Id="440940756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Thanks.wav</ShortName>
+					<CachePath>SFX/Druid_Thanks_818F3B66.wem</CachePath>
 				</File>
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
@@ -356,7 +360,7 @@
 				</Event>
 				<Event Id="3109325365" Name="Druid_Thanks">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="440940756"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="54298587" Name="Facing">
@@ -493,5 +497,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6E6F8DC4-5104-0572-A447-72ED1DA638A8}</FileHash>
+	<FileHash>{7DD6A6A7-0E44-8D4D-C113-19381EB26F73}</FileHash>
 </SoundBanksInfo>
