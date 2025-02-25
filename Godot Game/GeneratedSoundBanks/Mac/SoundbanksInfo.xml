@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C781529F-7BF4-3D85-03E3-566EAF40788A}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{72C125A6-5563-60C0-CD72-13CC72AB1076}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -173,7 +173,7 @@
 				</File>
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
-					<CachePath>SFX/Tree_Swish_818F3B66.wem</CachePath>
+					<CachePath>SFX/Tree_Swish_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dialog_Placeholder.wav</ShortName>
@@ -505,5 +505,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{02A9A576-92A6-9A53-4FB8-2F1DC6B1B3D2}</FileHash>
+	<FileHash>{D513DA61-33DB-A3D3-08FA-9F4F73FCFAE2}</FileHash>
 </SoundBanksInfo>
