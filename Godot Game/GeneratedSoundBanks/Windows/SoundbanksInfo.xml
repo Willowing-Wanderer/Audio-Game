@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9FF4BAD2-1EB1-7672-FD92-3CD88E546E18}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{51117BB4-B218-62C3-2B5E-42FF782F5327}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{76F37E55-D09F-B76D-B7AC-60FC1758FFA5}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{CA21D7E9-13E2-8EDF-BE1B-4A3B3250C639}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -267,10 +267,6 @@
 					<ShortName>Nothing1.wav</ShortName>
 					<CachePath>SFX/Nothing1_199E879F.wem</CachePath>
 				</File>
-				<File Id="686063000" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Environmental_Placeholder (1).wav</ShortName>
-					<CachePath>SFX/Environmental_Placeholder (1)_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
@@ -286,6 +282,10 @@
 				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PutdownV1.wav</ShortName>
 					<CachePath>SFX/PutdownV1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="994574637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crystal_Hum.wav</ShortName>
+					<CachePath>SFX/Crystal_Hum_4A1000D6.wem</CachePath>
 				</File>
 				<File Id="997994923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard1.wav</ShortName>
@@ -303,6 +303,7 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="840125335" Name="Stereo Delay (Custom)" LibName="Wwise Stereo Delay" LibId="8847363"/>
+					<Plugin Id="986553122" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -343,8 +344,13 @@
 				</Event>
 				<Event Id="1127138550" Name="Crystal_Hum">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="994574637"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="986553122"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="422905841" Name="Crystal_Item">
 					<MediaRefs>
@@ -505,5 +511,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{007F0C48-6C6E-BA6D-7D25-0A3683B3D5E2}</FileHash>
+	<FileHash>{ED0F4837-CF4A-F9B8-D1D9-594EB62DC518}</FileHash>
 </SoundBanksInfo>

@@ -856,6 +856,134 @@
 								<ActiveSource Name="Tree_Swish" ID="{56EA4E16-2B9A-404E-8FA8-FD5C4C516BC0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Crystal_Hum" ID="{792170ED-87FF-41FE-9C9D-BD31AADC59D2}" ShortID="620893325">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal_Hum" ID="{C7C03860-A865-4414-BBC9-E831C5C7701C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.160013315546515"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.88815712344887"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0640053262186059"/>
+										<Property Name="LoopEnd" Type="Real64" Value="25.8901317796891"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Crystal_Hum.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994574637"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{F4AD6371-3FA6-4025-880B-A2ECA6066539}"/>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{6D388FBA-3DCE-49A1-83FE-77FB263E04D4}" ShortID="533517014">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Parametric EQ (Custom)" ID="{56ED8D1D-AEB4-4F34-BC1D-ED4C36C8061D}" ShortID="986553122" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FilterTypeBand2" Type="int32" Value="3"/>
+																	<Property Name="FrequencyBand1" Type="Real32" Value="305"/>
+																	<Property Name="FrequencyBand2" Type="Real32" Value="907"/>
+																	<Property Name="FrequencyBand3" Type="Real32" Value="232"/>
+																	<Property Name="GainBand1" Type="Real32" Value="1"/>
+																	<Property Name="GainBand3" Type="Real32" Value="-9"/>
+																	<Property Name="OnOffBand2" Type="bool" Value="False"/>
+																	<Property Name="QFactorBand2" Type="Real32" Value="17.9"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{438BCF7A-6CC6-4C41-816E-CBC67CD103A1}" ShortID="225857530">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{7F93DCC5-F1BB-4AEB-9518-C64F556F6DC1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-75</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal_Hum" ID="{C7C03860-A865-4414-BBC9-E831C5C7701C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Items" ID="{97051ECD-F8EF-4609-A123-FFA2F1BB2D33}" ShortID="635504885">
