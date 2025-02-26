@@ -168,7 +168,7 @@
 								<Action Name="" ID="{06F069DD-2E07-4D12-A108-447279C3FE02}" ShortID="271026808">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Crystal_Hum" ID="{792170ED-87FF-41FE-9C9D-BD31AADC59D2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

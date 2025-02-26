@@ -42,6 +42,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	840125335	Stereo Delay (Custom)	Wwise Stereo Delay			
+	986553122	Parametric EQ (Custom)	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9349052	Item_Ping	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Item_Ping_69AD4CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		2605436
@@ -69,11 +70,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	535661321	BlackWind	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
 	651076579	Event_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
 	663920178	Nothing1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing1_199E879F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing1		90170
-	686063000	Environmental_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Environmental_Placeholder (1)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Environmental_Placeholder		403552
 	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
 	918725472	Raccoon_Eating	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
 	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
 	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
+	994574637	Crystal_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Hum_4A1000D6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Crystal_Hum		5210728
 	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
 	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		2524020
 	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		2442604
