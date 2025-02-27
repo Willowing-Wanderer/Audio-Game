@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C7BFD6F5-9ABA-69B9-EB6F-ABAB1C5767F2}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{05A53811-1FDD-2DAF-EE66-1485360ABE36}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -290,6 +290,10 @@
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
 					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
+				</File>
+				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Pixie.wav</ShortName>
+					<CachePath>SFX/Narrate_Pixie_818F3B66.wem</CachePath>
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
@@ -512,7 +516,7 @@
 				</Event>
 				<Event Id="2298942422" Name="Narrate_Pixie">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="757045285"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1785858692" Name="Narrate_Raccoon">
@@ -586,5 +590,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D31A0A2A-84EE-802C-D694-CF5F64FF3381}</FileHash>
+	<FileHash>{B804D9D9-4C5F-43EB-1773-68DE17C5C54A}</FileHash>
 </SoundBanksInfo>

@@ -76,7 +76,7 @@
 								<Action Name="" ID="{DACF9B96-69EF-457F-9E04-C9FEB2D504B3}" ShortID="552516444">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Pixie" ID="{A7851C40-DADB-44AA-A436-52CB2EB86CCE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
