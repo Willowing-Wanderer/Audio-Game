@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{D3108685-3738-5955-D4CE-A9BD5E74186F}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{15E167BD-2716-701C-87E2-E3526F8DB9F4}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -274,6 +274,10 @@
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
+				</File>
+				<File Id="614364145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Empty_Tree.wav</ShortName>
+					<CachePath>SFX/Narrate_Empty_Tree_818F3B66.wem</CachePath>
 				</File>
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
@@ -480,7 +484,7 @@
 				</Event>
 				<Event Id="1862226623" Name="Narrate_Empty_Tree">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="614364145"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2633894792" Name="Narrate_Ending">
@@ -574,5 +578,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EC6EB9C2-2A92-7371-99D2-D6BACA3063AE}</FileHash>
+	<FileHash>{56582ECF-A098-A352-315F-78434D68C64E}</FileHash>
 </SoundBanksInfo>

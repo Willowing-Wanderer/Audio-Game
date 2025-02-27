@@ -79,6 +79,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	512147104	Narrate_Druid	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Druid_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Druid		977128
 	525294819	ItemHoverDeselect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\ItemHoverDeselect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverDeselect		570052
 	535661321	BlackWind	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
+	614364145	Narrate_Empty_Tree	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Empty_Tree_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		977128
 	651076579	Event_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
 	663920178	Nothing1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Nothing1_199E879F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing1		90170
 	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
