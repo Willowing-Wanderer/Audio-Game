@@ -93,6 +93,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Narrate_Start" ID="{F48D1686-ADDD-4151-BD82-FFD5EE837322}">
+							<ChildrenList>
+								<Action Name="" ID="{B2C00E0D-769D-4FF0-83EB-974B0546AE5E}" ShortID="588276642">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Empty_Tree" ID="{88DE5AFA-96CF-4A03-9425-D8F13A6BB599}">
+							<ChildrenList>
+								<Action Name="" ID="{F80C0298-47E9-424D-A7FC-FC6A54AB4665}" ShortID="135901792">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Ending" ID="{24DAC2B5-D2C1-4DFE-8E84-6DB39FAB32AE}">
+							<ChildrenList>
+								<Action Name="" ID="{2A8E68D3-8BF2-405C-BF88-B635E031CF9A}" ShortID="4625044">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Narrate_Controls" ID="{D99C2F02-B348-41A9-8FA8-3974DDF03126}">
+							<ChildrenList>
+								<Action Name="" ID="{0239F5E1-A71C-4135-9EED-9ED7C12A076E}" ShortID="882849767">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environmentals" ID="{AC700D64-3E47-464F-A0F3-15488D483A1B}" ShortID="573598719">
@@ -239,6 +283,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ItemHoverDeselect" ID="{548FB56F-7F03-4219-BAC4-7D26CC4514BB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Click_To_Start" ID="{B3E8B426-4D0F-4744-AD99-D085C38D2C8B}">
+							<ChildrenList>
+								<Action Name="" ID="{AD5B10AB-FFEB-4A1A-B1ED-08093DC88CB1}" ShortID="414106910">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -461,6 +516,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Druid_Thanks" ID="{286282AA-5902-44AA-B4AA-712B75687053}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Raccoon_Go_Away" ID="{1C60338C-B5CC-4672-99A4-CCD3CB65D4F1}">
+							<ChildrenList>
+								<Action Name="" ID="{500C3C1A-001F-4656-A9B1-003093F5A26E}" ShortID="410994867">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
