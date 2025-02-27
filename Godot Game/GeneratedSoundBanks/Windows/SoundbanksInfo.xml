@@ -163,9 +163,9 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2C0277D9-6E57-19AE-5D2C-1CDC94EDDECE}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DDA9CEAD-E94B-1425-EEE0-9FC8D4E34986}">
 			<ShortName>Main</ShortName>
-			<Path>English(US)/Main.bnk</Path>
+			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Item_Ping.wav</ShortName>
@@ -231,10 +231,6 @@
 					<ShortName>Druid_Dialog.wav</ShortName>
 					<CachePath>SFX/Druid_Dialog_818F3B66.wem</CachePath>
 				</File>
-				<File Id="349029664" Language="English(US)" Streaming="false" Location="Memory">
-					<ShortName>Narration_Placeholder.wav</ShortName>
-					<CachePath>Voices/English(US)/Narration_Placeholder_0A617491.wem</CachePath>
-				</File>
 				<File Id="353048489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverSelect.wav</ShortName>
 					<CachePath>SFX/ItemHoverSelect_818F3B66.wem</CachePath>
@@ -298,6 +294,10 @@
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
 					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
+				</File>
+				<File Id="658002430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Click_To_Start.wav</ShortName>
+					<CachePath>SFX/Click_To_Start_818F3B66.wem</CachePath>
 				</File>
 				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
@@ -395,7 +395,7 @@
 				</Event>
 				<Event Id="1451930548" Name="Click_To_Start">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="658002430"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4F1524AB-1D1F-4486-05EA-DCE84159E75F}</FileHash>
+	<FileHash>{C5EDA37B-0303-4669-AEF3-35B64F982BD5}</FileHash>
 </SoundBanksInfo>

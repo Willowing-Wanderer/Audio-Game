@@ -1,6 +1,12 @@
 extends ColorRect
 
+@export var click_to_start:AkEvent3D
+
 signal start_game
+
+func _ready():
+	#pass
+	click_to_start.post_event()
 
 func _input(event):
 	if(event is InputEventMouseButton):
