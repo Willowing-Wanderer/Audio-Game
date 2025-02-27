@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{05A53811-1FDD-2DAF-EE66-1485360ABE36}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C1AC2958-5CD1-5F71-3AA0-29A995E112E1}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -238,6 +238,10 @@
 				<File Id="353048489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverSelect.wav</ShortName>
 					<CachePath>SFX/ItemHoverSelect_818F3B66.wem</CachePath>
+				</File>
+				<File Id="371136157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Raccoon.wav</ShortName>
+					<CachePath>SFX/Narrate_Raccoon_818F3B66.wem</CachePath>
 				</File>
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
@@ -521,7 +525,7 @@
 				</Event>
 				<Event Id="1785858692" Name="Narrate_Raccoon">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="371136157"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3006996971" Name="Narrate_Start">
@@ -590,5 +594,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B804D9D9-4C5F-43EB-1773-68DE17C5C54A}</FileHash>
+	<FileHash>{A8F38F6D-D4C2-492A-E907-C0B912E7FF4D}</FileHash>
 </SoundBanksInfo>
