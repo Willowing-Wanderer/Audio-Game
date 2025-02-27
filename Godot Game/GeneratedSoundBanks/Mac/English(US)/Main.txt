@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	267359535	Narrate_Druid			\Default Work Unit\Narrations\Narrate_Druid	
 	422905841	Crystal_Item			\Default Work Unit\Items\Crystal_Item	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
+	635005981	Narrate_Raccoon_Satisfied			\Default Work Unit\Narrations\Narrate_Raccoon_Satisfied	
 	848414374	Pixie_Giggle			\Default Work Unit\SoundEvents\Pixie_Giggle	
 	876613367	Druid_Help			\Default Work Unit\Dialogue\Druid_Help	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
@@ -85,6 +86,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546806146	Narrate_Ending	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Ending_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Ending		1221376
 	614364145	Narrate_Empty_Tree	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Empty_Tree_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		977128
 	651076579	Event_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
+	715519790	Narrate_Raccoon_Satisfied	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Raccoon_Satisfied_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon_Satisfied		570052
 	757045285	Narrate_Pixie	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Pixie_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Pixie		732884
 	799573216	Narrate_Nothing	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Nothing_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Nothing		325804
 	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636

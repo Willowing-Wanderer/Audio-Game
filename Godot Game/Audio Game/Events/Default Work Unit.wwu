@@ -137,6 +137,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Narrate_Raccoon_Satisfied" ID="{45C8455D-98D6-43E5-874D-87945B6FC90E}">
+							<ChildrenList>
+								<Action Name="" ID="{A2463ACA-6720-43E3-8480-CDA5461A4759}" ShortID="299950317">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Narrate_Raccoon_Satisfied" ID="{D35C70A6-3A78-4A8D-B00D-C98211805D33}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environmentals" ID="{AC700D64-3E47-464F-A0F3-15488D483A1B}" ShortID="573598719">

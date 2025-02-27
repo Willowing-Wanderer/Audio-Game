@@ -46,6 +46,7 @@ class EVENTS:
 	const RACCOON_GO_AWAY = 1869852890
 	const DRUID_HELP = 876613367
 	const DRUID_THANKS = 3109325365
+	const NARRATE_RACCOON_SATISFIED = 635005981
 
 	const _dict = {
 		"Interact": INTERACT,
@@ -91,7 +92,8 @@ class EVENTS:
 		"Pixie_Giggle": PIXIE_GIGGLE,
 		"Raccoon_Go_Away": RACCOON_GO_AWAY,
 		"Druid_Help": DRUID_HELP,
-		"Druid_Thanks": DRUID_THANKS
+		"Druid_Thanks": DRUID_THANKS,
+		"Narrate_Raccoon_Satisfied": NARRATE_RACCOON_SATISFIED
 	}
 
 class STATES:

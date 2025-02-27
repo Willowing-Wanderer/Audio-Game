@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{9C4370BD-AB88-2A17-A73B-9E8D567DDF16}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2C0277D9-6E57-19AE-5D2C-1CDC94EDDECE}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -298,6 +298,10 @@
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
 					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
+				</File>
+				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
+					<CachePath>SFX/Narrate_Raccoon_Satisfied_818F3B66.wem</CachePath>
 				</File>
 				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Pixie.wav</ShortName>
@@ -532,6 +536,11 @@
 						<MediaRef Id="371136157"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="635005981" Name="Narrate_Raccoon_Satisfied">
+					<MediaRefs>
+						<MediaRef Id="715519790"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3006996971" Name="Narrate_Start">
 					<MediaRefs>
 						<MediaRef Id="505193919"/>
@@ -598,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D4C046A2-B6BD-39DE-EED0-251613FC5007}</FileHash>
+	<FileHash>{DED3A7CF-9459-C8AA-67DC-6FDFF5D2D63A}</FileHash>
 </SoundBanksInfo>
