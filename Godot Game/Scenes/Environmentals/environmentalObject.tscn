@@ -68,4 +68,5 @@ event = {
 "id": 3477674050,
 "name": "Narrate_Apple_Tree"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

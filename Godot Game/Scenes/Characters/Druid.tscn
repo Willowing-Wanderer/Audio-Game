@@ -31,6 +31,7 @@ event = {
 "id": 2213069164,
 "name": "Druid_Hum"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Druid_Dialog" type="AkEvent3D" parent="."]
@@ -38,6 +39,7 @@ event = {
 "id": 3393591398,
 "name": "Druid_Dialog"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Druid_Help" type="AkEvent3D" parent="."]
@@ -45,6 +47,7 @@ event = {
 "id": 876613367,
 "name": "Druid_Help"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Druid_Thanks" type="AkEvent3D" parent="."]
@@ -52,6 +55,7 @@ event = {
 "id": 3109325365,
 "name": "Druid_Thanks"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Druid" type="AkEvent3D" parent="."]
@@ -59,4 +63,5 @@ event = {
 "id": 267359535,
 "name": "Narrate_Druid"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

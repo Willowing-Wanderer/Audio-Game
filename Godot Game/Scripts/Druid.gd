@@ -11,6 +11,8 @@ extends Area3D
 # Needed if you want to do anything with the player's controls
 @export var player:Node3D
 
+signal quest_complete
+
 var first_click = true
 
 func _ready():
@@ -31,6 +33,7 @@ func on_click(selected):
 		player.remove_from_inventory("Crystal")
 		druid_thanks.post_event()
 		await get_tree().create_timer(5).timeout
+		quest_complete.emit()
 	else:
 		if(first_click):
 			druid_dialog.post_event()

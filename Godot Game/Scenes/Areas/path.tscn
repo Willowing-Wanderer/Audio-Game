@@ -12,9 +12,11 @@ albedo_color = Color(0.380392, 0.396078, 0.211765, 1)
 material = SubResource("StandardMaterial3D_3ko3h")
 size = Vector3(1, 1, 3)
 
-[node name="Path" type="Area3D" node_paths=PackedStringArray("narrate_path")]
+[node name="Path" type="Area3D" node_paths=PackedStringArray("timer", "narrate_path", "footsteps")]
 script = ExtResource("1_xcxt1")
+timer = NodePath("Timer")
 narrate_path = NodePath("Narrate_Path")
+footsteps = NodePath("Footsteps")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_lgsfq")
@@ -28,9 +30,23 @@ event = {
 "name": "Path_Wind"
 }
 trigger_on = 1
+stop_on = 3
 
 [node name="Narrate_Path" type="AkEvent3D" parent="."]
 event = {
 "id": 4104917964,
 "name": "Narrate_Path"
 }
+stop_on = 3
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="Footsteps" type="AkEvent3D" parent="."]
+event = {
+"id": 2385628198,
+"name": "Footsteps"
+}
+stop_on = 3
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

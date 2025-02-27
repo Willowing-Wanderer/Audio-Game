@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{CA21D7E9-13E2-8EDF-BE1B-4A3B3250C639}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{ECC422DF-77A9-C4CC-1FB0-B01772F5BF42}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -174,6 +174,10 @@
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
 					<CachePath>SFX/Tree_Swish_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialog_Placeholder.wav</ShortName>
+					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
 				</File>
 				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Shake.wav</ShortName>
@@ -235,6 +239,10 @@
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
 				</File>
+				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound_Placeholder.wav</ShortName>
+					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
+				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
 					<CachePath>SFX/Pixie1_Dialog_818F3B66.wem</CachePath>
@@ -285,7 +293,7 @@
 				</File>
 				<File Id="994574637" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Hum.wav</ShortName>
-					<CachePath>SFX/Crystal_Hum_4A1000D6.wem</CachePath>
+					<CachePath>SFX/Crystal_Hum_3A2A7CCE.wem</CachePath>
 				</File>
 				<File Id="997994923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard1.wav</ShortName>
@@ -335,6 +343,11 @@
 				<Event Id="1352158686" Name="Click_Fail">
 					<MediaRefs>
 						<MediaRef Id="87182428"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1451930548" Name="Click_To_Start">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
@@ -390,6 +403,11 @@
 						<MediaRef Id="997994923"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2084169529" Name="Forest_Ambience">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
 					<MediaRefs>
 						<MediaRef Id="525294819"/>
@@ -425,12 +443,27 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2696084023" Name="Narrate_Controls">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
 					<MediaRefs>
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="267359535" Name="Narrate_Druid">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1862226623" Name="Narrate_Empty_Tree">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2633894792" Name="Narrate_Ending">
 					<MediaRefs>
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
@@ -451,6 +484,11 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1785858692" Name="Narrate_Raccoon">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3006996971" Name="Narrate_Start">
 					<MediaRefs>
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
@@ -490,6 +528,11 @@
 						<MediaRef Id="918725472"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1869852890" Name="Raccoon_Go_Away">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
 						<MediaRef Id="158081556"/>
@@ -511,5 +554,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ED0F4837-CF4A-F9B8-D1D9-594EB62DC518}</FileHash>
+	<FileHash>{C514B98E-B7E2-0A28-6EE0-159334652D68}</FileHash>
 </SoundBanksInfo>

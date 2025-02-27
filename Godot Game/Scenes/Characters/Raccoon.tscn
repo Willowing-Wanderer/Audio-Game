@@ -31,6 +31,7 @@ event = {
 "id": 1621431280,
 "name": "Hungry_Raccoon"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Raccoon_Eating" type="AkEvent3D" parent="."]
@@ -38,6 +39,7 @@ event = {
 "id": 1146653945,
 "name": "Raccoon_Eating"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Raccoon_Thanks" type="AkEvent3D" parent="."]
@@ -45,6 +47,7 @@ event = {
 "id": 2129084912,
 "name": "Raccoon_Thanks"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Raccoon" type="AkEvent3D" parent="."]
@@ -52,6 +55,7 @@ event = {
 "id": 1785858692,
 "name": "Narrate_Raccoon"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Crystal_Drop" type="AkEvent3D" parent="."]
@@ -59,4 +63,5 @@ event = {
 "id": 1757040115,
 "name": "Crystal_Drop"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

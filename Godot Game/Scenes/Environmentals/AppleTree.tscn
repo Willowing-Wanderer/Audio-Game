@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://btysa7s88gvvm"]
 
-[ext_resource type="Script" path="res://Scenes/Environmentals/AppleTree.gd" id="1_lv5xt"]
+[ext_resource type="Script" path="res://Scripts/AppleTree.gd" id="1_frow4"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
 
@@ -11,7 +11,7 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 material = SubResource("StandardMaterial3D_plhd5")
 
 [node name="AppleTree" type="Area3D" node_paths=PackedStringArray("tree_swish", "tree_shake", "apples_fall", "narrate_apple_tree")]
-script = ExtResource("1_lv5xt")
+script = ExtResource("1_frow4")
 tree_swish = NodePath("Tree_Swish")
 tree_shake = NodePath("Tree_Shake")
 apples_fall = NodePath("Apples_Fall")
@@ -39,6 +39,7 @@ event = {
 "id": 3363276846,
 "name": "Tree_Shake"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Apples_Fall" type="AkEvent3D" parent="."]
@@ -46,6 +47,7 @@ event = {
 "id": 1251517266,
 "name": "Apples_Fall"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Apple_Tree" type="AkEvent3D" parent="."]
@@ -53,4 +55,5 @@ event = {
 "id": 3477674050,
 "name": "Narrate_Apple_Tree"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
