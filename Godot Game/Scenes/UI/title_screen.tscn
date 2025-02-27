@@ -51,6 +51,7 @@ event = {
 "name": "Click_To_Start"
 }
 trigger_on = 1
+stop_on = 3
 
 [node name="AkListener3D" type="AkListener3D" parent="."]
 is_spatial = true

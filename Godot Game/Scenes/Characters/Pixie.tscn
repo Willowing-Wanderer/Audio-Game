@@ -31,6 +31,7 @@ event = {
 "id": 848414374,
 "name": "Pixie_Giggle"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Pixie_Aww" type="AkEvent3D" parent="."]
@@ -38,6 +39,7 @@ event = {
 "id": 3300195252,
 "name": "Pixie_Aww"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Pixie_Flyoff" type="AkEvent3D" parent="."]
@@ -45,6 +47,7 @@ event = {
 "id": 1075103351,
 "name": "Pixie_Flyoff"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Pixie1_Dialog" type="AkEvent3D" parent="."]
@@ -52,6 +55,7 @@ event = {
 "id": 2704494418,
 "name": "Pixie1_Dialog"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Pixie" type="AkEvent3D" parent="."]
@@ -59,4 +63,5 @@ event = {
 "id": 3477674050,
 "name": "Narrate_Apple_Tree"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

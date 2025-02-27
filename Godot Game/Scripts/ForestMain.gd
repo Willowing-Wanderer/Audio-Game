@@ -10,6 +10,9 @@ func _ready():
 func start_game():
 	add_child(raccoon_scene.instantiate())
 
+func finish_game():
+	add_child(title_screen.instantiate())
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass

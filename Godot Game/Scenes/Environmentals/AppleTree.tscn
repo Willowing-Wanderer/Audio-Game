@@ -39,6 +39,7 @@ event = {
 "id": 3363276846,
 "name": "Tree_Shake"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Apples_Fall" type="AkEvent3D" parent="."]
@@ -46,6 +47,7 @@ event = {
 "id": 1251517266,
 "name": "Apples_Fall"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Apple_Tree" type="AkEvent3D" parent="."]
@@ -53,4 +55,5 @@ event = {
 "id": 3477674050,
 "name": "Narrate_Apple_Tree"
 }
+stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

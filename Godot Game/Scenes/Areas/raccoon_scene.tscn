@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://chy1yjgdcqplw"]
+[gd_scene load_steps=9 format=3 uid="uid://chy1yjgdcqplw"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_887yb"]
+[ext_resource type="Script" path="res://Scripts/raccoon_scene.gd" id="1_a5oek"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_88yt1"]
 [ext_resource type="PackedScene" uid="uid://hlssl26jhl27" path="res://Scenes/Characters/Druid.tscn" id="3_3lh8a"]
 [ext_resource type="PackedScene" uid="uid://bvme6p87bknvw" path="res://Scenes/Characters/Raccoon.tscn" id="4_qmtsh"]
@@ -8,7 +9,9 @@
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="7_5w7yi"]
 
-[node name="RaccoonScene" type="Node3D"]
+[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_ending")]
+script = ExtResource("1_a5oek")
+narrate_ending = NodePath("Narrate_Ending")
 
 [node name="Player" parent="." instance=ExtResource("1_887yb")]
 transform = Transform3D(0.733742, 0, 0.679429, 0, 1, 0, -0.679429, 0, 0.733742, 0, 0, 0)
@@ -50,3 +53,11 @@ circle1 = NodePath("../Circle2")
 circle2 = NodePath("../Circle3")
 player = NodePath("../Player")
 narrate_path = NodePath("../Path/Narrate_Path")
+
+[node name="Narrate_Ending" type="AkEvent3D" parent="."]
+event = {
+"id": 2633894792,
+"name": "Narrate_Ending"
+}
+
+[connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
