@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{12C35997-E226-C673-E04F-D7D48184FF3D}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{4355F4D5-A89E-F72E-BB66-63ED9062DEBC}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -187,6 +187,10 @@
 					<ShortName>FailedClickV2.wav</ShortName>
 					<CachePath>SFX/FailedClickV2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="125309775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Apple.wav</ShortName>
+					<CachePath>SFX/Narrate_Apple_818F3B66.wem</CachePath>
+				</File>
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard2_00D9E3E6.wem</CachePath>
@@ -206,10 +210,6 @@
 				<File Id="194724780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Backdrop_Placeholder.wav</ShortName>
 					<CachePath>SFX/Backdrop_Placeholder_1EF53104.wem</CachePath>
-				</File>
-				<File Id="283429622" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Raccoon_Go_Away.wav</ShortName>
-					<CachePath>SFX/Raccoon_Go_Away_818F3B66.wem</CachePath>
 				</File>
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
@@ -421,7 +421,7 @@
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="125309775"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3477674050" Name="Narrate_Apple_Tree">
@@ -494,11 +494,6 @@
 						<MediaRef Id="918725472"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1869852890" Name="Raccoon_Go_Away">
-					<MediaRefs>
-						<MediaRef Id="283429622"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
 						<MediaRef Id="158081556"/>
@@ -520,5 +515,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{69F4DE24-4BC1-923A-A84D-87F29B206CEF}</FileHash>
+	<FileHash>{B28D2D23-AE8B-21E8-A45E-1848FE50D678}</FileHash>
 </SoundBanksInfo>
