@@ -9,6 +9,7 @@ extends Area3D
 @export var apples_fall:AkEvent3D
 @export var narrate_apple_tree:AkEvent3D
 @export var narrate_empty_tree:AkEvent3D
+@export var narration_timer:Timer
 
 var apple_scene = preload("res://Scenes/Items/apple.tscn")
 
@@ -18,12 +19,29 @@ func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	tree_swish.post_event()
-	
+
+var playing_narration = false
+
+# All items must include the following functions:
 func narrate():
+	playing_narration = true
 	if(has_apples):
 		narrate_apple_tree.post_event()
 	else:
 		narrate_empty_tree.post_event()
+	narration_timer.start()
+
+func _on_narration_timer_timeout():
+	playing_narration = false
+	narration_timer.stop()
+	
+func stop_narration():
+	playing_narration = false
+	if(has_apples):
+		narrate_apple_tree.stop_event()
+	else:
+		narrate_empty_tree.stop_event()
+	narration_timer.stop()
 
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, player)

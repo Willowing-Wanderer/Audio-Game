@@ -1,5 +1,3 @@
-# appropriated from https://github.com/rbarongr/GodotFirstPersonController/blob/main/Player/player.gd
-
 class_name Player extends Area3D
 
 @export var hover_select:AkEvent3D
@@ -13,13 +11,19 @@ var playing_id
 var selected_max = 3
 var facing_playing_id
 var cutscene = false
+var area_being_narrated:Area3D = null
+var area_narration_playing = false
 
 @onready var inventory = $Inventory
-@onready var narrator = $Narrator
+@onready var narrator = $Inventory_Narrator
 @onready var player: Area3D = $Player
 
 func _ready() -> void:
 	capture_mouse()
+
+func _process(delta):
+	if(area_narration_playing):
+		area_narration_playing = area_being_narrated.playing_narration
 
 # Process mouse inputs
 func _input(event):
@@ -32,10 +36,13 @@ func _input(event):
 				inventory.play_selected_sound()
 		# Right click
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
-			if(has_overlapping_areas()):
-				process_right_click(get_overlapping_areas()[0])
+			if(area_narration_playing):
+				area_being_narrated.stop_narration()
 			else:
-				narrator.narrate(inventory.get_selected())
+				if(has_overlapping_areas()):
+					process_right_click(get_overlapping_areas()[0])
+				else:
+					narrator.narrate(inventory.get_selected())
 		# Scroll
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
 			inventory.scroll_up()
@@ -62,6 +69,8 @@ func process_left_click(area: Area3D):
 	area.on_click(inventory.get_selected())
 	
 func process_right_click(area: Area3D):
+	area_being_narrated = area
+	area_narration_playing = true
 	area.narrate()
 
 func add_to_inventory(item_name):

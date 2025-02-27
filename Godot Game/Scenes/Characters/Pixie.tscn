@@ -10,13 +10,14 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="Pixie" type="Area3D" node_paths=PackedStringArray("pixie_giggle", "pixie_aww", "pixie_flyoff", "pixie1_dialog", "narrate_pixie")]
+[node name="Pixie" type="Area3D" node_paths=PackedStringArray("pixie_giggle", "pixie_aww", "pixie_flyoff", "pixie1_dialog", "narrate_pixie", "narration_timer")]
 script = ExtResource("1_cvsng")
 pixie_giggle = NodePath("Pixie_Giggle")
 pixie_aww = NodePath("Pixie_Aww")
 pixie_flyoff = NodePath("Pixie_Flyoff")
 pixie1_dialog = NodePath("Pixie1_Dialog")
 narrate_pixie = NodePath("Narrate_Pixie")
+narration_timer = NodePath("Narration_Timer")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -65,3 +66,6 @@ event = {
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Narration_Timer" type="Timer" parent="."]
+wait_time = 2.0

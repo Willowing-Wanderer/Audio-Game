@@ -44,7 +44,7 @@ transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247
 [node name="Inventory" type="Node" parent="."]
 script = ExtResource("5_0abx7")
 
-[node name="Narrator" type="Node" parent="."]
+[node name="Inventory_Narrator" type="Node" parent="."]
 script = ExtResource("3_sxwdk")
 
 [node name="Hover_Select" type="AkEvent3D" parent="."]
