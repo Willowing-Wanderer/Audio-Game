@@ -10,7 +10,7 @@
 								<Action Name="" ID="{F0EFB0E5-FB03-4472-9F2B-3555A18ADB30}" ShortID="42715868">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Nothing1" ID="{841953E5-0EA1-48B1-AA73-ADE20FA29E5E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Nothing" ID="{C1593271-4716-438C-95C1-09A9ABDBA8FF}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

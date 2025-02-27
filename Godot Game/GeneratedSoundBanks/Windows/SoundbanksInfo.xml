@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A159FC49-0184-5B81-DA39-D0FE9175C8F1}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{6663539C-6BF4-2765-9FEF-8EA2EC8915F6}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -287,9 +287,9 @@
 					<ShortName>Event_Placeholder.wav</ShortName>
 					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
 				</File>
-				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Nothing1.wav</ShortName>
-					<CachePath>SFX/Nothing1_199E879F.wem</CachePath>
+				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Nothing.wav</ShortName>
+					<CachePath>SFX/Narrate_Nothing_818F3B66.wem</CachePath>
 				</File>
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
@@ -498,7 +498,7 @@
 				</Event>
 				<Event Id="911107020" Name="Narrate_Nothing">
 					<MediaRefs>
-						<MediaRef Id="663920178"/>
+						<MediaRef Id="799573216"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4104917964" Name="Narrate_Path">
@@ -582,5 +582,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8E6C9D3E-77D9-E774-7F2C-E19BB216DC71}</FileHash>
+	<FileHash>{86C31D8E-5F52-D142-85FA-F931169A5FD2}</FileHash>
 </SoundBanksInfo>
