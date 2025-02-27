@@ -65,7 +65,7 @@
 								<Action Name="" ID="{165E4EAA-0FAC-406C-AEE6-1BE04781F024}" ShortID="910924240">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Druid" ID="{B95609F6-8D57-470E-8DFB-06EB6AFF4824}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

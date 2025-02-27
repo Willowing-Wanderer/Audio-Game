@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A67D34A9-6023-103C-1F18-1F36D264C35D}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{D3108685-3738-5955-D4CE-A9BD5E74186F}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -262,6 +262,10 @@
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard3_04F63888.wem</CachePath>
+				</File>
+				<File Id="512147104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Druid.wav</ShortName>
+					<CachePath>SFX/Narrate_Druid_818F3B66.wem</CachePath>
 				</File>
 				<File Id="525294819" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverDeselect.wav</ShortName>
@@ -471,7 +475,7 @@
 				</Event>
 				<Event Id="267359535" Name="Narrate_Druid">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="512147104"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1862226623" Name="Narrate_Empty_Tree">
@@ -570,5 +574,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{02D6C79D-E390-8E78-7E9F-A1008F097CEE}</FileHash>
+	<FileHash>{9975D1CC-A57B-DB5D-8199-7C532F2F81FD}</FileHash>
 </SoundBanksInfo>
