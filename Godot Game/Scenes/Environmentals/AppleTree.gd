@@ -24,7 +24,7 @@ func narrate():
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, player)
 	tree_shake.post_event()
-	await get_tree().create_timer(3).timeout
+	await get_tree().create_timer(0.8).timeout
 	
 	if(has_apples):
 		apples_fall.post_event()
