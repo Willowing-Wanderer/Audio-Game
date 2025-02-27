@@ -36,7 +36,7 @@ func on_click(selected):
 			hungry_raccoon.stop_event()
 			
 		raccoon_thanks.post_event()
-		await get_tree().create_timer(5).timeout
+		await get_tree().create_timer(8).timeout
 		
 		if(!fed):
 			drop_crystal()
