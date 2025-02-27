@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7D0BEF4F-0737-D6E7-F4B4-5379B62DFA44}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{FEAF6B4B-1DDA-4E0A-CE11-3497B64F4248}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -251,6 +251,10 @@
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
 				</File>
+				<File Id="438232939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Crystal.wav</ShortName>
+					<CachePath>SFX/Narrate_Crystal_818F3B66.wem</CachePath>
+				</File>
 				<File Id="440940756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Thanks.wav</ShortName>
 					<CachePath>SFX/Druid_Thanks_818F3B66.wem</CachePath>
@@ -274,6 +278,10 @@
 				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Nothing1.wav</ShortName>
 					<CachePath>SFX/Nothing1_199E879F.wem</CachePath>
+				</File>
+				<File Id="807325650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Druid.wav</ShortName>
+					<CachePath>SFX/Narrate_Druid_818F3B66.wem</CachePath>
 				</File>
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
@@ -435,12 +443,12 @@
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="438232939"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="267359535" Name="Narrate_Druid">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="807325650"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="911107020" Name="Narrate_Nothing">
@@ -519,5 +527,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{047A75FB-CA4E-2B24-3F26-012927BB48E4}</FileHash>
+	<FileHash>{A93ABC39-0A98-C575-F496-11F880C622ED}</FileHash>
 </SoundBanksInfo>
