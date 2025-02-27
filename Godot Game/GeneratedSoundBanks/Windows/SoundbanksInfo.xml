@@ -163,13 +163,17 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{4355F4D5-A89E-F72E-BB66-63ED9062DEBC}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7D0BEF4F-0737-D6E7-F4B4-5379B62DFA44}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
 				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Item_Ping.wav</ShortName>
 					<CachePath>SFX/Item_Ping_69AD4CCB.wem</CachePath>
+				</File>
+				<File Id="12160787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Apple_Tree.wav</ShortName>
+					<CachePath>SFX/Narrate_Apple_Tree_818F3B66.wem</CachePath>
 				</File>
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
@@ -426,7 +430,7 @@
 				</Event>
 				<Event Id="3477674050" Name="Narrate_Apple_Tree">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="12160787"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
@@ -515,5 +519,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB2B59B4-1262-1B3F-4B4B-AFD08D5F2861}</FileHash>
+	<FileHash>{047A75FB-CA4E-2B24-3F26-012927BB48E4}</FileHash>
 </SoundBanksInfo>
