@@ -45,9 +45,12 @@ scale = Vector2(0.4, 0.4)
 texture = ExtResource("2_y2adr")
 expand_mode = 3
 
-[node name="AkEvent2D" type="AkEvent2D" parent="."]
+[node name="AkEvent3D" type="AkEvent3D" parent="."]
 event = {
 "id": 1451930548,
 "name": "Click_To_Start"
 }
 trigger_on = 1
+
+[node name="AkListener3D" type="AkListener3D" parent="."]
+is_spatial = true

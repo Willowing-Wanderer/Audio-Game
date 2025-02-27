@@ -1,28 +1,24 @@
-[gd_scene load_steps=4 format=3 uid="uid://d1j0asybpwuhf"]
+[gd_scene load_steps=3 format=3 uid="uid://d1j0asybpwuhf"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/ForestMain.gd" id="1_4djt5"]
-[ext_resource type="PackedScene" uid="uid://chy1yjgdcqplw" path="res://Scenes/Areas/raccoon_scene.tscn" id="1_tp5kx"]
 [ext_resource type="PackedScene" uid="uid://b0ccojmiowmsc" path="res://Scenes/UI/ScreenCover.tscn" id="2_wlrir"]
 
-[node name="ForestMain" type="Node3D"]
-visible = false
-script = ExtResource("1_4djt5")
-
-[node name="AkBank" type="AkBank" parent="."]
+[node name="AkBank" type="AkBank"]
 bank = {
 "id": 1355168291,
 "name": "Init"
 }
 load_on = 1
 
-[node name="AkBank2" type="AkBank" parent="AkBank"]
+[node name="AkBank2" type="AkBank" parent="."]
 bank = {
 "id": 3161908922,
 "name": "Main"
 }
 load_on = 1
 
-[node name="RaccoonScene" parent="AkBank/AkBank2" instance=ExtResource("1_tp5kx")]
+[node name="ForestMain" type="Node3D" parent="AkBank2"]
+script = ExtResource("1_4djt5")
 
-[node name="ColorRect" parent="." instance=ExtResource("2_wlrir")]
+[node name="ColorRect" parent="AkBank2/ForestMain" instance=ExtResource("2_wlrir")]
 visible = false
