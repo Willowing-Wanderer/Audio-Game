@@ -1640,6 +1640,28 @@
 								<ActiveSource Name="ItemHoverDeselect" ID="{2C4D5D66-2BB6-4F81-A9DD-1FA7E34BE939}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Click_To_Start" ID="{BA63CAB0-F65C-4EE3-A744-D2A49361FFE2}" ShortID="464071774">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Click_To_Start" ID="{604CE7BD-2FF0-4572-B108-9ED24D140B05}">
+									<Language>SFX</Language>
+									<AudioFile>Click_To_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="658002430"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Click_To_Start" ID="{604CE7BD-2FF0-4572-B108-9ED24D140B05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SoundEvents" ID="{C318B1B1-E23A-4861-8499-09F44D0BBAAD}" ShortID="68459454">
