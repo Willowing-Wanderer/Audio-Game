@@ -30,7 +30,7 @@ func on_click(selected):
 	pixie_giggle.stop_event()
 	pixie1_dialog.post_event()
 	
-	await get_tree().create_timer(10.1).timeout
+	await get_tree().create_timer(2.6).timeout
 	
 	pixie_giggle.post_event()
 	player.set_cutscene(false)
@@ -38,7 +38,7 @@ func on_click(selected):
 func _on_raccoon_raccoon_fed():
 	player.set_cutscene(true)
 	pixie_giggle.stop_event()
-	await get_tree().create_timer(3).timeout
+	await get_tree().create_timer(2).timeout
 	pixie_aww.post_event()
 	await get_tree().create_timer(2).timeout
 	pixie_flyoff.post_event()

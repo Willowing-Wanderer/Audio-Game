@@ -69,3 +69,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 2.0
+
+[connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]

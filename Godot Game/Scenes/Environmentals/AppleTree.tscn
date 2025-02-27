@@ -17,7 +17,7 @@ tree_shake = NodePath("Tree_Shake")
 apples_fall = NodePath("Apples_Fall")
 narrate_apple_tree = NodePath("Narrate_Apple_Tree")
 narrate_empty_tree = NodePath("Narrate_Empty_Tree")
-narration_timer = NodePath("Timer")
+narration_timer = NodePath("Narration_Timer")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -67,5 +67,7 @@ event = {
 }
 stop_on = 3
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 4.0
+
+[connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]

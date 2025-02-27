@@ -86,3 +86,4 @@ event = {
 stop_on = 3
 
 [connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
+[connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]

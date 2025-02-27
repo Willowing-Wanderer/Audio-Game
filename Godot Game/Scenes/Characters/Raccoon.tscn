@@ -77,3 +77,5 @@ stop_on = 3
 
 [node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 6.1
+
+[connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]

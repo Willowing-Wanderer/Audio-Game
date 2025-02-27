@@ -12,10 +12,6 @@ var playing_narration = false
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 func narrate(object_name):
 	playing_narration = true
 	playing_id = Wwise.post_event_id(narrations[object_name], self)
