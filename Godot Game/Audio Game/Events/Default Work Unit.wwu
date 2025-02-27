@@ -43,7 +43,7 @@
 								<Action Name="" ID="{EE3E5C30-3DA6-424A-AE49-20472A0AEC47}" ShortID="323211501">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Crystal" ID="{44BFA853-250D-47B2-8FEB-FB13DEE000EC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -81,6 +81,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	651076579	Event_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
 	663920178	Nothing1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Nothing1_199E879F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Nothing_narr\Nothing1		90170
 	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
+	822964253	Narrate_Crystal	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Crystal_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Crystal		814296
 	844437356	Narrate_Apple_Tree	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Apple_Tree_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple_Tree		814296
 	918725472	Raccoon_Eating	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
 	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apple_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560

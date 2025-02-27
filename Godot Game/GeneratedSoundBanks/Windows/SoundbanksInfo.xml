@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{F64CC1D4-F5F6-1B05-5EFD-6AC3D38D0D7E}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A67D34A9-6023-103C-1F18-1F36D264C35D}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -282,6 +282,10 @@
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="822964253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Crystal.wav</ShortName>
+					<CachePath>SFX/Narrate_Crystal_818F3B66.wem</CachePath>
 				</File>
 				<File Id="844437356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Apple_Tree.wav</ShortName>
@@ -462,7 +466,7 @@
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="822964253"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="267359535" Name="Narrate_Druid">
@@ -566,5 +570,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96837E98-E2F9-ED49-A426-FE6BA6392376}</FileHash>
+	<FileHash>{02D6C79D-E390-8E78-7E9F-A1008F097CEE}</FileHash>
 </SoundBanksInfo>
