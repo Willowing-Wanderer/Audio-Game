@@ -42,7 +42,7 @@ func on_click(selected):
 	else:
 		if(fed):
 			raccoon_thanks.post_event()
-			await get_tree().create_timer(2).timeout
+			await get_tree().create_timer(8).timeout
 		else:
 			raccoon_go_away.post_event()
 			await get_tree().create_timer(2).timeout

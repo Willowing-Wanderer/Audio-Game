@@ -163,9 +163,9 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{ECC422DF-77A9-C4CC-1FB0-B01772F5BF42}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DDA9CEAD-E94B-1425-EEE0-9FC8D4E34986}">
 			<ShortName>Main</ShortName>
-			<Path>English(US)/Main.bnk</Path>
+			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Item_Ping.wav</ShortName>
@@ -223,17 +223,21 @@
 					<ShortName>Pixie_Giggle.wav</ShortName>
 					<CachePath>SFX/Pixie_Giggle_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="318985466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Path.wav</ShortName>
+					<CachePath>SFX/Narrate_Path_818F3B66.wem</CachePath>
+				</File>
 				<File Id="347548140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Dialog.wav</ShortName>
 					<CachePath>SFX/Druid_Dialog_818F3B66.wem</CachePath>
 				</File>
-				<File Id="349029664" Language="English(US)" Streaming="false" Location="Memory">
-					<ShortName>Narration_Placeholder.wav</ShortName>
-					<CachePath>Voices/English(US)/Narration_Placeholder_0A617491.wem</CachePath>
-				</File>
 				<File Id="353048489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverSelect.wav</ShortName>
 					<CachePath>SFX/ItemHoverSelect_818F3B66.wem</CachePath>
+				</File>
+				<File Id="371136157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Raccoon.wav</ShortName>
+					<CachePath>SFX/Narrate_Raccoon_818F3B66.wem</CachePath>
 				</File>
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
@@ -251,6 +255,10 @@
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
 				</File>
+				<File Id="414537352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Controls.wav</ShortName>
+					<CachePath>SFX/Narrate_Controls_818F3B66.wem</CachePath>
+				</File>
 				<File Id="440940756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Thanks.wav</ShortName>
 					<CachePath>SFX/Druid_Thanks_818F3B66.wem</CachePath>
@@ -258,6 +266,14 @@
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard3_04F63888.wem</CachePath>
+				</File>
+				<File Id="505193919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Start.wav</ShortName>
+					<CachePath>SFX/Narrate_Start_818F3B66.wem</CachePath>
+				</File>
+				<File Id="512147104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Druid.wav</ShortName>
+					<CachePath>SFX/Narrate_Druid_818F3B66.wem</CachePath>
 				</File>
 				<File Id="525294819" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverDeselect.wav</ShortName>
@@ -267,17 +283,45 @@
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
 				</File>
+				<File Id="546806146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Ending.wav</ShortName>
+					<CachePath>SFX/Narrate_Ending_818F3B66.wem</CachePath>
+				</File>
+				<File Id="614364145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Empty_Tree.wav</ShortName>
+					<CachePath>SFX/Narrate_Empty_Tree_818F3B66.wem</CachePath>
+				</File>
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
 					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
 				</File>
-				<File Id="663920178" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Nothing1.wav</ShortName>
-					<CachePath>SFX/Nothing1_199E879F.wem</CachePath>
+				<File Id="658002430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Click_To_Start.wav</ShortName>
+					<CachePath>SFX/Click_To_Start_818F3B66.wem</CachePath>
+				</File>
+				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
+					<CachePath>SFX/Narrate_Raccoon_Satisfied_818F3B66.wem</CachePath>
+				</File>
+				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Pixie.wav</ShortName>
+					<CachePath>SFX/Narrate_Pixie_818F3B66.wem</CachePath>
+				</File>
+				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Nothing.wav</ShortName>
+					<CachePath>SFX/Narrate_Nothing_818F3B66.wem</CachePath>
 				</File>
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="822964253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Crystal.wav</ShortName>
+					<CachePath>SFX/Narrate_Crystal_818F3B66.wem</CachePath>
+				</File>
+				<File Id="844437356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Apple_Tree.wav</ShortName>
+					<CachePath>SFX/Narrate_Apple_Tree_818F3B66.wem</CachePath>
 				</File>
 				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Eating.wav</ShortName>
@@ -298,6 +342,10 @@
 				<File Id="997994923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard1.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard1_B6E23DAA.wem</CachePath>
+				</File>
+				<File Id="1023419553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Apple.wav</ShortName>
+					<CachePath>SFX/Narrate_Apple_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1048681673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Help.wav</ShortName>
@@ -347,7 +395,7 @@
 				</Event>
 				<Event Id="1451930548" Name="Click_To_Start">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="658002430"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
@@ -435,62 +483,67 @@
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="1023419553"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3477674050" Name="Narrate_Apple_Tree">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="844437356"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2696084023" Name="Narrate_Controls">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="414537352"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="822964253"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="267359535" Name="Narrate_Druid">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="512147104"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1862226623" Name="Narrate_Empty_Tree">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="614364145"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2633894792" Name="Narrate_Ending">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="546806146"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="911107020" Name="Narrate_Nothing">
 					<MediaRefs>
-						<MediaRef Id="663920178"/>
+						<MediaRef Id="799573216"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4104917964" Name="Narrate_Path">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="318985466"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2298942422" Name="Narrate_Pixie">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="757045285"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1785858692" Name="Narrate_Raccoon">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="371136157"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="635005981" Name="Narrate_Raccoon_Satisfied">
+					<MediaRefs>
+						<MediaRef Id="715519790"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3006996971" Name="Narrate_Start">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="505193919"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1008262333" Name="Path_Wind">
@@ -554,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DA581753-1785-F989-F374-3D339F0D0EC1}</FileHash>
+	<FileHash>{3F3D8FCD-075F-E59F-FAC9-29920124DE8D}</FileHash>
 </SoundBanksInfo>

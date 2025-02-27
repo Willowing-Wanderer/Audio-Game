@@ -60,8 +60,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Pixie" type="AkEvent3D" parent="."]
 event = {
-"id": 3477674050,
-"name": "Narrate_Apple_Tree"
+"id": 2298942422,
+"name": "Narrate_Pixie"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
