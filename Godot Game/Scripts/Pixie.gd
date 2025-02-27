@@ -22,8 +22,7 @@ func narrate():
 
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	player.stop_facing()
-	player.set_process_input(false)
+	player.set_cutscene(true)
 	
 	pixie_giggle.stop_event()
 	pixie1_dialog.post_event()
@@ -31,7 +30,7 @@ func on_click(selected):
 	await get_tree().create_timer(10.1).timeout
 	
 	pixie_giggle.post_event()
-	player.set_process_input(true)
+	player.set_cutscene(false)
 	
 func _on_raccoon_raccoon_fed():
 	pixie_giggle.stop_event()

@@ -24,24 +24,29 @@ func narrate():
 	narrate_raccoon.post_event()
 
 func on_click(selected):
+	player.set_cutscene(true)
 	if(selected == "Apple"):
-		player.stop_facing()
-		player.set_process_input(false)
-		
 		player.remove_from_inventory("Apple")
 		
 		Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-		hungry_raccoon.stop_event()
+		
+		if(fed):
+			raccoon_eating.stop_event()
+		else:
+			hungry_raccoon.stop_event()
+			
 		raccoon_thanks.post_event()
 		await get_tree().create_timer(5).timeout
-		raccoon_eating.post_event()
+		
 		if(!fed):
 			drop_crystal()
-		player.set_process_input(true)
+			raccoon_eating.post_event()
 		
 	else:
 		Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
-		
+	player.set_cutscene(false)
+	
+	
 func drop_crystal():
 	crystal_drop.post_event()
 	var crystal = crystal_scene.instantiate()
