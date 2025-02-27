@@ -32,7 +32,7 @@
 								<Action Name="" ID="{8A1D5106-DD75-45D4-8930-7FCD936BD284}" ShortID="935115348">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Path" ID="{154D06DB-4BA7-4450-B98B-CB561B323604}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

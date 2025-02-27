@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{6663539C-6BF4-2765-9FEF-8EA2EC8915F6}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{C7BFD6F5-9ABA-69B9-EB6F-ABAB1C5767F2}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -222,6 +222,10 @@
 				<File Id="300550434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Giggle.wav</ShortName>
 					<CachePath>SFX/Pixie_Giggle_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="318985466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Path.wav</ShortName>
+					<CachePath>SFX/Narrate_Path_818F3B66.wem</CachePath>
 				</File>
 				<File Id="347548140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Dialog.wav</ShortName>
@@ -503,7 +507,7 @@
 				</Event>
 				<Event Id="4104917964" Name="Narrate_Path">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="318985466"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2298942422" Name="Narrate_Pixie">
@@ -582,5 +586,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{86C31D8E-5F52-D142-85FA-F931169A5FD2}</FileHash>
+	<FileHash>{D31A0A2A-84EE-802C-D694-CF5F64FF3381}</FileHash>
 </SoundBanksInfo>
