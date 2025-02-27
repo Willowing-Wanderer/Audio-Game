@@ -12,6 +12,7 @@ var look_dir: Vector2 # Input direction for look/aim
 var playing_id
 var selected_max = 3
 var facing_playing_id
+var cutscene = false
 
 @onready var inventory = $Inventory
 @onready var narrator = $Narrator
@@ -61,7 +62,6 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 
 func process_left_click(area: Area3D):
 	area.on_click(inventory.get_selected())
- 
 	
 func process_right_click(area: Area3D):
 	area.narrate()
@@ -73,12 +73,13 @@ func remove_from_inventory(item_name):
 	inventory.remove_item(item_name)
 
 func _on_area_entered(area):
-	hover_select.post_event()
+	if(!cutscene):
+		hover_select.post_event()
 
 func _on_area_exited(area):
-	hover_deselect.post_event()
+	if(!cutscene):
+		hover_deselect.post_event()
 
-func stop_facing():
-	if(facing_playing_id):
-		Wwise.stop_event(facing_playing_id, 500, AkUtils.AK_CURVE_LINEAR)
-
+func set_cutscene(boolean):
+	cutscene = boolean
+	set_process_input(!boolean)

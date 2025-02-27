@@ -14,10 +14,9 @@ func narrate():
 	narrate_path.post_event()
 
 func on_click(selected):
+	player.set_cutscene(true)
 	path_triggered.emit()
-	player.set_process_input(false)
-	player.set_process_unhandled_input(false)
-	player.stop_facing()
+
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	Wwise.post_event_id(AK.EVENTS.FOOTSTEPS, self)
@@ -29,5 +28,4 @@ func on_click(selected):
 		player.position = circle2.position
 	else:
 		player.position = circle1.position
-	player.set_process_input(true)
-	player.set_process_unhandled_input(true)
+	player.set_cutscene(false)

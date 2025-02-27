@@ -24,10 +24,7 @@ func narrate():
 func on_click(selected):
 	druid_hum.stop_event()
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	player.stop_facing()
-	player.set_process_input(false)
-	#TODO: turn off facing sounds as well somehow
-	#player.set_process_unhandled_input(false)
+	player.set_cutscene(true)
 	await get_tree().create_timer(1).timeout
 	
 	if(selected == "Crystal"):
@@ -42,6 +39,5 @@ func on_click(selected):
 		else:
 			druid_help.post_event()
 			await get_tree().create_timer(11.1).timeout
-	player.set_process_input(true)
-	#player.set_process_unhandled_input(true)
+	player.set_cutscene(false)
 	druid_hum.post_event()

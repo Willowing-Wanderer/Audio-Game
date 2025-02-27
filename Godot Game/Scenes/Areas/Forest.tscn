@@ -1,12 +1,13 @@
-[gd_scene load_steps=8 format=3 uid="uid://b4ie4etgybfxm"]
+[gd_scene load_steps=9 format=3 uid="uid://b4ie4etgybfxm"]
 
-[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
+[ext_resource type="PackedScene" path="res://Scenes/Characters/player.tscn" id="1_7bjl8"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_ojsyl"]
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="3_hwvxf"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="3_nwtgi"]
-[ext_resource type="PackedScene" uid="uid://hlssl26jhl27" path="res://Scenes/Characters/Druid.tscn" id="3_wia7u"]
-[ext_resource type="PackedScene" uid="uid://75074s6brwaf" path="res://Scenes/Characters/Pixie.tscn" id="5_0dfks"]
-[ext_resource type="PackedScene" uid="uid://bvme6p87bknvw" path="res://Scenes/Characters/Raccoon.tscn" id="5_gus2k"]
+[ext_resource type="PackedScene" path="res://Scenes/Characters/Druid.tscn" id="3_wia7u"]
+[ext_resource type="PackedScene" path="res://Scenes/Characters/Pixie.tscn" id="5_0dfks"]
+[ext_resource type="PackedScene" path="res://Scenes/Characters/Raccoon.tscn" id="5_gus2k"]
+[ext_resource type="PackedScene" uid="uid://b0ccojmiowmsc" path="res://Scenes/UI/ScreenCover.tscn" id="8_m046q"]
 
 [node name="Forest" type="Node3D"]
 visible = false
@@ -70,5 +71,8 @@ transform = Transform3D(0.999844, 0, -0.0176617, 0, 1, 0, 0.0176617, 0, 0.999844
 circle1 = NodePath("../Circle")
 circle2 = NodePath("../Circle2")
 player = NodePath("../Player")
+
+[node name="ColorRect" parent="." instance=ExtResource("8_m046q")]
+visible = false
 
 [connection signal="raccoon_fed" from="AkBank/AkBank2/Circle2/Raccoon" to="AkBank/AkBank2/Circle2/Pixie" method="_on_raccoon_raccoon_fed"]
