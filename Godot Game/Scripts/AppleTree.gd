@@ -8,6 +8,7 @@ extends Area3D
 @export var tree_shake:AkEvent3D
 @export var apples_fall:AkEvent3D
 @export var narrate_apple_tree:AkEvent3D
+@export var narrate_empty_tree:AkEvent3D
 
 var apple_scene = preload("res://Scenes/Items/apple.tscn")
 
@@ -19,7 +20,10 @@ func _ready():
 	tree_swish.post_event()
 	
 func narrate():
-	narrate_apple_tree.post_event()
+	if(has_apples):
+		narrate_apple_tree.post_event()
+	else:
+		narrate_empty_tree.post_event()
 
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, player)
