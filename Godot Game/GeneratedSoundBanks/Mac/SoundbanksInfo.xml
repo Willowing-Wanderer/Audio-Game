@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{ECC422DF-77A9-C4CC-1FB0-B01772F5BF42}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{6C7B4D31-C5FD-0ADE-DE4E-F6CD8E885E93}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -279,6 +279,10 @@
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="844437356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Apple_Tree.wav</ShortName>
+					<CachePath>SFX/Narrate_Apple_Tree_818F3B66.wem</CachePath>
+				</File>
 				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Eating.wav</ShortName>
 					<CachePath>SFX/Raccoon_Eating_A7790D41.wem</CachePath>
@@ -298,6 +302,10 @@
 				<File Id="997994923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard1.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard1_B6E23DAA.wem</CachePath>
+				</File>
+				<File Id="1023419553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Apple.wav</ShortName>
+					<CachePath>SFX/Narrate_Apple_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1048681673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Help.wav</ShortName>
@@ -435,12 +443,12 @@
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="1023419553"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3477674050" Name="Narrate_Apple_Tree">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="844437356"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2696084023" Name="Narrate_Controls">
@@ -554,5 +562,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DA581753-1785-F989-F374-3D339F0D0EC1}</FileHash>
+	<FileHash>{F5DE108B-7A09-086D-26F0-0AB382AB4FEC}</FileHash>
 </SoundBanksInfo>
