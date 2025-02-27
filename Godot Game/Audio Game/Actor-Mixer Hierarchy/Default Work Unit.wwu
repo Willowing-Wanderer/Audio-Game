@@ -2691,6 +2691,28 @@
 								<ActiveSource Name="Raccoon_Thanks" ID="{4D9AB40C-D43C-4EF1-A30F-C2D9F3AF2210}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" ShortID="345149579">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Raccoon_Go_Away" ID="{D93AB379-29D8-4760-ABB5-9B24E93A9831}">
+									<Language>SFX</Language>
+									<AudioFile>Raccoon_Go_Away.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126095673"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Raccoon_Go_Away" ID="{D93AB379-29D8-4760-ABB5-9B24E93A9831}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
