@@ -39,10 +39,13 @@ func _input(event):
 			if(area_narration_playing):
 				area_being_narrated.stop_narration()
 			else:
-				if(has_overlapping_areas()):
-					process_right_click(get_overlapping_areas()[0])
+				if(narrator.playing_narration):
+					narrator.stop_narration()
 				else:
-					narrator.narrate(inventory.get_selected())
+					if(has_overlapping_areas()):
+						process_right_click(get_overlapping_areas()[0])
+					else:
+						narrator.narrate(inventory.get_selected())
 		# Scroll
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
 			inventory.scroll_up()

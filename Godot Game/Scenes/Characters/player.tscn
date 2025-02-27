@@ -44,8 +44,9 @@ transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247
 [node name="Inventory" type="Node" parent="."]
 script = ExtResource("5_0abx7")
 
-[node name="Inventory_Narrator" type="Node" parent="."]
+[node name="Inventory_Narrator" type="Node" parent="." node_paths=PackedStringArray("narration_timer")]
 script = ExtResource("3_sxwdk")
+narration_timer = NodePath("../Timer")
 
 [node name="Hover_Select" type="AkEvent3D" parent="."]
 event = {
@@ -67,6 +68,8 @@ current = true
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
+
+[node name="Timer" type="Timer" parent="."]
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_area_exited"]
