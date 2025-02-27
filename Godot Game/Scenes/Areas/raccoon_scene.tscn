@@ -9,9 +9,10 @@
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="7_5w7yi"]
 
-[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_ending")]
+[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_ending", "forest_ambience")]
 script = ExtResource("1_a5oek")
 narrate_ending = NodePath("Narrate_Ending")
+forest_ambience = NodePath("Forest_Ambience")
 
 [node name="Player" parent="." instance=ExtResource("1_887yb")]
 transform = Transform3D(0.733742, 0, 0.679429, 0, 1, 0, -0.679429, 0, 0.733742, 0, 0, 0)
@@ -59,5 +60,12 @@ event = {
 "id": 2633894792,
 "name": "Narrate_Ending"
 }
+
+[node name="Forest_Ambience" type="AkEvent3D" parent="."]
+event = {
+"id": 2084169529,
+"name": "Forest_Ambience"
+}
+stop_on = 3
 
 [connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]

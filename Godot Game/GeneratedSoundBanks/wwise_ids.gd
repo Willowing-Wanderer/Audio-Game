@@ -37,6 +37,7 @@ class EVENTS:
 	const CLICK_TO_START = 1451930548
 	const NARRATE_EMPTY_TREE = 1862226623
 	const DRUID_THANKS = 3109325365
+	const FOREST_AMBIENCE = 2084169529
 	const RACCOON_THANKS = 2129084912
 	const DRUID_HELP = 876613367
 	const PIXIE1_DIALOG = 2704494418
@@ -82,6 +83,7 @@ class EVENTS:
 		"Click_To_Start": CLICK_TO_START,
 		"Narrate_Empty_Tree": NARRATE_EMPTY_TREE,
 		"Druid_Thanks": DRUID_THANKS,
+		"Forest_Ambience": FOREST_AMBIENCE,
 		"Raccoon_Thanks": RACCOON_THANKS,
 		"Druid_Help": DRUID_HELP,
 		"Pixie1_Dialog": PIXIE1_DIALOG,

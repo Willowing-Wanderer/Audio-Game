@@ -23,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1785858692	Narrate_Raccoon			\Default Work Unit\Narrations\Narrate_Raccoon	
 	1862226623	Narrate_Empty_Tree			\Default Work Unit\Narrations\Narrate_Empty_Tree	
 	1869852890	Raccoon_Go_Away			\Default Work Unit\Dialogue\Raccoon_Go_Away	
+	2084169529	Forest_Ambience			\Default Work Unit\SoundEvents\Forest_Ambience	
 	2129084912	Raccoon_Thanks			\Default Work Unit\Dialogue\Raccoon_Thanks	
 	2194565643	Narrate_Apple			\Default Work Unit\Narrations\Narrate_Apple	
 	2213069164	Druid_Hum			\Default Work Unit\Environmentals\Druid_Hum	
@@ -69,6 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	349029664	Narration_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Narration_Placeholder_0A617491.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
 	353048489	ItemHoverSelect	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\ItemHoverSelect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverSelect		570052
 	371776505	Hungry_Raccoon	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Hungry_Raccoon_49D83F2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Hungry_Raccoon		3108268
+	401630820	Sound_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
 	412105083	Pixie1_Dialog	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie1_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog		1709868
 	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
 	440940756	Druid_Thanks	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Druid_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Thanks		732884

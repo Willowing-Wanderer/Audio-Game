@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{F5E46E23-CF17-F32D-2270-802BF3B28C80}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{ECC422DF-77A9-C4CC-1FB0-B01772F5BF42}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -238,6 +238,10 @@
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
+				</File>
+				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound_Placeholder.wav</ShortName>
+					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
 				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
@@ -399,6 +403,11 @@
 						<MediaRef Id="997994923"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2084169529" Name="Forest_Ambience">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
 					<MediaRefs>
 						<MediaRef Id="525294819"/>
@@ -545,5 +554,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D7E1E859-1FDE-9F1B-332B-04CE024D9382}</FileHash>
+	<FileHash>{DA581753-1785-F989-F374-3D339F0D0EC1}</FileHash>
 </SoundBanksInfo>
