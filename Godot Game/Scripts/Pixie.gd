@@ -33,10 +33,13 @@ func on_click(selected):
 	player.set_cutscene(false)
 	
 func _on_raccoon_raccoon_fed():
+	player.set_cutscene(true)
 	pixie_giggle.stop_event()
 	await get_tree().create_timer(3).timeout
 	pixie_aww.post_event()
-	await get_tree().create_timer(1).timeout
+	await get_tree().create_timer(2).timeout
 	pixie_flyoff.post_event()
+	await get_tree().create_timer(3).timeout
+	player.set_cutscene(false)
 	queue_free()
 	

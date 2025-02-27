@@ -20,8 +20,6 @@ var cutscene = false
 
 func _ready() -> void:
 	capture_mouse()
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 
 # Process mouse inputs
 func _input(event):
