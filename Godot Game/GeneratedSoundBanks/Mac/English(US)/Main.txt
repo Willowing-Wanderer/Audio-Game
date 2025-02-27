@@ -78,6 +78,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	414537352	Narrate_Controls	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Controls_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		1791284
 	440940756	Druid_Thanks	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Druid_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Thanks		732884
 	501403929	LeafCrunchHard3	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
+	505193919	Narrate_Start	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Start_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Start		3582420
 	512147104	Narrate_Druid	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Druid_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Druid		977128
 	525294819	ItemHoverDeselect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\ItemHoverDeselect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverDeselect		570052
 	535661321	BlackWind	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
