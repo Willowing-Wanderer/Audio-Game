@@ -9,6 +9,7 @@ extends Area3D
 @export var raccoon_thanks:AkEvent3D
 @export var narrate_raccoon:AkEvent3D
 @export var crystal_drop:AkEvent3D
+@export var raccoon_go_away:AkEvent3D
 
 signal raccoon_fed
 var fed = false
@@ -27,23 +28,24 @@ func on_click(selected):
 	player.set_cutscene(true)
 	if(selected == "Apple"):
 		player.remove_from_inventory("Apple")
-		
 		Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-		
 		if(fed):
 			raccoon_eating.stop_event()
 		else:
 			hungry_raccoon.stop_event()
-			
 		raccoon_thanks.post_event()
 		await get_tree().create_timer(8).timeout
-		
 		if(!fed):
 			drop_crystal()
 			raccoon_eating.post_event()
 		
 	else:
-		Wwise.post_event_id(AK.EVENTS.CLICK_FAIL, self)
+		if(fed):
+			raccoon_thanks.post_event()
+			await get_tree().create_timer(2).timeout
+		else:
+			raccoon_go_away.post_event()
+			await get_tree().create_timer(2).timeout
 	player.set_cutscene(false)
 	
 	
