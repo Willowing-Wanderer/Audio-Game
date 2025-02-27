@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{CA21D7E9-13E2-8EDF-BE1B-4A3B3250C639}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{12C35997-E226-C673-E04F-D7D48184FF3D}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -206,6 +206,10 @@
 				<File Id="194724780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Backdrop_Placeholder.wav</ShortName>
 					<CachePath>SFX/Backdrop_Placeholder_1EF53104.wem</CachePath>
+				</File>
+				<File Id="283429622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Go_Away.wav</ShortName>
+					<CachePath>SFX/Raccoon_Go_Away_818F3B66.wem</CachePath>
 				</File>
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
@@ -285,7 +289,7 @@
 				</File>
 				<File Id="994574637" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Hum.wav</ShortName>
-					<CachePath>SFX/Crystal_Hum_4A1000D6.wem</CachePath>
+					<CachePath>SFX/Crystal_Hum_3A2A7CCE.wem</CachePath>
 				</File>
 				<File Id="997994923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard1.wav</ShortName>
@@ -490,6 +494,11 @@
 						<MediaRef Id="918725472"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1869852890" Name="Raccoon_Go_Away">
+					<MediaRefs>
+						<MediaRef Id="283429622"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
 						<MediaRef Id="158081556"/>
@@ -511,5 +520,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F1BFA398-7FDB-15E3-CC32-D48E56E58E90}</FileHash>
+	<FileHash>{69F4DE24-4BC1-923A-A84D-87F29B206CEF}</FileHash>
 </SoundBanksInfo>
