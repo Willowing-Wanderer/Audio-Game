@@ -21,7 +21,7 @@
 								<Action Name="" ID="{ACC4A3DC-6AE4-4876-A378-4F346751E91A}" ShortID="330678674">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Apple" ID="{FA3F91DA-B9A2-4D40-BA22-54373B02B8D2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -54,7 +54,7 @@
 								<Action Name="" ID="{68EEFA61-C690-45DB-8C2F-14E44ECA3F3E}" ShortID="247306387">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Apple_Tree" ID="{140D3B94-129E-4751-87CE-51415D4D106E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -131,7 +131,7 @@
 								<Action Name="" ID="{0239F5E1-A71C-4135-9EED-9ED7C12A076E}" ShortID="882849767">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Narrate_Controls" ID="{3D7C4EC1-EA49-44E0-95BC-708E9A4075F3}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
