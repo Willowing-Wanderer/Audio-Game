@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{6C7B4D31-C5FD-0ADE-DE4E-F6CD8E885E93}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{22ED98FB-2D31-8630-3C16-D63F9DF6E3E0}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -250,6 +250,10 @@
 				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
+				</File>
+				<File Id="414537352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Narrate_Controls.wav</ShortName>
+					<CachePath>SFX/Narrate_Controls_818F3B66.wem</CachePath>
 				</File>
 				<File Id="440940756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Thanks.wav</ShortName>
@@ -453,7 +457,7 @@
 				</Event>
 				<Event Id="2696084023" Name="Narrate_Controls">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="414537352"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
@@ -562,5 +566,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0937579A-CF62-DB88-B172-58F8CD063ECE}</FileHash>
+	<FileHash>{F78DE4E6-89A3-FC60-5C6F-A1C803227947}</FileHash>
 </SoundBanksInfo>

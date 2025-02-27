@@ -73,6 +73,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	401630820	Sound_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
 	412105083	Pixie1_Dialog	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie1_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog		1709868
 	413952810	LeafCrunchHard4	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
+	414537352	Narrate_Controls	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Controls_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		1791284
 	440940756	Druid_Thanks	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Druid_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Thanks		732884
 	501403929	LeafCrunchHard3	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
 	525294819	ItemHoverDeselect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\ItemHoverDeselect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverDeselect		570052
