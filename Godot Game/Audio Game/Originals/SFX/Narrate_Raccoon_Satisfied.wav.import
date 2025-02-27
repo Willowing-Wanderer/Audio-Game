@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://nrfio6a3tcwj"
+path="res://.godot/imported/Narrate_Raccoon_Satisfied.wav-3a82b80836d49b7a55a31ced09860463.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Narrate_Raccoon_Satisfied.wav"
+dest_files=["res://.godot/imported/Narrate_Raccoon_Satisfied.wav-3a82b80836d49b7a55a31ced09860463.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

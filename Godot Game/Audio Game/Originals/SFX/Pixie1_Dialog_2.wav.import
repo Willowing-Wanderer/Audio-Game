@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wd1agl53tvvx"
+path="res://.godot/imported/Pixie1_Dialog_2.wav-6a4f6cc5de89fab8438001c9d60dc2a8.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Pixie1_Dialog_2.wav"
+dest_files=["res://.godot/imported/Pixie1_Dialog_2.wav-6a4f6cc5de89fab8438001c9d60dc2a8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
