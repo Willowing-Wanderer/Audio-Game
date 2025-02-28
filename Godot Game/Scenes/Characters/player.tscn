@@ -44,9 +44,10 @@ transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247
 [node name="Inventory" type="Node" parent="."]
 script = ExtResource("5_0abx7")
 
-[node name="Inventory_Narrator" type="Node" parent="." node_paths=PackedStringArray("narration_timer")]
+[node name="Inventory_Narrator" type="Node" parent="." node_paths=PackedStringArray("narration_timer", "crystal_timer")]
 script = ExtResource("3_sxwdk")
 narration_timer = NodePath("../Narration_Timer")
+crystal_timer = NodePath("../Crystal_Timer")
 
 [node name="Hover_Select" type="AkEvent3D" parent="."]
 event = {
@@ -71,6 +72,10 @@ transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 
 
 [node name="Narration_Timer" type="Timer" parent="."]
 
+[node name="Crystal_Timer" type="Timer" parent="."]
+wait_time = 2.5
+
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_area_exited"]
 [connection signal="timeout" from="Narration_Timer" to="Inventory_Narrator" method="_on_narration_timer_timeout"]
+[connection signal="timeout" from="Crystal_Timer" to="Inventory_Narrator" method="_on_crystal_timer_timeout"]

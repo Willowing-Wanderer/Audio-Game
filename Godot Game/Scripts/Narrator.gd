@@ -7,6 +7,7 @@ var playing_id
 var playing_narration = false
 
 @export var narration_timer:Timer
+@export var crystal_timer:Timer
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -15,7 +16,10 @@ func _ready():
 func narrate(object_name):
 	playing_narration = true
 	playing_id = Wwise.post_event_id(narrations[object_name], self)
-	narration_timer.start()
+	if(object_name == "Crystal"):
+		crystal_timer.start()
+	else:
+		narration_timer.start()
 
 func _on_narration_timer_timeout():
 	playing_narration = false
@@ -26,3 +30,7 @@ func stop_narration():
 	if(playing_id):
 		Wwise.stop_event(playing_id, 0 ,AkUtils.AK_CURVE_LINEAR)
 	narration_timer.stop()
+
+func _on_crystal_timer_timeout():
+	playing_narration = false
+	crystal_timer.stop()

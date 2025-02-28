@@ -30,5 +30,3 @@ func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 	
 	queue_free()
-	
-
