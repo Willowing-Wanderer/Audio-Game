@@ -23,7 +23,10 @@ func _ready() -> void:
 
 func _process(delta):
 	if(area_narration_playing):
-		area_narration_playing = area_being_narrated.playing_narration
+		if(is_instance_valid(area_being_narrated)):
+			area_narration_playing = area_being_narrated.playing_narration
+		else:
+			area_narration_playing = false
 
 # Process mouse inputs
 func _input(event):
