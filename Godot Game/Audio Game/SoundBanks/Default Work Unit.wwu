@@ -3,7 +3,7 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{7592B724-ABF0-423B-8B44-DAD59E1DD8D4}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{14D914A9-EF1F-42D4-916F-48933A8C8FBB}">
+				<SoundBank Name="Main" ID="{9607C35E-9128-42D6-910C-1653052CE00E}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Backdrops" ID="{6A4A2A2B-95FC-43EE-B477-62932B446C43}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Items" ID="{571C9BBC-739B-458E-A87F-5B1A4B160DEA}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>

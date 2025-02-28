@@ -9,12 +9,13 @@
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="7_5w7yi"]
 
-[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience")]
+[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "player")]
 script = ExtResource("1_a5oek")
 narrate_controls = NodePath("Narrate_Controls")
 narrate_ending = NodePath("Narrate_Ending")
 narrate_start = NodePath("Narrate_Start")
 forest_ambience = NodePath("Forest_Ambience")
+player = NodePath("Player")
 
 [node name="Player" parent="." instance=ExtResource("1_887yb")]
 transform = Transform3D(0.733742, 0, 0.679429, 0, 1, 0, -0.679429, 0, 0.733742, 0, 0, 0)

@@ -10,13 +10,14 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="AppleTree" type="Area3D" node_paths=PackedStringArray("tree_swish", "tree_shake", "apples_fall", "narrate_apple_tree", "narrate_empty_tree", "narration_timer")]
+[node name="AppleTree" type="Area3D" node_paths=PackedStringArray("tree_swish", "tree_shake", "apples_fall", "narrate_apple_tree", "narrate_empty_tree", "interact", "narration_timer")]
 script = ExtResource("1_frow4")
 tree_swish = NodePath("Tree_Swish")
 tree_shake = NodePath("Tree_Shake")
 apples_fall = NodePath("Apples_Fall")
 narrate_apple_tree = NodePath("Narrate_Apple_Tree")
 narrate_empty_tree = NodePath("Narrate_Empty_Tree")
+interact = NodePath("Interact")
 narration_timer = NodePath("Narration_Timer")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -69,5 +70,12 @@ stop_on = 3
 
 [node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 4.0
+
+[node name="Interact" type="AkEvent3D" parent="."]
+event = {
+"id": 1466384055,
+"name": "Interact"
+}
+stop_on = 3
 
 [connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]

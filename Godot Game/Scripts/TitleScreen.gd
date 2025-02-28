@@ -5,7 +5,7 @@ extends ColorRect
 signal start_game
 
 func _ready():
-	#pass
+	await get_tree().create_timer(1).timeout
 	click_to_start.post_event()
 
 func _input(event):

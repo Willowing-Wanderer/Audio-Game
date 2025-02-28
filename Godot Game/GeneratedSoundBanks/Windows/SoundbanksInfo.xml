@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DDA9CEAD-E94B-1425-EEE0-9FC8D4E34986}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{90158C4B-5522-FAA1-D4A3-6C2669F2BC72}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -174,10 +174,6 @@
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
 					<CachePath>SFX/Tree_Swish_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Dialog_Placeholder.wav</ShortName>
-					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
 				</File>
 				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Shake.wav</ShortName>
@@ -190,6 +186,10 @@
 				<File Id="87182428" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FailedClickV2.wav</ShortName>
 					<CachePath>SFX/FailedClickV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="126095673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Go_Away.wav</ShortName>
+					<CachePath>SFX/Raccoon_Go_Away_818F3B66.wem</CachePath>
 				</File>
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
@@ -243,10 +243,6 @@
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
 				</File>
-				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Sound_Placeholder.wav</ShortName>
-					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
-				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
 					<CachePath>SFX/Pixie1_Dialog_818F3B66.wem</CachePath>
@@ -291,9 +287,9 @@
 					<ShortName>Narrate_Empty_Tree.wav</ShortName>
 					<CachePath>SFX/Narrate_Empty_Tree_818F3B66.wem</CachePath>
 				</File>
-				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Event_Placeholder.wav</ShortName>
-					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
+				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie_Flyoff.wav</ShortName>
+					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
 				</File>
 				<File Id="658002430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Click_To_Start.wav</ShortName>
@@ -306,6 +302,10 @@
 				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Pixie.wav</ShortName>
 					<CachePath>SFX/Narrate_Pixie_818F3B66.wem</CachePath>
+				</File>
+				<File Id="774379016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>221755__motion_s__long-birds-forest-ambience.wav</ShortName>
+					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_E2C3BFEE.wem</CachePath>
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
@@ -453,7 +453,7 @@
 				</Event>
 				<Event Id="2084169529" Name="Forest_Ambience">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="774379016"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
@@ -568,7 +568,7 @@
 				</Event>
 				<Event Id="1075103351" Name="Pixie_Flyoff">
 					<MediaRefs>
-						<MediaRef Id="651076579"/>
+						<MediaRef Id="634010515"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="848414374" Name="Pixie_Giggle">
@@ -583,7 +583,7 @@
 				</Event>
 				<Event Id="1869852890" Name="Raccoon_Go_Away">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="126095673"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C5EDA37B-0303-4669-AEF3-35B64F982BD5}</FileHash>
+	<FileHash>{73DB9622-DF5E-6C67-AFA6-4950550B58D6}</FileHash>
 </SoundBanksInfo>

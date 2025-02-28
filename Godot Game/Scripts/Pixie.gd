@@ -26,7 +26,7 @@ func narrate():
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 	player.set_cutscene(true)
-	
+	await get_tree().create_timer(1).timeout
 	pixie_giggle.stop_event()
 	pixie1_dialog.post_event()
 	

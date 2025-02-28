@@ -445,7 +445,7 @@
 								<Action Name="" ID="{A12C7081-AB9E-4153-8C10-3953F5A04BDE}" ShortID="1057724913">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Pixie_Flyoff" ID="{01E0C9C6-C052-4329-8603-B9CA8216EB81}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -478,7 +478,7 @@
 								<Action Name="" ID="{BDBF8C03-CB36-43A6-8D6F-80F79A275460}" ShortID="330808442">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="221755__motion_s__long-birds-forest-ambience" ID="{12B6ED46-F3D0-4D12-8D7C-5FE96F4DE7D5}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -548,7 +548,7 @@
 								<Action Name="" ID="{500C3C1A-001F-4656-A9B1-003093F5A26E}" ShortID="410994867">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
