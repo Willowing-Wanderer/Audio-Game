@@ -493,7 +493,7 @@
 								<Action Name="" ID="{D6BE4C2F-D5CC-4302-BEEC-D912A0CFDD06}" ShortID="316681822">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Raccoon_Thanks" ID="{235A3CC7-CA24-4E80-9625-A8BDDBE0F993}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Thanks1" ID="{005890A6-B897-45DB-8604-A058D85BB702}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -549,6 +549,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Raccoon_Thanks_2" ID="{02C8C9C1-CE10-435A-BEB9-39ACE37F8FEF}">
+							<ChildrenList>
+								<Action Name="" ID="{9E8A6482-F5B8-496E-8DB1-825686C8DCBC}" ShortID="611528299">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Raccoon_Thanks2" ID="{43883C68-934E-403D-BC77-919E8D3EB154}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
