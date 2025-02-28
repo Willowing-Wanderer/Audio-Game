@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{034A0B31-DEB9-7DBB-1008-DE7BD3448C03}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{47C8DC45-F615-063A-7A12-F47DAFD33635}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -189,7 +189,7 @@
 				</File>
 				<File Id="126095673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Go_Away.wav</ShortName>
-					<CachePath>SFX/Raccoon_Go_Away_818F3B66.wem</CachePath>
+					<CachePath>SFX/Raccoon_Go_Away_B94B1198.wem</CachePath>
 				</File>
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
@@ -366,6 +366,7 @@
 			</Media>
 			<Plugins>
 				<Custom>
+					<Plugin Id="343217079" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="840125335" Name="Stereo Delay (Custom)" LibName="Wwise Stereo Delay" LibId="8847363"/>
 					<Plugin Id="986553122" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
@@ -458,6 +459,11 @@
 						<MediaRef Id="501403929"/>
 						<MediaRef Id="997994923"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="343217079"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="2084169529" Name="Forest_Ambience">
 					<MediaRefs>
@@ -621,5 +627,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{922BDC52-1148-DC09-42EC-8BAFD00AD293}</FileHash>
+	<FileHash>{FD1602C0-E0C6-1D94-8A15-A7FFA5881843}</FileHash>
 </SoundBanksInfo>

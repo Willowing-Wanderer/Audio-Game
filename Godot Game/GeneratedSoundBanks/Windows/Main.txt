@@ -50,6 +50,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
 
 Effect plug-ins	ID	Name	Type				Notes
+	343217079	Parametric EQ (Custom)	Wwise Parametric EQ			
 	840125335	Stereo Delay (Custom)	Wwise Stereo Delay			
 	986553122	Parametric EQ (Custom)	Wwise Parametric EQ			
 
@@ -59,7 +60,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	74561833	Tree_Shake	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
 	76911740	Facing_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
 	87182428	FailedClickV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\FailedClickV2_ECD15F49.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		289424
-	126095673	Raccoon_Go_Away	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Go_Away_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Go_Away		488636
+	126095673	Raccoon_Go_Away	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Go_Away_B94B1198.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Go_Away		459496
 	150446866	LeafCrunchHard2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
 	158081556	Raccoon_Thanks1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks1		1506328
 	171344150	Crystal_Item	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
@@ -101,6 +102,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	994574637	Crystal_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Hum_3A2A7CCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Crystal_Hum		5210728
 	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
 	1023419553	Narrate_Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_68AB25B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple		155736
-	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		2524020
+	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		977128
 	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		2442604
 

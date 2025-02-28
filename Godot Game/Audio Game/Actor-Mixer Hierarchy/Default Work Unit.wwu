@@ -219,8 +219,8 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>-25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -231,8 +231,8 @@
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -263,7 +263,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -280,13 +280,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="BlackWind" ID="{4296F7CC-1662-487C-9B81-28D98F799965}" ShortID="336337282">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -343,7 +336,7 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-25</XPos>
+																		<XPos>-20</XPos>
 																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
@@ -355,7 +348,7 @@
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>25</XPos>
+																		<XPos>20</XPos>
 																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
@@ -480,6 +473,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -571,6 +569,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -679,6 +682,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -773,6 +781,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -948,8 +961,8 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>-25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -960,8 +973,8 @@
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
@@ -1167,7 +1180,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1202,7 +1215,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1236,7 +1249,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1270,7 +1283,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1304,7 +1317,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1338,7 +1351,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1372,7 +1385,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1406,7 +1419,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1440,7 +1453,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1474,7 +1487,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1508,7 +1521,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1542,7 +1555,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1576,7 +1589,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1831,7 +1844,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1870,7 +1883,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1992,6 +2005,26 @@
 								</Sound>
 							</ChildrenList>
 							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4EA6A914-0889-4F35-8CA7-3505C47C84DA}" ShortID="448821499">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Parametric EQ (Custom)" ID="{2D0E66DD-9DF6-4E12-BACA-C728B9888382}" ShortID="343217079" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FrequencyBand3" Type="Real32" Value="19123"/>
+																	<Property Name="GainBand3" Type="Real32" Value="-9"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
 								<ObjectList Name="Playlist">
 									<Reference>
 										<ObjectRef Name="LeafCrunchHard1" ID="{D8AC2AB3-4491-43C5-B222-5F47AAEECF08}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
@@ -2050,6 +2083,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2097,6 +2135,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Crystal_Drop" ID="{325EEF7D-87E9-4C3D-8A46-E557015F87F5}" ShortID="427339152">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -2122,6 +2167,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2210,7 +2260,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2587,6 +2637,11 @@
 						<Sound Name="Druid_Dialog" ID="{091CEB50-A4CB-4036-BD7A-301A273461BF}" ShortID="58607344">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2673,6 +2728,11 @@
 						<Sound Name="Druid_Help" ID="{CE2E9D3C-CB03-4987-8688-B4B76A48A96B}" ShortID="850664964">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2759,6 +2819,11 @@
 						<Sound Name="Druid_Thanks" ID="{286282AA-5902-44AA-B4AA-712B75687053}" ShortID="144822678">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2845,6 +2910,11 @@
 						<Sound Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" ShortID="345149579">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2859,6 +2929,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Raccoon_Go_Away" ID="{D93AB379-29D8-4760-ABB5-9B24E93A9831}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.30635722401759"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.60403640414951"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Raccoon_Go_Away.wav</AudioFile>
 									<MediaIDList>
@@ -2932,6 +3008,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3125,6 +3206,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
