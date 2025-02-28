@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB3EDF4F-6DD1-F76C-ADF6-747392420973}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D6F1BD15-1EFD-78C7-31A2-98543AF50D06}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -225,7 +225,7 @@
 				</File>
 				<File Id="318985466" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Path.wav</ShortName>
-					<CachePath>SFX/Narrate_Path_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Path_1829EF31.wem</CachePath>
 				</File>
 				<File Id="347548140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Dialog.wav</ShortName>
@@ -237,7 +237,7 @@
 				</File>
 				<File Id="371136157" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon.wav</ShortName>
-					<CachePath>SFX/Narrate_Raccoon_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Raccoon_7950525D.wem</CachePath>
 				</File>
 				<File Id="371776505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hungry_Raccoon.wav</ShortName>
@@ -257,7 +257,7 @@
 				</File>
 				<File Id="414537352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Controls.wav</ShortName>
-					<CachePath>SFX/Narrate_Controls_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Controls_6F33F453.wem</CachePath>
 				</File>
 				<File Id="440940756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Thanks.wav</ShortName>
@@ -273,7 +273,7 @@
 				</File>
 				<File Id="512147104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Druid.wav</ShortName>
-					<CachePath>SFX/Narrate_Druid_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Druid_3660EC4C.wem</CachePath>
 				</File>
 				<File Id="525294819" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverDeselect.wav</ShortName>
@@ -285,11 +285,11 @@
 				</File>
 				<File Id="546806146" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Ending.wav</ShortName>
-					<CachePath>SFX/Narrate_Ending_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Ending_20A2EDE4.wem</CachePath>
 				</File>
 				<File Id="614364145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Empty_Tree.wav</ShortName>
-					<CachePath>SFX/Narrate_Empty_Tree_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Empty_Tree_3D18D6B2.wem</CachePath>
 				</File>
 				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Flyoff.wav</ShortName>
@@ -297,15 +297,15 @@
 				</File>
 				<File Id="658002430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Click_To_Start.wav</ShortName>
-					<CachePath>SFX/Click_To_Start_818F3B66.wem</CachePath>
+					<CachePath>SFX/Click_To_Start_F087871C.wem</CachePath>
 				</File>
 				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
-					<CachePath>SFX/Narrate_Raccoon_Satisfied_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Raccoon_Satisfied_DBB15166.wem</CachePath>
 				</File>
 				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Pixie.wav</ShortName>
-					<CachePath>SFX/Narrate_Pixie_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Pixie_67589DF0.wem</CachePath>
 				</File>
 				<File Id="757555748" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Thanks2.wav</ShortName>
@@ -317,7 +317,7 @@
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
-					<CachePath>SFX/Narrate_Nothing_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Nothing_07A12AD0.wem</CachePath>
 				</File>
 				<File Id="807619168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PickupGenericV2.wav</ShortName>
@@ -325,11 +325,11 @@
 				</File>
 				<File Id="822964253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Crystal.wav</ShortName>
-					<CachePath>SFX/Narrate_Crystal_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Crystal_DD6B1CA2.wem</CachePath>
 				</File>
 				<File Id="844437356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Apple_Tree.wav</ShortName>
-					<CachePath>SFX/Narrate_Apple_Tree_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Apple_Tree_93212243.wem</CachePath>
 				</File>
 				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Eating.wav</ShortName>
@@ -337,7 +337,7 @@
 				</File>
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
-					<CachePath>SFX/Apple_818F3B66.wem</CachePath>
+					<CachePath>SFX/Apple_E3DCBAA4.wem</CachePath>
 				</File>
 				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PutdownV1.wav</ShortName>
@@ -353,7 +353,7 @@
 				</File>
 				<File Id="1023419553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Apple.wav</ShortName>
-					<CachePath>SFX/Narrate_Apple_818F3B66.wem</CachePath>
+					<CachePath>SFX/Narrate_Apple_68AB25B8.wem</CachePath>
 				</File>
 				<File Id="1048681673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Help.wav</ShortName>
@@ -617,5 +617,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E0CDB434-04A8-8D00-C2FE-AA9ED448F2D6}</FileHash>
+	<FileHash>{B4457D5B-2E76-BA56-9B28-5EDC6781C381}</FileHash>
 </SoundBanksInfo>
