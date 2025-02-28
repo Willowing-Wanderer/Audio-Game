@@ -9,6 +9,7 @@ extends Area3D
 @export var apples_fall:AkEvent3D
 @export var narrate_apple_tree:AkEvent3D
 @export var narrate_empty_tree:AkEvent3D
+@export var interact:AkEvent3D
 @export var narration_timer:Timer
 
 var apple_scene = preload("res://Scenes/Items/apple.tscn")
@@ -44,7 +45,8 @@ func stop_narration():
 	narration_timer.stop()
 
 func on_click(selected):
-	Wwise.post_event_id(AK.EVENTS.INTERACT, player)
+	interact.post_event()
+	await get_tree().create_timer(0.8).timeout
 	tree_shake.post_event()
 	await get_tree().create_timer(0.8).timeout
 	

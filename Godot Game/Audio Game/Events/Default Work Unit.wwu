@@ -548,7 +548,7 @@
 								<Action Name="" ID="{500C3C1A-001F-4656-A9B1-003093F5A26E}" ShortID="410994867">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

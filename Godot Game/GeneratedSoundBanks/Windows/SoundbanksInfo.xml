@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EADF599D-A783-038B-7208-FA2A1527EB5D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3FDD89DF-E487-8907-C44A-467F8CDA07ED}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -174,10 +174,6 @@
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
 					<CachePath>SFX/Tree_Swish_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Dialog_Placeholder.wav</ShortName>
-					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
 				</File>
 				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Shake.wav</ShortName>
@@ -190,6 +186,10 @@
 				<File Id="87182428" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FailedClickV2.wav</ShortName>
 					<CachePath>SFX/FailedClickV2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="126095673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Go_Away.wav</ShortName>
+					<CachePath>SFX/Raccoon_Go_Away_818F3B66.wem</CachePath>
 				</File>
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
@@ -583,7 +583,7 @@
 				</Event>
 				<Event Id="1869852890" Name="Raccoon_Go_Away">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="126095673"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1011F61D-BA40-700D-2170-79F672F8DF03}</FileHash>
+	<FileHash>{D02AA27F-F2EE-495E-B3BD-23981E18866B}</FileHash>
 </SoundBanksInfo>
