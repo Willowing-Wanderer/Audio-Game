@@ -445,7 +445,7 @@
 								<Action Name="" ID="{A12C7081-AB9E-4153-8C10-3953F5A04BDE}" ShortID="1057724913">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Pixie_Flyoff" ID="{01E0C9C6-C052-4329-8603-B9CA8216EB81}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

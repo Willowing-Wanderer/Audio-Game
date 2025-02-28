@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{05926E1F-6C1D-297C-DF61-C36E463B155D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EADF599D-A783-038B-7208-FA2A1527EB5D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -291,9 +291,9 @@
 					<ShortName>Narrate_Empty_Tree.wav</ShortName>
 					<CachePath>SFX/Narrate_Empty_Tree_818F3B66.wem</CachePath>
 				</File>
-				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Event_Placeholder.wav</ShortName>
-					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
+				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie_Flyoff.wav</ShortName>
+					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
 				</File>
 				<File Id="658002430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Click_To_Start.wav</ShortName>
@@ -568,7 +568,7 @@
 				</Event>
 				<Event Id="1075103351" Name="Pixie_Flyoff">
 					<MediaRefs>
-						<MediaRef Id="651076579"/>
+						<MediaRef Id="634010515"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="848414374" Name="Pixie_Giggle">
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D1C1D529-FDFE-0212-D591-99E9BACA32F2}</FileHash>
+	<FileHash>{C426BF21-CB2B-00DC-F36B-FAD18B7D75A3}</FileHash>
 </SoundBanksInfo>
