@@ -2274,6 +2274,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="221755__motion_s__long-birds-forest-ambience" ID="{2F111465-53E8-4B29-AC1A-E1930B45DB3C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.6406969026831"/>
+										<Property Name="TrimEnd" Type="Real64" Value="23.6652359016347"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>221755__motion_s__long-birds-forest-ambience.wav</AudioFile>
 									<MediaIDList>

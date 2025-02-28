@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C3DECC15-78C6-463F-AFC6-B69C8107DF4B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{90158C4B-5522-FAA1-D4A3-6C2669F2BC72}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -305,7 +305,7 @@
 				</File>
 				<File Id="774379016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>221755__motion_s__long-birds-forest-ambience.wav</ShortName>
-					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_818F3B66.wem</CachePath>
+					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_E2C3BFEE.wem</CachePath>
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A2C7FE3-8B57-73E6-79ED-7D601E92E6A4}</FileHash>
+	<FileHash>{73DB9622-DF5E-6C67-AFA6-4950550B58D6}</FileHash>
 </SoundBanksInfo>
