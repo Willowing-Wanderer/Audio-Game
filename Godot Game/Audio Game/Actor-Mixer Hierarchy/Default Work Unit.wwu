@@ -263,7 +263,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -336,8 +336,13 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-20</XPos>
+																		<XPos>-40</XPos>
 																		<YPos>-20</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-20</XPos>
+																		<YPos>-14</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -349,9 +354,14 @@
 																	</Point>
 																	<Point>
 																		<XPos>20</XPos>
+																		<YPos>-14</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>40</XPos>
 																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
+																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
@@ -873,11 +883,6 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>4</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1005,7 +1010,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1047,7 +1052,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1737,7 +1742,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-22</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1793,7 +1798,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-28</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1822,7 +1827,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-28</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2312,7 +2317,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-26</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -2336,7 +2341,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-26</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -2483,7 +2488,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-40</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -2507,7 +2512,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-40</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -2536,6 +2541,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="221755__motion_s__long-birds-forest-ambience" ID="{2F111465-53E8-4B29-AC1A-E1930B45DB3C}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.397222320598521"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="13.6406969026831"/>
 										<Property Name="TrimEnd" Type="Real64" Value="23.6652359016347"/>
@@ -2833,7 +2839,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
