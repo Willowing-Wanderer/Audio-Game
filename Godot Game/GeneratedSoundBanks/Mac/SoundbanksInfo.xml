@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3FDD89DF-E487-8907-C44A-467F8CDA07ED}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C3DECC15-78C6-463F-AFC6-B69C8107DF4B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -243,10 +243,6 @@
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
 				</File>
-				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Sound_Placeholder.wav</ShortName>
-					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
-				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
 					<CachePath>SFX/Pixie1_Dialog_818F3B66.wem</CachePath>
@@ -306,6 +302,10 @@
 				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Pixie.wav</ShortName>
 					<CachePath>SFX/Narrate_Pixie_818F3B66.wem</CachePath>
+				</File>
+				<File Id="774379016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>221755__motion_s__long-birds-forest-ambience.wav</ShortName>
+					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_818F3B66.wem</CachePath>
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
@@ -453,7 +453,7 @@
 				</Event>
 				<Event Id="2084169529" Name="Forest_Ambience">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="774379016"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5F35BD1-3C72-726B-1833-4FBEBFDF6D2A}</FileHash>
+	<FileHash>{0FAFC0C1-F946-F5D9-672D-2524F97AB56F}</FileHash>
 </SoundBanksInfo>

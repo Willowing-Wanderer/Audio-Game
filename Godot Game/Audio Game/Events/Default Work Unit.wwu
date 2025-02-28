@@ -478,7 +478,7 @@
 								<Action Name="" ID="{BDBF8C03-CB36-43A6-8D6F-80F79A275460}" ShortID="330808442">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="221755__motion_s__long-birds-forest-ambience" ID="{12B6ED46-F3D0-4D12-8D7C-5FE96F4DE7D5}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
