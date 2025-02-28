@@ -41,12 +41,10 @@ func _input(event):
 			else:
 				if(narrator.playing_narration):
 					narrator.stop_narration()
-					print("stop inventory")
 				else:
 					if(has_overlapping_areas()):
 						process_right_click(get_overlapping_areas()[0])
 					else:
-						print("narrate inventory")
 						narrator.narrate(inventory.get_selected())
 		# Scroll
 		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
@@ -95,3 +93,9 @@ func _on_area_exited(area):
 func set_cutscene(boolean):
 	cutscene = boolean
 	set_process_input(!boolean)
+	if(boolean):
+		if(area_narration_playing):
+			area_being_narrated.stop_narration()
+		else:
+			if(narrator.playing_narration):
+				narrator.stop_narration()
