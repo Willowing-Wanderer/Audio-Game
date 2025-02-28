@@ -39,7 +39,7 @@ mesh = SubResource("BoxMesh_tb3ab")
 
 [node name="AkListener3D" type="AkListener3D" parent="."]
 is_spatial = true
-transform = Transform3D(-0.955247, 0, -0.295808, 0, 1, 0, 0.295808, 0, -0.955247, 0, 0, 0)
+transform = Transform3D(-1, 0, 8.74227e-08, 0, 1, 0, -8.74227e-08, 0, -1, 0, 0, 0)
 
 [node name="Inventory" type="Node" parent="."]
 script = ExtResource("5_0abx7")

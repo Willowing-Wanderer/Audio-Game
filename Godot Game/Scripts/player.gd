@@ -94,7 +94,6 @@ func _on_area_exited(area):
 		hover_deselect.post_event()
 
 func set_cutscene(boolean):
-	print(boolean)
 	cutscene = boolean
 	set_process_input(!boolean)
 	if(boolean):

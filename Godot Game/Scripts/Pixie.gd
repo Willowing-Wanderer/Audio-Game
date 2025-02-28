@@ -30,7 +30,7 @@ func on_click(selected):
 	pixie_giggle.stop_event()
 	pixie1_dialog.post_event()
 	
-	await get_tree().create_timer(2.6).timeout
+	await get_tree().create_timer(3.8).timeout
 	
 	pixie_giggle.post_event()
 	player.set_cutscene(false)

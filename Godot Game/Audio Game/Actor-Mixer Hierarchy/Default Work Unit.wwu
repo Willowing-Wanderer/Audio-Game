@@ -219,8 +219,8 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>-25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -231,8 +231,8 @@
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -263,7 +263,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -280,13 +280,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="BlackWind" ID="{4296F7CC-1662-487C-9B81-28D98F799965}" ShortID="336337282">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -343,8 +336,13 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-100</XPos>
+																		<XPos>-40</XPos>
 																		<YPos>-20</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-20</XPos>
+																		<YPos>-14</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -355,10 +353,15 @@
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>20</XPos>
+																		<YPos>-14</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>40</XPos>
 																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
+																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
@@ -480,6 +483,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -571,6 +579,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -679,6 +692,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -773,6 +791,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -860,11 +883,6 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>4</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -948,8 +966,8 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>-25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -960,8 +978,8 @@
 																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
+																		<XPos>25</XPos>
+																		<YPos>-20</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
@@ -989,6 +1007,13 @@
 				<Folder Name="Items" ID="{97051ECD-F8EF-4609-A123-FFA2F1BB2D33}" ShortID="635504885">
 					<ChildrenList>
 						<Sound Name="Crystal_Item" ID="{D2AB88A7-D8E7-4A37-B9A4-6C0A0AF8E6ED}" ShortID="1037337957">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1025,6 +1050,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1036,6 +1066,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Apple" ID="{E6ADE296-FC34-49DB-892B-CD4D7E8F4347}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.461541950113379"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Apple.wav</AudioFile>
 									<MediaIDList>
@@ -1148,6 +1182,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Apple" ID="{FA3F91DA-B9A2-4D40-BA22-54373B02B8D2}" ShortID="841984712">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1158,6 +1199,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Apple" ID="{72F1D445-4714-488E-9699-7FBCDF396D3E}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.28933974746804"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.882035700758973"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Apple.wav</AudioFile>
 									<MediaIDList>
@@ -1170,6 +1217,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Apple_Tree" ID="{140D3B94-129E-4751-87CE-51415D4D106E}" ShortID="494372265">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1180,6 +1234,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Apple_Tree" ID="{D6DE836F-6E03-4A67-A6EE-9D78D660A1D3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.370431330883764"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.54028671772397"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Apple_Tree.wav</AudioFile>
 									<MediaIDList>
@@ -1192,6 +1251,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Controls" ID="{3D7C4EC1-EA49-44E0-95BC-708E9A4075F3}" ShortID="470643103">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1202,6 +1268,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Controls" ID="{14D19550-6954-4F8E-8786-86C616CE63A1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.572668604679761"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.0217005818958"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Controls.wav</AudioFile>
 									<MediaIDList>
@@ -1214,6 +1285,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Crystal" ID="{44BFA853-250D-47B2-8FEB-FB13DEE000EC}" ShortID="653900801">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1224,6 +1302,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Crystal" ID="{F0AA84D2-DC4C-4880-B355-F37F2BA58077}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.550641167529919"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.42899272507268"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Crystal.wav</AudioFile>
 									<MediaIDList>
@@ -1236,6 +1319,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Druid" ID="{B95609F6-8D57-470E-8DFB-06EB6AFF4824}" ShortID="655800845">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1246,6 +1336,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Druid" ID="{75C79B23-07CB-443B-874E-E338D6E715D1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.516602377755151"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.44835298399909"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Druid.wav</AudioFile>
 									<MediaIDList>
@@ -1258,6 +1353,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Empty_Tree" ID="{E7588EAD-9B69-4A17-BABB-AA6581600937}" ShortID="101670690">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1268,6 +1370,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Empty_Tree" ID="{56642653-C82C-4C19-BC57-88FECE0E7EF3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.282329206447582"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.123974746804"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Empty_Tree.wav</AudioFile>
 									<MediaIDList>
@@ -1280,6 +1387,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Ending" ID="{C24586B6-03DD-4833-A6F4-458288AE0660}" ShortID="15894185">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1290,6 +1404,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Ending" ID="{D1A93865-2EFE-4C7E-828F-648C891BD90B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.593192655225503"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.94827797207097"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Ending.wav</AudioFile>
 									<MediaIDList>
@@ -1302,6 +1421,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Nothing" ID="{C1593271-4716-438C-95C1-09A9ABDBA8FF}" ShortID="791925989">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1312,6 +1438,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Nothing" ID="{8C39DD2B-620D-4EC8-A66C-9BB11AAD50A4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.272316417528689"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.12931220210427"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Nothing.wav</AudioFile>
 									<MediaIDList>
@@ -1324,6 +1455,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Path" ID="{154D06DB-4BA7-4450-B98B-CB561B323604}" ShortID="139814901">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1334,6 +1472,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Path" ID="{381D330B-F13B-4F18-B011-E7AAE80FDD82}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0800932607316249"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.86833989995131"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Path.wav</AudioFile>
 									<MediaIDList>
@@ -1346,6 +1489,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Pixie" ID="{A7851C40-DADB-44AA-A436-52CB2EB86CCE}" ShortID="687685766">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1356,6 +1506,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Pixie" ID="{FF109B26-0207-4104-B819-76A19AFC541F}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.252294873119168"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.40130656022351"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Pixie.wav</AudioFile>
 									<MediaIDList>
@@ -1368,6 +1523,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Raccoon" ID="{18EDD2AE-1672-4531-B7C1-B12939194DE2}" ShortID="257892542">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1378,6 +1540,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Raccoon" ID="{FB7CC203-29F6-442A-A816-FA9E49BCBA1C}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.208243245237357"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.27132542387888"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Raccoon.wav</AudioFile>
 									<MediaIDList>
@@ -1390,6 +1557,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Raccoon_Satisfied" ID="{D35C70A6-3A78-4A8D-B00D-C98211805D33}" ShortID="735239777">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1400,6 +1574,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Narrate_Raccoon_Satisfied" ID="{A5AC4C05-C177-4748-B251-A371EC9E8EFD}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0420490799356621"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.89437833557139"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Narrate_Raccoon_Satisfied.wav</AudioFile>
 									<MediaIDList>
@@ -1412,6 +1591,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Start" ID="{C6000B51-1025-432E-87FF-0FEC10E466D2}" ShortID="906552425">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1490,6 +1676,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="FailedClickV2" ID="{C4DCB4D1-539F-4C55-90D4-CA8E88DF33E7}" ShortID="886692174">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1500,6 +1693,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="FailedClickV2" ID="{73E5A940-62F2-4261-9E15-F62529A579D5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.57983568698629"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.63990548497056"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>FailedClickV2.wav</AudioFile>
 									<MediaIDList>
@@ -1512,6 +1710,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PickupGenericV2" ID="{0277D713-64A3-4A31-BA89-250022DC587E}" ShortID="996660013">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1534,6 +1739,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PutdownV1" ID="{B93264D3-2F31-41FE-B106-62F75966090A}" ShortID="593556710">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1586,7 +1798,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1615,7 +1827,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1641,6 +1853,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Click_To_Start" ID="{BA63CAB0-F65C-4EE3-A744-D2A49361FFE2}" ShortID="464071774">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1651,6 +1870,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Click_To_Start" ID="{604CE7BD-2FF0-4572-B108-9ED24D140B05}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.675787994156448"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.5679943777945"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Click_To_Start.wav</AudioFile>
 									<MediaIDList>
@@ -1671,7 +1895,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1793,6 +2017,26 @@
 								</Sound>
 							</ChildrenList>
 							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4EA6A914-0889-4F35-8CA7-3505C47C84DA}" ShortID="448821499">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Parametric EQ (Custom)" ID="{2D0E66DD-9DF6-4E12-BACA-C728B9888382}" ShortID="343217079" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FrequencyBand3" Type="Real32" Value="19123"/>
+																	<Property Name="GainBand3" Type="Real32" Value="-9"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
 								<ObjectList Name="Playlist">
 									<Reference>
 										<ObjectRef Name="LeafCrunchHard1" ID="{D8AC2AB3-4491-43C5-B222-5F47AAEECF08}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
@@ -1851,6 +2095,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1898,6 +2147,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Crystal_Drop" ID="{325EEF7D-87E9-4C3D-8A46-E557015F87F5}" ShortID="427339152">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1923,6 +2179,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2011,7 +2272,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2056,7 +2317,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-26</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -2080,7 +2341,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-26</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -2100,6 +2361,11 @@
 						<Sound Name="Tree_Shake" ID="{8BF563A9-E209-46B6-BB6A-9BEB48E1E694}" ShortID="141320721">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2222,7 +2488,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-40</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -2246,7 +2512,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-40</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -2275,6 +2541,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="221755__motion_s__long-birds-forest-ambience" ID="{2F111465-53E8-4B29-AC1A-E1930B45DB3C}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.397222320598521"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="13.6406969026831"/>
 										<Property Name="TrimEnd" Type="Real64" Value="23.6652359016347"/>
@@ -2388,6 +2655,11 @@
 						<Sound Name="Druid_Dialog" ID="{091CEB50-A4CB-4036-BD7A-301A273461BF}" ShortID="58607344">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2474,6 +2746,11 @@
 						<Sound Name="Druid_Help" ID="{CE2E9D3C-CB03-4987-8688-B4B76A48A96B}" ShortID="850664964">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2557,95 +2834,14 @@
 								<ActiveSource Name="Druid_Help" ID="{5EA60900-3DDB-432E-9CD8-7CBC4839BD2D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Pixie1_Dialog" ID="{C99713B3-A554-49B4-9B53-1B19632F27BF}" ShortID="820350014">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Pixie1_Dialog" ID="{409900B8-70C5-46E9-B98C-232916ADCBA0}">
-									<Language>SFX</Language>
-									<AudioFile>Pixie1_Dialog.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="412105083"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{E3671764-05BD-432F-BE39-30B8482890E6}" ShortID="999824369">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{43BC3F9A-0591-43ED-873B-F9423AC232E7}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Pixie1_Dialog" ID="{409900B8-70C5-46E9-B98C-232916ADCBA0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Druid_Thanks" ID="{286282AA-5902-44AA-B4AA-712B75687053}" ShortID="144822678">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2729,12 +2925,12 @@
 								<ActiveSource Name="Druid_Thanks" ID="{E5FD0EC2-2852-42E0-BB66-F772E6627484}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Raccoon_Thanks" ID="{005890A6-B897-45DB-8604-A058D85BB702}" ShortID="122697109">
+						<Sound Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" ShortID="345149579">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2750,93 +2946,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Raccoon_Thanks" ID="{4D9AB40C-D43C-4EF1-A30F-C2D9F3AF2210}">
-									<Language>SFX</Language>
-									<AudioFile>Raccoon_Thanks.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="158081556"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{160CB9AD-48DA-4FFA-A002-848D9D7CEDF0}" ShortID="518924285">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{92F61E56-D585-45B5-B1A9-E71AE765BE53}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Raccoon_Thanks" ID="{4D9AB40C-D43C-4EF1-A30F-C2D9F3AF2210}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Raccoon_Go_Away" ID="{765FB447-9EC7-489D-9AD1-24E90662EF1B}" ShortID="345149579">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
 								<AudioFileSource Name="Raccoon_Go_Away" ID="{D93AB379-29D8-4760-ABB5-9B24E93A9831}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.30635722401759"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.60403640414951"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Raccoon_Go_Away.wav</AudioFile>
 									<MediaIDList>
@@ -2906,6 +3022,414 @@
 								<ActiveSource Name="Raccoon_Go_Away" ID="{D93AB379-29D8-4760-ABB5-9B24E93A9831}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Pixie1_Dialog" ID="{C2E82878-335E-40C8-ADCE-59DFE5EEE076}" ShortID="77178878">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Pixie1_Dialog1" ID="{C99713B3-A554-49B4-9B53-1B19632F27BF}" ShortID="820350014">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pixie1_Dialog" ID="{409900B8-70C5-46E9-B98C-232916ADCBA0}">
+											<Language>SFX</Language>
+											<AudioFile>Pixie1_Dialog.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="412105083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{E3671764-05BD-432F-BE39-30B8482890E6}" ShortID="999824369">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{43BC3F9A-0591-43ED-873B-F9423AC232E7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-180</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-75</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>75</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>180</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Pixie1_Dialog" ID="{409900B8-70C5-46E9-B98C-232916ADCBA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pixie1_Dialog2" ID="{12A377D9-1FA1-4E58-8B04-DE016C676445}" ShortID="787452202">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pixie1_Dialog2" ID="{9F940CF6-14EF-43A5-8059-D96D31F0B851}">
+											<Language>SFX</Language>
+											<AudioFile>Pixie1_Dialog2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="384298685"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pixie1_Dialog2" ID="{9F940CF6-14EF-43A5-8059-D96D31F0B851}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Pixie1_Dialog1" ID="{C99713B3-A554-49B4-9B53-1B19632F27BF}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Pixie1_Dialog2" ID="{12A377D9-1FA1-4E58-8B04-DE016C676445}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{E0FB8E5C-42A4-4CE6-8603-4D05315B44F3}" ShortID="206690427">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{C6573296-71E5-426D-9CB5-FF135CBFDB2F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-75</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Raccoon_Thanks" ID="{235A3CC7-CA24-4E80-9625-A8BDDBE0F993}" ShortID="734491862">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Raccoon_Thanks1" ID="{005890A6-B897-45DB-8604-A058D85BB702}" ShortID="122697109">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Raccoon_Thanks" ID="{4D9AB40C-D43C-4EF1-A30F-C2D9F3AF2210}">
+											<Language>SFX</Language>
+											<AudioFile>Raccoon_Thanks.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="158081556"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{160CB9AD-48DA-4FFA-A002-848D9D7CEDF0}" ShortID="518924285">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{92F61E56-D585-45B5-B1A9-E71AE765BE53}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-180</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-75</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>75</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>180</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Raccoon_Thanks" ID="{4D9AB40C-D43C-4EF1-A30F-C2D9F3AF2210}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Raccoon_Thanks2" ID="{43883C68-934E-403D-BC77-919E8D3EB154}" ShortID="539426027">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Raccoon_Thanks2" ID="{998730DD-6C54-4E49-AEBD-8A33EB4B7D52}">
+											<Language>SFX</Language>
+											<AudioFile>Raccoon_Thanks2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="757555748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Raccoon_Thanks2" ID="{998730DD-6C54-4E49-AEBD-8A33EB4B7D52}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Raccoon_Thanks1" ID="{005890A6-B897-45DB-8604-A058D85BB702}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Raccoon_Thanks2" ID="{43883C68-934E-403D-BC77-919E8D3EB154}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{94B62E94-F3BA-460E-9A6B-9957CE28FE48}" ShortID="600730606">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{AC52CAF4-3959-4120-92AC-0C253FB86520}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-75</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>180</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

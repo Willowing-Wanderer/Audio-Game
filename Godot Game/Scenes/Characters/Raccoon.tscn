@@ -10,15 +10,18 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="Raccoon" type="Area3D" node_paths=PackedStringArray("hungry_raccoon", "raccoon_eating", "raccoon_thanks", "narrate_raccoon", "crystal_drop", "raccoon_go_away", "narration_timer")]
+[node name="Raccoon" type="Area3D" node_paths=PackedStringArray("hungry_raccoon", "raccoon_eating", "raccoon_thanks", "raccoon_thanks_2", "narrate_raccoon", "narrate_raccoon_satisfied", "crystal_drop", "raccoon_go_away", "narration_timer", "narration_timer_2")]
 script = ExtResource("1_b6jrx")
 hungry_raccoon = NodePath("Hungry_Raccoon")
 raccoon_eating = NodePath("Raccoon_Eating")
 raccoon_thanks = NodePath("Raccoon_Thanks")
+raccoon_thanks_2 = NodePath("Raccoon_Thanks_2")
 narrate_raccoon = NodePath("Narrate_Raccoon")
+narrate_raccoon_satisfied = NodePath("Narrate_Raccoon_Satisfied")
 crystal_drop = NodePath("Crystal_Drop")
 raccoon_go_away = NodePath("Raccoon_Go_Away")
 narration_timer = NodePath("Narration_Timer")
+narration_timer_2 = NodePath("Narration_Timer_2")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -78,4 +81,22 @@ stop_on = 3
 [node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 6.1
 
+[node name="Narrate_Raccoon_Satisfied" type="AkEvent3D" parent="."]
+event = {
+"id": 635005981,
+"name": "Narrate_Raccoon_Satisfied"
+}
+stop_on = 3
+
+[node name="Narration_Timer_2" type="Timer" parent="."]
+wait_time = 2.8
+
+[node name="Raccoon_Thanks_2" type="AkEvent3D" parent="."]
+event = {
+"id": 623248687,
+"name": "Raccoon_Thanks_2"
+}
+stop_on = 3
+
 [connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]
+[connection signal="timeout" from="Narration_Timer_2" to="." method="_on_narration_timer_2_timeout"]

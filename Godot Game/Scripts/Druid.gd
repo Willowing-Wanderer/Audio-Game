@@ -57,6 +57,6 @@ func on_click(selected):
 			await get_tree().create_timer(50).timeout
 		else:
 			druid_help.post_event()
-			await get_tree().create_timer(13).timeout
+			await get_tree().create_timer(6).timeout
 		player.set_cutscene(false)
 		druid_hum.post_event()
