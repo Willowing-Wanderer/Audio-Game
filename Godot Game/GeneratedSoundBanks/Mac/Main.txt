@@ -57,7 +57,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23917326	Tree_Swish	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Tree_Swish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Tree_Swish		3338176
 	74561833	Tree_Shake	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
 	76911740	Facing_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
-	87182428	FailedClickV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\FailedClickV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		325804
+	87182428	FailedClickV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\FailedClickV2_ECD15F49.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		289424
 	126095673	Raccoon_Go_Away	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Raccoon_Go_Away_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Go_Away		488636
 	150446866	LeafCrunchHard2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
 	158081556	Raccoon_Thanks1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Raccoon_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks1		1506328

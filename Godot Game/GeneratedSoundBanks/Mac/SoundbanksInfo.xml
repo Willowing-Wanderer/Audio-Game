@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AB1B687E-E73D-416D-95C1-2458A3B53782}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB3EDF4F-6DD1-F76C-ADF6-747392420973}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -185,7 +185,7 @@
 				</File>
 				<File Id="87182428" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FailedClickV2.wav</ShortName>
-					<CachePath>SFX/FailedClickV2_818F3B66.wem</CachePath>
+					<CachePath>SFX/FailedClickV2_ECD15F49.wem</CachePath>
 				</File>
 				<File Id="126095673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Go_Away.wav</ShortName>
@@ -617,5 +617,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{20997F21-264B-2206-DC69-E5345E027B9E}</FileHash>
+	<FileHash>{E0CDB434-04A8-8D00-C2FE-AA9ED448F2D6}</FileHash>
 </SoundBanksInfo>
