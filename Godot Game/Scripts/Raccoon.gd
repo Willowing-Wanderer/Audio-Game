@@ -8,6 +8,7 @@ extends Area3D
 @export var raccoon_eating:AkEvent3D
 @export var raccoon_thanks:AkEvent3D
 @export var narrate_raccoon:AkEvent3D
+@export var narrate_raccoon_satisfied:AkEvent3D
 @export var crystal_drop:AkEvent3D
 @export var raccoon_go_away:AkEvent3D
 
@@ -22,19 +23,28 @@ func _ready():
 	hungry_raccoon.post_event()
 
 @export var narration_timer:Timer
+@export var narration_timer_2:Timer
 
 var playing_narration = false
 
 # All items must include the following functions:
 func narrate():
 	playing_narration = true
-	narrate_raccoon.post_event()
-	narration_timer.start()
+	if(fed):
+		narrate_raccoon_satisfied.post_event()
+		narration_timer_2.start()
+	else:
+		narrate_raccoon.post_event()
+		narration_timer.start()
 
 func _on_narration_timer_timeout():
 	playing_narration = false
 	narration_timer.stop()
-	
+
+func _on_narration_timer_2_timeout():
+	playing_narration = false
+	narration_timer_2.stop()
+
 func stop_narration():
 	playing_narration = false
 	narrate_raccoon.stop_event()
