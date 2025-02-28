@@ -45,6 +45,7 @@ func stop_narration():
 	narration_timer.stop()
 
 func on_click(selected):
+	player.set_cutscene(true)
 	interact.post_event()
 	await get_tree().create_timer(0.8).timeout
 	tree_shake.post_event()
@@ -70,3 +71,4 @@ func on_click(selected):
 		
 		has_apples = false
 		
+	player.set_cutscene(false)
