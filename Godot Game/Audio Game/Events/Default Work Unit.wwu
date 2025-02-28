@@ -493,7 +493,7 @@
 								<Action Name="" ID="{D6BE4C2F-D5CC-4302-BEEC-D912A0CFDD06}" ShortID="316681822">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Raccoon_Thanks" ID="{005890A6-B897-45DB-8604-A058D85BB702}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Thanks" ID="{235A3CC7-CA24-4E80-9625-A8BDDBE0F993}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -504,7 +504,7 @@
 								<Action Name="" ID="{3B2EB71D-1E73-41BE-8C97-6C19B4B2CA6A}" ShortID="139973186">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Pixie1_Dialog" ID="{C99713B3-A554-49B4-9B53-1B19632F27BF}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Pixie1_Dialog" ID="{C2E82878-335E-40C8-ADCE-59DFE5EEE076}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

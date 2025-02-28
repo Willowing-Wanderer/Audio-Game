@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{90158C4B-5522-FAA1-D4A3-6C2669F2BC72}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AB1B687E-E73D-416D-95C1-2458A3B53782}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -243,6 +243,10 @@
 					<ShortName>Hungry_Raccoon.wav</ShortName>
 					<CachePath>SFX/Hungry_Raccoon_49D83F2C.wem</CachePath>
 				</File>
+				<File Id="384298685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie1_Dialog2.wav</ShortName>
+					<CachePath>SFX/Pixie1_Dialog2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
 					<CachePath>SFX/Pixie1_Dialog_818F3B66.wem</CachePath>
@@ -303,9 +307,13 @@
 					<ShortName>Narrate_Pixie.wav</ShortName>
 					<CachePath>SFX/Narrate_Pixie_818F3B66.wem</CachePath>
 				</File>
+				<File Id="757555748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Thanks2.wav</ShortName>
+					<CachePath>SFX/Raccoon_Thanks2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="774379016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>221755__motion_s__long-birds-forest-ambience.wav</ShortName>
-					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_E2C3BFEE.wem</CachePath>
+					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_625BC225.wem</CachePath>
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
@@ -558,6 +566,7 @@
 				</Event>
 				<Event Id="2704494418" Name="Pixie1_Dialog">
 					<MediaRefs>
+						<MediaRef Id="384298685"/>
 						<MediaRef Id="412105083"/>
 					</MediaRefs>
 				</Event>
@@ -589,6 +598,7 @@
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
 						<MediaRef Id="158081556"/>
+						<MediaRef Id="757555748"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
@@ -607,5 +617,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73DB9622-DF5E-6C67-AFA6-4950550B58D6}</FileHash>
+	<FileHash>{54A4EB97-B7D4-035C-46E8-9FAC9908147E}</FileHash>
 </SoundBanksInfo>
