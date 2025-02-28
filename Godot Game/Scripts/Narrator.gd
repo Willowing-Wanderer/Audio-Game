@@ -2,22 +2,35 @@ extends Node
 
 var narrations = {"Empty": AK.EVENTS.NARRATE_NOTHING,
 				"Apple": AK.EVENTS.NARRATE_APPLE,
-				"Path": AK.EVENTS.NARRATE_PATH,
-				"Crystal": AK.EVENTS.NARRATE_CRYSTAL,
-				"Apple Tree": AK.EVENTS.NARRATE_APPLE_TREE,
-				"Druid": AK.EVENTS.NARRATE_DRUID}
+				"Crystal": AK.EVENTS.NARRATE_CRYSTAL,}
 var playing_id
+var playing_narration = false
+
+@export var narration_timer:Timer
+@export var crystal_timer:Timer
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 func narrate(object_name):
-	if(playing_id):
-		Wwise.stop_event(playing_id, 500, AkUtils.AK_CURVE_LINEAR)
+	playing_narration = true
 	playing_id = Wwise.post_event_id(narrations[object_name], self)
+	if(object_name == "Crystal"):
+		crystal_timer.start()
+	else:
+		narration_timer.start()
+
+func _on_narration_timer_timeout():
+	playing_narration = false
+	narration_timer.stop()
+	
+func stop_narration():
+	playing_narration = false
+	if(playing_id):
+		Wwise.stop_event(playing_id, 0 ,AkUtils.AK_CURVE_LINEAR)
+	narration_timer.stop()
+
+func _on_crystal_timer_timeout():
+	playing_narration = false
+	crystal_timer.stop()

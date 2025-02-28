@@ -21,9 +21,25 @@ func _ready():
 	Wwise.set_3d_position(self, get_global_transform())
 	hungry_raccoon.post_event()
 
-func narrate():
-	narrate_raccoon.post_event()
+@export var narration_timer:Timer
 
+var playing_narration = false
+
+# All items must include the following functions:
+func narrate():
+	playing_narration = true
+	narrate_raccoon.post_event()
+	narration_timer.start()
+
+func _on_narration_timer_timeout():
+	playing_narration = false
+	narration_timer.stop()
+	
+func stop_narration():
+	playing_narration = false
+	narrate_raccoon.stop_event()
+	narration_timer.stop()
+	
 func on_click(selected):
 	player.set_cutscene(true)
 	if(selected == "Apple"):

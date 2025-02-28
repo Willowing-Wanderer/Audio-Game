@@ -12,9 +12,10 @@ albedo_color = Color(0.380392, 0.396078, 0.211765, 1)
 material = SubResource("StandardMaterial3D_3ko3h")
 size = Vector3(1, 1, 3)
 
-[node name="Path" type="Area3D" node_paths=PackedStringArray("timer", "narrate_path", "footsteps")]
+[node name="Path" type="Area3D" node_paths=PackedStringArray("timer", "narration_timer", "narrate_path", "footsteps")]
 script = ExtResource("1_xcxt1")
 timer = NodePath("Timer")
+narration_timer = NodePath("Narration_Timer")
 narrate_path = NodePath("Narrate_Path")
 footsteps = NodePath("Footsteps")
 
@@ -49,4 +50,8 @@ event = {
 }
 stop_on = 3
 
+[node name="Narration_Timer" type="Timer" parent="."]
+wait_time = 2.6
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]
