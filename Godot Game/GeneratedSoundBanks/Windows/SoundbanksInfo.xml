@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{2C0277D9-6E57-19AE-5D2C-1CDC94EDDECE}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{03B82DFF-9189-16A1-6F51-0511AD0C1055}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -607,5 +607,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4F1524AB-1D1F-4486-05EA-DCE84159E75F}</FileHash>
+	<FileHash>{F2919D2A-C5C7-B772-E826-5A7BE0B2FD23}</FileHash>
 </SoundBanksInfo>

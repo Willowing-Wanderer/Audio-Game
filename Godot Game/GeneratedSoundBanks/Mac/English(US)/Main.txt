@@ -70,7 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	318985466	Narrate_Path	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Path_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Path		814296
 	347548140	Druid_Dialog	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Druid_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Dialog		8793004
 	349029664	Narration_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\Voices\English(US)\Narration_Placeholder_0A617491.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narration_Placeholder		163536
-	353048489	ItemHoverSelect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\ItemHoverSelect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverSelect		570052
+	353048489	ItemHoverSelect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\ItemHoverSelect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverSelect		651468
 	371136157	Narrate_Raccoon	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Raccoon_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon		1302792
 	371776505	Hungry_Raccoon	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Hungry_Raccoon_49D83F2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Hungry_Raccoon		3108268
 	401630820	Sound_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Sound_Placeholder_D4D928E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Sound_Placeholder		155664
