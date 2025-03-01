@@ -22,3 +22,4 @@ func _on_druid_quest_complete():
 	await get_tree().create_timer(10).timeout
 	get_parent().finish_game()
 	queue_free()
+

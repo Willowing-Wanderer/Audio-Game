@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1j0asybpwuhf"]
+
+[ext_resource type="Script" path="res://Scripts/ForestMain.gd" id="1_4djt5"]
+[ext_resource type="PackedScene" uid="uid://b0ccojmiowmsc" path="res://Scenes/UI/ScreenCover.tscn" id="2_wlrir"]
+
+[node name="AkBank" type="AkBank"]
+bank = {
+"id": 1355168291,
+"name": "Init"
+}
+load_on = 1
+
+[node name="AkBank2" type="AkBank" parent="."]
+bank = {
+"id": 3161908922,
+"name": "Main"
+}
+load_on = 1
+
+[node name="ForestMain" type="Node3D" parent="AkBank2"]
+script = ExtResource("1_4djt5")
+
+[node name="ColorRect" parent="AkBank2/ForestMain" instance=ExtResource("2_wlrir")]

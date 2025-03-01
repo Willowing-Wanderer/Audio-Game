@@ -13,7 +13,6 @@ func start_game():
 func finish_game():
 	add_child(title_screen.instantiate())
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().quit()

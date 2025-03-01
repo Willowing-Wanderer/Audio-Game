@@ -46,7 +46,6 @@ func _on_narration_timer_timeout():
 	narration_timer.stop()
 	
 func stop_narration():
-	print("here")
 	playing_narration = false
 	narrate_path.stop_event()
 	narration_timer.stop()
