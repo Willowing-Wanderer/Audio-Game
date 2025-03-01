@@ -1279,9 +1279,22 @@
 										<MediaID ID="414537352"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="narrate-controls" ID="{197856A9-3799-4B13-BF58-DC47BA4A50FA}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.628375330634693"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.52995732676273"/>
+										<Property Name="TrimEnd" Type="Real64" Value="23.5504145655262"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>narrate-controls.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="993967444"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Narrate_Controls" ID="{14D19550-6954-4F8E-8786-86C616CE63A1}" Platform="Linked"/>
+								<ActiveSource Name="narrate-controls" ID="{197856A9-3799-4B13-BF58-DC47BA4A50FA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Crystal" ID="{44BFA853-250D-47B2-8FEB-FB13DEE000EC}" ShortID="653900801">
@@ -1881,9 +1894,21 @@
 										<MediaID ID="658002430"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="click to start" ID="{D990773F-9D1E-494B-81A6-CFC6D7093145}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.691438649533888"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.26713559497873"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>click to start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="287100655"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Click_To_Start" ID="{604CE7BD-2FF0-4572-B108-9ED24D140B05}" Platform="Linked"/>
+								<ActiveSource Name="click to start" ID="{D990773F-9D1E-494B-81A6-CFC6D7093145}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -7,12 +7,11 @@ extends Node3D
 @export var player:Area3D
 
 func _ready():
-	#pass
 	$Player.set_cutscene(true)
 	narrate_start.post_event()
 	await get_tree().create_timer(20).timeout
 	narrate_controls.post_event()
-	await get_tree().create_timer(9).timeout
+	await get_tree().create_timer(22).timeout
 	$Player.set_cutscene(false)
 
 func _on_druid_quest_complete():

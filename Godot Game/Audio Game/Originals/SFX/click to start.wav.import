@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bo2xcpjjc4qju"
+path="res://.godot/imported/click to start.wav-feb20f05be05eda54f4acd85d8b59206.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/click to start.wav"
+dest_files=["res://.godot/imported/click to start.wav-feb20f05be05eda54f4acd85d8b59206.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
