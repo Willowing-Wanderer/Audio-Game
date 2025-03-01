@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dj0dmeypgloqh"]
 
 [ext_resource type="Script" path="res://Scripts/TitleScreen.gd" id="1_4j2ar"]
-[ext_resource type="Texture2D" uid="uid://dxlh14c5mqrew" path="res://Images/squirrelDark.png" id="2_y2adr"]
+[ext_resource type="PackedScene" uid="uid://b0ccojmiowmsc" path="res://Scenes/UI/ScreenCover.tscn" id="2_2vrfj"]
 
 [node name="TitleScreen" type="ColorRect" node_paths=PackedStringArray("click_to_start")]
 anchors_preset = 15
@@ -14,38 +14,6 @@ color = Color(0, 0, 0, 1)
 script = ExtResource("1_4j2ar")
 click_to_start = NodePath("Click_To_Start")
 
-[node name="Retry" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -138.0
-offset_top = -86.0
-offset_right = 109.0
-offset_bottom = -63.0
-grow_horizontal = 2
-grow_vertical = 0
-text = "Left-click to start the game."
-
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -705.0
-offset_top = -605.0
-offset_right = 3014.29
-offset_bottom = 1945.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(0.4, 0.4)
-texture = ExtResource("2_y2adr")
-expand_mode = 3
-
 [node name="AkListener3D" type="AkListener3D" parent="."]
 is_spatial = true
 
@@ -55,3 +23,21 @@ event = {
 "name": "Click_To_Start"
 }
 stop_on = 3
+
+[node name="ColorRect" parent="." instance=ExtResource("2_2vrfj")]
+layout_mode = 1
+
+[node name="Retry" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -290.0
+offset_top = -90.0
+offset_right = 325.0
+offset_bottom = -67.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Left-click or press X (or the bottom button on your controller) to start the game."

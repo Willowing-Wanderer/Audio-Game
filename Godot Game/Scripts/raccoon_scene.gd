@@ -7,7 +7,6 @@ extends Node3D
 @export var player:Area3D
 
 func _ready():
-	#pass
 	$Player.set_cutscene(true)
 	narrate_start.post_event()
 	await get_tree().create_timer(20).timeout

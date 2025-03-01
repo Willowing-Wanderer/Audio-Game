@@ -66,6 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	171344150	Crystal_Item	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
 	194047344	Apples_Fall	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apples_Fall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Apples_Fall		162976
 	194724780	Backdrop_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Backdrop_Placeholder_1EF53104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
+	287100655	Click_To_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\click to start_555DA646.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		807252
 	289673027	Crystal_Drop	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Drop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Crystal_Drop		651468
 	297512709	Pixie_Aww	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie_Aww_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Aww		407220
 	300550434	Pixie_Giggle	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie_Giggle_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Giggle		1954112
@@ -86,7 +87,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546806146	Narrate_Ending	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Ending_DBCDD5C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Ending		873020
 	614364145	Narrate_Empty_Tree	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Empty_Tree_B1DCA8D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		904012
 	634010515	Pixie_Flyoff	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie_Flyoff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Flyoff		366512
-	658002430	Click_To_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Click_To_Start_7FFDA0B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		453140
 	715519790	Narrate_Raccoon_Satisfied	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Raccoon_Satisfied_DB22EFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon_Satisfied		510712
 	757045285	Narrate_Pixie	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Pixie_5888BD59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Pixie		423736
 	757555748	Raccoon_Thanks2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Raccoon_Thanks2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks2		1302792

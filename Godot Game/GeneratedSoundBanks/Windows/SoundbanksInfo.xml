@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5EB221B6-9F3F-1A44-A7CD-9A0B9377CC55}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5EF13BFB-D04B-67AB-58C1-FC797CED84A7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -210,6 +210,10 @@
 				<File Id="194724780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Backdrop_Placeholder.wav</ShortName>
 					<CachePath>SFX/Backdrop_Placeholder_1EF53104.wem</CachePath>
+				</File>
+				<File Id="287100655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>click to start.wav</ShortName>
+					<CachePath>SFX/click to start_555DA646.wem</CachePath>
 				</File>
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
@@ -290,10 +294,6 @@
 				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Flyoff.wav</ShortName>
 					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
-				</File>
-				<File Id="658002430" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Click_To_Start.wav</ShortName>
-					<CachePath>SFX/Click_To_Start_7FFDA0B2.wem</CachePath>
 				</File>
 				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
@@ -404,7 +404,7 @@
 				</Event>
 				<Event Id="1451930548" Name="Click_To_Start">
 					<MediaRefs>
-						<MediaRef Id="658002430"/>
+						<MediaRef Id="287100655"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
@@ -627,5 +627,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{10356707-3B2B-EF65-2BF5-B6949E1C6CBF}</FileHash>
+	<FileHash>{F66C3208-AA4B-0746-48F0-DB1CE59D6F73}</FileHash>
 </SoundBanksInfo>
