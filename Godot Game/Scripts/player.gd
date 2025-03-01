@@ -22,6 +22,9 @@ func _ready() -> void:
 	capture_mouse()
 
 func _process(delta):
+	var sensitivity = 0.03
+	rotate_y(-Input.get_joy_axis(0,JOY_AXIS_RIGHT_X) * sensitivity)
+		
 	if(area_narration_playing):
 		if(is_instance_valid(area_being_narrated)):
 			area_narration_playing = area_being_narrated.playing_narration
@@ -30,30 +33,50 @@ func _process(delta):
 
 # Process mouse inputs
 func _input(event):
-	if(event is InputEventMouseButton):
-		# Left click
-		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT):
-			if(has_overlapping_areas()):
-				process_left_click(get_overlapping_areas()[0])
+	
+	# Left click
+	if (event.is_action_pressed("Interact")):
+		if(has_overlapping_areas()):
+			process_left_click(get_overlapping_areas()[0])
+		else:
+			inventory.play_selected_sound()
+	# Right click
+	if (event.is_action_pressed("Narration")):
+		if(area_narration_playing):
+			area_being_narrated.stop_narration()
+		else:
+			if(narrator.playing_narration):
+				narrator.stop_narration()
 			else:
-				inventory.play_selected_sound()
-		# Right click
-		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_RIGHT):
-			if(area_narration_playing):
-				area_being_narrated.stop_narration()
-			else:
-				if(narrator.playing_narration):
-					narrator.stop_narration()
+				if(has_overlapping_areas()):
+					process_right_click(get_overlapping_areas()[0])
 				else:
-					if(has_overlapping_areas()):
-						process_right_click(get_overlapping_areas()[0])
-					else:
-						narrator.narrate(inventory.get_selected())
-		# Scroll
-		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_UP):
-			inventory.scroll_up()
-		if (event.is_pressed() and event.button_index == MOUSE_BUTTON_WHEEL_DOWN):
-			inventory.scroll_down()
+					narrator.narrate(inventory.get_selected())
+	# Scroll
+	if (event.is_action_pressed("Inventory_Up")):
+		inventory.scroll_up()
+	if (event.is_action_pressed("Inventory_Down")):
+		inventory.scroll_down()
+	if (event.is_action_pressed("Turn_Left")):
+		print("left")
+	if (event.is_action_pressed("Turn_Right")):
+		print("right")
+		
+func rotate_():
+	var deadzone = 0
+	var controllerangle = Vector2.ZERO
+	var xAxisRL = Input.get_joy_axis(0, JOY_AXIS_LEFT_X)
+	var yAxisUD = Input.get_joy_axis(0 ,JOY_AXIS_LEFT_Y)
+
+	if abs(xAxisRL) > deadzone || abs(yAxisUD) > deadzone:
+		controllerangle = Vector3(0, xAxisRL, 0)
+		rotation = controllerangle
+
+	#Your sprite won't be upside down thanks to those two lines. Replace arms by your own node	
+	if xAxisRL < 0 and scale.y > 0:scale.y *= -1
+	elif xAxisRL > 0 and scale.y < 0:scale.y *= -1
+
+	pass
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:

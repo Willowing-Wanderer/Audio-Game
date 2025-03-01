@@ -1,0 +1,82 @@
+[gd_scene load_steps=9 format=3 uid="uid://byyxtxk5u1yrq"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_kkkgv"]
+[ext_resource type="Script" path="res://Scripts/Narrator.gd" id="3_sxwdk"]
+[ext_resource type="Script" path="res://Scripts/Inventory.gd" id="5_0abx7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nndr8"]
+albedo_color = Color(0.929412, 0.337255, 0.054902, 1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_fwfd5"]
+material = SubResource("StandardMaterial3D_nndr8")
+size = Vector3(0.5, 0.5, 0.25)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4xfgn"]
+size = Vector3(0.25, 0.25, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_weo8d"]
+albedo_color = Color(0.27451, 0.47451, 0.768627, 0.454902)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tb3ab"]
+material = SubResource("StandardMaterial3D_weo8d")
+size = Vector3(0.25, 0.25, 3)
+
+[node name="Player" type="Area3D" node_paths=PackedStringArray("hover_select", "hover_deselect")]
+script = ExtResource("1_kkkgv")
+hover_select = NodePath("Hover_Select")
+hover_deselect = NodePath("Hover_Deselect")
+player_sensitivity = null
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.125, 0)
+mesh = SubResource("PrismMesh_fwfd5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 1.5)
+shape = SubResource("BoxShape3D_4xfgn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+mesh = SubResource("BoxMesh_tb3ab")
+
+[node name="AkListener3D" type="AkListener3D" parent="."]
+is_spatial = true
+transform = Transform3D(-1, 0, 8.74227e-08, 0, 1, 0, -8.74227e-08, 0, -1, 0, 0, 0)
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("5_0abx7")
+
+[node name="Inventory_Narrator" type="Node" parent="." node_paths=PackedStringArray("narration_timer", "crystal_timer")]
+script = ExtResource("3_sxwdk")
+narration_timer = NodePath("../Narration_Timer")
+crystal_timer = NodePath("../Crystal_Timer")
+
+[node name="Hover_Select" type="AkEvent3D" parent="."]
+event = {
+"id": 3971078520,
+"name": "Hover_Select"
+}
+stop_on = 3
+
+[node name="Hover_Deselect" type="AkEvent3D" parent="."]
+event = {
+"id": 1523466505,
+"name": "Hover_Deselect"
+}
+stop_on = 3
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153, 0.565648, 0.0244612, 0.566285, -0.823846, 0.0357521, 0.907363, -0.671099)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
+
+[node name="Narration_Timer" type="Timer" parent="."]
+
+[node name="Crystal_Timer" type="Timer" parent="."]
+wait_time = 2.5
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
+[connection signal="timeout" from="Narration_Timer" to="Inventory_Narrator" method="_on_narration_timer_timeout"]
+[connection signal="timeout" from="Crystal_Timer" to="Inventory_Narrator" method="_on_crystal_timer_timeout"]
