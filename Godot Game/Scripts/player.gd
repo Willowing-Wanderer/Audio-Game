@@ -57,26 +57,6 @@ func _input(event):
 		inventory.scroll_up()
 	if (event.is_action_pressed("Inventory_Down")):
 		inventory.scroll_down()
-	if (event.is_action_pressed("Turn_Left")):
-		print("left")
-	if (event.is_action_pressed("Turn_Right")):
-		print("right")
-		
-func rotate_():
-	var deadzone = 0
-	var controllerangle = Vector2.ZERO
-	var xAxisRL = Input.get_joy_axis(0, JOY_AXIS_LEFT_X)
-	var yAxisUD = Input.get_joy_axis(0 ,JOY_AXIS_LEFT_Y)
-
-	if abs(xAxisRL) > deadzone || abs(yAxisUD) > deadzone:
-		controllerangle = Vector3(0, xAxisRL, 0)
-		rotation = controllerangle
-
-	#Your sprite won't be upside down thanks to those two lines. Replace arms by your own node	
-	if xAxisRL < 0 and scale.y > 0:scale.y *= -1
-	elif xAxisRL > 0 and scale.y < 0:scale.y *= -1
-
-	pass
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
