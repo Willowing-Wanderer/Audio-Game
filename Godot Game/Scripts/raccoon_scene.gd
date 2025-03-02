@@ -11,7 +11,7 @@ func _ready():
 	narrate_start.post_event()
 	await get_tree().create_timer(20).timeout
 	narrate_controls.post_event()
-	await get_tree().create_timer(23).timeout
+	await get_tree().create_timer(27).timeout
 	$Player.set_cutscene(false)
 
 func _on_druid_quest_complete():

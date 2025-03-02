@@ -57,6 +57,7 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9349052	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Item_Ping_69AD4CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		2605436
 	23917326	Tree_Swish	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Swish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Tree_Swish		3338176
+	25529371	Narrate_Controls	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\new new new controls_B64D2720.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		4867636
 	60689166	Click_To_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\press to start_744563FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		1015644
 	74561833	Tree_Shake	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
 	76911740	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
@@ -95,7 +96,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	807619168	PickupGenericV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
 	822964253	Narrate_Crystal	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Crystal_F117850F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Crystal		605020
 	844437356	Narrate_Apple_Tree	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_Tree_6240AF7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple_Tree		801052
-	913583772	Narrate_Controls	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\new controls_AE803B4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		4117252
 	918725472	Raccoon_Eating	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
 	981327475	Apple	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_16C91FE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
 	994445067	PutdownV1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
