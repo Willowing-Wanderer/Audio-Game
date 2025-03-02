@@ -30,6 +30,11 @@ func _process(delta):
 			area_narration_playing = area_being_narrated.playing_narration
 		else:
 			area_narration_playing = false
+	var speed = 0.05
+	if(Input.is_action_pressed("ui_left")):
+		rotate_y(speed)
+	if(Input.is_action_pressed("ui_right")):
+		rotate_y(-speed)
 
 # Process mouse inputs
 func _input(event):
