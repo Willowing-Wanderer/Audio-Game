@@ -1918,9 +1918,21 @@
 										<MediaID ID="287100655"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="press to start" ID="{E56B9F60-EED8-4F87-A15E-C995EE2CFD10}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.965365043655258"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.72245112218116"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>press to start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="60689166"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="click to start" ID="{D990773F-9D1E-494B-81A6-CFC6D7093145}" Platform="Linked"/>
+								<ActiveSource Name="press to start" ID="{E56B9F60-EED8-4F87-A15E-C995EE2CFD10}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
