@@ -40,4 +40,4 @@ offset_right = 325.0
 offset_bottom = -67.0
 grow_horizontal = 2
 grow_vertical = 0
-text = "Left-click or press X (or the bottom button on your controller) to start the game."
+text = "Left-click, hit the space bar, or press X (or the bottom button on your controller) to start the game."

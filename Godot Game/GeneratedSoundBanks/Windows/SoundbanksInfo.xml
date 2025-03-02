@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5EF13BFB-D04B-67AB-58C1-FC797CED84A7}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FE7FCEAD-7A61-E607-3AFD-110046103C70}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -213,7 +213,7 @@
 				</File>
 				<File Id="287100655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>click to start.wav</ShortName>
-					<CachePath>SFX/click to start_555DA646.wem</CachePath>
+					<CachePath>SFX/click to start_CEADE5B6.wem</CachePath>
 				</File>
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
@@ -327,6 +327,10 @@
 					<ShortName>Narrate_Apple_Tree.wav</ShortName>
 					<CachePath>SFX/Narrate_Apple_Tree_6240AF7A.wem</CachePath>
 				</File>
+				<File Id="913583772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>new controls.wav</ShortName>
+					<CachePath>SFX/new controls_AE803B4E.wem</CachePath>
+				</File>
 				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Eating.wav</ShortName>
 					<CachePath>SFX/Raccoon_Eating_A7790D41.wem</CachePath>
@@ -334,10 +338,6 @@
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
 					<CachePath>SFX/Apple_16C91FE2.wem</CachePath>
-				</File>
-				<File Id="993967444" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>narrate-controls.wav</ShortName>
-					<CachePath>SFX/narrate-controls_92C4BBD7.wem</CachePath>
 				</File>
 				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PutdownV1.wav</ShortName>
@@ -507,7 +507,7 @@
 				</Event>
 				<Event Id="2696084023" Name="Narrate_Controls">
 					<MediaRefs>
-						<MediaRef Id="993967444"/>
+						<MediaRef Id="913583772"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
@@ -627,5 +627,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F66C3208-AA4B-0746-48F0-DB1CE59D6F73}</FileHash>
+	<FileHash>{69E77265-9E5C-257E-979D-760D167E1894}</FileHash>
 </SoundBanksInfo>

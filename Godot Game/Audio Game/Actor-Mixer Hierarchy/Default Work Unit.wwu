@@ -1292,9 +1292,21 @@
 										<MediaID ID="993967444"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="new controls" ID="{2EB6E544-CDE7-4599-986D-42BA0651FD8F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.16219829664149"/>
+										<Property Name="TrimEnd" Type="Real64" Value="25.5020922384702"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>new controls.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="913583772"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="narrate-controls" ID="{197856A9-3799-4B13-BF58-DC47BA4A50FA}" Platform="Linked"/>
+								<ActiveSource Name="new controls" ID="{2EB6E544-CDE7-4599-986D-42BA0651FD8F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Narrate_Crystal" ID="{44BFA853-250D-47B2-8FEB-FB13DEE000EC}" ShortID="653900801">

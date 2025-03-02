@@ -66,7 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	171344150	Crystal_Item	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
 	194047344	Apples_Fall	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apples_Fall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Apples_Fall		162976
 	194724780	Backdrop_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Backdrop_Placeholder_1EF53104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
-	287100655	Click_To_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\click to start_555DA646.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		807252
+	287100655	Click_To_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\click to start_CEADE5B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		807252
 	289673027	Crystal_Drop	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Drop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Crystal_Drop		651468
 	297512709	Pixie_Aww	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie_Aww_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Aww		407220
 	300550434	Pixie_Giggle	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Pixie_Giggle_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Giggle		1954112
@@ -95,9 +95,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	807619168	PickupGenericV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
 	822964253	Narrate_Crystal	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Crystal_F117850F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Crystal		605020
 	844437356	Narrate_Apple_Tree	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Narrate_Apple_Tree_6240AF7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple_Tree		801052
+	913583772	Narrate_Controls	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\new controls_AE803B4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		4117252
 	918725472	Raccoon_Eating	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
 	981327475	Apple	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Apple_16C91FE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
-	993967444	Narrate_Controls	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\narrate-controls_92C4BBD7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		3884504
 	994445067	PutdownV1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
 	994574637	Crystal_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\Crystal_Hum_3A2A7CCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Crystal_Hum		5210728
 	997994923	LeafCrunchHard1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Mac\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
