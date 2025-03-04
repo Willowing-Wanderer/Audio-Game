@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{51117BB4-B218-62C3-2B5E-42FF782F5327}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A9923F7B-B0DB-8236-8436-BB8C09A6A725}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{643F0A69-8813-0DF2-23FE-B1490A7BE4FD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A0A726BC-0038-DC68-E3C0-A24CE56A21CB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -175,13 +175,9 @@
 					<ShortName>Tree_Swish.wav</ShortName>
 					<CachePath>SFX/Tree_Swish_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="25529371" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>new new new controls.wav</ShortName>
-					<CachePath>SFX/new new new controls_B64D2720.wem</CachePath>
-				</File>
 				<File Id="60689166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>press to start.wav</ShortName>
-					<CachePath>SFX/press to start_744563FF.wem</CachePath>
+					<CachePath>SFX/press to start_328C72A0.wem</CachePath>
 				</File>
 				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Shake.wav</ShortName>
@@ -331,6 +327,10 @@
 					<ShortName>Narrate_Apple_Tree.wav</ShortName>
 					<CachePath>SFX/Narrate_Apple_Tree_6240AF7A.wem</CachePath>
 				</File>
+				<File Id="913583772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>new controls.wav</ShortName>
+					<CachePath>SFX/new controls_340B2BFA.wem</CachePath>
+				</File>
 				<File Id="918725472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Eating.wav</ShortName>
 					<CachePath>SFX/Raccoon_Eating_A7790D41.wem</CachePath>
@@ -364,13 +364,6 @@
 					<CachePath>SFX/Druid_Hum_99028C3C.wem</CachePath>
 				</File>
 			</Media>
-			<Plugins>
-				<Custom>
-					<Plugin Id="343217079" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
-					<Plugin Id="840125335" Name="Stereo Delay (Custom)" LibName="Wwise Stereo Delay" LibId="8847363"/>
-					<Plugin Id="986553122" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
-				</Custom>
-			</Plugins>
 			<Events>
 				<Event Id="67176023" Name="Apple">
 					<MediaRefs>
@@ -381,11 +374,6 @@
 					<MediaRefs>
 						<MediaRef Id="194047344"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="840125335"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="4000258095" Name="Backdrop_1">
 					<MediaRefs>
@@ -416,11 +404,6 @@
 					<MediaRefs>
 						<MediaRef Id="994574637"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="986553122"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="422905841" Name="Crystal_Item">
 					<MediaRefs>
@@ -459,11 +442,6 @@
 						<MediaRef Id="501403929"/>
 						<MediaRef Id="997994923"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="343217079"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="2084169529" Name="Forest_Ambience">
 					<MediaRefs>
@@ -507,7 +485,7 @@
 				</Event>
 				<Event Id="2696084023" Name="Narrate_Controls">
 					<MediaRefs>
-						<MediaRef Id="25529371"/>
+						<MediaRef Id="913583772"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2580949965" Name="Narrate_Crystal">
@@ -627,5 +605,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B1173B99-F8C7-4D57-0955-F14F8C255D98}</FileHash>
+	<FileHash>{30CD0E5E-772D-88BA-9C91-69128FF622FF}</FileHash>
 </SoundBanksInfo>

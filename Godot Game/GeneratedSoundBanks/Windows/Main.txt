@@ -49,59 +49,54 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2039612124	Player_Cone			\Default Work Unit\Player_Cone	
 
-Effect plug-ins	ID	Name	Type				Notes
-	343217079	Parametric EQ (Custom)	Wwise Parametric EQ			
-	840125335	Stereo Delay (Custom)	Wwise Stereo Delay			
-	986553122	Parametric EQ (Custom)	Wwise Parametric EQ			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	9349052	Item_Ping	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Item_Ping_69AD4CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		2605436
-	23917326	Tree_Swish	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Swish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Tree_Swish		3338176
-	25529371	Narrate_Controls	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\new new new controls_B64D2720.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		4867636
-	60689166	Click_To_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\press to start_744563FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		1015644
-	74561833	Tree_Shake	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
-	76911740	Facing_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
-	87182428	FailedClickV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\FailedClickV2_2004A10B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		289424
-	126095673	Raccoon_Go_Away	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Go_Away_AB2B0307.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Go_Away		459496
-	150446866	LeafCrunchHard2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
-	158081556	Raccoon_Thanks1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks1		1506328
-	171344150	Crystal_Item	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
-	194047344	Apples_Fall	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apples_Fall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Apples_Fall		162976
-	194724780	Backdrop_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Backdrop_Placeholder_1EF53104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
-	289673027	Crystal_Drop	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Drop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Crystal_Drop		651468
-	297512709	Pixie_Aww	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Aww_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Aww		407220
-	300550434	Pixie_Giggle	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Giggle_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Giggle		1954112
-	318985466	Narrate_Path	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Path_9A94127C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Path		506120
-	347548140	Druid_Dialog	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Dialog		8793004
-	353048489	ItemHoverSelect	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\ItemHoverSelect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverSelect		651468
-	371136157	Narrate_Raccoon	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Raccoon_15B4306B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon		1106404
-	371776505	Hungry_Raccoon	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Hungry_Raccoon_49D83F2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Hungry_Raccoon		3108268
-	384298685	Pixie1_Dialog2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie1_Dialog2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog\Pixie1_Dialog2		814296
-	412105083	Pixie1_Dialog1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie1_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog\Pixie1_Dialog1		488636
-	413952810	LeafCrunchHard4	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
-	440940756	Druid_Thanks	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Thanks		732884
-	501403929	LeafCrunchHard3	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
-	505193919	Narrate_Start	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Start_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Start		3582420
-	512147104	Narrate_Druid	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Druid_71081C4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Druid		961232
-	525294819	ItemHoverDeselect	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\ItemHoverDeselect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverDeselect		651468
-	535661321	BlackWind	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
-	546806146	Narrate_Ending	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Ending_DBCDD5C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Ending		873020
-	614364145	Narrate_Empty_Tree	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Empty_Tree_B1DCA8D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		904012
-	634010515	Pixie_Flyoff	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Flyoff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Flyoff		366512
-	715519790	Narrate_Raccoon_Satisfied	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Raccoon_Satisfied_DB22EFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon_Satisfied		510712
-	757045285	Narrate_Pixie	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Pixie_5888BD59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Pixie		423736
-	757555748	Raccoon_Thanks2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks2		1302792
-	774379016	221755__motion_s__long-birds-forest-ambience	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\221755__motion_s__long-birds-forest-ambience_55341F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\221755__motion_s__long-birds-forest-ambience		1768424
-	799573216	Narrate_Nothing	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Nothing_A4C8EED1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Nothing		199356
-	807619168	PickupGenericV2	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
-	822964253	Narrate_Crystal	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Crystal_F117850F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Crystal		605020
-	844437356	Narrate_Apple_Tree	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_Tree_6240AF7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple_Tree		801052
-	918725472	Raccoon_Eating	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
-	981327475	Apple	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_16C91FE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
-	994445067	PutdownV1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
-	994574637	Crystal_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Hum_3A2A7CCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Crystal_Hum		5210728
-	997994923	LeafCrunchHard1	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
-	1023419553	Narrate_Apple	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_9A682BFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple		155736
-	1048681673	Druid_Help	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		977128
-	1048699721	Druid_Hum	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		2442604
+	9349052	Item_Ping	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Item_Ping_69AD4CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Item_Ping		2605436
+	23917326	Tree_Swish	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Swish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Tree_Swish		3338176
+	60689166	Click_To_Start	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\press to start_328C72A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		1015644
+	74561833	Tree_Shake	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
+	76911740	Facing_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
+	87182428	FailedClickV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\FailedClickV2_2004A10B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\FailedClickV2		289424
+	126095673	Raccoon_Go_Away	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Go_Away_AB2B0307.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Go_Away		459496
+	150446866	LeafCrunchHard2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard2_00D9E3E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard2		138140
+	158081556	Raccoon_Thanks1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks1		1506328
+	171344150	Crystal_Item	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Crystal_Item		610760
+	194047344	Apples_Fall	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apples_Fall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Apples_Fall		162976
+	194724780	Backdrop_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Backdrop_Placeholder_1EF53104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Backdrop_Placeholder		448388
+	289673027	Crystal_Drop	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Drop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Crystal_Drop		651468
+	297512709	Pixie_Aww	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Aww_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Aww		407220
+	300550434	Pixie_Giggle	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Giggle_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Giggle		1954112
+	318985466	Narrate_Path	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Path_9A94127C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Path		506120
+	347548140	Druid_Dialog	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Dialog		8793004
+	353048489	ItemHoverSelect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\ItemHoverSelect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverSelect		651468
+	371136157	Narrate_Raccoon	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Raccoon_15B4306B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon		1106404
+	371776505	Hungry_Raccoon	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Hungry_Raccoon_49D83F2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Hungry_Raccoon		3108268
+	384298685	Pixie1_Dialog2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie1_Dialog2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog\Pixie1_Dialog2		814296
+	412105083	Pixie1_Dialog1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie1_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog\Pixie1_Dialog1		488636
+	413952810	LeafCrunchHard4	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
+	440940756	Druid_Thanks	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Thanks		732884
+	501403929	LeafCrunchHard3	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
+	505193919	Narrate_Start	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Start_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Start		3582420
+	512147104	Narrate_Druid	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Druid_71081C4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Druid		961232
+	525294819	ItemHoverDeselect	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\ItemHoverDeselect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ItemHoverDeselect		651468
+	535661321	BlackWind	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\BlackWind_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Backdrops\Black Wind\BlackWind		4566624
+	546806146	Narrate_Ending	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Ending_DBCDD5C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Ending		873020
+	614364145	Narrate_Empty_Tree	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Empty_Tree_B1DCA8D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		904012
+	634010515	Pixie_Flyoff	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Flyoff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Flyoff		366512
+	715519790	Narrate_Raccoon_Satisfied	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Raccoon_Satisfied_DB22EFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon_Satisfied		510712
+	757045285	Narrate_Pixie	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Pixie_5888BD59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Pixie		423736
+	757555748	Raccoon_Thanks2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks2		1302792
+	774379016	221755__motion_s__long-birds-forest-ambience	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\221755__motion_s__long-birds-forest-ambience_55341F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\221755__motion_s__long-birds-forest-ambience		1768424
+	799573216	Narrate_Nothing	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Nothing_A4C8EED1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Nothing		199356
+	807619168	PickupGenericV2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PickupGenericV2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PickupGenericV2		488636
+	822964253	Narrate_Crystal	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Crystal_F117850F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Crystal		605020
+	844437356	Narrate_Apple_Tree	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_Tree_6240AF7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple_Tree		801052
+	913583772	Narrate_Controls	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\new controls_340B2BFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		4117252
+	918725472	Raccoon_Eating	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
+	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_16C91FE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
+	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
+	994574637	Crystal_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Crystal_Hum_3A2A7CCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Crystal_Hum		5210728
+	997994923	LeafCrunchHard1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard1_B6E23DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard1		146752
+	1023419553	Narrate_Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_9A682BFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple		155736
+	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		977128
+	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		2442604
 
