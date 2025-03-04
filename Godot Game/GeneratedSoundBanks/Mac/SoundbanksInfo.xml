@@ -163,9 +163,9 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A0A726BC-0038-DC68-E3C0-A24CE56A21CB}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{CA9E875E-CEF6-9E40-38BA-7C3860E47F1E}">
 			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
+			<Path>English(US)/Main.bnk</Path>
 			<Media>
 				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Item_Ping.wav</ShortName>
@@ -178,6 +178,10 @@
 				<File Id="60689166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>press to start.wav</ShortName>
 					<CachePath>SFX/press to start_328C72A0.wem</CachePath>
+				</File>
+				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialog_Placeholder.wav</ShortName>
+					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
 				</File>
 				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Shake.wav</ShortName>
@@ -235,6 +239,10 @@
 					<ShortName>Druid_Dialog.wav</ShortName>
 					<CachePath>SFX/Druid_Dialog_818F3B66.wem</CachePath>
 				</File>
+				<File Id="349029664" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Narration_Placeholder.wav</ShortName>
+					<CachePath>Voices/English(US)/Narration_Placeholder_0A617491.wem</CachePath>
+				</File>
 				<File Id="353048489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverSelect.wav</ShortName>
 					<CachePath>SFX/ItemHoverSelect_818F3B66.wem</CachePath>
@@ -250,6 +258,10 @@
 				<File Id="384298685" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog2.wav</ShortName>
 					<CachePath>SFX/Pixie1_Dialog2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="401630820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound_Placeholder.wav</ShortName>
+					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
 				</File>
 				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie1_Dialog.wav</ShortName>
@@ -294,6 +306,10 @@
 				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Flyoff.wav</ShortName>
 					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="686063000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environmental_Placeholder (1).wav</ShortName>
+					<CachePath>SFX/Environmental_Placeholder (1)_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
@@ -380,9 +396,89 @@
 						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1125471007" Name="Bat_Bumping">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2212254451" Name="Bat_Cavern_Locked">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2767651361" Name="Bat_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2963949393" Name="Bat_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1816682394" Name="Bat_Thanks">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2366200506" Name="Bear_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4226296884" Name="Bear_Narration_1">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4226296887" Name="Bear_Narration_2">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="777395070" Name="Bear_Pacing">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2829008681" Name="Bear_Thanks">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="408558777" Name="Bears_Playing">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4020366015" Name="Black_Wind">
 					<MediaRefs>
 						<MediaRef Id="535661321"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1455232537" Name="Cave_Ambience">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="156193455" Name="Cave_Entrance">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1362342512" Name="Cave_Entrance_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="479262342" Name="Cave_Footsteps">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="889140339" Name="Cave_Path_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1352158686" Name="Click_Fail">
@@ -410,9 +506,29 @@
 						<MediaRef Id="171344150"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="331307707" Name="Cubs_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1652453217" Name="Cubs_Eating">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="509748587" Name="Cubs_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3393591398" Name="Druid_Dialog">
 					<MediaRefs>
 						<MediaRef Id="347548140"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3995925126" Name="Druid_Dialog_1">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="876613367" Name="Druid_Help">
@@ -420,14 +536,39 @@
 						<MediaRef Id="1048681673"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1918198543" Name="Druid_Help_1">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1918198540" Name="Druid_Help_2">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2213069164" Name="Druid_Hum">
 					<MediaRefs>
 						<MediaRef Id="1048699721"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3824697202" Name="Druid_Restoration">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3109325365" Name="Druid_Thanks">
 					<MediaRefs>
 						<MediaRef Id="440940756"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="15961761" Name="Druid_Thanks_1">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="529018174" Name="East">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="54298587" Name="Facing">
@@ -448,6 +589,21 @@
 						<MediaRef Id="774379016"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3565432312" Name="Forest_Animals">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1856253495" Name="Forest_Birds">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2154420340" Name="Forest_Insects">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
 					<MediaRefs>
 						<MediaRef Id="525294819"/>
@@ -463,6 +619,31 @@
 						<MediaRef Id="371776505"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1304319317" Name="Insect_Catch">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3751069619" Name="Insect_Cloud">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3737277484" Name="Insect_Cloud_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3828115085" Name="Insect_Item">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3279179030" Name="Insect_Item_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1466384055" Name="Interact">
 					<MediaRefs>
 						<MediaRef Id="994445067"/>
@@ -471,6 +652,26 @@
 				<Event Id="49143091" Name="Item_Ping">
 					<MediaRefs>
 						<MediaRef Id="9349052"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2842092411" Name="Mushroom_Item">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="765653684" Name="Mushroom_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2640668715" Name="Mushroom_Patch_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1391500537" Name="Mushroom_Pick">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
@@ -538,6 +739,11 @@
 						<MediaRef Id="505193919"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4279573130" Name="North">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1008262333" Name="Path_Wind">
 					<MediaRefs>
 						<MediaRef Id="535661321"/>
@@ -559,6 +765,11 @@
 						<MediaRef Id="297512709"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2288037634" Name="Pixie_Dialog_2">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1075103351" Name="Pixie_Flyoff">
 					<MediaRefs>
 						<MediaRef Id="634010515"/>
@@ -567,6 +778,21 @@
 				<Event Id="848414374" Name="Pixie_Giggle">
 					<MediaRefs>
 						<MediaRef Id="300550434"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1036549193" Name="Pixie_Humming_2">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1286676330" Name="Pixie_Narration_2">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2591844858" Name="Pixie_Trade_2">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1146653945" Name="Raccoon_Eating">
@@ -589,6 +815,36 @@
 						<MediaRef Id="757555748"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="992193856" Name="South">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3106261316" Name="Stream_Flow_1">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3106261319" Name="Stream_Flow_2">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1867833310" Name="Stream_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3609441159" Name="Stream_Source">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2994956728" Name="Stream_Source_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
 					<MediaRefs>
 						<MediaRef Id="74561833"/>
@@ -599,11 +855,16 @@
 						<MediaRef Id="23917326"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1723483016" Name="West">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="2039612124" Name="Player_Cone"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D7439158-9AB3-3457-CF2B-623A69132358}</FileHash>
+	<FileHash>{6986A2F2-878C-F78A-9A99-004CEE5665FD}</FileHash>
 </SoundBanksInfo>
