@@ -1,0 +1,248 @@
+[gd_scene load_steps=5 format=3 uid="uid://ca6kfdsjravht"]
+
+[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_bwp2r"]
+[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
+[ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="2_i05r2"]
+[ext_resource type="PackedScene" uid="uid://bgx77pgvk6kd0" path="res://Scenes/Areas/CavePath.tscn" id="3_hkuyf"]
+
+[node name="CaveScene" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_bwp2r")]
+transform = Transform3D(0.00539308, 0, -0.999985, 0, 1, 0, 0.999985, 0, 0.00539308, 0, 0, 0)
+
+[node name="CaveEntrance" parent="." instance=ExtResource("1_w2ttr")]
+
+[node name="Entrance" parent="CaveEntrance" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.14197)
+circle1 = NodePath("..")
+circle2 = NodePath("../../CaveFoyer")
+player = NodePath("../../Player")
+
+[node name="CaveFoyer" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.20268)
+
+[node name="FoyerPath" parent="CaveFoyer" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("3_hkuyf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.12868)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern1")
+player = NodePath("../../Player")
+timer = NodePath("../../CaveEntrance/Entrance/Timer")
+narration_timer = NodePath("../../CaveEntrance/Entrance/Narration_Timer")
+narrate_path = NodePath("../../CaveEntrance/Entrance/Narrate_Path")
+footsteps = NodePath("../../CaveEntrance/Entrance/Footsteps")
+
+[node name="WhisperingCavern1" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.425)
+
+[node name="I" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.1905, 9.53674e-07, 0.218906)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern2")
+player = NodePath("../../Player")
+
+[node name="You" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.16578, 9.53674e-07, 0.239958)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern3")
+player = NodePath("../../Player")
+timer = NodePath("../I/Timer")
+narration_timer = NodePath("../I/Narration_Timer")
+narrate_path = NodePath("../I/Narrate_Path")
+footsteps = NodePath("../I/Footsteps")
+
+[node name="We" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0623455, 9.53674e-07, -4.23741)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern4")
+player = NodePath("../../Player")
+timer = NodePath("../I/Timer")
+narration_timer = NodePath("../I/Narration_Timer")
+narrate_path = NodePath("../I/Narrate_Path")
+footsteps = NodePath("../I/Footsteps")
+
+[node name="WhisperingCavern2" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.42571, 0, -16.2992)
+
+[node name="Love" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-0.840463, 0, 0.54187, 0, 1, 0, -0.54187, 0, -0.840463, -1.72872, 9.53674e-07, 3.35646)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern13")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="Hate" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.704101, 0, 0.710099, 0, 1, 0, -0.710099, 0, 0.704101, -2.55149, 9.53674e-07, -3.05064)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern14")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern13" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.093, 1.90735e-06, -9.6776)
+
+[node name="You" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-0.992713, 0, 0.120501, 0, 1, 0, -0.120501, 0, -0.992713, -0.697501, 9.53674e-07, 3.94121)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern17")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="Myself" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.440707, 0, 0.897651, 0, 1, 0, -0.897651, 0, 0.440707, -3.61918, -9.53674e-07, -1.69323)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern16")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern14" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.592, 0, -22.1265)
+
+[node name="Fear" parent="WhisperingCavern14" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.704101, 0, 0.710099, 0, 1, 0, -0.710099, 0, 0.704101, -2.55149, 9.53674e-07, -3.05064)
+circle1 = NodePath("../../WhisperingCavern2")
+circle2 = NodePath("../../WhisperingCavern15")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern15" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1598, 0, -27.9121)
+
+[node name="WhisperingCavern16" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.7802, 1.90735e-06, -12.9283)
+
+[node name="WhisperingCavern17" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6081, 1.90735e-06, -1.64531)
+
+[node name="WhisperingCavern3" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.1645, 0, -16.3209)
+
+[node name="Exist" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-0.653288, 0, 0.757109, 0, 1, 0, -0.757109, 0, -0.653288, 3.19403, 0.0888157, -2.62224)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern6")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="Belong" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.780867, 0, 0.624698, 0, 1, 0, -0.624698, 0, 0.780867, 2.47847, 0, 3.20845)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern7")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern6" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.4838, -9.53674e-07, -21.7906)
+
+[node name="Alone" parent="WhisperingCavern6" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-0.112908, 0, 0.993605, 0, 1, 0, -0.993605, 0, -0.112908, 4.07583, 9.53674e-07, -0.569811)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern10")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern10" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.8829, -9.53674e-07, -22.7388)
+
+[node name="WhisperingCavern7" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.2499, -9.53674e-07, -9.94318)
+
+[node name="Here" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(-0.307788, 0, 0.951455, 0, 1, 0, -0.951455, 0, -0.307788, 4.06046, 2.86102e-06, -1.05084)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern8")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="Asleep" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.908355, 0, 0.4182, 0, 1, 0, -0.4182, 0, 0.908355, 1.77963, 2.86102e-06, 3.71082)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern9")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern8" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1073, -0.000153542, -12.0652)
+
+[node name="WhisperingCavern9" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.5666, -0.000153542, -2.40145)
+
+[node name="WhisperingCavern4" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0309718, 0, -25.0246)
+
+[node name="Survive" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.693804, 0, 0.720164, 0, 1, 0, -0.720164, 0, 0.693804, -2.72481, 0, -2.62349)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern5")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="Die" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.661246, 0, -0.750169, 0, 1, 0, 0.750169, 0, 0.661246, 3.29881, 2.86102e-06, -2.47657)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern11")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern11" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.05778, 0, -30.731)
+
+[node name="Apart" parent="WhisperingCavern11" node_paths=PackedStringArray("circle1", "circle2", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.693804, 0, 0.720164, 0, 1, 0, -0.720164, 0, 0.693804, -2.72481, 0, -2.62349)
+circle1 = NodePath("..")
+circle2 = NodePath("../../WhisperingCavern12")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern5" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.74246, 1.90735e-06, -30.3647)
+
+[node name="Together" parent="WhisperingCavern5" node_paths=PackedStringArray("circle1", "player", "timer", "narration_timer", "narrate_path", "footsteps") instance=ExtResource("2_i05r2")]
+transform = Transform3D(0.661246, 0, -0.750169, 0, 1, 0, 0.750169, 0, 0.661246, 2.30188, 9.53674e-07, -3.21133)
+circle1 = NodePath("../../WhisperingCavern4")
+player = NodePath("../../Player")
+timer = NodePath("../../WhisperingCavern1/I/Timer")
+narration_timer = NodePath("../../WhisperingCavern1/I/Narration_Timer")
+narrate_path = NodePath("../../WhisperingCavern1/I/Narrate_Path")
+footsteps = NodePath("../../WhisperingCavern1/I/Footsteps")
+
+[node name="WhisperingCavern12" parent="." instance=ExtResource("1_w2ttr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0307713, 1.90735e-06, -35.881)
