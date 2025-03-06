@@ -182,5 +182,37 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.133904, 1.90735e-06, -35.93
 
 [node name="Backdrops" type="Node3D" parent="."]
 
-[node name="CaveAmbience" parent="." instance=ExtResource("4_o1yti")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.68816, 0, -23.529)
+[node name="CaveBackdrops" type="Node3D" parent="."]
+
+[node name="CaveAmbience" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.2398, 0, -19.9636)
+
+[node name="CaveAmbience2" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5793, 0, -32.6522)
+
+[node name="CaveAmbience3" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.68027, 0, -39.1961)
+
+[node name="CaveAmbience4" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.9431, 0, -30.7908)
+
+[node name="CaveAmbience5" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.6306, 0, -17.3993)
+
+[node name="CaveAmbience7" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.27287, 0, -38.1989)
+
+[node name="CaveAmbience8" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.25011, 0, -23.9526)
+
+[node name="CaveAmbience9" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.27838, 0, -23.8101)
+
+[node name="CaveAmbience10" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.25564, 0, -11.8432)
+
+[node name="CaveAmbience11" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.8151, 0, -5.71726)
+
+[node name="CaveAmbience12" parent="CaveBackdrops" instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6389, 0, -6.00219)
