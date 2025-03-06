@@ -1,0 +1,66 @@
+[gd_scene load_steps=5 format=3 uid="uid://bgx77pgvk6kd0"]
+
+[ext_resource type="Script" path="res://Scripts/path.gd" id="1_o55ht"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lgsfq"]
+size = Vector3(1, 1, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ko3h"]
+albedo_color = Color(0.380392, 0.396078, 0.211765, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_qiuc4"]
+material = SubResource("StandardMaterial3D_3ko3h")
+size = Vector3(1, 1, 3)
+
+[node name="Path" type="Area3D" node_paths=PackedStringArray("timer", "narration_timer", "narrate_path", "footsteps")]
+script = ExtResource("1_o55ht")
+timer = NodePath("Timer")
+narration_timer = NodePath("Narration_Timer")
+narrate_path = NodePath("Narrate_Path")
+footsteps = NodePath("Footsteps")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_lgsfq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_qiuc4")
+
+[node name="Path_Wind" type="AkEvent3D" parent="."]
+event = {
+"id": 1008262333,
+"name": "Path_Wind"
+}
+trigger_on = 1
+stop_on = 3
+
+[node name="Path_Wind2" type="AkEvent3D" parent="."]
+event = {
+"id": 1008262333,
+"name": "Path_Wind"
+}
+trigger_on = 1
+stop_on = 3
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="Narrate_Path" type="AkEvent3D" parent="."]
+event = {
+"id": 889140339,
+"name": "Cave_Path_Narration"
+}
+stop_on = 3
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="Footsteps" type="AkEvent3D" parent="."]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+stop_on = 3
+
+[node name="Narration_Timer" type="Timer" parent="."]
+wait_time = 2.6
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]

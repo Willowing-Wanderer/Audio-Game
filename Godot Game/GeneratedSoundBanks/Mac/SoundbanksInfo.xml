@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{CA9E875E-CEF6-9E40-38BA-7C3860E47F1E}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{29B85979-F580-A1DA-28DC-2A69140094E7}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -458,7 +458,7 @@
 				</Event>
 				<Event Id="1455232537" Name="Cave_Ambience">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="156193455" Name="Cave_Entrance">
@@ -866,5 +866,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6986A2F2-878C-F78A-9A99-004CEE5665FD}</FileHash>
+	<FileHash>{3B1E8EA2-02CF-838B-413C-0A76D7F567B5}</FileHash>
 </SoundBanksInfo>

@@ -2,6 +2,7 @@ extends Node3D
 
 var title_screen = preload("res://Scenes/UI/title_screen.tscn")
 var raccoon_scene = preload("res://Scenes/Areas/raccoon_scene.tscn")
+var cave_scene = preload("res://Scenes/Areas/CaveScene.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -9,6 +10,7 @@ func _ready():
 
 func start_game():
 	add_child(raccoon_scene.instantiate())
+	#add_child(cave_scene.instantiate())
 
 func finish_game():
 	add_child(title_screen.instantiate())

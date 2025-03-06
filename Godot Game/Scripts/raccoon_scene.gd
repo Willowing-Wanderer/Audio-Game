@@ -8,10 +8,10 @@ extends Node3D
 
 func _ready():
 	$Player.set_cutscene(true)
-	narrate_start.post_event()
-	await get_tree().create_timer(20).timeout
-	narrate_controls.post_event()
-	await get_tree().create_timer(27).timeout
+	#narrate_start.post_event()
+	#await get_tree().create_timer(20).timeout
+	#narrate_controls.post_event()
+	#await get_tree().create_timer(27).timeout
 	$Player.set_cutscene(false)
 
 func _on_druid_quest_complete():
