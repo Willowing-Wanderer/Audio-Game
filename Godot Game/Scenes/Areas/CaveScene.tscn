@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=5 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_bwp2r"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
 [ext_resource type="PackedScene" uid="uid://bgx77pgvk6kd0" path="res://Scenes/Areas/CavePath.tscn" id="3_hkuyf"]
+[ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
 
 [node name="CaveScene" type="Node3D"]
 
@@ -164,7 +165,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.05778, 0, -30.731)
 [node name="Apart" parent="WhisperingCavern11" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.664566, 0, 0.74723, 0, 1, 0, -0.74723, 0, 0.664566, -2.52502, 0, -2.96415)
 circle1 = NodePath("..")
-circle2 = NodePath("../../WhisperingCavern12")
+circle2 = NodePath("../../StreamSource")
 player = NodePath("../../Player")
 
 [node name="WhisperingCavern5" parent="." instance=ExtResource("1_w2ttr")]
@@ -173,8 +174,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.74246, 1.90735e-06, -30.36
 [node name="Together" parent="WhisperingCavern5" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.72066, 0, -0.693289, 0, 1, 0, 0.693289, 0, 0.72066, 3.01904, 0, -2.57991)
 circle1 = NodePath("..")
-circle2 = NodePath("../../WhisperingCavern12")
+circle2 = NodePath("../../StreamSource")
 player = NodePath("../../Player")
 
-[node name="WhisperingCavern12" parent="." instance=ExtResource("1_w2ttr")]
+[node name="StreamSource" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.133904, 1.90735e-06, -35.9358)
+
+[node name="Backdrops" type="Node3D" parent="."]
+
+[node name="CaveAmbience" parent="." instance=ExtResource("4_o1yti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.68816, 0, -23.529)
