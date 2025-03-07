@@ -1,9 +1,12 @@
-[gd_scene load_steps=5 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=8 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_bwp2r"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
 [ext_resource type="PackedScene" uid="uid://bgx77pgvk6kd0" path="res://Scenes/Areas/CavePath.tscn" id="3_hkuyf"]
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
+[ext_resource type="PackedScene" uid="uid://cknmv4uect1km" path="res://Scenes/Environmentals/StreamSource.tscn" id="4_o53py"]
+[ext_resource type="PackedScene" uid="uid://cu0aynynb04t0" path="res://Scenes/Environmentals/StreamFlow1.tscn" id="4_rubr7"]
+[ext_resource type="PackedScene" uid="uid://c3aaw8wdux6ls" path="res://Scenes/Environmentals/StreamFlow2.tscn" id="5_8oi66"]
 
 [node name="CaveScene" type="Node3D"]
 
@@ -324,11 +327,20 @@ event = {
 "name": "Alone_Narration"
 }
 
+[node name="StreamFlow1" parent="WhisperingCavern6" instance=ExtResource("4_rubr7")]
+transform = Transform3D(-0.93801, 0, -0.346608, 0, 1, 0, 0.346608, 0, -0.93801, 0, 0, 0)
+
+[node name="StreamFlow2" parent="WhisperingCavern6" instance=ExtResource("5_8oi66")]
+transform = Transform3D(0.994115, 0, -0.108329, 0, 1, 0, 0.108329, 0, 0.994115, 0, 0, 0)
+
 [node name="WhisperingCavern10" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.8829, -9.53674e-07, -22.7388)
 
 [node name="WhisperingCavern7" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.2499, -9.53674e-07, -9.94318)
+
+[node name="StreamFlow2" parent="WhisperingCavern7" instance=ExtResource("5_8oi66")]
+transform = Transform3D(-0.858047, 0, 0.513571, 0, 1, 0, -0.513571, 0, -0.858047, 0, 0, 0)
 
 [node name="Here" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(-0.233242, 0, 0.972419, 0, 1, 0, -0.972419, 0, -0.233242, 4.09764, 0, -0.896358)
@@ -378,11 +390,20 @@ event = {
 "name": "Asleep_Narration"
 }
 
+[node name="StreamFlow1" parent="WhisperingCavern7" instance=ExtResource("4_rubr7")]
+transform = Transform3D(0.601062, 0, 0.799202, 0, 1, 0, -0.799202, 0, 0.601062, 0, 0, 0)
+
 [node name="WhisperingCavern8" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1073, -0.000153542, -12.0652)
 
 [node name="WhisperingCavern9" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.5666, -0.000153542, -2.40145)
+
+[node name="StreamFlow1" parent="WhisperingCavern9" instance=ExtResource("4_rubr7")]
+transform = Transform3D(-0.921782, 0, 0.387709, 0, 1, 0, -0.387709, 0, -0.921782, 0, 0, 0)
+
+[node name="StreamFlow2" parent="WhisperingCavern9" instance=ExtResource("5_8oi66")]
+transform = Transform3D(0.351825, 0, 0.936066, 0, 1, 0, -0.936066, 0, 0.351825, 0, 0, 0)
 
 [node name="WhisperingCavern4" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0309718, 0, -25.0246)
@@ -438,10 +459,13 @@ event = {
 [node name="WhisperingCavern11" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.05778, 0, -30.731)
 
+[node name="StreamFlow1" parent="WhisperingCavern11" instance=ExtResource("4_rubr7")]
+transform = Transform3D(-0.966174, 0, 0.257892, 0, 1, 0, -0.257892, 0, -0.966174, 0, 0, 0)
+
 [node name="Apart" parent="WhisperingCavern11" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.664566, 0, 0.74723, 0, 1, 0, -0.74723, 0, 0.664566, -2.52502, 0, -2.96415)
 circle1 = NodePath("..")
-circle2 = NodePath("../../StreamSource")
+circle2 = NodePath("../../StreamSourceCavern")
 player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern11/Apart" index="2"]
@@ -462,13 +486,16 @@ event = {
 "name": "Apart_Narration"
 }
 
+[node name="StreamFlow2" parent="WhisperingCavern11" instance=ExtResource("5_8oi66")]
+transform = Transform3D(0.567801, 0, 0.823166, 0, 1, 0, -0.823166, 0, 0.567801, 0, 0, 0)
+
 [node name="WhisperingCavern5" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.74246, 1.90735e-06, -30.3647)
 
 [node name="Together" parent="WhisperingCavern5" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.72066, 0, -0.693289, 0, 1, 0, 0.693289, 0, 0.72066, 3.01904, 0, -2.57991)
 circle1 = NodePath("..")
-circle2 = NodePath("../../StreamSource")
+circle2 = NodePath("../../StreamSourceCavern")
 player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern5/Together" index="2"]
@@ -489,8 +516,14 @@ event = {
 "name": "Together_Narration"
 }
 
-[node name="StreamSource" parent="." instance=ExtResource("1_w2ttr")]
+[node name="StreamSourceCavern" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.133904, 1.90735e-06, -35.9358)
+
+[node name="StreamSource" parent="StreamSourceCavern" instance=ExtResource("4_o53py")]
+transform = Transform3D(-0.999996, 0, 0.00289717, 0, 1, 0, -0.00289717, 0, -0.999996, 0, 0, 0)
+
+[node name="StreamFlow1" parent="StreamSourceCavern" instance=ExtResource("4_rubr7")]
+transform = Transform3D(0.0164751, 0, 0.999864, 0, 1, 0, -0.999864, 0, 0.0164751, 0, 0, 0)
 
 [node name="Backdrops" type="Node3D" parent="."]
 
