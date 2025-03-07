@@ -9,12 +9,14 @@
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="7_5w7yi"]
 
-[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "player")]
+[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Path_Dialog", "Druid_Open_Path", "player")]
 script = ExtResource("1_a5oek")
 narrate_controls = NodePath("Narrate_Controls")
 narrate_ending = NodePath("Narrate_Ending")
 narrate_start = NodePath("Narrate_Start")
 forest_ambience = NodePath("Forest_Ambience")
+Druid_Path_Dialog = NodePath("Druid_Path_Dialog")
+Druid_Open_Path = NodePath("Druid_Open_Path")
 player = NodePath("Player")
 
 [node name="Player" parent="." instance=ExtResource("1_887yb")]
@@ -86,5 +88,19 @@ event = {
 }
 stop_on = 3
 
+[node name="Druid_Path_Dialog" type="AkEvent3D" parent="."]
+event = {
+"id": 2335167966,
+"name": "Druid_Path_Dialog"
+}
+
+[node name="Druid_Open_Path" type="AkEvent3D" parent="."]
+event = {
+"id": 3931060456,
+"name": "Druid_Open_Path"
+}
+
 [connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
 [connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]
+[connection signal="end_of_event" from="Druid_Path_Dialog" to="." method="_on_druid_path_dialog_end_of_event"]
+[connection signal="end_of_event" from="Druid_Open_Path" to="." method="_on_druid_open_path_end_of_event"]
