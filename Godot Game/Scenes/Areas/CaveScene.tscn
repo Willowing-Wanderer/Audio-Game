@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=11 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_bwp2r"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
 [ext_resource type="PackedScene" uid="uid://bmptpy4ncrrck" path="res://Scenes/Environmentals/StreamFlow2.tscn" id="5_n3q1f"]
 [ext_resource type="PackedScene" uid="uid://cknmv4uect1km" path="res://Scenes/Environmentals/StreamSource.tscn" id="7_mocl6"]
+[ext_resource type="PackedScene" uid="uid://bgapasb0bya6p" path="res://Scenes/Backdrops/ForestInsects.tscn" id="10_7sasn"]
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="11_l33ns"]
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="12_gokuo"]
 
@@ -643,6 +644,21 @@ transform = Transform3D(0.559135, 0, 0.829077, 0, 1, 0, -0.829077, 0, 0.559135, 
 circle1 = NodePath("..")
 circle2 = NodePath("../../Berry Bush")
 player = NodePath("../../Player")
+
+[node name="ForestInsects" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 6)
+
+[node name="ForestInsects2" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -4)
+
+[node name="ForestInsects3" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -9)
+
+[node name="ForestInsects4" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
+
+[node name="ForestInsects5" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 7)
 
 [editable path="CaveEntrance/Entrance"]
 [editable path="WhisperingCavern1/I"]

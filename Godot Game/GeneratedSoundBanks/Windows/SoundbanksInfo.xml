@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{D0F57279-9648-8C2F-117A-19B863E83ECE}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7919BCA5-C5E6-C422-32FF-8EA683226469}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -675,17 +675,17 @@
 				</Event>
 				<Event Id="3565432312" Name="Forest_Animals">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1856253495" Name="Forest_Birds">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2154420340" Name="Forest_Insects">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1580677862" Name="Hate_Narration">
@@ -1040,5 +1040,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A822C6D1-047D-AE2B-9756-B9C054BC878D}</FileHash>
+	<FileHash>{58EAB8D0-D4AE-0C8E-FAC1-93684EF11201}</FileHash>
 </SoundBanksInfo>

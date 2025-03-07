@@ -1460,7 +1460,7 @@
 										<Action Name="" ID="{E3CFAFD3-F06D-443C-AE54-C5B87931CD96}" ShortID="160140639">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Backdrop_Placeholder" ID="{1C8F7914-D29D-4C2F-B7C5-CFA36BED043D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1468,10 +1468,10 @@
 								</Event>
 								<Event Name="Forest_Birds" ID="{46672F78-BA68-418A-985C-F03E4026CC6B}">
 									<ChildrenList>
-										<Action Name="" ID="{9D194EAA-F0BC-4008-B43F-FABDA8238869}" ShortID="1051000494">
+										<Action Name="" ID="{9D8AF916-3781-440A-B93D-0019A7704ECA}" ShortID="596561011">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Backdrop_Placeholder" ID="{1C8F7914-D29D-4C2F-B7C5-CFA36BED043D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1479,10 +1479,10 @@
 								</Event>
 								<Event Name="Forest_Animals" ID="{A908EC74-A98B-4A0A-8234-53B2E59FFA9C}">
 									<ChildrenList>
-										<Action Name="" ID="{23C975C6-7DE7-484F-8FA7-961313A5032C}" ShortID="1044723494">
+										<Action Name="" ID="{A951ED07-954C-4030-9608-43FCB5950C15}" ShortID="90318352">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Backdrop_Placeholder" ID="{1C8F7914-D29D-4C2F-B7C5-CFA36BED043D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
