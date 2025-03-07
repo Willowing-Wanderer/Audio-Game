@@ -19,6 +19,6 @@ func _on_druid_quest_complete():
 	await get_tree().create_timer(3.5).timeout
 	forest_ambience.post_event()
 	await get_tree().create_timer(10).timeout
-	get_parent().finish_game()
+	get_parent().finish_level_1()
 	queue_free()
 

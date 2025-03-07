@@ -73,6 +73,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2288037634	Pixie_Dialog_2			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Dialog_2	
 	2298942422	Narrate_Pixie			\Default Work Unit\Narrations\Narrate_Pixie	
 	2316560346	Survive_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Survive_Whisper	
+	2335167966	Druid_Path_Dialog			\Default Work Unit\Phase 2 Events\Druid\Druid_Path_Dialog	
 	2366200506	Bear_Dialog			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Dialog	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
 	2455605676	Fear_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Fear_Narration	
@@ -115,6 +116,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3760220380	Here_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Here_Narration	
 	3824697202	Druid_Restoration			\Default Work Unit\Phase 2 Events\Druid\Druid_Restoration	
 	3828115085	Insect_Item			\Default Work Unit\Phase 2 Events\Insects\Insect_Item	
+	3931060456	Druid_Open_Path			\Default Work Unit\Phase 2 Events\Druid\Druid_Open_Path	
 	3971078520	Hover_Select			\Default Work Unit\UI\Hover_Select	
 	3984251230	Myself_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Myself_Narration	
 	3995925126	Druid_Dialog_1			\Default Work Unit\Phase 2 Events\Druid\Druid_Dialog_1	
@@ -166,6 +168,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546806146	Narrate_Ending	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Ending_DBCDD5C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Ending		873020
 	614364145	Narrate_Empty_Tree	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Empty_Tree_B1DCA8D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		904012
 	634010515	Pixie_Flyoff	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Flyoff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Flyoff		366512
+	651076579	Event_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Event_Placeholder_830BD1A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Event_Placeholder		145028
 	686063000	Environmental_Placeholder	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Environmental_Placeholder (1)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Environmental_Placeholder		403552
 	715519790	Narrate_Raccoon_Satisfied	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Raccoon_Satisfied_DB22EFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Raccoon_Satisfied		510712
 	757045285	Narrate_Pixie	C:\Users\rmtou\Workspace\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Pixie_5888BD59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Pixie		423736

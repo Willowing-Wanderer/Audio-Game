@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7E636C2E-7F52-6864-7B0A-DD19A4A71B51}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{D0F57279-9648-8C2F-117A-19B863E83ECE}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -306,6 +306,10 @@
 				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Flyoff.wav</ShortName>
 					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Event_Placeholder.wav</ShortName>
+					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
 				</File>
 				<File Id="686063000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environmental_Placeholder (1).wav</ShortName>
@@ -599,6 +603,16 @@
 				<Event Id="2213069164" Name="Druid_Hum">
 					<MediaRefs>
 						<MediaRef Id="1048699721"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3931060456" Name="Druid_Open_Path">
+					<MediaRefs>
+						<MediaRef Id="651076579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2335167966" Name="Druid_Path_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3824697202" Name="Druid_Restoration">
@@ -1026,5 +1040,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C820D769-BDA1-A151-C42A-8202AD36B79E}</FileHash>
+	<FileHash>{A822C6D1-047D-AE2B-9756-B9C054BC878D}</FileHash>
 </SoundBanksInfo>

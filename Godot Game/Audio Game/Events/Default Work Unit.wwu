@@ -851,6 +851,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Druid_Path_Dialog" ID="{27A6D3CE-B537-4330-901C-CEF7264ADF2C}">
+									<ChildrenList>
+										<Action Name="" ID="{F68EC76F-F855-4DEA-BA18-F7CF3243ACBB}" ShortID="762719695">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Druid_Open_Path" ID="{10B4B3D7-5459-4BE3-888E-9765364D07C6}">
+									<ChildrenList>
+										<Action Name="" ID="{5DB529CB-2DF1-47F7-8364-DA4B4355BACB}" ShortID="465342400">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Bat" ID="{7CF3325D-D5D2-4A4D-98BC-5048D5E46BF0}" ShortID="406305881">
