@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=8 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_bwp2r"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
@@ -6,7 +6,6 @@
 [ext_resource type="PackedScene" uid="uid://dulnxqbe8hp0v" path="res://Scenes/Environmentals/StreamFlow1.tscn" id="4_ejpsh"]
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
 [ext_resource type="PackedScene" uid="uid://bmptpy4ncrrck" path="res://Scenes/Environmentals/StreamFlow2.tscn" id="5_n3q1f"]
-[ext_resource type="Script" path="res://Scenes/Environmentals/StreamSource.gd" id="6_m2ri2"]
 [ext_resource type="PackedScene" uid="uid://cknmv4uect1km" path="res://Scenes/Environmentals/StreamSource.tscn" id="7_mocl6"]
 
 [node name="CaveScene" type="Node3D"]
@@ -519,7 +518,6 @@ event = {
 
 [node name="StreamSource" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.133904, 1.90735e-06, -35.9358)
-script = ExtResource("6_m2ri2")
 
 [node name="StreamFlow1" parent="StreamSource" instance=ExtResource("7_mocl6")]
 transform = Transform3D(-0.999894, 0, 0.0145382, 0, 1, 0, -0.0145382, 0, -0.999894, 0, 0, 0)
