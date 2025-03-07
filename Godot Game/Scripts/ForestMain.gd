@@ -9,8 +9,8 @@ func _ready():
 	add_child(title_screen.instantiate())
 
 func start_game():
-	add_child(raccoon_scene.instantiate())
-	#add_child(cave_scene.instantiate())
+	#add_child(raccoon_scene.instantiate())
+	add_child(cave_scene.instantiate())
 
 func finish_game():
 	add_child(title_screen.instantiate())
