@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{304E172C-0C8F-03B3-A402-8F4AAEBE02E2}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7E636C2E-7F52-6864-7B0A-DD19A4A71B51}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -381,6 +381,26 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2141558489" Name="Alone_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="111733845" Name="Alone_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2464187610" Name="Apart_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1585408714" Name="Apart_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="67176023" Name="Apple">
 					<MediaRefs>
 						<MediaRef Id="981327475"/>
@@ -389,6 +409,16 @@
 				<Event Id="1251517266" Name="Apples_Fall">
 					<MediaRefs>
 						<MediaRef Id="194047344"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4033688784" Name="Asleep_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="645753248" Name="Asleep_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4000258095" Name="Backdrop_1">
@@ -447,6 +477,16 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="408558777" Name="Bears_Playing">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4249084651" Name="Belong_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3007764503" Name="Belong_Whisper">
 					<MediaRefs>
 						<MediaRef Id="686063000"/>
 					</MediaRefs>
@@ -521,6 +561,16 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3703158342" Name="Die_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="98240150" Name="Die_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3393591398" Name="Druid_Dialog">
 					<MediaRefs>
 						<MediaRef Id="347548140"/>
@@ -571,9 +621,29 @@
 						<MediaRef Id="401630820"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="89421141" Name="Exist_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2656148257" Name="Exist_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="54298587" Name="Facing">
 					<MediaRefs>
 						<MediaRef Id="76911740"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2455605676" Name="Fear_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3230454396" Name="Fear_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2385628198" Name="Footsteps">
@@ -604,6 +674,26 @@
 						<MediaRef Id="401630820"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1580677862" Name="Hate_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="828014134" Name="Hate_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3760220380" Name="Here_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2665175820" Name="Here_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
 					<MediaRefs>
 						<MediaRef Id="525294819"/>
@@ -617,6 +707,16 @@
 				<Event Id="1621431280" Name="Hungry_Raccoon">
 					<MediaRefs>
 						<MediaRef Id="371776505"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2778878433" Name="I_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="580890269" Name="I_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1304319317" Name="Insect_Catch">
@@ -654,6 +754,16 @@
 						<MediaRef Id="9349052"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2818834666" Name="Love_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2681543802" Name="Love_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2842092411" Name="Mushroom_Item">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
@@ -672,6 +782,16 @@
 				<Event Id="1391500537" Name="Mushroom_Pick">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3984251230" Name="Myself_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1184354894" Name="Myself_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
@@ -845,6 +965,26 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1064355402" Name="Survive_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2316560346" Name="Survive_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="352598880" Name="Together_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1414056144" Name="Together_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
 					<MediaRefs>
 						<MediaRef Id="74561833"/>
@@ -855,9 +995,29 @@
 						<MediaRef Id="23917326"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1294145958" Name="We_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3484778486" Name="We_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1723483016" Name="West">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3047438901" Name="You_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3224125185" Name="You_Whisper">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -866,5 +1026,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B2682CE7-F516-86A2-CCBF-ED3FF06B85C6}</FileHash>
+	<FileHash>{C820D769-BDA1-A151-C42A-8202AD36B79E}</FileHash>
 </SoundBanksInfo>

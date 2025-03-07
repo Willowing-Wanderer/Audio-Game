@@ -5,6 +5,8 @@ extends Area3D
 @export var player:Node3D
 @export var timer:Timer
 @export var narration_timer:Timer
+@export var path_sound_1:AkEvent3D
+@export var path_sound_2:AkEvent3D
 
 @export var narrate_path:AkEvent3D
 @export var footsteps:AkEvent3D

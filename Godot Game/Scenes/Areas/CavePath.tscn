@@ -25,7 +25,7 @@ shape = SubResource("BoxShape3D_lgsfq")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_qiuc4")
 
-[node name="Path_Wind" type="AkEvent3D" parent="."]
+[node name="Path_Sound_1" type="AkEvent3D" parent="."]
 event = {
 "id": 1008262333,
 "name": "Path_Wind"
@@ -33,7 +33,7 @@ event = {
 trigger_on = 1
 stop_on = 3
 
-[node name="Path_Wind2" type="AkEvent3D" parent="."]
+[node name="Path_Sound_2" type="AkEvent3D" parent="."]
 event = {
 "id": 1008262333,
 "name": "Path_Wind"
