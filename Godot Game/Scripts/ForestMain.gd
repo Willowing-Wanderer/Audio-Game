@@ -9,12 +9,15 @@ func _ready():
 	add_child(title_screen.instantiate())
 
 func start_game():
-	add_child(raccoon_scene.instantiate())
-	#add_child(cave_scene.instantiate())
+	var raccoon = raccoon_scene.instantiate()
+	raccoon.player = $Player
+	add_child(raccoon)
 
 func finish_level_1():
 	await get_tree().create_timer(0.1).timeout
-	add_child(cave_scene.instantiate())
+	var cave = cave_scene.instantiate()
+	cave.player = $Player
+	add_child(cave)
 
 func finish_game():
 	add_child(title_screen.instantiate())

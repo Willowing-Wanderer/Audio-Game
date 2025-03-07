@@ -37,3 +37,5 @@ event = {
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[connection signal="end_of_event" from="Narrate_Environmental" to="." method="_on_narrate_environmental_end_of_event"]

@@ -54,6 +54,7 @@ func on_click(selected):
 		druid_thanks.post_event()
 	else:
 		if(first_click):
+			print("first click")
 			druid_dialog.post_event()
 			first_click = false
 		else:
@@ -72,6 +73,7 @@ func _on_druid_help_end_of_event(data):
 	druid_hum.post_event()
 
 func _on_druid_restoration_end_of_event(data):
+	player.set_cutscene(false)
 	quest_complete.emit()
 
 

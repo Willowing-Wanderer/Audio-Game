@@ -10,6 +10,12 @@ extends Node3D
 @export var player:Area3D
 
 func _ready():
+	$Circle/Druid.player = player
+	$Circle2/Raccoon.player = player
+	$Circle2/Pixie.player = player
+	$Circle3/AppleTree.player = player
+	$Path.player = player
+	$Path2.player = player
 	pass
 	#$Player.set_cutscene(true)
 	#narrate_start.post_event()
@@ -17,6 +23,11 @@ func _ready():
 	#narrate_controls.post_event()
 	#await get_tree().create_timer(27).timeout
 	#$Player.set_cutscene(false)
+	
+func _process(delta):
+	$player_ears.position = player.position
+	$player_ears.rotation = player.rotation
+	pass
 
 func _on_druid_quest_complete():
 	Druid_Path_Dialog.post_event()

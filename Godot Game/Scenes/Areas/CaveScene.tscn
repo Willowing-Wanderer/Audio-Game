@@ -1,7 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=12 format=3 uid="uid://ca6kfdsjravht"]
 
-[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="1_bwp2r"]
+[ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
+[ext_resource type="PackedScene" uid="uid://86uxk2w8f6te" path="res://Scenes/Characters/player_ears.tscn" id="2_wuwqm"]
 [ext_resource type="PackedScene" uid="uid://bgx77pgvk6kd0" path="res://Scenes/Areas/CavePath.tscn" id="3_hkuyf"]
 [ext_resource type="PackedScene" uid="uid://dulnxqbe8hp0v" path="res://Scenes/Environmentals/StreamFlow1.tscn" id="4_ejpsh"]
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
@@ -12,18 +13,17 @@
 [ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="12_gokuo"]
 
 [node name="CaveScene" type="Node3D"]
+script = ExtResource("1_be42p")
 
-[node name="Player" parent="." instance=ExtResource("1_bwp2r")]
-transform = Transform3D(0.00539308, 0, -0.999985, 0, 1, 0, 0.999985, 0, 0.00539308, 0, 0, 0)
+[node name="player_ears" parent="." instance=ExtResource("2_wuwqm")]
 
 [node name="CaveEntrance" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -15.6803, 0, 5.94168)
 
-[node name="Entrance" parent="CaveEntrance" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Entrance" parent="CaveEntrance" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.14197)
 circle1 = NodePath("..")
 circle2 = NodePath("../../CaveFoyer")
-player = NodePath("../../Player")
 
 [node name="CollisionShape3D" parent="CaveEntrance/Entrance" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
@@ -50,20 +50,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 [node name="CaveFoyer" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -23.8825, 0, 5.8565)
 
-[node name="FoyerPath" parent="CaveFoyer" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="FoyerPath" parent="CaveFoyer" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0903301, 0, -4.09684)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern1")
-player = NodePath("../../Player")
 
 [node name="WhisperingCavern1" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -32.1044, 0, 5.77112)
 
-[node name="I" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="I" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.0464963, 0, 0.998918, 0, 1, 0, -0.998918, 0, 0.0464963, -4.12039, 0, 0.0698872)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern2")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern1/I" index="2"]
 event = {
@@ -83,11 +81,10 @@ event = {
 "name": "I_Narration"
 }
 
-[node name="You" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="You" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(-0.0173128, 0, -0.99985, 0, 1, 0, 0.99985, 0, -0.0173128, 4.1269, 0, 0.204298)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern3")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern1/You" index="2"]
 event = {
@@ -107,11 +104,10 @@ event = {
 "name": "You_Narration"
 }
 
-[node name="We" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="We" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0378566, 0, -4.30954)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern4")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern1/We" index="2"]
 event = {
@@ -134,11 +130,10 @@ event = {
 [node name="WhisperingCavern2" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -32.0661, 0, 14.1977)
 
-[node name="Love" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Love" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.901908, 0, -0.431928, 0, 1, 0, 0.431928, 0, 0.901908, -1.5233, 0, 3.49785)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern13")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern2/Love" index="2"]
 event = {
@@ -158,11 +153,10 @@ event = {
 "name": "Love_Narration"
 }
 
-[node name="Hate" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Hate" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.66143, 0, 0.750007, 0, 1, 0, -0.750007, 0, 0.66143, -3.16324, 0, -2.79395)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern14")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern2/Hate" index="2"]
 event = {
@@ -185,11 +179,10 @@ event = {
 [node name="WhisperingCavern13" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -25.4829, 1.90735e-06, 17.9335)
 
-[node name="You" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="You" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.987852, 0, -0.1554, 0, 1, 0, 0.1554, 0, 0.987852, -0.581596, 0, 4.07115)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern17")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern13/You" index="2"]
 event = {
@@ -209,11 +202,10 @@ event = {
 "name": "You_Narration"
 }
 
-[node name="Myself" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Myself" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.419611, 0, 0.907704, 0, 1, 0, -0.907704, 0, 0.419611, -4.00237, 0, -1.26998)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern16")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern13/Myself" index="2"]
 event = {
@@ -236,11 +228,10 @@ event = {
 [node name="WhisperingCavern14" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -37.9571, 0, 20.3031)
 
-[node name="Fear" parent="WhisperingCavern14" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Fear" parent="WhisperingCavern14" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.715681, 0, 0.698428, 0, 1, 0, -0.698428, 0, 0.715681, -2.8273, 0, -2.77495)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern15")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern14/Fear" index="2"]
 event = {
@@ -272,11 +263,10 @@ transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844
 [node name="WhisperingCavern3" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -31.9155, 0, -2.39186)
 
-[node name="Exist" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Exist" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.646603, 0, -0.762826, 0, 1, 0, 0.762826, 0, 0.646603, 3.18372, 0, -2.68969)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern6")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern3/Exist" index="2"]
 event = {
@@ -296,11 +286,10 @@ event = {
 "name": "Exist_Narration"
 }
 
-[node name="Belong" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Belong" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.763221, 0, 0.646137, 0, 1, 0, -0.646137, 0, 0.763221, 2.56103, 0, 3.26531)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern7")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern3/Belong" index="2"]
 event = {
@@ -323,11 +312,10 @@ event = {
 [node name="WhisperingCavern6" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -37.3193, -9.53674e-07, -8.76762)
 
-[node name="Alone" parent="WhisperingCavern6" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Alone" parent="WhisperingCavern6" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.0791377, 0, -0.996864, 0, 1, 0, 0.996864, 0, 0.0791377, 4.28973, 0, -0.256104)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern10")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern6/Alone" index="2"]
 event = {
@@ -359,11 +347,10 @@ transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844
 [node name="WhisperingCavern7" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -25.4853, -9.53674e-07, -7.41076)
 
-[node name="Here" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Here" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(-0.233242, 0, 0.972419, 0, 1, 0, -0.972419, 0, -0.233242, 4.09764, 0, -0.896358)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern8")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern7/Here" index="2"]
 event = {
@@ -383,11 +370,10 @@ event = {
 "name": "Here_Narration"
 }
 
-[node name="Asleep" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Asleep" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.893293, 0, 0.449475, 0, 1, 0, -0.449475, 0, 0.893293, 1.69419, 0, 3.90604)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern9")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern7/Asleep" index="2"]
 event = {
@@ -428,11 +414,10 @@ transform = Transform3D(0.851754, 0, 0.523941, 0, 1, 0, -0.523941, 0, 0.851754, 
 [node name="WhisperingCavern4" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -40.7032, 0, 5.65085)
 
-[node name="Survive" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Survive" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.722352, 0, 0.691526, 0, 1, 0, -0.691526, 0, 0.722352, -2.90282, 0, -2.44816)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern5")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern4/Survive" index="2"]
 event = {
@@ -452,11 +437,10 @@ event = {
 "name": "Survive_Narration"
 }
 
-[node name="Die" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Die" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.684051, 0, -0.729434, 0, 1, 0, 0.729434, 0, 0.684051, 3.07991, 0, -2.80951)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern11")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern4/Die" index="2"]
 event = {
@@ -479,11 +463,10 @@ event = {
 [node name="WhisperingCavern11" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -46.3467, 0, -0.434897)
 
-[node name="Apart" parent="WhisperingCavern11" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Apart" parent="WhisperingCavern11" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.664566, 0, 0.74723, 0, 1, 0, -0.74723, 0, 0.664566, -2.52502, 0, -2.96415)
 circle1 = NodePath("..")
 circle2 = NodePath("../../StreamSource")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern11/Apart" index="2"]
 event = {
@@ -512,11 +495,10 @@ transform = Transform3D(0.436441, 0, 0.899733, 0, 1, 0, -0.899733, 0, 0.436441, 
 [node name="WhisperingCavern5" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -46.103, 1.90735e-06, 11.3685)
 
-[node name="Together" parent="WhisperingCavern5" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("3_hkuyf")]
+[node name="Together" parent="WhisperingCavern5" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.72066, 0, -0.693289, 0, 1, 0, 0.693289, 0, 0.72066, 3.01904, 0, -2.57991)
 circle1 = NodePath("..")
 circle2 = NodePath("../../StreamSource")
-player = NodePath("../../Player")
 
 [node name="Path_Sound_1" parent="WhisperingCavern5/Together" index="2"]
 event = {
@@ -583,11 +565,10 @@ transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844
 
 [node name="Campsite" parent="." instance=ExtResource("1_w2ttr")]
 
-[node name="Path" parent="Campsite" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path" parent="Campsite" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(0.208287, 0, -0.978068, 0, 1, 0, 0.978068, 0, 0.208287, -4.13011, 0, 0.815153)
 circle1 = NodePath("..")
 circle2 = NodePath("../../Circle")
-player = NodePath("../../Player")
 
 [node name="Raccoon\'s Home" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
@@ -595,22 +576,19 @@ transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0,
 [node name="Apple Tree" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
 
-[node name="AppleTree" parent="Apple Tree" node_paths=PackedStringArray("circle", "player") instance=ExtResource("11_l33ns")]
+[node name="AppleTree" parent="Apple Tree" node_paths=PackedStringArray("circle") instance=ExtResource("11_l33ns")]
 transform = Transform3D(-0.78238, 0, -0.622801, 0, 1, 0, 0.622801, 0, -0.78238, 0, 0, 0)
 circle = NodePath("..")
-player = NodePath("../../Player")
 
-[node name="Path" parent="." node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path" parent="." node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.104803, 0, -3.89844)
 circle1 = NodePath("../Campsite")
 circle2 = NodePath("../Raccoon\'s Home")
-player = NodePath("../Player")
 
-[node name="Path2" parent="." node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path2" parent="." node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(0.810778, 0, -0.585354, 0, 1, 0, 0.585354, 0, 0.810778, 2.3326, 0, -11.1553)
 circle1 = NodePath("../Raccoon\'s Home")
 circle2 = NodePath("../Apple Tree")
-player = NodePath("../Player")
 
 [node name="Berry Bush" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.24159, 0, 14.2634)
@@ -618,32 +596,28 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.24159, 0, 14.2634)
 [node name="Circle" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.99634, 0, 1.95403)
 
-[node name="Path" parent="Circle" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path" parent="Circle" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.108685, 0, 4.13011)
 circle1 = NodePath("..")
 circle2 = NodePath("../../Circle2")
-player = NodePath("../../Player")
 
-[node name="Path2" parent="Circle" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path2" parent="Circle" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(0.428241, 0, -0.903664, 0, 1, 0, 0.903664, 0, 0.428241, -3.80405, 0, 2.06505)
 circle1 = NodePath("..")
 circle2 = NodePath("../../CaveEntrance")
-player = NodePath("../../Player")
 
 [node name="Circle2" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.41808, 0, 10.0922)
 
-[node name="Path" parent="Circle2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path" parent="Circle2" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(0.541297, 0, 0.840831, 0, 1, 0, -0.840831, 0, 0.541297, -3.70867, 0, -1.88121)
 circle1 = NodePath("..")
 circle2 = NodePath("../../CaveEntrance")
-player = NodePath("../../Player")
 
-[node name="Path2" parent="Circle2" node_paths=PackedStringArray("circle1", "circle2", "player") instance=ExtResource("12_gokuo")]
+[node name="Path2" parent="Circle2" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("12_gokuo")]
 transform = Transform3D(0.559135, 0, 0.829077, 0, 1, 0, -0.829077, 0, 0.559135, 3.49367, 0, 2.2037)
 circle1 = NodePath("..")
 circle2 = NodePath("../../Berry Bush")
-player = NodePath("../../Player")
 
 [node name="ForestInsects" parent="." instance=ExtResource("10_7sasn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 6)
