@@ -14,9 +14,10 @@ func start_game():
 
 func finish_level_1():
 	#add_child(title_screen.instantiate())
-	await get_tree().create_timer(1).timeout
-	print("Here")
-	#add_child(cave_scene.instantiate())
+	await get_tree().create_timer(0.1).timeout
+	#print("Here")
+	#var cave = 
+	add_child(cave_scene.instantiate())
 
 func finish_game():
 	add_child(title_screen.instantiate())
