@@ -10,8 +10,10 @@ albedo_color = Color(0.239216, 0.407843, 0.811765, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="StreamFlow1" type="Area3D"]
+[node name="StreamFlow1" type="Area3D" node_paths=PackedStringArray("environmental", "narrate_environmental")]
 script = ExtResource("1_r4pnu")
+environmental = NodePath("EnvironmentalEvent2")
+narrate_environmental = NodePath("Narrate_Environmental")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -23,8 +25,8 @@ mesh = SubResource("SphereMesh_ltkxe")
 
 [node name="EnvironmentalEvent2" type="AkEvent3D" parent="."]
 event = {
-"id": 3609441159,
-"name": "Stream_Source"
+"id": 3106261316,
+"name": "Stream_Flow_1"
 }
 trigger_on = 1
 stop_on = 3
@@ -32,8 +34,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narrate_Environmental" type="AkEvent3D" parent="."]
 event = {
-"id": 2994956728,
-"name": "Stream_Source_Narration"
+"id": 1867833310,
+"name": "Stream_Narration"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[connection signal="end_of_event" from="Narrate_Environmental" to="." method="_on_narrate_environmental_end_of_event"]

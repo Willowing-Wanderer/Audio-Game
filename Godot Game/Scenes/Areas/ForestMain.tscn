@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1j0asybpwuhf"]
+[gd_scene load_steps=4 format=3 uid="uid://d1j0asybpwuhf"]
 
 [ext_resource type="Script" path="res://Scripts/ForestMain.gd" id="1_4djt5"]
+[ext_resource type="PackedScene" uid="uid://byyxtxk5u1yrq" path="res://Scenes/Characters/player.tscn" id="2_stgei"]
 [ext_resource type="PackedScene" uid="uid://b0ccojmiowmsc" path="res://Scenes/UI/ScreenCover.tscn" id="2_wlrir"]
 
 [node name="AkBank" type="AkBank"]
@@ -19,6 +20,8 @@ load_on = 1
 
 [node name="ForestMain" type="Node3D" parent="AkBank2"]
 script = ExtResource("1_4djt5")
+
+[node name="Player" parent="AkBank2/ForestMain" instance=ExtResource("2_stgei")]
 
 [node name="ColorRect" parent="AkBank2/ForestMain" instance=ExtResource("2_wlrir")]
 visible = false

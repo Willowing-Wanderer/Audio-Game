@@ -4,21 +4,21 @@
 [ext_resource type="Script" path="res://Scripts/Narrator.gd" id="3_sxwdk"]
 [ext_resource type="Script" path="res://Scripts/Inventory.gd" id="5_0abx7"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nndr8"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bh6x6"]
 albedo_color = Color(0.929412, 0.337255, 0.054902, 1)
 
 [sub_resource type="PrismMesh" id="PrismMesh_fwfd5"]
-material = SubResource("StandardMaterial3D_nndr8")
+material = SubResource("StandardMaterial3D_bh6x6")
 size = Vector3(0.5, 0.5, 0.25)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4xfgn"]
 size = Vector3(0.25, 0.25, 3)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_weo8d"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m14mp"]
 albedo_color = Color(0.27451, 0.47451, 0.768627, 0.454902)
 
 [sub_resource type="BoxMesh" id="BoxMesh_tb3ab"]
-material = SubResource("StandardMaterial3D_weo8d")
+material = SubResource("StandardMaterial3D_m14mp")
 size = Vector3(0.25, 0.25, 3)
 
 [node name="Player" type="Area3D" node_paths=PackedStringArray("hover_select", "hover_deselect")]

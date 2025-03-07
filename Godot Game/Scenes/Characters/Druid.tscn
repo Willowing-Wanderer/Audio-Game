@@ -10,12 +10,13 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="Druid" type="Area3D" node_paths=PackedStringArray("druid_hum", "druid_dialog", "druid_help", "druid_thanks", "narration_timer", "narrate_item")]
+[node name="Druid" type="Area3D" node_paths=PackedStringArray("druid_hum", "druid_dialog", "druid_help", "druid_thanks", "druid_restoration", "narration_timer", "narrate_item")]
 script = ExtResource("1_53nh0")
 druid_hum = NodePath("Druid_Hum")
 druid_dialog = NodePath("Druid_Dialog")
 druid_help = NodePath("Druid_Help")
 druid_thanks = NodePath("Druid_Thanks")
+druid_restoration = NodePath("Druid_Restoration")
 narration_timer = NodePath("Narration_Timer")
 narrate_item = NodePath("Narrate_Druid")
 
@@ -53,8 +54,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Druid_Thanks" type="AkEvent3D" parent="."]
 event = {
-"id": 3109325365,
-"name": "Druid_Thanks"
+"id": 15961761,
+"name": "Druid_Thanks_1"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -70,4 +71,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 [node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 4.8
 
+[node name="Druid_Restoration" type="AkEvent3D" parent="."]
+event = {
+"id": 3824697202,
+"name": "Druid_Restoration"
+}
+stop_on = 3
+
+[connection signal="end_of_event" from="Druid_Dialog" to="." method="_on_druid_dialog_end_of_event"]
+[connection signal="end_of_event" from="Druid_Help" to="." method="_on_druid_help_end_of_event"]
+[connection signal="end_of_event" from="Druid_Thanks" to="." method="_on_druid_thanks_end_of_event"]
 [connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]
+[connection signal="end_of_event" from="Druid_Restoration" to="." method="_on_druid_restoration_end_of_event"]

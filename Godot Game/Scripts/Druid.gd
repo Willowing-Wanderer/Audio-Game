@@ -6,6 +6,7 @@ extends Area3D
 @export var druid_dialog:AkEvent3D
 @export var druid_help:AkEvent3D
 @export var druid_thanks:AkEvent3D
+@export var druid_restoration:AkEvent3D
 
 # Needed if you want to do anything with the player's controls
 @export var player:Node3D
@@ -35,6 +36,9 @@ func stop_narration():
 	narration_timer.stop()
 	
 func _ready():
+	#TODO: Remove this before shipping
+	druid_thanks.post_event()
+	
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	druid_hum.post_event()
@@ -48,15 +52,28 @@ func on_click(selected):
 	if(selected == "Crystal"):
 		player.remove_from_inventory("Crystal")
 		druid_thanks.post_event()
-		await get_tree().create_timer(5).timeout
-		quest_complete.emit()
 	else:
 		if(first_click):
+			print("first click")
 			druid_dialog.post_event()
 			first_click = false
-			await get_tree().create_timer(50).timeout
 		else:
 			druid_help.post_event()
 			await get_tree().create_timer(6).timeout
-		player.set_cutscene(false)
-		druid_hum.post_event()
+
+func _on_druid_thanks_end_of_event(data):
+	druid_restoration.post_event()
+
+func _on_druid_dialog_end_of_event(data):
+	player.set_cutscene(false)
+	druid_hum.post_event()
+
+func _on_druid_help_end_of_event(data):
+	player.set_cutscene(false)
+	druid_hum.post_event()
+
+func _on_druid_restoration_end_of_event(data):
+	player.set_cutscene(false)
+	quest_complete.emit()
+
+

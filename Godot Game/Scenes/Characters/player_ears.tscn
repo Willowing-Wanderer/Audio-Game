@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://86uxk2w8f6te"]
+
+[node name="player_ears" type="Node3D"]
+
+[node name="AkListener3D" type="AkListener3D" parent="."]
+is_spatial = true
+transform = Transform3D(-1, 0, 8.74227e-08, 0, 1, 0, -8.74227e-08, 0, -1, 0, 0, 0)

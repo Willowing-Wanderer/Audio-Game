@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7E636C2E-7F52-6864-7B0A-DD19A4A71B51}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7919BCA5-C5E6-C422-32FF-8EA683226469}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -306,6 +306,10 @@
 				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Flyoff.wav</ShortName>
 					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Event_Placeholder.wav</ShortName>
+					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
 				</File>
 				<File Id="686063000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environmental_Placeholder (1).wav</ShortName>
@@ -601,6 +605,16 @@
 						<MediaRef Id="1048699721"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3931060456" Name="Druid_Open_Path">
+					<MediaRefs>
+						<MediaRef Id="651076579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2335167966" Name="Druid_Path_Dialog">
+					<MediaRefs>
+						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3824697202" Name="Druid_Restoration">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
@@ -661,17 +675,17 @@
 				</Event>
 				<Event Id="3565432312" Name="Forest_Animals">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1856253495" Name="Forest_Birds">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2154420340" Name="Forest_Insects">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194724780"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1580677862" Name="Hate_Narration">
@@ -1026,5 +1040,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C820D769-BDA1-A151-C42A-8202AD36B79E}</FileHash>
+	<FileHash>{58EAB8D0-D4AE-0C8E-FAC1-93684EF11201}</FileHash>
 </SoundBanksInfo>

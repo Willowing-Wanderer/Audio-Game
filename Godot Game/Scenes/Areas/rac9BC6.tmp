@@ -1,0 +1,97 @@
+[gd_scene load_steps=8 format=3 uid="uid://chy1yjgdcqplw"]
+
+[ext_resource type="Script" path="res://Scripts/raccoon_scene.gd" id="1_a5oek"]
+[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_88yt1"]
+[ext_resource type="PackedScene" uid="uid://hlssl26jhl27" path="res://Scenes/Characters/Druid.tscn" id="3_3lh8a"]
+[ext_resource type="PackedScene" uid="uid://bvme6p87bknvw" path="res://Scenes/Characters/Raccoon.tscn" id="4_qmtsh"]
+[ext_resource type="PackedScene" uid="uid://75074s6brwaf" path="res://Scenes/Characters/Pixie.tscn" id="5_s6fus"]
+[ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
+[ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="7_5w7yi"]
+
+[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Path_Dialog", "Druid_Open_Path")]
+script = ExtResource("1_a5oek")
+narrate_controls = NodePath("Narrate_Controls")
+narrate_ending = NodePath("Narrate_Ending")
+narrate_start = NodePath("Narrate_Start")
+forest_ambience = NodePath("Forest_Ambience")
+Druid_Path_Dialog = NodePath("Druid_Path_Dialog")
+Druid_Open_Path = NodePath("Druid_Open_Path")
+
+[node name="Listener" type="AkListener3D" parent="."]
+
+[node name="Circle" parent="." instance=ExtResource("2_88yt1")]
+
+[node name="Druid" parent="Circle" instance=ExtResource("3_3lh8a")]
+
+[node name="Circle2" parent="." instance=ExtResource("2_88yt1")]
+transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
+
+[node name="Raccoon" parent="Circle2" node_paths=PackedStringArray("circle") instance=ExtResource("4_qmtsh")]
+transform = Transform3D(0.767232, 0, -0.641369, 0, 1, 0, 0.641369, 0, 0.767232, 0, 0, 0)
+circle = NodePath("..")
+
+[node name="Pixie" parent="Circle2" instance=ExtResource("5_s6fus")]
+transform = Transform3D(-0.807918, 0, 0.589295, 0, 1, 0, -0.589295, 0, -0.807918, 0, 0, 0)
+
+[node name="Circle3" parent="." instance=ExtResource("2_88yt1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
+
+[node name="AppleTree" parent="Circle3" node_paths=PackedStringArray("circle") instance=ExtResource("6_kuire")]
+transform = Transform3D(-0.78238, 0, -0.622801, 0, 1, 0, 0.622801, 0, -0.78238, 0, 0, 0)
+circle = NodePath("..")
+
+[node name="Path" parent="." node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("7_5w7yi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.104803, 0, -3.89844)
+circle1 = NodePath("../Circle")
+circle2 = NodePath("../Circle2")
+
+[node name="Path2" parent="." node_paths=PackedStringArray("circle1", "circle2", "narrate_path") instance=ExtResource("7_5w7yi")]
+transform = Transform3D(0.810778, 0, -0.585354, 0, 1, 0, 0.585354, 0, 0.810778, 2.3326, 0, -11.1553)
+circle1 = NodePath("../Circle2")
+circle2 = NodePath("../Circle3")
+narrate_path = NodePath("../Path/Narrate_Path")
+
+[node name="Narrate_Ending" type="AkEvent3D" parent="."]
+event = {
+"id": 2633894792,
+"name": "Narrate_Ending"
+}
+stop_on = 3
+
+[node name="Forest_Ambience" type="AkEvent3D" parent="."]
+event = {
+"id": 2084169529,
+"name": "Forest_Ambience"
+}
+stop_on = 3
+
+[node name="Narrate_Controls" type="AkEvent3D" parent="."]
+event = {
+"id": 2696084023,
+"name": "Narrate_Controls"
+}
+stop_on = 3
+
+[node name="Narrate_Start" type="AkEvent3D" parent="."]
+event = {
+"id": 3006996971,
+"name": "Narrate_Start"
+}
+stop_on = 3
+
+[node name="Druid_Path_Dialog" type="AkEvent3D" parent="."]
+event = {
+"id": 2335167966,
+"name": "Druid_Path_Dialog"
+}
+
+[node name="Druid_Open_Path" type="AkEvent3D" parent="."]
+event = {
+"id": 3931060456,
+"name": "Druid_Open_Path"
+}
+
+[connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
+[connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]
+[connection signal="end_of_event" from="Druid_Path_Dialog" to="." method="_on_druid_path_dialog_end_of_event"]
+[connection signal="end_of_event" from="Druid_Open_Path" to="." method="_on_druid_open_path_end_of_event"]
