@@ -1,16 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	15961761	Druid_Thanks_1			\Default Work Unit\Phase 2 Events\Druid\Druid_Thanks_1	
+	15961762	Druid_Thanks_2			\Default Work Unit\Phase 2 Events\Druid\Druid_Thanks_2	
 	49143091	Item_Ping			\Default Work Unit\Environmentals\Item_Ping	
 	54298587	Facing			\Default Work Unit\UI\Facing	
 	67176023	Apple			\Default Work Unit\Items\Apple	
-	89421141	Exist_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Exist_Narration	
 	98240150	Die_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Die_Whisper	
 	111733845	Alone_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Alone_Whisper	
 	156193455	Cave_Entrance			\Default Work Unit\Phase 2 Events\Cave\Cave_Entrance	
 	162560690	Tree_Swish			\Default Work Unit\Environmentals\Tree_Swish	
 	267359535	Narrate_Druid			\Default Work Unit\Narrations\Narrate_Druid	
 	331307707	Cubs_Dialog			\Default Work Unit\Phase 2 Events\Bear Cubs\Cubs_Dialog	
-	352598880	Together_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Together_Narration	
 	408558777	Bears_Playing			\Default Work Unit\Phase 2 Events\Mother Bear\Bears_Playing	
 	422905841	Crystal_Item			\Default Work Unit\Items\Crystal_Item	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
@@ -25,21 +24,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	777395070	Bear_Pacing			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Pacing	
 	828014134	Hate_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Hate_Whisper	
 	848414374	Pixie_Giggle			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Giggle	
-	876613367	Druid_Help			\Default Work Unit\Phase 2 Events\Druid\Druid_Help	
-	889140339	Cave_Path_Narration			\Default Work Unit\Phase 2 Events\Cave\Cave_Path_Narration	
+	889140339	Cave_Path_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Cave_Path_Narration	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
 	992193856	South			\Default Work Unit\Phase 2 Events\Orientation\South	
 	1008262333	Path_Wind			\Default Work Unit\Environmentals\Path_Wind	
 	1036549193	Pixie_Humming_2			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Humming_2	
-	1064355402	Survive_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Survive_Narration	
 	1075103351	Pixie_Flyoff			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Flyoff	
+	1108912979	Forest_Path_Narration			\Default Work Unit\Phase 2 Events\Raccoon_Paths\Forest_Path_Narration	
 	1125471007	Bat_Bumping			\Default Work Unit\Phase 2 Events\Bat\Bat_Bumping	
 	1127138550	Crystal_Hum			\Default Work Unit\Environmentals\Crystal_Hum	
+	1140924972	To_Campsite_Path_Narration			\Default Work Unit\Phase 2 Events\Raccoon_Paths\To_Campsite_Path_Narration	
 	1146653945	Raccoon_Eating			\Default Work Unit\Environmentals\Raccoon_Eating	
 	1184354894	Myself_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Myself_Whisper	
 	1251517266	Apples_Fall			\Default Work Unit\SoundEvents\Apples_Fall	
 	1286676330	Pixie_Narration_2			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Narration_2	
-	1294145958	We_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\We_Narration	
 	1304319317	Insect_Catch			\Default Work Unit\Phase 2 Events\Insects\Insect_Catch	
 	1352158686	Click_Fail			\Default Work Unit\UI\Click_Fail	
 	1362342512	Cave_Entrance_Narration			\Default Work Unit\Phase 2 Events\Cave\Cave_Entrance_Narration	
@@ -49,7 +47,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1455232537	Cave_Ambience			\Default Work Unit\Phase 2 Events\Cave\Cave_Ambience	
 	1466384055	Interact			\Default Work Unit\UI\Interact	
 	1523466505	Hover_Deselect			\Default Work Unit\UI\Hover_Deselect	
-	1580677862	Hate_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Hate_Narration	
 	1585408714	Apart_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Apart_Whisper	
 	1621431280	Hungry_Raccoon			\Default Work Unit\Environmentals\Hungry_Raccoon	
 	1652453217	Cubs_Eating			\Default Work Unit\Phase 2 Events\Bear Cubs\Cubs_Eating	
@@ -65,7 +62,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1918198543	Druid_Help_1			\Default Work Unit\Phase 2 Events\Druid\Druid_Help_1	
 	2084169529	Forest_Ambience			\Default Work Unit\SoundEvents\Forest_Ambience	
 	2129084912	Raccoon_Thanks			\Default Work Unit\Dialogue\Raccoon_Thanks	
-	2141558489	Alone_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Alone_Narration	
 	2154420340	Forest_Insects			\Default Work Unit\Phase 2 Events\Forest\Forest_Insects	
 	2194565643	Narrate_Apple			\Default Work Unit\Narrations\Narrate_Apple	
 	2212254451	Bat_Cavern_Locked			\Default Work Unit\Phase 2 Events\Bat\Bat_Cavern_Locked	
@@ -76,8 +72,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2335167966	Druid_Path_Dialog			\Default Work Unit\Phase 2 Events\Druid\Druid_Path_Dialog	
 	2366200506	Bear_Dialog			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Dialog	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
-	2455605676	Fear_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Fear_Narration	
-	2464187610	Apart_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Apart_Narration	
 	2580949965	Narrate_Crystal			\Default Work Unit\Narrations\Narrate_Crystal	
 	2591844858	Pixie_Trade_2			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Trade_2	
 	2633894792	Narrate_Ending			\Default Work Unit\Narrations\Narrate_Ending	
@@ -88,45 +82,37 @@ Event	ID	Name			Wwise Object Path	Notes
 	2696084023	Narrate_Controls			\Default Work Unit\Narrations\Narrate_Controls	
 	2704494418	Pixie1_Dialog			\Default Work Unit\Phase 2 Events\Pixies\Pixie1_Dialog	
 	2767651361	Bat_Dialog			\Default Work Unit\Phase 2 Events\Bat\Bat_Dialog	
-	2778878433	I_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\I_Narration	
-	2818834666	Love_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Love_Narration	
 	2829008681	Bear_Thanks			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Thanks	
 	2842092411	Mushroom_Item			\Default Work Unit\Phase 2 Events\Mushroom Patch\Mushroom_Item	
 	2963949393	Bat_Narration			\Default Work Unit\Phase 2 Events\Bat\Bat_Narration	
 	2994956728	Stream_Source_Narration			\Default Work Unit\Phase 2 Events\Stream\Stream_Source_Narration	
 	3006996971	Narrate_Start			\Default Work Unit\Narrations\Narrate_Start	
 	3007764503	Belong_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Belong_Whisper	
-	3047438901	You_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\You_Narration	
 	3106261316	Stream_Flow_1			\Default Work Unit\Phase 2 Events\Stream\Stream_Flow_1	
 	3106261319	Stream_Flow_2			\Default Work Unit\Phase 2 Events\Stream\Stream_Flow_2	
-	3109325365	Druid_Thanks			\Default Work Unit\Phase 2 Events\Druid\Druid_Thanks	
 	3224125185	You_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\You_Whisper	
 	3230454396	Fear_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Fear_Whisper	
 	3279179030	Insect_Item_Narration			\Default Work Unit\Phase 2 Events\Insects\Insect_Item_Narration	
 	3300195252	Pixie_Aww			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Aww	
 	3363276846	Tree_Shake			\Default Work Unit\SoundEvents\Tree_Shake	
 	3393591398	Druid_Dialog			\Default Work Unit\Phase 2 Events\Druid\Druid_Dialog	
+	3417648280	To_AppleTree_Path_Narration			\Default Work Unit\Phase 2 Events\Raccoon_Paths\To_AppleTree_Path_Narration	
 	3477674050	Narrate_Apple_Tree			\Default Work Unit\Narrations\Narrate_Apple_Tree	
 	3484778486	We_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\We_Whisper	
 	3565432312	Forest_Animals			\Default Work Unit\Phase 2 Events\Forest\Forest_Animals	
 	3609441159	Stream_Source			\Default Work Unit\Phase 2 Events\Stream\Stream_Source	
-	3703158342	Die_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Die_Narration	
 	3737277484	Insect_Cloud_Narration			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud_Narration	
 	3751069619	Insect_Cloud			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud	
-	3760220380	Here_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Here_Narration	
 	3824697202	Druid_Restoration			\Default Work Unit\Phase 2 Events\Druid\Druid_Restoration	
 	3828115085	Insect_Item			\Default Work Unit\Phase 2 Events\Insects\Insect_Item	
 	3931060456	Druid_Open_Path			\Default Work Unit\Phase 2 Events\Druid\Druid_Open_Path	
 	3971078520	Hover_Select			\Default Work Unit\UI\Hover_Select	
-	3984251230	Myself_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Myself_Narration	
 	3995925126	Druid_Dialog_1			\Default Work Unit\Phase 2 Events\Druid\Druid_Dialog_1	
 	4000258095	Backdrop_1			\Default Work Unit\Backdrops\Backdrop_1	
 	4020366015	Black_Wind			\Default Work Unit\Backdrops\Black_Wind	
-	4033688784	Asleep_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Asleep_Narration	
 	4104917964	Narrate_Path			\Default Work Unit\Narrations\Narrate_Path	
 	4226296884	Bear_Narration_1			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Narration_1	
 	4226296887	Bear_Narration_2			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Narration_2	
-	4249084651	Belong_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Belong_Narration	
 	4279573130	North			\Default Work Unit\Phase 2 Events\Orientation\North	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

@@ -25,15 +25,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.14197)
 circle1 = NodePath("..")
 circle2 = NodePath("../../CaveFoyer")
 
-[node name="CollisionShape3D" parent="CaveEntrance/Entrance" index="0"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
-
-[node name="MeshInstance3D" parent="CaveEntrance/Entrance" index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
-
-[node name="Path_Sound_1" parent="CaveEntrance/Entrance" index="2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
-
 [node name="Path_Sound_2" parent="CaveEntrance/Entrance" index="3"]
 transform = Transform3D(-1, 0, -8.75443e-08, 0, 1, 0, 8.75443e-08, 0, -1, 0, 0, 0)
 
@@ -42,10 +33,6 @@ event = {
 "id": 1362342512,
 "name": "Cave_Entrance_Narration"
 }
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
-
-[node name="Footsteps" parent="CaveEntrance/Entrance" index="6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="CaveFoyer" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -23.8825, 0, 5.8565)
@@ -75,12 +62,6 @@ event = {
 "name": "I_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern1/I" index="4"]
-event = {
-"id": 2778878433,
-"name": "I_Narration"
-}
-
 [node name="You" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(-0.0173128, 0, -0.99985, 0, 1, 0, 0.99985, 0, -0.0173128, 4.1269, 0, 0.204298)
 circle1 = NodePath("..")
@@ -98,14 +79,8 @@ event = {
 "name": "You_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern1/You" index="4"]
-event = {
-"id": 3047438901,
-"name": "You_Narration"
-}
-
 [node name="We" parent="WhisperingCavern1" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0378566, 0, -4.30954)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0378561, 0, -4.30954)
 circle1 = NodePath("..")
 circle2 = NodePath("../../WhisperingCavern4")
 
@@ -119,12 +94,6 @@ event = {
 event = {
 "id": 3484778486,
 "name": "We_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern1/We" index="4"]
-event = {
-"id": 1294145958,
-"name": "We_Narration"
 }
 
 [node name="WhisperingCavern2" parent="." instance=ExtResource("1_w2ttr")]
@@ -147,12 +116,6 @@ event = {
 "name": "Love_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern2/Love" index="4"]
-event = {
-"id": 2818834666,
-"name": "Love_Narration"
-}
-
 [node name="Hate" parent="WhisperingCavern2" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.66143, 0, 0.750007, 0, 1, 0, -0.750007, 0, 0.66143, -3.16324, 0, -2.79395)
 circle1 = NodePath("..")
@@ -168,12 +131,6 @@ event = {
 event = {
 "id": 828014134,
 "name": "Hate_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern2/Hate" index="4"]
-event = {
-"id": 1580677862,
-"name": "Hate_Narration"
 }
 
 [node name="WhisperingCavern13" parent="." instance=ExtResource("1_w2ttr")]
@@ -196,12 +153,6 @@ event = {
 "name": "You_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern13/You" index="4"]
-event = {
-"id": 3047438901,
-"name": "You_Narration"
-}
-
 [node name="Myself" parent="WhisperingCavern13" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.419611, 0, 0.907704, 0, 1, 0, -0.907704, 0, 0.419611, -4.00237, 0, -1.26998)
 circle1 = NodePath("..")
@@ -217,12 +168,6 @@ event = {
 event = {
 "id": 1184354894,
 "name": "Myself_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern13/Myself" index="4"]
-event = {
-"id": 3984251230,
-"name": "Myself_Narration"
 }
 
 [node name="WhisperingCavern14" parent="." instance=ExtResource("1_w2ttr")]
@@ -243,12 +188,6 @@ event = {
 event = {
 "id": 3230454396,
 "name": "Fear_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern14/Fear" index="4"]
-event = {
-"id": 2455605676,
-"name": "Fear_Narration"
 }
 
 [node name="WhisperingCavern15" parent="." instance=ExtResource("1_w2ttr")]
@@ -280,12 +219,6 @@ event = {
 "name": "Exist_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern3/Exist" index="4"]
-event = {
-"id": 89421141,
-"name": "Exist_Narration"
-}
-
 [node name="Belong" parent="WhisperingCavern3" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.763221, 0, 0.646137, 0, 1, 0, -0.646137, 0, 0.763221, 2.56103, 0, 3.26531)
 circle1 = NodePath("..")
@@ -301,12 +234,6 @@ event = {
 event = {
 "id": 3007764503,
 "name": "Belong_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern3/Belong" index="4"]
-event = {
-"id": 4249084651,
-"name": "Belong_Narration"
 }
 
 [node name="WhisperingCavern6" parent="." instance=ExtResource("1_w2ttr")]
@@ -327,12 +254,6 @@ event = {
 event = {
 "id": 111733845,
 "name": "Alone_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern6/Alone" index="4"]
-event = {
-"id": 2141558489,
-"name": "Alone_Narration"
 }
 
 [node name="StreamFlow1" parent="WhisperingCavern6" instance=ExtResource("4_ejpsh")]
@@ -364,12 +285,6 @@ event = {
 "name": "Here_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern7/Here" index="4"]
-event = {
-"id": 3760220380,
-"name": "Here_Narration"
-}
-
 [node name="Asleep" parent="WhisperingCavern7" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.893293, 0, 0.449475, 0, 1, 0, -0.449475, 0, 0.893293, 1.69419, 0, 3.90604)
 circle1 = NodePath("..")
@@ -385,12 +300,6 @@ event = {
 event = {
 "id": 645753248,
 "name": "Asleep_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern7/Asleep" index="4"]
-event = {
-"id": 4033688784,
-"name": "Asleep_Narration"
 }
 
 [node name="StreamFlow1" parent="WhisperingCavern7" instance=ExtResource("4_ejpsh")]
@@ -431,12 +340,6 @@ event = {
 "name": "Survive_Whisper"
 }
 
-[node name="Narrate_Path" parent="WhisperingCavern4/Survive" index="4"]
-event = {
-"id": 1064355402,
-"name": "Survive_Narration"
-}
-
 [node name="Die" parent="WhisperingCavern4" node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("3_hkuyf")]
 transform = Transform3D(0.684051, 0, -0.729434, 0, 1, 0, 0.729434, 0, 0.684051, 3.07991, 0, -2.80951)
 circle1 = NodePath("..")
@@ -452,12 +355,6 @@ event = {
 event = {
 "id": 98240150,
 "name": "Die_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern4/Die" index="4"]
-event = {
-"id": 3703158342,
-"name": "Die_Narration"
 }
 
 [node name="WhisperingCavern11" parent="." instance=ExtResource("1_w2ttr")]
@@ -478,12 +375,6 @@ event = {
 event = {
 "id": 1585408714,
 "name": "Apart_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern11/Apart" index="4"]
-event = {
-"id": 2464187610,
-"name": "Apart_Narration"
 }
 
 [node name="StreamFlow1" parent="WhisperingCavern11" instance=ExtResource("4_ejpsh")]
@@ -510,12 +401,6 @@ event = {
 event = {
 "id": 1414056144,
 "name": "Together_Whisper"
-}
-
-[node name="Narrate_Path" parent="WhisperingCavern5/Together" index="4"]
-event = {
-"id": 352598880,
-"name": "Together_Narration"
 }
 
 [node name="StreamSource" parent="." instance=ExtResource("1_w2ttr")]

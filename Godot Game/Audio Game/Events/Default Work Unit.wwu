@@ -752,7 +752,7 @@
 						</Folder>
 						<Folder Name="Druid" ID="{9EA13FBB-B4CD-4F82-AC35-8EF0963F704D}" ShortID="555737724">
 							<ChildrenList>
-								<Event Name="Druid_Thanks_1" ID="{B090012A-078B-47C9-A14B-F34E2B526999}">
+								<Event Name="Druid_Thanks_2" ID="{B090012A-078B-47C9-A14B-F34E2B526999}">
 									<ChildrenList>
 										<Action Name="" ID="{C0E75D93-BA0A-4B0E-88DB-83733841AA13}" ShortID="624114366">
 											<ReferenceList>
@@ -785,17 +785,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Druid_Help_1" ID="{DF3BD1D9-DA13-4086-B024-ABF825FF078C}">
-									<ChildrenList>
-										<Action Name="" ID="{F2B6FEFA-7527-4B37-9C36-6432E60BB382}" ShortID="419253670">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Druid_Restoration" ID="{5375B839-4BA6-4D41-A434-E4F3977D8BE2}">
 									<ChildrenList>
 										<Action Name="" ID="{4C194E1D-8F2A-4782-90B0-BA01A446B05E}" ShortID="816747717">
@@ -818,7 +807,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Druid_Thanks" ID="{880F38EB-D315-4C98-B2D2-9ECC91B71E9C}">
+								<Event Name="Druid_Thanks_1" ID="{880F38EB-D315-4C98-B2D2-9ECC91B71E9C}">
 									<ChildrenList>
 										<Action Name="" ID="{76964CF6-8FB1-4A80-BA3D-EC8DB6C0DDB1}" ShortID="958158265">
 											<ReferenceList>
@@ -840,7 +829,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Druid_Help" ID="{C17FF7F2-8391-4304-ABCF-34AAC1E0CE8F}">
+								<Event Name="Druid_Help_1" ID="{C17FF7F2-8391-4304-ABCF-34AAC1E0CE8F}">
 									<ChildrenList>
 										<Action Name="" ID="{0B0126A8-F502-41E1-8316-F2B4FBDA2C75}" ShortID="790280318">
 											<ReferenceList>
@@ -1214,174 +1203,9 @@
 								</Folder>
 								<Folder Name="Narrations" ID="{E874CD8D-1D4A-4DEE-A2A5-6F6AD3BDA7EB}" ShortID="1052378470">
 									<ChildrenList>
-										<Event Name="Alone_Narration" ID="{D1E1B532-11D0-4BB0-B012-682B2B5B4264}">
+										<Event Name="Cave_Path_Narration" ID="{FAED628B-42EA-42C0-8BA5-339619641FB6}">
 											<ChildrenList>
-												<Action Name="" ID="{656B15D9-FC9F-4E83-BCA4-7C5F106FA3E4}" ShortID="1072778744">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Apart_Narration" ID="{3735DBB0-98B6-4B7B-B89F-126596034E18}">
-											<ChildrenList>
-												<Action Name="" ID="{19864C26-6179-4A74-965A-B7342DF04308}" ShortID="248043928">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Asleep_Narration" ID="{27557C70-8ADA-49A0-8F73-701ADF37B943}">
-											<ChildrenList>
-												<Action Name="" ID="{7774DFCA-8568-4AB6-8C78-A5B90818C736}" ShortID="429275995">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Belong_Narration" ID="{EF8A96F4-A28B-45B3-9601-3883DAB82A9A}">
-											<ChildrenList>
-												<Action Name="" ID="{161337F2-33F9-42A1-BF01-BEC0C1647C44}" ShortID="948973257">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Die_Narration" ID="{5658C4A0-D070-49FF-9553-22E70A1FEB08}">
-											<ChildrenList>
-												<Action Name="" ID="{C6138430-0FA5-465A-AC57-115D25E88704}" ShortID="465737836">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Exist_Narration" ID="{A54CF1F6-06E6-4A88-9539-BBDBEBB230B3}">
-											<ChildrenList>
-												<Action Name="" ID="{0306AFAC-780C-44D4-956B-592731DD4238}" ShortID="758135743">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Fear_Narration" ID="{E79ACA50-CF43-4D42-9AF1-404F124A82BE}">
-											<ChildrenList>
-												<Action Name="" ID="{B58B9243-04E1-438B-A69A-F8F781BA8D70}" ShortID="940553894">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Hate_Narration" ID="{BDA63EEA-7FA0-4F18-86EC-57276EA2E63D}">
-											<ChildrenList>
-												<Action Name="" ID="{69893C4B-58B8-48FF-877A-CB9CFB9CD9A4}" ShortID="602104183">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Here_Narration" ID="{9BAACD85-BFA4-4209-91B8-57E7ED8E20BC}">
-											<ChildrenList>
-												<Action Name="" ID="{B4D5A4F8-4697-45B8-AF1E-112CB485486F}" ShortID="75935231">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="I_Narration" ID="{D6D24623-EF10-44CE-B568-41F163E86751}">
-											<ChildrenList>
-												<Action Name="" ID="{8A3675A8-A686-4809-96F1-4BC1A6E35D52}" ShortID="970177145">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Love_Narration" ID="{5729BDC8-C93C-44DF-A3EF-1EEDF11D35C9}">
-											<ChildrenList>
-												<Action Name="" ID="{BD4C7864-691C-4503-98AF-FA8472BA905F}" ShortID="1012771100">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Myself_Narration" ID="{171EF197-ED79-46B9-BB34-6E88E710DA36}">
-											<ChildrenList>
-												<Action Name="" ID="{C71D48BF-55C3-4EE7-A63F-73D0F56E0480}" ShortID="998671846">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Together_Narration" ID="{8A3F0270-FECF-42A2-BD05-EA5750605236}">
-											<ChildrenList>
-												<Action Name="" ID="{7C56FED8-28BD-45F0-B33A-46E8B2D9B083}" ShortID="154603094">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Survive_Narration" ID="{FF659567-3947-4EE8-92EE-8BB8CF22E924}">
-											<ChildrenList>
-												<Action Name="" ID="{B33F3100-26EA-40CD-B573-C8F9C64FF3E6}" ShortID="286585202">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="We_Narration" ID="{0456AB3A-EEB9-4B8B-9F13-C96104740BE1}">
-											<ChildrenList>
-												<Action Name="" ID="{8A329CE5-4560-44CA-9C56-C4421CB83476}" ShortID="731387399">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="You_Narration" ID="{619A2525-BE77-4FFB-940F-1973E7105088}">
-											<ChildrenList>
-												<Action Name="" ID="{6F1390B2-1233-46E0-B281-A34F9207478A}" ShortID="244593471">
+												<Action Name="" ID="{A17434DE-66CB-43AC-8F28-7D6CE3C9DF2F}" ShortID="1040151989">
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
@@ -1421,17 +1245,6 @@
 								<Event Name="Cave_Entrance_Narration" ID="{22767686-26EE-4298-BE34-53D339C04007}">
 									<ChildrenList>
 										<Action Name="" ID="{38506E43-7C58-4CE4-9B77-9833DAB2A5FD}" ShortID="260139196">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Cave_Path_Narration" ID="{FAED628B-42EA-42C0-8BA5-339619641FB6}">
-									<ChildrenList>
-										<Action Name="" ID="{A17434DE-66CB-43AC-8F28-7D6CE3C9DF2F}" ShortID="1040151989">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
@@ -1531,6 +1344,43 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Raccoon_Paths" ID="{3B2C7877-3871-4323-9B3B-4F8FD96894A1}" ShortID="573907281">
+							<ChildrenList>
+								<Event Name="To_Campsite_Path_Narration" ID="{C29F9A7C-A952-45F1-8D4C-C30F29786B9A}">
+									<ChildrenList>
+										<Action Name="" ID="{D2529B9A-8A17-44A4-A7E9-220286A8AFE1}" ShortID="393525612">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Forest_Path_Narration" ID="{0DF57CBB-A631-43C3-98C9-DC46F515C8ED}">
+									<ChildrenList>
+										<Action Name="" ID="{FF433255-E7E5-4A8D-A591-9B2C22A67C11}" ShortID="294613609">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="To_AppleTree_Path_Narration" ID="{A061F7ED-337C-41C4-A1C0-4EF494DF6E8C}">
+									<ChildrenList>
+										<Action Name="" ID="{38EAA6D5-E6EF-451C-AF86-13C1122579AE}" ShortID="826325156">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
