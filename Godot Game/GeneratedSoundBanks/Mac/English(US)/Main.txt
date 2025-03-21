@@ -16,6 +16,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
 	479262342	Cave_Footsteps			\Default Work Unit\Phase 2 Events\Cave\Cave_Footsteps	
 	509748587	Cubs_Narration			\Default Work Unit\Phase 2 Events\Bear Cubs\Cubs_Narration	
+	516307540	Path_Southwest_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_Southwest_Narration	
 	529018174	East			\Default Work Unit\Phase 2 Events\Orientation\East	
 	580890269	I_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\I_Whisper	
 	623248687	Raccoon_Thanks_2			\Default Work Unit\Dialogue\Raccoon_Thanks_2	
@@ -63,6 +64,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1869852890	Raccoon_Go_Away			\Default Work Unit\Dialogue\Raccoon_Go_Away	
 	1918198540	Druid_Help_2			\Default Work Unit\Phase 2 Events\Druid\Druid_Help_2	
 	1918198543	Druid_Help_1			\Default Work Unit\Phase 2 Events\Druid\Druid_Help_1	
+	1996543922	Path_Northwest_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_Northwest_Narration	
+	2004849428	Path_Northeast_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_Northeast_Narration	
 	2084169529	Forest_Ambience			\Default Work Unit\SoundEvents\Forest_Ambience	
 	2129084912	Raccoon_Thanks			\Default Work Unit\Dialogue\Raccoon_Thanks	
 	2154420340	Forest_Insects			\Default Work Unit\Phase 2 Events\Forest\Forest_Insects	
@@ -121,6 +124,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4104917964	Narrate_Path			\Default Work Unit\Narrations\Narrate_Path	
 	4226296884	Bear_Narration_1			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Narration_1	
 	4226296887	Bear_Narration_2			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Narration_2	
+	4262209266	Path_Southeast_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_Southeast_Narration	
 	4279573130	North			\Default Work Unit\Phase 2 Events\Orientation\North	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

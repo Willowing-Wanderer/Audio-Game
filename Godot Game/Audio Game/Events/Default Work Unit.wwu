@@ -1478,6 +1478,40 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Path_Northeast_Narration" ID="{3197ABDE-970F-4D85-85C9-BA505AE6B8BD}">
+									<ChildrenList>
+										<Action Name="" ID="{523136AA-1E62-4302-B700-033202F1969D}" ShortID="1015007297">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Path_Northwest_Narration" ID="{2BDB84D3-0F5F-4A6C-A538-A7277D1A72E1}">
+									<ChildrenList>
+										<Action Name="" ID="{56B43DB7-ADE0-4656-9C96-D0C260F76D23}" ShortID="227419634">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Path_Southwest_Narration" ID="{3000937E-AD93-419F-A8EE-6108FC0FA9C1}"/>
+								<Event Name="Path_Southeast_Narration" ID="{05C0CDC5-7776-4FAB-B9E0-E4673B10A402}">
+									<ChildrenList>
+										<Action Name="" ID="{6BE00F93-1249-4305-BB29-70EEDDC319A4}" ShortID="976646318">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
