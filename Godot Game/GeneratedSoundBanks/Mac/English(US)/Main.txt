@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	162560690	Tree_Swish			\Default Work Unit\Environmentals\Tree_Swish	
 	267359535	Narrate_Druid			\Default Work Unit\Narrations\Narrate_Druid	
 	331307707	Cubs_Dialog			\Default Work Unit\Phase 2 Events\Bear Cubs\Cubs_Dialog	
+	344680759	Path_East_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_East_Narration	
 	408558777	Bears_Playing			\Default Work Unit\Phase 2 Events\Mother Bear\Bears_Playing	
 	422905841	Crystal_Item			\Default Work Unit\Items\Crystal_Item	
 	467838998	Pick_Up			\Default Work Unit\UI\Pick_Up	
@@ -25,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	828014134	Hate_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Hate_Whisper	
 	848414374	Pixie_Giggle			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Giggle	
 	889140339	Cave_Path_Narration			\Default Work Unit\Phase 2 Events\Whispering Caverns\Narrations\Cave_Path_Narration	
+	909344094	Path_South			\Default Work Unit\Phase 2 Events\Path Updates\Path_South	
 	911107020	Narrate_Nothing			\Default Work Unit\Narrations\Narrate_Nothing	
 	992193856	South			\Default Work Unit\Phase 2 Events\Orientation\South	
 	1008262333	Path_Wind			\Default Work Unit\Environmentals\Path_Wind	
@@ -39,6 +41,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1251517266	Apples_Fall			\Default Work Unit\SoundEvents\Apples_Fall	
 	1286676330	Pixie_Narration_2			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Narration_2	
 	1304319317	Insect_Catch			\Default Work Unit\Phase 2 Events\Insects\Insect_Catch	
+	1325065690	Path_West			\Default Work Unit\Phase 2 Events\Path Updates\Path_West	
 	1352158686	Click_Fail			\Default Work Unit\UI\Click_Fail	
 	1362342512	Cave_Entrance_Narration			\Default Work Unit\Phase 2 Events\Cave\Cave_Entrance_Narration	
 	1391500537	Mushroom_Pick			\Default Work Unit\Phase 2 Events\Mushroom Patch\Mushroom_Pick	
@@ -72,6 +75,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2335167966	Druid_Path_Dialog			\Default Work Unit\Phase 2 Events\Druid\Druid_Path_Dialog	
 	2366200506	Bear_Dialog			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Dialog	
 	2385628198	Footsteps			\Default Work Unit\SoundEvents\Footsteps	
+	2509188052	Path_East			\Default Work Unit\Phase 2 Events\Path Updates\Path_East	
 	2580949965	Narrate_Crystal			\Default Work Unit\Narrations\Narrate_Crystal	
 	2591844858	Pixie_Trade_2			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Trade_2	
 	2633894792	Narrate_Ending			\Default Work Unit\Narrations\Narrate_Ending	
@@ -84,6 +88,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2767651361	Bat_Dialog			\Default Work Unit\Phase 2 Events\Bat\Bat_Dialog	
 	2829008681	Bear_Thanks			\Default Work Unit\Phase 2 Events\Mother Bear\Bear_Thanks	
 	2842092411	Mushroom_Item			\Default Work Unit\Phase 2 Events\Mushroom Patch\Mushroom_Item	
+	2845173913	Path_South_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_South_Narration	
 	2963949393	Bat_Narration			\Default Work Unit\Phase 2 Events\Bat\Bat_Narration	
 	2994956728	Stream_Source_Narration			\Default Work Unit\Phase 2 Events\Stream\Stream_Source_Narration	
 	3006996971	Narrate_Start			\Default Work Unit\Narrations\Narrate_Start	
@@ -103,8 +108,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	3609441159	Stream_Source			\Default Work Unit\Phase 2 Events\Stream\Stream_Source	
 	3737277484	Insect_Cloud_Narration			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud_Narration	
 	3751069619	Insect_Cloud			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud	
+	3768164332	Path_North			\Default Work Unit\Phase 2 Events\Path Updates\Path_North	
 	3824697202	Druid_Restoration			\Default Work Unit\Phase 2 Events\Druid\Druid_Restoration	
 	3828115085	Insect_Item			\Default Work Unit\Phase 2 Events\Insects\Insect_Item	
+	3885360447	Path_North_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_North_Narration	
+	3899584429	Path_West_Narration			\Default Work Unit\Phase 2 Events\Path Updates\Path_West_Narration	
 	3931060456	Druid_Open_Path			\Default Work Unit\Phase 2 Events\Druid\Druid_Open_Path	
 	3971078520	Hover_Select			\Default Work Unit\UI\Hover_Select	
 	3995925126	Druid_Dialog_1			\Default Work Unit\Phase 2 Events\Druid\Druid_Dialog_1	
