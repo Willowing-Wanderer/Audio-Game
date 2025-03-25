@@ -1,0 +1,97 @@
+[gd_scene load_steps=7 format=3 uid="uid://ixdvcilqktbt"]
+
+[ext_resource type="Script" path="res://Scenes/Areas/TwoWayPath.gd" id="1_g1sqv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ko3h"]
+albedo_color = Color(0.380392, 0.396078, 0.211765, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_t8ikx"]
+material = SubResource("StandardMaterial3D_3ko3h")
+size = Vector3(1, 1, 3)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_coc30"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yg21q"]
+albedo_color = Color(0.462745, 0.368627, 0.54902, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_redsb"]
+material = SubResource("StandardMaterial3D_yg21q")
+
+[node name="Path_East_West" type="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.5, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_t8ikx")
+
+[node name="West_End" type="Area3D" parent="." node_paths=PackedStringArray("path_sound", "path_narration", "footsteps")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
+script = ExtResource("1_g1sqv")
+path_sound = NodePath("Path_Sound")
+path_narration = NodePath("Path_East_Narration")
+footsteps = NodePath("Footsteps")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="West_End"]
+shape = SubResource("SphereShape3D_coc30")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="West_End"]
+mesh = SubResource("SphereMesh_redsb")
+
+[node name="Path_East_Narration" type="AkEvent3D" parent="West_End"]
+event = {
+"id": 344680759,
+"name": "Path_East_Narration"
+}
+stop_on = 3
+
+[node name="Path_Sound" type="AkEvent3D" parent="West_End"]
+event = {
+"id": 2509188052,
+"name": "Path_East"
+}
+trigger_on = 1
+stop_on = 3
+
+[node name="Footsteps" type="AkEvent3D" parent="West_End"]
+event = {
+"id": 2385628198,
+"name": "Footsteps"
+}
+stop_on = 3
+
+[node name="East_End" type="Area3D" parent="." node_paths=PackedStringArray("path_sound", "path_narration", "footsteps")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 1.5)
+script = ExtResource("1_g1sqv")
+path_sound = NodePath("Path_Sound")
+path_narration = NodePath("Path_West_Narration")
+footsteps = NodePath("Footsteps")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="East_End"]
+shape = SubResource("SphereShape3D_coc30")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="East_End"]
+mesh = SubResource("SphereMesh_redsb")
+
+[node name="Path_West_Narration" type="AkEvent3D" parent="East_End"]
+event = {
+"id": 3899584429,
+"name": "Path_West_Narration"
+}
+stop_on = 3
+
+[node name="Path_Sound" type="AkEvent3D" parent="East_End"]
+event = {
+"id": 1325065690,
+"name": "Path_West"
+}
+trigger_on = 1
+stop_on = 3
+
+[node name="Footsteps" type="AkEvent3D" parent="East_End"]
+event = {
+"id": 2385628198,
+"name": "Footsteps"
+}
+stop_on = 3
+
+[connection signal="end_of_event" from="West_End/Footsteps" to="West_End" method="_on_footsteps_end_of_event"]
+[connection signal="end_of_event" from="East_End/Footsteps" to="East_End" method="_on_footsteps_end_of_event"]

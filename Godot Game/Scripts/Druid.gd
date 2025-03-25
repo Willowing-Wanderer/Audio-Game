@@ -37,7 +37,7 @@ func stop_narration():
 	
 func _ready():
 	#TODO: Remove this before shipping
-	druid_thanks.post_event()
+	#druid_thanks.post_event()
 	
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())

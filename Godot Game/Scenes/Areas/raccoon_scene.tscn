@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://chy1yjgdcqplw"]
+[gd_scene load_steps=10 format=3 uid="uid://chy1yjgdcqplw"]
 
 [ext_resource type="Script" path="res://Scripts/raccoon_scene.gd" id="1_a5oek"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_88yt1"]
@@ -6,8 +6,9 @@
 [ext_resource type="PackedScene" uid="uid://hlssl26jhl27" path="res://Scenes/Characters/Druid.tscn" id="3_3lh8a"]
 [ext_resource type="PackedScene" uid="uid://bvme6p87bknvw" path="res://Scenes/Characters/Raccoon.tscn" id="4_qmtsh"]
 [ext_resource type="PackedScene" uid="uid://75074s6brwaf" path="res://Scenes/Characters/Pixie.tscn" id="5_s6fus"]
+[ext_resource type="PackedScene" uid="uid://b8b7h44plka7b" path="res://Scenes/Areas/path_north_south.tscn" id="5_tmolf"]
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
-[ext_resource type="PackedScene" uid="uid://baa4i4m4kcg6t" path="res://Scenes/Areas/path.tscn" id="7_5w7yi"]
+[ext_resource type="PackedScene" uid="uid://bblapp6yq562n" path="res://Scenes/Areas/path_ne_sw.tscn" id="8_djkys"]
 
 [node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Path_Dialog", "Druid_Open_Path")]
 script = ExtResource("1_a5oek")
@@ -21,36 +22,49 @@ Druid_Open_Path = NodePath("Druid_Open_Path")
 [node name="player_ears" parent="." instance=ExtResource("2_fqr4v")]
 
 [node name="Circle" parent="." instance=ExtResource("2_88yt1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 0, 0)
 
 [node name="Druid" parent="Circle" instance=ExtResource("3_3lh8a")]
 
+[node name="Path_North-South" parent="Circle" instance=ExtResource("5_tmolf")]
+
+[node name="North_End" parent="Circle/Path_North-South" index="1" node_paths=PackedStringArray("circle")]
+circle = NodePath("../..")
+
+[node name="Path_Sound" parent="Circle/Path_North-South/North_End" index="3"]
+event = {
+"id": 3768164332,
+"name": "Path_North"
+}
+
+[node name="South_End" parent="Circle/Path_North-South" index="2" node_paths=PackedStringArray("circle")]
+circle = NodePath("../../../Circle2")
+
 [node name="Circle2" parent="." instance=ExtResource("2_88yt1")]
-transform = Transform3D(0.68414, 0, -0.729351, 0, 1, 0, 0.729351, 0, 0.68414, 0, 0, -7.66133)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
 
 [node name="Raccoon" parent="Circle2" node_paths=PackedStringArray("circle") instance=ExtResource("4_qmtsh")]
-transform = Transform3D(0.767232, 0, -0.641369, 0, 1, 0, 0.641369, 0, 0.767232, 0, 0, 0)
+transform = Transform3D(-0.119686, 0, -0.992811, 0, 1, 0, 0.992811, 0, -0.119686, 0, 0, 0)
 circle = NodePath("..")
 
 [node name="Pixie" parent="Circle2" instance=ExtResource("5_s6fus")]
-transform = Transform3D(-0.807918, 0, 0.589295, 0, 1, 0, -0.589295, 0, -0.807918, 0, 0, 0)
+transform = Transform3D(0.220646, 0, 0.975354, 0, 1, 0, -0.975354, 0, 0.220646, 0, 0, 0)
+
+[node name="Path_NE_SW" parent="Circle2" instance=ExtResource("8_djkys")]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 3.14295, 9.53674e-07, -3.17603)
+
+[node name="NE_End" parent="Circle2/Path_NE_SW" index="1" node_paths=PackedStringArray("circle")]
+circle = NodePath("../..")
+
+[node name="East_End" parent="Circle2/Path_NE_SW" index="2" node_paths=PackedStringArray("circle")]
+circle = NodePath("../../../Circle3")
 
 [node name="Circle3" parent="." instance=ExtResource("2_88yt1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45442, 0, -14.6394)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29065, -1.90735e-06, -15.4058)
 
 [node name="AppleTree" parent="Circle3" node_paths=PackedStringArray("circle") instance=ExtResource("6_kuire")]
 transform = Transform3D(-0.78238, 0, -0.622801, 0, 1, 0, 0.622801, 0, -0.78238, 0, 0, 0)
 circle = NodePath("..")
-
-[node name="Path" parent="." node_paths=PackedStringArray("circle1", "circle2") instance=ExtResource("7_5w7yi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.104803, 0, -3.89844)
-circle1 = NodePath("../Circle")
-circle2 = NodePath("../Circle2")
-
-[node name="Path2" parent="." node_paths=PackedStringArray("circle1", "circle2", "narrate_path") instance=ExtResource("7_5w7yi")]
-transform = Transform3D(0.810778, 0, -0.585354, 0, 1, 0, 0.585354, 0, 0.810778, 2.3326, 0, -11.1553)
-circle1 = NodePath("../Circle2")
-circle2 = NodePath("../Circle3")
-narrate_path = NodePath("../Path/Narrate_Path")
 
 [node name="Narrate_Ending" type="AkEvent3D" parent="."]
 event = {
@@ -96,3 +110,6 @@ event = {
 [connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]
 [connection signal="end_of_event" from="Druid_Path_Dialog" to="." method="_on_druid_path_dialog_end_of_event"]
 [connection signal="end_of_event" from="Druid_Open_Path" to="." method="_on_druid_open_path_end_of_event"]
+
+[editable path="Circle/Path_North-South"]
+[editable path="Circle2/Path_NE_SW"]
