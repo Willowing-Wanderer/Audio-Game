@@ -14,8 +14,11 @@ func _ready():
 	$Circle2/Raccoon.player = player
 	$Circle2/Pixie.player = player
 	$Circle3/AppleTree.player = player
-	$Path.player = player
-	$Path2.player = player
+	#$"Circle/Path_North-South/North_End".player = player
+	#$"Circle/Path_North-South/South_End".player = player
+	#print($"Circle/Path_North-South".player)
+	#$Path.player = player
+	#$Path2.player = player
 	pass
 	#$Player.set_cutscene(true)
 	#narrate_start.post_event()

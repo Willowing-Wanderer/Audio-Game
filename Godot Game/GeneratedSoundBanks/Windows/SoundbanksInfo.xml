@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{4DC35026-F288-71F0-894C-7CA51A8E0E0E}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{944EABB2-E829-EA23-935A-3970B592B00B}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -863,7 +863,11 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="516307540" Name="Path_Southwest_Narration"/>
+				<Event Id="516307540" Name="Path_Southwest_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1325065690" Name="Path_West">
 					<MediaRefs>
 						<MediaRef Id="686063000"/>
@@ -1026,5 +1030,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C583E89E-7984-994E-AB85-78C68B7828A1}</FileHash>
+	<FileHash>{205BBAB9-EEC2-8114-9AE0-143856CD5977}</FileHash>
 </SoundBanksInfo>
