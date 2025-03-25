@@ -1500,7 +1500,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Path_Southwest_Narration" ID="{3000937E-AD93-419F-A8EE-6108FC0FA9C1}"/>
+								<Event Name="Path_Southwest_Narration" ID="{3000937E-AD93-419F-A8EE-6108FC0FA9C1}">
+									<ChildrenList>
+										<Action Name="" ID="{2A7B850E-7B58-4AF3-AD6C-E91CAA0CB442}" ShortID="829082947">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Path_Southeast_Narration" ID="{05C0CDC5-7776-4FAB-B9E0-E4673B10A402}">
 									<ChildrenList>
 										<Action Name="" ID="{6BE00F93-1249-4305-BB29-70EEDDC319A4}" ShortID="976646318">
