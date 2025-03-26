@@ -24,7 +24,8 @@ func _ready():
 	#$WhisperingCavern11/Apart.player = player
 	#$WhisperingCavern5/Together.player = player
 	#$Campsite/Path.player = player
-	$"Apple Tree/AppleTree".player = player
+	#$"Apple Tree/AppleTree".player = player
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

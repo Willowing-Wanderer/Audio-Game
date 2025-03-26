@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=15 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://b8b7h44plka7b" path="res://Scenes/Areas/path_north_south.tscn" id="11_rpum0"]
 [ext_resource type="PackedScene" uid="uid://ixdvcilqktbt" path="res://Scenes/Areas/path_east_west.tscn" id="12_dsbcn"]
 [ext_resource type="PackedScene" uid="uid://bblapp6yq562n" path="res://Scenes/Areas/path_ne_sw.tscn" id="12_o8ge7"]
+[ext_resource type="PackedScene" uid="uid://8cfxqm5b5bat" path="res://Scenes/Characters/Druid2.tscn" id="14_pksas"]
 
 [node name="CaveScene" type="Node3D"]
 script = ExtResource("1_be42p")
@@ -641,6 +642,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29065, -1.90735e-06, -15.40
 [node name="AppleTree" parent="Apple Tree" node_paths=PackedStringArray("circle") instance=ExtResource("11_l33ns")]
 transform = Transform3D(-0.78238, 0, -0.622801, 0, 1, 0, 0.622801, 0, -0.78238, 0, 0, 0)
 circle = NodePath("..")
+
+[node name="Druid2" parent="." instance=ExtResource("14_pksas")]
 
 [editable path="CaveEntrance/Path_East_West"]
 [editable path="CaveFoyer/Path_East_West"]

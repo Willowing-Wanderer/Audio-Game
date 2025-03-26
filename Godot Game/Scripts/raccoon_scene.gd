@@ -10,7 +10,7 @@ extends Node3D
 @export var player:Area3D
 
 func _ready():
-	$Circle/Druid.player = player
+	#$Circle/Druid.player = player
 	$Circle2/Raccoon.player = player
 	$Circle2/Pixie.player = player
 	$Circle3/AppleTree.player = player
