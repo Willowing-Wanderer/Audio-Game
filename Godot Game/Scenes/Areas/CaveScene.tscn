@@ -1,10 +1,11 @@
-[gd_scene load_steps=15 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=16 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
 [ext_resource type="PackedScene" uid="uid://86uxk2w8f6te" path="res://Scenes/Characters/player_ears.tscn" id="2_wuwqm"]
 [ext_resource type="PackedScene" uid="uid://dulnxqbe8hp0v" path="res://Scenes/Environmentals/StreamFlow1.tscn" id="4_ejpsh"]
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
+[ext_resource type="PackedScene" uid="uid://cs211jvddcfmw" path="res://Scenes/Characters/Pixie2.tscn" id="5_gyeic"]
 [ext_resource type="PackedScene" uid="uid://bmptpy4ncrrck" path="res://Scenes/Environmentals/StreamFlow2.tscn" id="5_n3q1f"]
 [ext_resource type="PackedScene" uid="uid://cknmv4uect1km" path="res://Scenes/Environmentals/StreamSource.tscn" id="7_mocl6"]
 [ext_resource type="PackedScene" uid="uid://0s64881e02yi" path="res://Scenes/Areas/path_nw_se.tscn" id="9_tlgvb"]
@@ -43,6 +44,9 @@ circle = NodePath("../..")
 
 [node name="East_End" parent="CaveFoyer/Path_East_West" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern1")
+
+[node name="Pixie2" parent="CaveFoyer" instance=ExtResource("5_gyeic")]
+transform = Transform3D(0.962871, 0, -0.269962, 0, 1, 0, 0.269962, 0, 0.962871, 0, 0, 0)
 
 [node name="WhisperingCavern1" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.8141, 0, 4.53222)
