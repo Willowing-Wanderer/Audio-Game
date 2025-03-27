@@ -1,11 +1,9 @@
 extends Area3D
 
-@export var object_name:String = "Druid"
-
-@export var druid_hum:AkEvent3D
-@export var druid_help:AkEvent3D
-@export var druid_thanks:AkEvent3D
-@export var druid_restoration:AkEvent3D
+var bat_bumping:AkEvent3D
+var bat_dialog:AkEvent3D
+var bat_thanks:AkEvent3D
+var bat_narration:AkEvent3D
 
 # Needed if you want to do anything with the player's controls
 var player:Node3D
@@ -13,8 +11,6 @@ var player:Node3D
 signal quest_complete
 
 var first_click = true
-
-@export var narrate_druid:AkEvent3D
 
 var playing_narration = false
 
@@ -34,6 +30,10 @@ func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
+	druid_hum = $Druid_Hum
+	druid_help = $Druid_Help_2
+	druid_thanks = $Druid_Thanks_2
+	druid_restoration = $Druid_Restoration
 	druid_hum.post_event()
 
 func on_click(selected):
@@ -47,15 +47,3 @@ func on_click(selected):
 		druid_thanks.post_event()
 	else:
 		druid_help.post_event()
-
-func _on_druid_thanks_end_of_event(data):
-	druid_restoration.post_event()
-
-func _on_druid_help_end_of_event(data):
-	player.set_cutscene(false)
-	druid_hum.post_event()
-
-func _on_druid_restoration_end_of_event(data):
-	player.set_cutscene(false)
-	quest_complete.emit()
-

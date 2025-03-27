@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://8cfxqm5b5bat"]
+[gd_scene load_steps=5 format=3 uid="uid://cvqgt8cut7y2e"]
 
-[ext_resource type="Script" path="res://Scenes/Characters/Druid2.gd" id="1_c2iri"]
+[ext_resource type="Script" path="res://Scenes/Characters/Druid2.gd" id="1_501np"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
 
@@ -10,8 +10,8 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="Druid2" type="Area3D" node_paths=PackedStringArray("narrate_druid")]
-script = ExtResource("1_c2iri")
+[node name="Bat" type="Area3D" node_paths=PackedStringArray("narrate_druid")]
+script = ExtResource("1_501np")
 narrate_druid = NodePath("Narrate_Druid")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -22,7 +22,7 @@ shape = SubResource("SphereShape3D_2lhut")
 transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 
-[node name="Druid_Hum" type="AkEvent3D" parent="."]
+[node name="Bat_Bumping" type="AkEvent3D" parent="."]
 event = {
 "id": 2213069164,
 "name": "Druid_Hum"
@@ -60,8 +60,3 @@ event = {
 "name": "Druid_Restoration"
 }
 stop_on = 3
-
-[connection signal="end_of_event" from="Druid_Help_2" to="." method="_on_druid_help_end_of_event"]
-[connection signal="end_of_event" from="Druid_Thanks_2" to="." method="_on_druid_thanks_end_of_event"]
-[connection signal="end_of_event" from="Narrate_Druid" to="." method="_on_narrate_druid_end_of_event"]
-[connection signal="end_of_event" from="Druid_Restoration" to="." method="_on_druid_restoration_end_of_event"]
