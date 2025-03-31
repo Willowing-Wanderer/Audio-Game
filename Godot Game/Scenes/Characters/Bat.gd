@@ -8,11 +8,12 @@ var bat_cavern_locked:AkEvent3D
 var bat_eating:AkEvent3D
 
 var direction = 1
-var speed = 0.02
+var speed = 0.01
 var moving = true
 var fed = false
 
 signal cave_unlocked
+signal you_path_unlocked
 
 # Needed if you want to do anything with the player's controls
 var player:Node3D
@@ -39,15 +40,17 @@ func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
-	bat_bumping = $Bat/Bat_Bumping
-	bat_dialog = $Bat/Bat_Dialog
-	bat_thanks = $Bat/Bat_Thanks
-	bat_cavern_locked = $Bat/Bat_Cavern_Locked
+	bat_bumping = $Bat_Bumping
+	bat_dialog = $Bat_Dialog
+	bat_thanks = $Bat_Thanks
+	bat_cavern_locked = $Bat_Cavern_Locked
+	bat_eating = $Bat_Eating
+	bat_narration = $Bat_Narration
 	bat_bumping.post_event()
 	
 func _process(delta):
 	if(moving && !fed):
-		$Bat.rotate_y(speed * direction)
+		rotate_y(speed * direction)
 
 func on_click(selected):
 	bat_bumping.stop_event()
@@ -67,11 +70,9 @@ func on_click(selected):
 			bat_thanks.post_event()
 		else:
 			bat_dialog.post_event()
+			you_path_unlocked.emit()
 
 func _on_timer_timeout():
-	direction *= -1
-
-func _on_bat_body_entered(body):
 	direction *= -1
 
 func _on_bat_thanks_end_of_event(data):
@@ -83,13 +84,25 @@ func _on_bat_dialog_end_of_event(data):
 	moving = true
 	player.set_cutscene(false)
 
-func _on_east_end_path_locked():
+func _on_bat_cavern_locked_end_of_event(data):
+	bat_bumping.post_event()
+	moving = true
+	player.set_cutscene(false)
+
+func _on_body_entered(body):
+	direction *= -1
+
+func on_path_locked():
 	player.set_cutscene(true)
 	bat_bumping.stop_event()
 	moving = false
 	bat_cavern_locked.post_event()
 
-func _on_bat_cavern_locked_end_of_event(data):
-	bat_bumping.post_event()
-	moving = true
-	player.set_cutscene(false)
+func _on_sw_end_path_locked():
+	on_path_locked()
+
+func _on_ne_end_path_locked():
+	on_path_locked()
+
+func _on_north_end_path_locked():
+	on_path_locked()

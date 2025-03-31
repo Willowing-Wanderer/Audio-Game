@@ -1,19 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://cvqgt8cut7y2e"]
+[gd_scene load_steps=6 format=3 uid="uid://cvqgt8cut7y2e"]
 
 [ext_resource type="Script" path="res://Scenes/Characters/Bat.gd" id="1_2p23b"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jc2j7"]
-albedo_color = Color(0.411765, 0.686275, 0.505882, 1)
-
-[sub_resource type="BoxMesh" id="BoxMesh_j6mvl"]
-material = SubResource("StandardMaterial3D_jc2j7")
-size = Vector3(0.5, 0.5, 0.5)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_deqg8"]
-size = Vector3(0.5, 0.5, 0.5)
-
-[sub_resource type="CylinderMesh" id="CylinderMesh_hhiyi"]
-top_radius = 3.0
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
 
@@ -23,51 +10,22 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
+[sub_resource type="CylinderMesh" id="CylinderMesh_hhiyi"]
+top_radius = 3.0
+
 [node name="Bat" type="Area3D"]
 script = ExtResource("1_2p23b")
 
-[node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
-autostart = true
-
-[node name="Timer2" type="Timer" parent="."]
-wait_time = 3.0
-autostart = true
-
-[node name="Bumper" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.85306, 0, -0.928394)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Bumper"]
-mesh = SubResource("BoxMesh_j6mvl")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Bumper"]
-shape = SubResource("BoxShape3D_deqg8")
-
-[node name="Bumper2" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.60555, 0, 1.44541)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Bumper2"]
-mesh = SubResource("BoxMesh_j6mvl")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Bumper2"]
-shape = SubResource("BoxShape3D_deqg8")
-
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
-visible = false
-mesh = SubResource("CylinderMesh_hhiyi")
-
-[node name="Bat" type="Area3D" parent="."]
-
-[node name="Bat" type="CollisionShape3D" parent="Bat"]
+[node name="Bat" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 shape = SubResource("SphereShape3D_2lhut")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Bat"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 skeleton = NodePath("../..")
 
-[node name="Bat_Bumping" type="AkEvent3D" parent="Bat"]
+[node name="Bat_Bumping" type="AkEvent3D" parent="."]
 event = {
 "id": 1125471007,
 "name": "Bat_Bumping"
@@ -75,7 +33,7 @@ event = {
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[node name="Bat_Dialog" type="AkEvent3D" parent="Bat"]
+[node name="Bat_Dialog" type="AkEvent3D" parent="."]
 event = {
 "id": 2767651361,
 "name": "Bat_Dialog"
@@ -83,7 +41,7 @@ event = {
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[node name="Bat_Thanks" type="AkEvent3D" parent="Bat"]
+[node name="Bat_Thanks" type="AkEvent3D" parent="."]
 event = {
 "id": 1816682394,
 "name": "Bat_Thanks"
@@ -91,7 +49,7 @@ event = {
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[node name="Bat_Narration" type="AkEvent3D" parent="Bat"]
+[node name="Bat_Narration" type="AkEvent3D" parent="."]
 event = {
 "id": 2963949393,
 "name": "Bat_Narration"
@@ -99,23 +57,31 @@ event = {
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[node name="Bat_Cavern_Locked" type="AkEvent3D" parent="Bat"]
+[node name="Bat_Cavern_Locked" type="AkEvent3D" parent="."]
 event = {
 "id": 2212254451,
 "name": "Bat_Cavern_Locked"
 }
 stop_on = 3
 
-[node name="Bat_Eating" type="AkEvent3D" parent="Bat"]
+[node name="Bat_Eating" type="AkEvent3D" parent="."]
 event = {
 "id": 1629516455,
 "name": "Bat_Eating"
 }
 stop_on = 3
 
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("CylinderMesh_hhiyi")
+skeleton = NodePath("")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="end_of_event" from="Bat_Dialog" to="." method="_on_bat_dialog_end_of_event"]
+[connection signal="end_of_event" from="Bat_Thanks" to="." method="_on_bat_thanks_end_of_event"]
+[connection signal="end_of_event" from="Bat_Cavern_Locked" to="." method="_on_bat_cavern_locked_end_of_event"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
-[connection signal="timeout" from="Timer2" to="." method="_on_timer_timeout"]
-[connection signal="body_entered" from="Bat" to="." method="_on_bat_body_entered"]
-[connection signal="end_of_event" from="Bat/Bat_Dialog" to="." method="_on_bat_dialog_end_of_event"]
-[connection signal="end_of_event" from="Bat/Bat_Thanks" to="." method="_on_bat_thanks_end_of_event"]
-[connection signal="end_of_event" from="Bat/Bat_Cavern_Locked" to="." method="_on_bat_cavern_locked_end_of_event"]
