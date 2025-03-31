@@ -18,10 +18,6 @@ signal you_path_unlocked
 # Needed if you want to do anything with the player's controls
 var player:Node3D
 
-signal quest_complete
-
-var first_click = true
-
 var playing_narration = false
 
 # All items must include the following functions:

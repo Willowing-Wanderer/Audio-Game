@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=24 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
@@ -19,6 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://ixdvcilqktbt" path="res://Scenes/Areas/path_east_west.tscn" id="12_dsbcn"]
 [ext_resource type="PackedScene" uid="uid://bblapp6yq562n" path="res://Scenes/Areas/path_ne_sw.tscn" id="12_o8ge7"]
 [ext_resource type="PackedScene" uid="uid://8cfxqm5b5bat" path="res://Scenes/Characters/Druid2.tscn" id="14_pksas"]
+[ext_resource type="PackedScene" uid="uid://dln2wwjd5x1ka" path="res://Scenes/Characters/Insects.tscn" id="15_7gd6a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jc2j7"]
 albedo_color = Color(0.411765, 0.686275, 0.505882, 1)
@@ -436,6 +437,9 @@ event = {
 [node name="WhisperingCavern8" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.4661, -0.000153542, -17.2748)
 
+[node name="Insects" parent="WhisperingCavern8" instance=ExtResource("15_7gd6a")]
+transform = Transform3D(-0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, -0.866025, 0, 0, 0)
+
 [node name="WhisperingCavern9" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -13.5402, -0.000153542, -8.46058)
 
@@ -699,6 +703,8 @@ circle = NodePath("..")
 [connection signal="path_locked" from="WhisperingCavern1/Path_I/North_End" to="WhisperingCavern1/Bat" method="_on_north_end_path_locked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_We/NE_End" to="WhisperingCavern1/Bat" method="_on_ne_end_path_locked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_You/SW_End" to="WhisperingCavern1/Bat" method="_on_sw_end_path_locked"]
+[connection signal="cave_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_I/North_End" method="_on_bat_cave_unlocked"]
+[connection signal="cave_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_We/NE_End" method="_on_bat_cave_unlocked"]
 [connection signal="you_path_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_You/SW_End" method="_on_bat_you_path_unlocked"]
 
 [editable path="Circle3/Path_NW_SE"]
