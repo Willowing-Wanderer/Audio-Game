@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{944EABB2-E829-EA23-935A-3970B592B00B}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{745D8374-7EB9-F6DD-C6B6-D37C23D6432E}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -417,7 +417,7 @@
 				</Event>
 				<Event Id="1125471007" Name="Bat_Bumping">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2212254451" Name="Bat_Cavern_Locked">
@@ -428,6 +428,11 @@
 				<Event Id="2767651361" Name="Bat_Dialog">
 					<MediaRefs>
 						<MediaRef Id="61460548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1629516455" Name="Bat_Eating">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2963949393" Name="Bat_Narration">
@@ -813,6 +818,16 @@
 						<MediaRef Id="505193919"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3267870896" Name="Net_Item">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3576666763" Name="Net_Item_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4279573130" Name="North">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
@@ -916,7 +931,7 @@
 				</Event>
 				<Event Id="1036549193" Name="Pixie_Humming_2">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="686063000"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1286676330" Name="Pixie_Narration_2">
@@ -1030,5 +1045,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{205BBAB9-EEC2-8114-9AE0-143856CD5977}</FileHash>
+	<FileHash>{053FCFFA-23DA-D8E9-C11E-18E54CE2CE18}</FileHash>
 </SoundBanksInfo>

@@ -39,6 +39,7 @@ func _ready():
 	#TODO: Remove this before shipping
 	druid_thanks.post_event()
 	
+	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	druid_hum.post_event()

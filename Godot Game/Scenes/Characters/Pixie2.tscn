@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://cs211jvddcfmw"]
+
+[ext_resource type="Script" path="res://Scenes/Characters/Pixie2.gd" id="1_dimo0"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plhd5"]
+albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
+material = SubResource("StandardMaterial3D_plhd5")
+
+[node name="Pixie2" type="Area3D"]
+script = ExtResource("1_dimo0")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+shape = SubResource("SphereShape3D_2lhut")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+mesh = SubResource("SphereMesh_ltkxe")
+
+[node name="Pixie_Humming_2" type="AkEvent3D" parent="."]
+event = {
+"id": 1036549193,
+"name": "Pixie_Humming_2"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Pixie_Trade_2" type="AkEvent3D" parent="."]
+event = {
+"id": 2591844858,
+"name": "Pixie_Trade_2"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Pixie_Flyoff" type="AkEvent3D" parent="."]
+event = {
+"id": 1075103351,
+"name": "Pixie_Flyoff"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Pixie_Dialog_2" type="AkEvent3D" parent="."]
+event = {
+"id": 2288037634,
+"name": "Pixie_Dialog_2"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Narrate_Pixie" type="AkEvent3D" parent="."]
+event = {
+"id": 1286676330,
+"name": "Pixie_Narration_2"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Crystal_Drop" type="AkEvent3D" parent="."]
+event = {
+"id": 1757040115,
+"name": "Crystal_Drop"
+}
+stop_on = 3
+
+[connection signal="end_of_event" from="Pixie_Trade_2" to="." method="_on_pixie_trade_2_end_of_event"]
+[connection signal="end_of_event" from="Pixie_Flyoff" to="." method="_on_pixie_flyoff_end_of_event"]
+[connection signal="end_of_event" from="Pixie_Dialog_2" to="." method="_on_pixie_dialog_2_end_of_event"]
+[connection signal="end_of_event" from="Narrate_Pixie" to="." method="_on_narrate_pixie_end_of_event"]
+[connection signal="end_of_event" from="Crystal_Drop" to="." method="_on_crystal_drop_end_of_event"]

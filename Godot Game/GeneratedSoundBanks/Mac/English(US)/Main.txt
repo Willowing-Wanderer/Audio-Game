@@ -53,6 +53,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1523466505	Hover_Deselect			\Default Work Unit\UI\Hover_Deselect	
 	1585408714	Apart_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Apart_Whisper	
 	1621431280	Hungry_Raccoon			\Default Work Unit\Environmentals\Hungry_Raccoon	
+	1629516455	Bat_Eating			\Default Work Unit\Phase 2 Events\Bat\Bat_Eating	
 	1652453217	Cubs_Eating			\Default Work Unit\Phase 2 Events\Bear Cubs\Cubs_Eating	
 	1723483016	West			\Default Work Unit\Phase 2 Events\Orientation\West	
 	1757040115	Crystal_Drop			\Default Work Unit\SoundEvents\Crystal_Drop	
@@ -100,6 +101,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3106261319	Stream_Flow_2			\Default Work Unit\Phase 2 Events\Stream\Stream_Flow_2	
 	3224125185	You_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\You_Whisper	
 	3230454396	Fear_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\Fear_Whisper	
+	3267870896	Net_Item			\Default Work Unit\Phase 2 Events\Insects\Net_Item	
 	3279179030	Insect_Item_Narration			\Default Work Unit\Phase 2 Events\Insects\Insect_Item_Narration	
 	3300195252	Pixie_Aww			\Default Work Unit\Phase 2 Events\Pixies\Pixie_Aww	
 	3363276846	Tree_Shake			\Default Work Unit\SoundEvents\Tree_Shake	
@@ -108,6 +110,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3477674050	Narrate_Apple_Tree			\Default Work Unit\Narrations\Narrate_Apple_Tree	
 	3484778486	We_Whisper			\Default Work Unit\Phase 2 Events\Whispering Caverns\Whispers\We_Whisper	
 	3565432312	Forest_Animals			\Default Work Unit\Phase 2 Events\Forest\Forest_Animals	
+	3576666763	Net_Item_Narration			\Default Work Unit\Phase 2 Events\Insects\Net_Item_Narration	
 	3609441159	Stream_Source			\Default Work Unit\Phase 2 Events\Stream\Stream_Source	
 	3737277484	Insect_Cloud_Narration			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud_Narration	
 	3751069619	Insect_Cloud			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud	

@@ -2,7 +2,7 @@ extends Area3D
 
 @export var object_name:String = "Apple Tree"
 @export var circle:Node
-@export var player:Node3D
+var player:Node3D
 
 @export var tree_swish:AkEvent3D
 @export var tree_shake:AkEvent3D
@@ -19,6 +19,7 @@ var has_apples = true
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
+	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	tree_swish.post_event()
 
 var playing_narration = false
