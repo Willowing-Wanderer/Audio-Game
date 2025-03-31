@@ -130,6 +130,7 @@ class EVENTS:
 	const HERE_WHISPER = 2665175820
 	const DIE_WHISPER = 98240150
 	const NET_ITEM_NARRATION = 3576666763
+	const BAT_EATING = 1629516455
 	const NET_ITEM = 3267870896
 
 	const _dict = {
@@ -261,6 +262,7 @@ class EVENTS:
 		"Here_Whisper": HERE_WHISPER,
 		"Die_Whisper": DIE_WHISPER,
 		"Net_Item_Narration": NET_ITEM_NARRATION,
+		"Bat_Eating": BAT_EATING,
 		"Net_Item": NET_ITEM
 	}
 
