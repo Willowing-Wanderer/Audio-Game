@@ -112,6 +112,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3565432312	Forest_Animals			\Default Work Unit\Phase 2 Events\Forest\Forest_Animals	
 	3576666763	Net_Item_Narration			\Default Work Unit\Phase 2 Events\Insects\Net_Item_Narration	
 	3609441159	Stream_Source			\Default Work Unit\Phase 2 Events\Stream\Stream_Source	
+	3636974096	Mushroom_Patch			\Default Work Unit\Phase 2 Events\Mushroom Patch\Mushroom_Patch	
 	3737277484	Insect_Cloud_Narration			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud_Narration	
 	3751069619	Insect_Cloud			\Default Work Unit\Phase 2 Events\Insects\Insect_Cloud	
 	3768164332	Path_North			\Default Work Unit\Phase 2 Events\Path Updates\Path_North	

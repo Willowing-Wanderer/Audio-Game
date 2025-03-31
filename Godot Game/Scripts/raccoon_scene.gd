@@ -48,5 +48,4 @@ func _on_druid_path_dialog_end_of_event(data):
 func _on_druid_open_path_end_of_event(data):
 	get_parent().finish_level_1()
 	queue_free()
-	print("Event here?")
 

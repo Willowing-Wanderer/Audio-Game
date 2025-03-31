@@ -2,7 +2,10 @@ extends Node
 
 var sounds = {"Empty": AK.EVENTS.CLICK_FAIL,
 				"Apple": AK.EVENTS.APPLE,
-				"Crystal": AK.EVENTS.CRYSTAL_ITEM}
+				"Crystal": AK.EVENTS.CRYSTAL_ITEM,
+				"Net": AK.EVENTS.NET_ITEM,
+				"Insect": AK.EVENTS.INSECT_ITEM,
+				"Mushroom": AK.EVENTS.MUSHROOM_ITEM}
 
 var items = {"Empty": null}
 			

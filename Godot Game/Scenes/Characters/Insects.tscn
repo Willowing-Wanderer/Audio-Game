@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://dln2wwjd5x1ka"]
+
+[ext_resource type="Script" path="res://Scenes/Characters/Insects.gd" id="1_dnari"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plhd5"]
+albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
+material = SubResource("StandardMaterial3D_plhd5")
+
+[node name="Insects" type="Area3D"]
+script = ExtResource("1_dnari")
+
+[node name="Bat" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+shape = SubResource("SphereShape3D_2lhut")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+mesh = SubResource("SphereMesh_ltkxe")
+skeleton = NodePath("../..")
+
+[node name="Insect_Cloud" type="AkEvent3D" parent="."]
+event = {
+"id": 3751069619,
+"name": "Insect_Cloud"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Insect_Cloud_Narration" type="AkEvent3D" parent="."]
+event = {
+"id": 3737277484,
+"name": "Insect_Cloud_Narration"
+}
+stop_on = 3
+
+[node name="Insect_Catch" type="AkEvent3D" parent="."]
+event = {
+"id": 1304319317,
+"name": "Insect_Catch"
+}
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="end_of_event" from="Insect_Catch" to="." method="_on_insect_catch_end_of_event"]

@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{745D8374-7EB9-F6DD-C6B6-D37C23D6432E}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{88DE69E9-2F2D-5668-6CF6-5E1C56C175ED}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -738,6 +738,11 @@
 						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3636974096" Name="Mushroom_Patch">
+					<MediaRefs>
+						<MediaRef Id="686063000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2640668715" Name="Mushroom_Patch_Narration">
 					<MediaRefs>
 						<MediaRef Id="349029664"/>
@@ -1045,5 +1050,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{053FCFFA-23DA-D8E9-C11E-18E54CE2CE18}</FileHash>
+	<FileHash>{0A083381-9969-8B37-C8E4-35351C05E083}</FileHash>
 </SoundBanksInfo>

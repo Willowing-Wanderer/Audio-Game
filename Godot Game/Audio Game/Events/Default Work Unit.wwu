@@ -619,6 +619,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Mushroom_Patch" ID="{4A7D85E9-2511-4BFA-B56B-D607D9962E6C}">
+									<ChildrenList>
+										<Action Name="" ID="{955E7E47-B246-4A09-B3C7-2AD829EE4BB8}" ShortID="927425375">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Mother Bear" ID="{C7CAFA47-CED2-4039-A852-FF0504FBAB31}" ShortID="1046395926">

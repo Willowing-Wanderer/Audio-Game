@@ -2,7 +2,10 @@ extends Node
 
 var narrations = {"Empty": AK.EVENTS.NARRATE_NOTHING,
 				"Apple": AK.EVENTS.NARRATE_APPLE,
-				"Crystal": AK.EVENTS.NARRATE_CRYSTAL,}
+				"Crystal": AK.EVENTS.NARRATE_CRYSTAL,
+				"Net": AK.EVENTS.NET_ITEM_NARRATION,
+				"Insect": AK.EVENTS.INSECT_ITEM_NARRATION,
+				"Mushroom": AK.EVENTS.MUSHROOM_NARRATION}
 var playing_id
 var playing_narration = false
 

@@ -13,11 +13,10 @@ material = SubResource("StandardMaterial3D_l873f")
 radius = 0.25
 height = 0.5
 
-[node name="Crystal" type="Area3D" node_paths=PackedStringArray("narration_timer", "narrate_item")]
+[node name="Crystal" type="Area3D" node_paths=PackedStringArray("narrate_item")]
 transform = Transform3D(-0.981276, 0, -0.192608, 0, 1, 0, 0.192608, 0, -0.981276, 0, 0, 0)
 script = ExtResource("1_tqe0t")
 object_name = "Crystal"
-narration_timer = NodePath("Narration_Timer")
 narrate_item = NodePath("Narrate_Item")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -44,7 +43,4 @@ event = {
 }
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
 
-[node name="Narration_Timer" type="Timer" parent="."]
-wait_time = 2.5
-
-[connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]
+[connection signal="end_of_event" from="Narrate_Item" to="." method="_on_narrate_item_end_of_event"]

@@ -18,10 +18,6 @@ signal you_path_unlocked
 # Needed if you want to do anything with the player's controls
 var player:Node3D
 
-signal quest_complete
-
-var first_click = true
-
 var playing_narration = false
 
 # All items must include the following functions:
@@ -62,7 +58,7 @@ func on_click(selected):
 
 	if(selected == "Insect"):
 		fed = true
-		player.remove_from_inventory("Mushroom")
+		player.remove_from_inventory("Insect")
 		cave_unlocked.emit()
 		bat_thanks.post_event()
 	else:

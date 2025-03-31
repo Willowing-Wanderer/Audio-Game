@@ -1,0 +1,48 @@
+extends Area3D
+
+var mushroom_patch:AkEvent3D
+var mushroom_patch_narration:AkEvent3D
+var mushroom_pick:AkEvent3D
+
+# Needed if you want to do anything with the player's controls
+var player:Node3D
+
+signal quest_complete
+
+var first_click = true
+
+var playing_narration = false
+
+# All items must include the following functions:
+func narrate():
+	playing_narration = true
+	mushroom_patch_narration.post_event()
+
+func _on_narrate_druid_end_of_event(data):
+	playing_narration = false
+	
+func stop_narration():
+	playing_narration = false
+	mushroom_patch_narration.stop_event()
+	
+func _ready():
+	Wwise.register_game_obj(self, self.get_name())
+	Wwise.set_3d_position(self, get_global_transform())
+	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
+	mushroom_patch = $Mushroom_Patch
+	mushroom_patch_narration = $Mushroom_Patch_Narration
+	mushroom_pick = $Mushroom_Pick
+	mushroom_patch.post_event()
+
+func on_click(selected):
+	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
+	await get_tree().create_timer(1).timeout
+	mushroom_pick.post_event()
+	player.add_to_inventory("Mushroom")
+	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
+
+func _on_insect_catch_end_of_event(data):
+	print("huh?")
+	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
+	player.add_to_inventory("Insect")
+	player.set_cutscene(false)
