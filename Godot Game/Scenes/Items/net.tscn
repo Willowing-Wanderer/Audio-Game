@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://dpxwuhk0fr0ue"]
+[gd_scene load_steps=5 format=3 uid="uid://d0gqfpptv6jwh"]
 
-[ext_resource type="Script" path="res://Scripts/item.gd" id="1_tqe0t"]
+[ext_resource type="Script" path="res://Scripts/item.gd" id="1_i7tyf"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
 radius = 0.25
@@ -13,10 +13,9 @@ material = SubResource("StandardMaterial3D_l873f")
 radius = 0.25
 height = 0.5
 
-[node name="Crystal" type="Area3D" node_paths=PackedStringArray("narrate_item")]
-transform = Transform3D(-0.981276, 0, -0.192608, 0, 1, 0, 0.192608, 0, -0.981276, 0, 0, 0)
-script = ExtResource("1_tqe0t")
-object_name = "Crystal"
+[node name="Net" type="Area3D" node_paths=PackedStringArray("narrate_item")]
+script = ExtResource("1_i7tyf")
+object_name = "Net"
 narrate_item = NodePath("Narrate_Item")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -29,8 +28,8 @@ mesh = SubResource("SphereMesh_l8fq6")
 
 [node name="ItemEvent" type="AkEvent3D" parent="."]
 event = {
-"id": 1127138550,
-"name": "Crystal_Hum"
+"id": 49143091,
+"name": "Item_Ping"
 }
 trigger_on = 1
 stop_on = 3
@@ -38,9 +37,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
 
 [node name="Narrate_Item" type="AkEvent3D" parent="."]
 event = {
-"id": 2580949965,
-"name": "Narrate_Crystal"
+"id": 3576666763,
+"name": "Net_Item_Narration"
 }
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
-
-[connection signal="end_of_event" from="Narrate_Item" to="." method="_on_narrate_item_end_of_event"]

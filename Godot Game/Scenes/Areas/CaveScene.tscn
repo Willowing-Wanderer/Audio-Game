@@ -1,9 +1,10 @@
-[gd_scene load_steps=22 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=23 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
 [ext_resource type="PackedScene" uid="uid://86uxk2w8f6te" path="res://Scenes/Characters/player_ears.tscn" id="2_wuwqm"]
 [ext_resource type="PackedScene" uid="uid://dulnxqbe8hp0v" path="res://Scenes/Environmentals/StreamFlow1.tscn" id="4_ejpsh"]
+[ext_resource type="PackedScene" uid="uid://d0gqfpptv6jwh" path="res://Scenes/Items/net.tscn" id="4_fli38"]
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
 [ext_resource type="PackedScene" uid="uid://cs211jvddcfmw" path="res://Scenes/Characters/Pixie2.tscn" id="5_gyeic"]
 [ext_resource type="PackedScene" uid="uid://bmptpy4ncrrck" path="res://Scenes/Environmentals/StreamFlow2.tscn" id="5_n3q1f"]
@@ -36,6 +37,9 @@ script = ExtResource("1_be42p")
 
 [node name="Circle3" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.4958, 0, 12.172)
+
+[node name="Net" parent="Circle3" instance=ExtResource("4_fli38")]
+transform = Transform3D(-0.404312, 0, -0.914621, 0, 1, 0, 0.914621, 0, -0.404312, 0, 0, 0)
 
 [node name="Path_NW_SE" parent="Circle3" instance=ExtResource("9_tlgvb")]
 transform = Transform3D(0.880254, 0, 0.474503, 0, 1, 0, -0.474503, 0, 0.880254, -2.22031, 0, -3.79173)
