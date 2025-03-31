@@ -748,6 +748,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Net_Item" ID="{B2FB6ED4-8C1D-4864-B821-474E8365A456}">
+									<ChildrenList>
+										<Action Name="" ID="{A26BF570-DAD0-441D-85FB-1ADC24B92A80}" ShortID="110833890">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Net_Item_Narration" ID="{B2051CE8-3C30-4207-A79F-A1B8A4B1A827}">
+									<ChildrenList>
+										<Action Name="" ID="{9B792374-92B2-4D1B-B82C-DF56E4E0A6AF}" ShortID="27534765">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Druid" ID="{9EA13FBB-B4CD-4F82-AC35-8EF0963F704D}" ShortID="555737724">

@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{944EABB2-E829-EA23-935A-3970B592B00B}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{620C0DE6-910F-30E3-CAE4-A2EF23BF9DCC}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -813,6 +813,16 @@
 						<MediaRef Id="505193919"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3267870896" Name="Net_Item">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3576666763" Name="Net_Item_Narration">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4279573130" Name="North">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
@@ -1030,5 +1040,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FE5686D1-8CF2-E1E3-5DC8-95F669D43952}</FileHash>
+	<FileHash>{7E2A3DE0-2CA5-2EEE-6FB1-41F36E3D19C4}</FileHash>
 </SoundBanksInfo>

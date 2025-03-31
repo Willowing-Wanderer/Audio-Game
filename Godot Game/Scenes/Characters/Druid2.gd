@@ -1,9 +1,10 @@
 extends Area3D
 
-var bat_bumping:AkEvent3D
-var bat_dialog:AkEvent3D
-var bat_thanks:AkEvent3D
-var bat_narration:AkEvent3D
+var druid_hum:AkEvent3D
+var druid_help:AkEvent3D
+var druid_thanks:AkEvent3D
+var druid_restoration:AkEvent3D
+var narrate_druid:AkEvent3D
 
 # Needed if you want to do anything with the player's controls
 var player:Node3D
