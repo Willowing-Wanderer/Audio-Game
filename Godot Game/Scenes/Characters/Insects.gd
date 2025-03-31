@@ -43,7 +43,6 @@ func on_click(selected):
 		insect_catch.post_event()
 
 func _on_insect_catch_end_of_event(data):
-	print("huh?")
 	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 	player.add_to_inventory("Insect")
 	player.set_cutscene(false)

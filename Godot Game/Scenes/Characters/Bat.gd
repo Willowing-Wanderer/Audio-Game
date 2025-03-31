@@ -58,7 +58,7 @@ func on_click(selected):
 
 	if(selected == "Insect"):
 		fed = true
-		player.remove_from_inventory("Mushroom")
+		player.remove_from_inventory("Insect")
 		cave_unlocked.emit()
 		bat_thanks.post_event()
 	else:

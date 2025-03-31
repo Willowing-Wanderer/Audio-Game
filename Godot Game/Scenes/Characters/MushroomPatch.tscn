@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://dobekv7hggqwy"]
+
+[ext_resource type="Script" path="res://Scenes/Characters/MushroomPatch.gd" id="1_xkvpt"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plhd5"]
+albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
+material = SubResource("StandardMaterial3D_plhd5")
+
+[node name="Mushroom_Patch" type="Area3D"]
+script = ExtResource("1_xkvpt")
+
+[node name="Bat" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+shape = SubResource("SphereShape3D_2lhut")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+mesh = SubResource("SphereMesh_ltkxe")
+skeleton = NodePath("../..")
+
+[node name="Mushroom_Patch" type="AkEvent3D" parent="."]
+event = {
+"id": 3636974096,
+"name": "Mushroom_Patch"
+}
+stop_on = 3
+
+[node name="Mushroom_Patch_Narration" type="AkEvent3D" parent="."]
+event = {
+"id": 2640668715,
+"name": "Mushroom_Patch_Narration"
+}
+stop_on = 3
+
+[node name="Mushroom_Pick" type="AkEvent3D" parent="."]
+event = {
+"id": 1391500537,
+"name": "Mushroom_Pick"
+}
+stop_on = 3
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
