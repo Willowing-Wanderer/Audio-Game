@@ -37,7 +37,7 @@ func stop_narration():
 	
 func _ready():
 	#TODO: Remove this before shipping
-	druid_thanks.post_event()
+	#druid_thanks.post_event()
 	
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	Wwise.register_game_obj(self, self.get_name())

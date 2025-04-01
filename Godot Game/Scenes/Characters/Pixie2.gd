@@ -45,11 +45,10 @@ func on_click(selected):
 	if(selected == "Mushroom"):
 		player.remove_from_inventory("Mushroom")
 		pixie_trade_2.post_event()
+		await get_tree().create_timer(5).timeout
+		drop_crystal()
 	else:
 		pixie_dialog_2.post_event()
-	
-func _on_pixie_trade_2_end_of_event(data):
-	drop_crystal()
 
 func _on_crystal_drop_end_of_event(data):
 	pixie_flyoff.post_event()
@@ -67,4 +66,8 @@ func drop_crystal():
 	var crystal = crystal_scene.instantiate()
 	crystal.player = player
 	crystal.object_name = "Crystal"
+	crystal.rotation = Vector3(0,deg_to_rad(73),0)
 	circle.add_child(crystal)
+	print(crystal)
+	print(circle.get_children())
+	print("Should have added a crystal")

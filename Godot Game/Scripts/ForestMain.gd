@@ -6,7 +6,8 @@ var cave_scene = preload("res://Scenes/Areas/CaveScene.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	add_child(title_screen.instantiate())
+	#add_child(title_screen.instantiate())
+	finish_level_1()
 
 func start_game():
 	var raccoon = raccoon_scene.instantiate()
