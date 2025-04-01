@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{090908C5-707D-62D5-EB84-DF11C4F3470F}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{BC29AF25-2099-6D98-1A52-72862EE6C5F1}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -279,10 +279,6 @@
 					<ShortName>Sound_Placeholder.wav</ShortName>
 					<CachePath>SFX/Sound_Placeholder_D4D928E6.wem</CachePath>
 				</File>
-				<File Id="412105083" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Pixie1_Dialog.wav</ShortName>
-					<CachePath>SFX/Pixie1_Dialog_818F3B66.wem</CachePath>
-				</File>
 				<File Id="413952810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
@@ -330,6 +326,10 @@
 				<File Id="634010515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Flyoff.wav</ShortName>
 					<CachePath>SFX/Pixie_Flyoff_818F3B66.wem</CachePath>
+				</File>
+				<File Id="646462339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie1_Dialog1.wav</ShortName>
+					<CachePath>SFX/Pixie1_Dialog1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="651076579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Event_Placeholder.wav</ShortName>
@@ -943,7 +943,7 @@
 				<Event Id="2704494418" Name="Pixie1_Dialog">
 					<MediaRefs>
 						<MediaRef Id="384298685"/>
-						<MediaRef Id="412105083"/>
+						<MediaRef Id="646462339"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3300195252" Name="Pixie_Aww">
@@ -1082,5 +1082,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B858A286-AE78-765D-CAFF-3B9C0EC84D8F}</FileHash>
+	<FileHash>{A1F4AA2F-F27E-7D9B-73BA-C1C90BA7CD14}</FileHash>
 </SoundBanksInfo>
