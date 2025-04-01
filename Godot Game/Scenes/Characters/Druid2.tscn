@@ -61,6 +61,6 @@ event = {
 stop_on = 3
 
 [connection signal="end_of_event" from="Druid_Help_2" to="." method="_on_druid_help_end_of_event"]
-[connection signal="end_of_event" from="Druid_Thanks_2" to="." method="_on_druid_thanks_end_of_event"]
+[connection signal="end_of_event" from="Druid_Thanks_2" to="." method="_on_druid_thanks_2_end_of_event"]
 [connection signal="end_of_event" from="Narrate_Druid" to="." method="_on_narrate_druid_end_of_event"]
 [connection signal="end_of_event" from="Druid_Restoration" to="." method="_on_druid_restoration_end_of_event"]

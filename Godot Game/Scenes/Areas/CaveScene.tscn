@@ -711,6 +711,7 @@ circle = NodePath("..")
 [connection signal="cave_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_I/North_End" method="_on_bat_cave_unlocked"]
 [connection signal="cave_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_We/NE_End" method="_on_bat_cave_unlocked"]
 [connection signal="you_path_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_You/SW_End" method="_on_bat_you_path_unlocked"]
+[connection signal="quest_complete" from="Druid2" to="." method="_on_druid_2_quest_complete"]
 
 [editable path="Circle3/Path_NW_SE"]
 [editable path="CaveEntrance/Path_NE_SW"]

@@ -8,7 +8,7 @@ var sounds = {"Empty": AK.EVENTS.CLICK_FAIL,
 				"Mushroom": AK.EVENTS.MUSHROOM_ITEM}
 
 var items = {"Empty": null,
-			"Mushroom": 1}
+			"Crystal": 1}
 			
 var selected = 0
 

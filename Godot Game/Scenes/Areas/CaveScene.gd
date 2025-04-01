@@ -11,3 +11,7 @@ func _ready():
 func _process(delta):
 	$player_ears.position = player.position
 	$player_ears.rotation = player.rotation
+
+func _on_druid_2_quest_complete():
+	get_parent().finish_level_2()
+	queue_free()

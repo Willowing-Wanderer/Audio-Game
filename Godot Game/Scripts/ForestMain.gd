@@ -20,6 +20,10 @@ func finish_level_1():
 	cave.player = $Player
 	add_child(cave)
 
+func finish_level_2():
+	print("hi")
+	finish_game()
+
 func finish_game():
 	add_child(title_screen.instantiate())
 
