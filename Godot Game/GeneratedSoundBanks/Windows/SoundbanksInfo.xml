@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{739BC827-2E5F-A840-B800-FC348098FE37}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{B4F04A48-7C63-1E38-80A2-18B0B48B2951}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -231,6 +231,10 @@
 					<ShortName>Crystal_Drop.wav</ShortName>
 					<CachePath>SFX/Crystal_Drop_818F3B66.wem</CachePath>
 				</File>
+				<File Id="295177758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alone_Whisper.wav</ShortName>
+					<CachePath>SFX/Alone_Whisper_818F3B66.wem</CachePath>
+				</File>
 				<File Id="297512709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Aww.wav</ShortName>
 					<CachePath>SFX/Pixie_Aww_818F3B66.wem</CachePath>
@@ -246,6 +250,10 @@
 				<File Id="318985466" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Path.wav</ShortName>
 					<CachePath>SFX/Narrate_Path_9A94127C.wem</CachePath>
+				</File>
+				<File Id="328485346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Love_Whisper.wav</ShortName>
+					<CachePath>SFX/Love_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="347548140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Dialog.wav</ShortName>
@@ -271,6 +279,10 @@
 					<ShortName>Pixie1_Dialog2.wav</ShortName>
 					<CachePath>SFX/Pixie1_Dialog2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="391920239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>You_Whisper.wav</ShortName>
+					<CachePath>SFX/You_Whisper_818F3B66.wem</CachePath>
+				</File>
 				<File Id="393753510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Insect_Cloud_Narration.wav</ShortName>
 					<CachePath>SFX/Insect_Cloud_Narration_818F3B66.wem</CachePath>
@@ -287,9 +299,17 @@
 					<ShortName>Druid_Thanks.wav</ShortName>
 					<CachePath>SFX/Druid_Thanks_818F3B66.wem</CachePath>
 				</File>
+				<File Id="452047476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Here_Whisper.wav</ShortName>
+					<CachePath>SFX/Here_Whisper_818F3B66.wem</CachePath>
+				</File>
 				<File Id="453204445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Entrance_Narration.wav</ShortName>
 					<CachePath>SFX/Cave_Entrance_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="488087430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fear_Whisper.wav</ShortName>
+					<CachePath>SFX/Fear_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
@@ -302,6 +322,10 @@
 				<File Id="512147104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Druid.wav</ShortName>
 					<CachePath>SFX/Narrate_Druid_71081C4C.wem</CachePath>
+				</File>
+				<File Id="520997820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Survive_Whisper.wav</ShortName>
+					<CachePath>SFX/Survive_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="525294819" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ItemHoverDeselect.wav</ShortName>
@@ -318,6 +342,14 @@
 				<File Id="546806146" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Ending.wav</ShortName>
 					<CachePath>SFX/Narrate_Ending_DBCDD5C1.wem</CachePath>
+				</File>
+				<File Id="565012098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Apart_Whisper.wav</ShortName>
+					<CachePath>SFX/Apart_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="571663037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>We_Whisper.wav</ShortName>
+					<CachePath>SFX/We_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="614364145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Empty_Tree.wav</ShortName>
@@ -342,6 +374,10 @@
 				<File Id="686063000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environmental_Placeholder (1).wav</ShortName>
 					<CachePath>SFX/Environmental_Placeholder (1)_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="699580232" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Exist_Whisper.wav</ShortName>
+					<CachePath>SFX/Exist_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="706198960" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Insect_Item_Narration.wav</ShortName>
@@ -371,6 +407,10 @@
 					<ShortName>221755__motion_s__long-birds-forest-ambience.wav</ShortName>
 					<CachePath>SFX/221755__motion_s__long-birds-forest-ambience_55341F16.wem</CachePath>
 				</File>
+				<File Id="780914177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hate_Whisper.wav</ShortName>
+					<CachePath>SFX/Hate_Whisper_818F3B66.wem</CachePath>
+				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
 					<CachePath>SFX/Narrate_Nothing_A4C8EED1.wem</CachePath>
@@ -387,6 +427,18 @@
 					<ShortName>Narrate_Apple_Tree.wav</ShortName>
 					<CachePath>SFX/Narrate_Apple_Tree_6240AF7A.wem</CachePath>
 				</File>
+				<File Id="856412512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Together_Whisper.wav</ShortName>
+					<CachePath>SFX/Together_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="882462674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>I_Whisper.wav</ShortName>
+					<CachePath>SFX/I_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="892378372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Asleep_Whisper.wav</ShortName>
+					<CachePath>SFX/Asleep_Whisper_818F3B66.wem</CachePath>
+				</File>
 				<File Id="913583772" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>new controls.wav</ShortName>
 					<CachePath>SFX/new controls_340B2BFA.wem</CachePath>
@@ -398,6 +450,10 @@
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
 					<CachePath>SFX/Apple_16C91FE2.wem</CachePath>
+				</File>
+				<File Id="985936957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Myself_Whisper.wav</ShortName>
+					<CachePath>SFX/Myself_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PutdownV1.wav</ShortName>
@@ -419,6 +475,10 @@
 					<ShortName>Raccoon_Thanks1.wav</ShortName>
 					<CachePath>SFX/Raccoon_Thanks1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1042470034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Die_Whisper.wav</ShortName>
+					<CachePath>SFX/Die_Whisper_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1048681673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Help.wav</ShortName>
 					<CachePath>SFX/Druid_Help_818F3B66.wem</CachePath>
@@ -426,6 +486,10 @@
 				<File Id="1048699721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Hum.wav</ShortName>
 					<CachePath>SFX/Druid_Hum_99028C3C.wem</CachePath>
+				</File>
+				<File Id="1066231186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Belong_Whisper.wav</ShortName>
+					<CachePath>SFX/Belong_Whisper_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1071026570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bear_Narration_2.wav</ShortName>
@@ -439,12 +503,12 @@
 			<Events>
 				<Event Id="111733845" Name="Alone_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="295177758"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1585408714" Name="Apart_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="565012098"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="67176023" Name="Apple">
@@ -459,7 +523,7 @@
 				</Event>
 				<Event Id="645753248" Name="Asleep_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="892378372"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4000258095" Name="Backdrop_1">
@@ -524,7 +588,7 @@
 				</Event>
 				<Event Id="3007764503" Name="Belong_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="1066231186"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4020366015" Name="Black_Wind">
@@ -599,7 +663,7 @@
 				</Event>
 				<Event Id="98240150" Name="Die_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="1042470034"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3393591398" Name="Druid_Dialog">
@@ -659,7 +723,7 @@
 				</Event>
 				<Event Id="2656148257" Name="Exist_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="699580232"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="54298587" Name="Facing">
@@ -669,7 +733,7 @@
 				</Event>
 				<Event Id="3230454396" Name="Fear_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="488087430"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2385628198" Name="Footsteps">
@@ -707,12 +771,12 @@
 				</Event>
 				<Event Id="828014134" Name="Hate_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="780914177"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2665175820" Name="Here_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="452047476"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1523466505" Name="Hover_Deselect">
@@ -732,7 +796,7 @@
 				</Event>
 				<Event Id="580890269" Name="I_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="882462674"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1304319317" Name="Insect_Catch">
@@ -772,7 +836,7 @@
 				</Event>
 				<Event Id="2681543802" Name="Love_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="328485346"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2842092411" Name="Mushroom_Item">
@@ -797,7 +861,7 @@
 				</Event>
 				<Event Id="1184354894" Name="Myself_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="985936957"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2194565643" Name="Narrate_Apple">
@@ -1033,7 +1097,7 @@
 				</Event>
 				<Event Id="2316560346" Name="Survive_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="520997820"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3417648280" Name="To_AppleTree_Path_Narration">
@@ -1048,7 +1112,7 @@
 				</Event>
 				<Event Id="1414056144" Name="Together_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="856412512"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3363276846" Name="Tree_Shake">
@@ -1063,7 +1127,7 @@
 				</Event>
 				<Event Id="3484778486" Name="We_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="571663037"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1723483016" Name="West">
@@ -1073,7 +1137,7 @@
 				</Event>
 				<Event Id="3224125185" Name="You_Whisper">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="391920239"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -1082,5 +1146,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6ED06BF9-CC81-AA72-F0A7-3A515C61C03C}</FileHash>
+	<FileHash>{A5B8FA5E-45E8-D16D-DE34-64032FAA5B36}</FileHash>
 </SoundBanksInfo>
