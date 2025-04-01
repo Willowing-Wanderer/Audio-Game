@@ -138,7 +138,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23917326	Tree_Swish	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Swish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Tree_Swish		3338176
 	25400053	Pixie_Humming_2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Humming_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Pixie_Humming_2		2442604
 	60689166	Click_To_Start	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\press to start_328C72A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click_To_Start		1015644
-	61460548	Dialog_Placeholder	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Dialog_Placeholder_6C53839B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialog_Placeholder		147926
 	74561833	Tree_Shake	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Tree_Shake_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Tree_Shake		407220
 	76911740	Facing_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Facing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Facing_Hum		651468
 	82073296	Mushroom_Narration	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Mushroom_Narration_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Mushroom_Narration		145164
@@ -174,6 +173,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	413952810	LeafCrunchHard4	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard4_1142F2B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard4		155708
 	452047476	Here_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Here_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Here_Whisper		455986
 	453204445	Cave_Entrance_Narration	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Cave_Entrance_Narration_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Cave_Entrance_Narration		1127240
+	471731783	Cubs_Dialog	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Cubs_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Cubs_Dialog		1569936
 	479252709	Druid_Path_Dialog	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Path_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Path_Dialog		3128700
 	488087430	Fear_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Fear_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Fear_Whisper		439024
 	501403929	LeafCrunchHard3	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\LeafCrunchHard3_04F63888.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Footstep\LeafCrunchHard3		108052
@@ -187,6 +187,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546806146	Narrate_Ending	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Ending_DBCDD5C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Ending		873020
 	565012098	Apart_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apart_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Apart_Whisper		472946
 	571663037	We_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\We_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\We_Whisper		489484
+	601295313	Bat_Bumping	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Bat_Bumping_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Bat_Bumping		3013360
 	614364145	Narrate_Empty_Tree	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Empty_Tree_B1DCA8D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Empty_Tree		904012
 	634010515	Pixie_Flyoff	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Flyoff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundEvents\Pixie_Flyoff		366512
 	646462339	Pixie1_Dialog1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie1_Dialog1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Pixie1_Dialog\Pixie1_Dialog1		610760
@@ -213,7 +214,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	892378372	Asleep_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Asleep_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Asleep_Whisper		444536
 	913583772	Narrate_Controls	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\new controls_340B2BFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Controls		4117252
 	918725472	Raccoon_Eating	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Eating_A7790D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Raccoon_Eating		1369744
+	931202969	Bat_Cavern_Locked	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Bat_Cavern_Locked_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bat_Cavern_Locked		1995668
 	933696080	Druid_Thanks_1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Thanks_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Thanks_1		1751424
+	948177094	Bat_Dialog	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Bat_Dialog_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bat_Dialog		4070912
 	981327475	Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Apple_16C91FE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Apple		81560
 	985936957	Myself_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Myself_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Myself_Whisper		472946
 	994445067	PutdownV1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\PutdownV1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PutdownV1		488636
@@ -222,6 +225,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1023419553	Narrate_Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_9A682BFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple		155736
 	1035024182	Raccoon_Thanks1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks1		1873544
 	1042470034	Die_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Die_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Die_Whisper		487788
+	1047225303	Bat_Thanks	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Bat_Thanks_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bat_Thanks		2424796
 	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		1995668
 	1056727379	Bear_Dialog_2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Bear_Dialog_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Bear_Dialog\Bear_Dialog_2		1954112
 	1066231186	Belong_Whisper	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Belong_Whisper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Belong_Whisper		463618

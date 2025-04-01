@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8F8FD06A-33E9-4018-219A-5444739844BF}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{68756E2C-D974-6C94-7A92-84C224C2D32C}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -194,10 +194,6 @@
 				<File Id="60689166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>press to start.wav</ShortName>
 					<CachePath>SFX/press to start_328C72A0.wem</CachePath>
-				</File>
-				<File Id="61460548" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Dialog_Placeholder.wav</ShortName>
-					<CachePath>SFX/Dialog_Placeholder_6C53839B.wem</CachePath>
 				</File>
 				<File Id="74561833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Shake.wav</ShortName>
@@ -339,6 +335,10 @@
 					<ShortName>Cave_Entrance_Narration.wav</ShortName>
 					<CachePath>SFX/Cave_Entrance_Narration_818F3B66.wem</CachePath>
 				</File>
+				<File Id="471731783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cubs_Dialog.wav</ShortName>
+					<CachePath>SFX/Cubs_Dialog_818F3B66.wem</CachePath>
+				</File>
 				<File Id="479252709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Path_Dialog.wav</ShortName>
 					<CachePath>SFX/Druid_Path_Dialog_818F3B66.wem</CachePath>
@@ -390,6 +390,10 @@
 				<File Id="571663037" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>We_Whisper.wav</ShortName>
 					<CachePath>SFX/We_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601295313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bat_Bumping.wav</ShortName>
+					<CachePath>SFX/Bat_Bumping_818F3B66.wem</CachePath>
 				</File>
 				<File Id="614364145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Empty_Tree.wav</ShortName>
@@ -495,9 +499,17 @@
 					<ShortName>Raccoon_Eating.wav</ShortName>
 					<CachePath>SFX/Raccoon_Eating_A7790D41.wem</CachePath>
 				</File>
+				<File Id="931202969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bat_Cavern_Locked.wav</ShortName>
+					<CachePath>SFX/Bat_Cavern_Locked_818F3B66.wem</CachePath>
+				</File>
 				<File Id="933696080" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Thanks_1.wav</ShortName>
 					<CachePath>SFX/Druid_Thanks_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="948177094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bat_Dialog.wav</ShortName>
+					<CachePath>SFX/Bat_Dialog_818F3B66.wem</CachePath>
 				</File>
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
@@ -530,6 +542,10 @@
 				<File Id="1042470034" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Die_Whisper.wav</ShortName>
 					<CachePath>SFX/Die_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1047225303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bat_Thanks.wav</ShortName>
+					<CachePath>SFX/Bat_Thanks_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1048699721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Hum.wav</ShortName>
@@ -585,17 +601,17 @@
 				</Event>
 				<Event Id="1125471007" Name="Bat_Bumping">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="601295313"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2212254451" Name="Bat_Cavern_Locked">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="931202969"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2767651361" Name="Bat_Dialog">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="948177094"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2963949393" Name="Bat_Narration">
@@ -605,7 +621,7 @@
 				</Event>
 				<Event Id="1816682394" Name="Bat_Thanks">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="1047225303"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2366200506" Name="Bear_Dialog">
@@ -701,7 +717,7 @@
 				</Event>
 				<Event Id="331307707" Name="Cubs_Dialog">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="471731783"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1652453217" Name="Cubs_Eating">
@@ -1199,5 +1215,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B12ED48B-4469-32F6-87ED-F2B23137BF57}</FileHash>
+	<FileHash>{51E5206A-8A0D-83AA-E57B-FA76C4050D01}</FileHash>
 </SoundBanksInfo>

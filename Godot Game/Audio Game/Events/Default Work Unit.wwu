@@ -871,7 +871,7 @@
 										<Action Name="" ID="{204FC592-7362-431F-885C-6333FB0A8568}" ShortID="64027155">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Cavern_Locked" ID="{A661B1EA-2880-40F1-9361-0CDB752BE8CE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -882,7 +882,7 @@
 										<Action Name="" ID="{49C874F3-3D87-416D-9A57-194F4E42A839}" ShortID="499413151">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Bumping" ID="{29A9036E-F8FE-4119-A99C-2C0E66E634D3}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -893,7 +893,7 @@
 										<Action Name="" ID="{30871333-E0E0-46F7-B027-7D32143B1093}" ShortID="916862608">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Dialog" ID="{05BBCC6E-C65D-46C2-996C-FD8A1A12129A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -904,7 +904,7 @@
 										<Action Name="" ID="{2B7C090C-7EB4-4F6B-8034-F896DE973852}" ShortID="766808018">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Thanks" ID="{A19E6DAE-9E49-4707-92E9-682BCDE552EB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -930,7 +930,7 @@
 										<Action Name="" ID="{ABAC348F-767A-4335-A6D5-15DEB0C590BF}" ShortID="102779851">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cubs_Dialog" ID="{AD0F2800-5D27-44B2-8349-03D127935873}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
