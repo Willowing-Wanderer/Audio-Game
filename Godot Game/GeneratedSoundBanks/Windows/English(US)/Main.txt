@@ -195,7 +195,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1023419553	Narrate_Apple	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Narrate_Apple_9A682BFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Narrate_Apple		155736
 	1035024182	Raccoon_Thanks1	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Raccoon_Thanks1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Raccoon_Thanks\Raccoon_Thanks1		1873544
 	1048681673	Druid_Help	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Help_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Druid_Help		977128
-	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		2442604
+	1048699721	Druid_Hum	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Druid_Hum_99028C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environmentals\Druid_Hum		1995668
 	1071026570	Bear_Narration_2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Bear_Narration_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Bear_Narration_2		816844
 	1072391335	Pixie_Narration_2	C:\Users\Will\Documents\GitHub\Audio-Game\Godot Game\Audio Game\.cache\Windows\SFX\Pixie_Narration_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narrations\Pixie_Narration_2		1325688
 
