@@ -7,6 +7,7 @@ var pixie_dialog_2:AkEvent3D
 var narrate_pixie:AkEvent3D
 var crystal_drop:AkEvent3D
 var player:Node3D
+@export var circle:Node3D
 
 var playing_narration = false
 
@@ -48,14 +49,22 @@ func on_click(selected):
 		pixie_dialog_2.post_event()
 	
 func _on_pixie_trade_2_end_of_event(data):
-	crystal_drop.post_event()
+	drop_crystal()
 
 func _on_crystal_drop_end_of_event(data):
 	pixie_flyoff.post_event()
 
 func _on_pixie_flyoff_end_of_event(data):
 	queue_free()
+	player.set_cutscene(false)
 
 func _on_pixie_dialog_2_end_of_event(data):
 	pixie_humming_2.post_event()
 	player.set_cutscene(false)
+
+func drop_crystal():
+	crystal_drop.post_event()
+	var crystal = crystal_scene.instantiate()
+	crystal.player = player
+	crystal.object_name = "Crystal"
+	circle.add_child(crystal)

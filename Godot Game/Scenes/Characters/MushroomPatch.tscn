@@ -38,9 +38,10 @@ stop_on = 3
 
 [node name="Mushroom_Pick" type="AkEvent3D" parent="."]
 event = {
-"id": 1391500537,
-"name": "Mushroom_Pick"
+"id": 1304319317,
+"name": "Insect_Catch"
 }
 stop_on = 3
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="end_of_event" from="Mushroom_Pick" to="." method="_on_mushroom_pick_end_of_event"]

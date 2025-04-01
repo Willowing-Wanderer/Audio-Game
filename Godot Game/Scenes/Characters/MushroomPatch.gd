@@ -36,13 +36,10 @@ func _ready():
 
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	await get_tree().create_timer(1).timeout
+	await get_tree().create_timer(0.8).timeout
+	print("Huh?")
 	mushroom_pick.post_event()
-	player.add_to_inventory("Mushroom")
-	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 
-func _on_insect_catch_end_of_event(data):
-	print("huh?")
+func _on_mushroom_pick_end_of_event(data):
 	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
-	player.add_to_inventory("Insect")
-	player.set_cutscene(false)
+	player.add_to_inventory("Mushroom")

@@ -36,7 +36,7 @@ func _ready():
 
 func on_click(selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	await get_tree().create_timer(1).timeout
+	await get_tree().create_timer(0.8).timeout
 	
 	if(selected == "Net"):
 		player.set_cutscene(true)
