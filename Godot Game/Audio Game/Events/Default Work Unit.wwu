@@ -488,7 +488,7 @@
 										<Action Name="" ID="{F92D7916-67E8-4777-8AA1-59AB46E86ADF}" ShortID="284234997">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Dialog_2" ID="{7806756D-CEC0-4A7A-8F59-CDF797C24939}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -499,7 +499,7 @@
 										<Action Name="" ID="{353D01A7-8B85-4F82-A6DF-C62BBD23E924}" ShortID="11264798">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Humming_2" ID="{967FF7D1-DA2C-484C-8A6F-FF617BD11BCE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -510,7 +510,7 @@
 										<Action Name="" ID="{597E2FDE-1000-4F6A-BB0D-732BFDB861C7}" ShortID="183781989">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Trade_2" ID="{5CA23E65-3D78-4D4B-B59C-43D7D4591D18}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -639,7 +639,7 @@
 										<Action Name="" ID="{F5810145-7AD7-46A2-BD13-6F5FE28491C4}" ShortID="40662163">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Dialog" ID="{AABCD1D5-287E-40AD-806B-CC8034E35967}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -650,7 +650,7 @@
 										<Action Name="" ID="{DE7800E6-8093-4B31-8566-7E8C814B10A8}" ShortID="1043558990">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Thanks" ID="{8BF67CCF-0D25-4F5D-B9ED-9EB38E552E87}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
