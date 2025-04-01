@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A579F14C-094D-9A1C-A4DA-24CC18EAFF38}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{090908C5-707D-62D5-EB84-DF11C4F3470F}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -210,10 +210,6 @@
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard2_00D9E3E6.wem</CachePath>
-				</File>
-				<File Id="158081556" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Raccoon_Thanks.wav</ShortName>
-					<CachePath>SFX/Raccoon_Thanks_818F3B66.wem</CachePath>
 				</File>
 				<File Id="171344150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Item.wav</ShortName>
@@ -418,6 +414,10 @@
 				<File Id="1023419553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Apple.wav</ShortName>
 					<CachePath>SFX/Narrate_Apple_9A682BFE.wem</CachePath>
+				</File>
+				<File Id="1035024182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raccoon_Thanks1.wav</ShortName>
+					<CachePath>SFX/Raccoon_Thanks1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1048681673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Help.wav</ShortName>
@@ -993,7 +993,7 @@
 				</Event>
 				<Event Id="2129084912" Name="Raccoon_Thanks">
 					<MediaRefs>
-						<MediaRef Id="158081556"/>
+						<MediaRef Id="1035024182"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="623248687" Name="Raccoon_Thanks_2">
@@ -1082,5 +1082,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A40DE375-A527-81E8-F66F-2D6BECD5DD9F}</FileHash>
+	<FileHash>{B858A286-AE78-765D-CAFF-3B9C0EC84D8F}</FileHash>
 </SoundBanksInfo>
