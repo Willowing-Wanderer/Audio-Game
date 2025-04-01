@@ -1358,7 +1358,7 @@
 										<Action Name="" ID="{D2529B9A-8A17-44A4-A7E9-220286A8AFE1}" ShortID="393525612">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="To_Campsite_Path_Narration" ID="{B5553720-21B3-42EF-8CD4-9324C23CF86D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1369,7 +1369,7 @@
 										<Action Name="" ID="{FF433255-E7E5-4A8D-A591-9B2C22A67C11}" ShortID="294613609">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Forest_Path_Narration" ID="{CF68E553-C5C5-406F-B305-AFD5DA7F37C6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1380,7 +1380,7 @@
 										<Action Name="" ID="{38EAA6D5-E6EF-451C-AF86-13C1122579AE}" ShortID="826325156">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="To_AppleTree_Path_Narration" ID="{0FE94065-8600-4C35-BC60-0B595C479C7D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

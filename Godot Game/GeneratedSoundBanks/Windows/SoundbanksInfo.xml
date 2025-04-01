@@ -163,10 +163,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{B4F04A48-7C63-1E38-80A2-18B0B48B2951}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{A28E7E72-6D5E-3960-5EA8-A65CFDA9BD8A}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
+				<File Id="4802206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>To_Campsite_Path_Narration.wav</ShortName>
+					<CachePath>SFX/To_Campsite_Path_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="6947412" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bear_Narration_1.wav</ShortName>
 					<CachePath>SFX/Bear_Narration_1_818F3B66.wem</CachePath>
@@ -331,6 +335,10 @@
 					<ShortName>ItemHoverDeselect.wav</ShortName>
 					<CachePath>SFX/ItemHoverDeselect_818F3B66.wem</CachePath>
 				</File>
+				<File Id="527486784" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>To_AppleTree_Path_Narration.wav</ShortName>
+					<CachePath>SFX/To_AppleTree_Path_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
@@ -386,6 +394,10 @@
 				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
 					<CachePath>SFX/Narrate_Raccoon_Satisfied_DB22EFDF.wem</CachePath>
+				</File>
+				<File Id="743792783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Forest_Path_Narration.wav</ShortName>
+					<CachePath>SFX/Forest_Path_Narration_818F3B66.wem</CachePath>
 				</File>
 				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Pixie.wav</ShortName>
@@ -766,7 +778,7 @@
 				</Event>
 				<Event Id="1108912979" Name="Forest_Path_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="743792783"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="828014134" Name="Hate_Whisper">
@@ -1102,12 +1114,12 @@
 				</Event>
 				<Event Id="3417648280" Name="To_AppleTree_Path_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="527486784"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1140924972" Name="To_Campsite_Path_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="4802206"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1414056144" Name="Together_Whisper">
@@ -1146,5 +1158,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A5B8FA5E-45E8-D16D-DE34-64032FAA5B36}</FileHash>
+	<FileHash>{AF7E080D-27F7-F5CC-22FF-800DD1C85805}</FileHash>
 </SoundBanksInfo>
