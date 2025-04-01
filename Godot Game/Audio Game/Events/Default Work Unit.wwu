@@ -757,7 +757,7 @@
 										<Action Name="" ID="{C0E75D93-BA0A-4B0E-88DB-83733841AA13}" ShortID="624114366">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Thanks_2" ID="{994D3357-A24B-410B-86BA-588DB7AA264D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -768,7 +768,7 @@
 										<Action Name="" ID="{1672177D-5CC7-44AE-982E-02DEFE56B13C}" ShortID="230679805">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Dialog_1" ID="{597F48CE-0DED-4ED6-A85D-06B32671C61A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -801,7 +801,7 @@
 										<Action Name="" ID="{7C1CFE63-D98F-4987-84FF-E35C88336254}" ShortID="345637384">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Help_2" ID="{859FD6BB-78F3-4151-BDF4-B2D6A79D72C2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -812,7 +812,7 @@
 										<Action Name="" ID="{76964CF6-8FB1-4A80-BA3D-EC8DB6C0DDB1}" ShortID="958158265">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Druid_Thanks" ID="{286282AA-5902-44AA-B4AA-712B75687053}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Thanks_1" ID="{28F28BEE-DABD-4C51-8D75-48382F71A948}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -834,7 +834,7 @@
 										<Action Name="" ID="{0B0126A8-F502-41E1-8316-F2B4FBDA2C75}" ShortID="790280318">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Druid_Help" ID="{CE2E9D3C-CB03-4987-8688-B4B76A48A96B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Help_1" ID="{651D8EE1-B013-490A-A74E-A941D23DEEE4}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -845,7 +845,7 @@
 										<Action Name="" ID="{F68EC76F-F855-4DEA-BA18-F7CF3243ACBB}" ShortID="762719695">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Path_Dialog" ID="{51597985-0102-4BE7-8296-18A36BB9C07E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

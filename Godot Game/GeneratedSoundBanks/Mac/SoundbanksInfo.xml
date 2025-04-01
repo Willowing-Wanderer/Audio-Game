@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{086D317D-569F-659A-0E43-703B04E27ECC}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8F8FD06A-33E9-4018-219A-5444739844BF}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -178,6 +178,10 @@
 				<File Id="9349052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Item_Ping.wav</ShortName>
 					<CachePath>SFX/Item_Ping_69AD4CCB.wem</CachePath>
+				</File>
+				<File Id="13993429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Help_2.wav</ShortName>
+					<CachePath>SFX/Druid_Help_2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
@@ -215,6 +219,10 @@
 					<ShortName>Pixie_Trade_2.wav</ShortName>
 					<CachePath>SFX/Pixie_Trade_2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="106641712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Dialog_1.wav</ShortName>
+					<CachePath>SFX/Druid_Dialog_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="126095673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Go_Away.wav</ShortName>
 					<CachePath>SFX/Raccoon_Go_Away_AB2B0307.wem</CachePath>
@@ -238,6 +246,10 @@
 				<File Id="235742163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bat_Narration.wav</ShortName>
 					<CachePath>SFX/Bat_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="254060030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Help_1.wav</ShortName>
+					<CachePath>SFX/Druid_Help_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="289673027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Drop.wav</ShortName>
@@ -270,6 +282,10 @@
 				<File Id="321651783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bear_Thanks.wav</ShortName>
 					<CachePath>SFX/Bear_Thanks_818F3B66.wem</CachePath>
+				</File>
+				<File Id="326698503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Thanks_2.wav</ShortName>
+					<CachePath>SFX/Druid_Thanks_2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="328485346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Love_Whisper.wav</ShortName>
@@ -315,10 +331,6 @@
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
 				</File>
-				<File Id="440940756" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Druid_Thanks.wav</ShortName>
-					<CachePath>SFX/Druid_Thanks_818F3B66.wem</CachePath>
-				</File>
 				<File Id="452047476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Here_Whisper.wav</ShortName>
 					<CachePath>SFX/Here_Whisper_818F3B66.wem</CachePath>
@@ -326,6 +338,10 @@
 				<File Id="453204445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Entrance_Narration.wav</ShortName>
 					<CachePath>SFX/Cave_Entrance_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="479252709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Path_Dialog.wav</ShortName>
+					<CachePath>SFX/Druid_Path_Dialog_818F3B66.wem</CachePath>
 				</File>
 				<File Id="488087430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fear_Whisper.wav</ShortName>
@@ -479,6 +495,10 @@
 					<ShortName>Raccoon_Eating.wav</ShortName>
 					<CachePath>SFX/Raccoon_Eating_A7790D41.wem</CachePath>
 				</File>
+				<File Id="933696080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Druid_Thanks_1.wav</ShortName>
+					<CachePath>SFX/Druid_Thanks_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="981327475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apple.wav</ShortName>
 					<CachePath>SFX/Apple_16C91FE2.wem</CachePath>
@@ -510,10 +530,6 @@
 				<File Id="1042470034" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Die_Whisper.wav</ShortName>
 					<CachePath>SFX/Die_Whisper_818F3B66.wem</CachePath>
-				</File>
-				<File Id="1048681673" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Druid_Help.wav</ShortName>
-					<CachePath>SFX/Druid_Help_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1048699721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Hum.wav</ShortName>
@@ -710,17 +726,17 @@
 				</Event>
 				<Event Id="3995925126" Name="Druid_Dialog_1">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="106641712"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1918198543" Name="Druid_Help_1">
 					<MediaRefs>
-						<MediaRef Id="1048681673"/>
+						<MediaRef Id="254060030"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1918198540" Name="Druid_Help_2">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="13993429"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2213069164" Name="Druid_Hum">
@@ -735,7 +751,7 @@
 				</Event>
 				<Event Id="2335167966" Name="Druid_Path_Dialog">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="479252709"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3824697202" Name="Druid_Restoration">
@@ -745,12 +761,12 @@
 				</Event>
 				<Event Id="15961761" Name="Druid_Thanks_1">
 					<MediaRefs>
-						<MediaRef Id="440940756"/>
+						<MediaRef Id="933696080"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="15961762" Name="Druid_Thanks_2">
 					<MediaRefs>
-						<MediaRef Id="61460548"/>
+						<MediaRef Id="326698503"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="529018174" Name="East">
@@ -1183,5 +1199,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7A1938AB-2B35-5F7F-FACD-FF1548349D5D}</FileHash>
+	<FileHash>{8C5BE79F-832A-4DCB-3193-D879FDE28753}</FileHash>
 </SoundBanksInfo>
