@@ -21,55 +21,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 shape = SubResource("SphereShape3D_2lhut")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 skeleton = NodePath("../..")
-
-[node name="Bat_Bumping" type="AkEvent3D" parent="."]
-event = {
-"id": 1125471007,
-"name": "Bat_Bumping"
-}
-stop_on = 3
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
-
-[node name="Bat_Dialog" type="AkEvent3D" parent="."]
-event = {
-"id": 2767651361,
-"name": "Bat_Dialog"
-}
-stop_on = 3
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
-
-[node name="Bat_Thanks" type="AkEvent3D" parent="."]
-event = {
-"id": 1816682394,
-"name": "Bat_Thanks"
-}
-stop_on = 3
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
-
-[node name="Bat_Narration" type="AkEvent3D" parent="."]
-event = {
-"id": 2963949393,
-"name": "Bat_Narration"
-}
-stop_on = 3
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
-
-[node name="Bat_Cavern_Locked" type="AkEvent3D" parent="."]
-event = {
-"id": 2212254451,
-"name": "Bat_Cavern_Locked"
-}
-stop_on = 3
-
-[node name="Bat_Eating" type="AkEvent3D" parent="."]
-event = {
-"id": 1629516455,
-"name": "Bat_Eating"
-}
-stop_on = 3
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
 visible = false
@@ -80,8 +34,53 @@ skeleton = NodePath("")
 wait_time = 5.0
 autostart = true
 
+[node name="Sounds" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Bat_Bumping" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 1125471007,
+"name": "Bat_Bumping"
+}
+stop_on = 3
+
+[node name="Bat_Dialog" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 2767651361,
+"name": "Bat_Dialog"
+}
+stop_on = 3
+
+[node name="Bat_Thanks" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 1816682394,
+"name": "Bat_Thanks"
+}
+stop_on = 3
+
+[node name="Bat_Narration" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 2963949393,
+"name": "Bat_Narration"
+}
+stop_on = 3
+
+[node name="Bat_Cavern_Locked" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 2212254451,
+"name": "Bat_Cavern_Locked"
+}
+stop_on = 3
+
+[node name="Bat_Eating" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 1629516455,
+"name": "Bat_Eating"
+}
+stop_on = 3
+
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
-[connection signal="end_of_event" from="Bat_Dialog" to="." method="_on_bat_dialog_end_of_event"]
-[connection signal="end_of_event" from="Bat_Thanks" to="." method="_on_bat_thanks_end_of_event"]
-[connection signal="end_of_event" from="Bat_Cavern_Locked" to="." method="_on_bat_cavern_locked_end_of_event"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="end_of_event" from="Sounds/Bat_Dialog" to="." method="_on_bat_dialog_end_of_event"]
+[connection signal="end_of_event" from="Sounds/Bat_Thanks" to="." method="_on_bat_thanks_end_of_event"]
+[connection signal="end_of_event" from="Sounds/Bat_Cavern_Locked" to="." method="_on_bat_cavern_locked_end_of_event"]

@@ -36,12 +36,12 @@ func _ready():
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
-	bat_bumping = $Bat_Bumping
-	bat_dialog = $Bat_Dialog
-	bat_thanks = $Bat_Thanks
-	bat_cavern_locked = $Bat_Cavern_Locked
-	bat_eating = $Bat_Eating
-	bat_narration = $Bat_Narration
+	bat_bumping = $Sounds/Bat_Bumping
+	bat_dialog = $Sounds/Bat_Dialog
+	bat_thanks = $Sounds/Bat_Thanks
+	bat_cavern_locked = $Sounds/Bat_Cavern_Locked
+	bat_eating = $Sounds/Bat_Eating
+	bat_narration = $Sounds/Bat_Narration
 	bat_bumping.post_event()
 	
 func _process(delta):

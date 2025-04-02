@@ -67,6 +67,7 @@ event = {
 "name": "Narrate_Empty_Tree"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Narration_Timer" type="Timer" parent="."]
 wait_time = 4.0
@@ -77,5 +78,6 @@ event = {
 "name": "Interact"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [connection signal="timeout" from="Narration_Timer" to="." method="_on_narration_timer_timeout"]

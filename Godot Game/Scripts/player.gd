@@ -1,7 +1,8 @@
 class_name Player extends Area3D
 
-@export var hover_select:AkEvent3D
-@export var hover_deselect:AkEvent3D
+var hover_select:AkEvent3D
+var hover_deselect:AkEvent3D
+var pick_up:AkEvent3D
 
 @export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.0
 var mouse_captured: bool = false
@@ -19,6 +20,9 @@ var area_narration_playing = false
 @onready var player: Area3D = $Player
 
 func _ready() -> void:
+	pick_up = $Pick_up
+	hover_select = $Hover_Select
+	hover_deselect = $Hover_Deselect
 	capture_mouse()
 
 func _process(delta):
@@ -88,6 +92,7 @@ func process_right_click(area: Area3D):
 	area.narrate()
 
 func add_to_inventory(item_name):
+	pick_up.post_event()
 	inventory.add_item(item_name)
 	
 func remove_from_inventory(item_name):

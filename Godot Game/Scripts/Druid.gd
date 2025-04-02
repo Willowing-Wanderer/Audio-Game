@@ -2,11 +2,13 @@ extends Area3D
 
 @export var object_name:String = "Druid"
 
-@export var druid_hum:AkEvent3D
-@export var druid_dialog:AkEvent3D
-@export var druid_help:AkEvent3D
-@export var druid_thanks:AkEvent3D
-@export var druid_restoration:AkEvent3D
+var druid_hum:AkEvent3D
+var druid_dialog:AkEvent3D
+var druid_help:AkEvent3D
+var druid_thanks:AkEvent3D
+var druid_restoration:AkEvent3D
+var druid_path_dialog:AkEvent3D
+var druid_nervous:AkEvent3D
 
 # Needed if you want to do anything with the player's controls
 @export var player:Node3D
@@ -36,15 +38,20 @@ func stop_narration():
 	narration_timer.stop()
 	
 func _ready():
-	#TODO: Remove this before shipping
-	#druid_thanks.post_event()
-	
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.set_3d_position(self, get_global_transform())
-	druid_hum.post_event()
+	druid_hum = $Druid_Hum
+	druid_dialog = $Druid_Dialog
+	druid_help = $Druid_Help
+	druid_thanks = $Druid_Thanks
+	druid_restoration = $Druid_Restoration
+	druid_path_dialog = $Druid_Path_Dialog
+	druid_nervous = $Druid_Nervous
+	druid_nervous.post_event()
 
 func on_click(selected):
+	druid_nervous.stop_event()
 	druid_hum.stop_event()
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 	player.set_cutscene(true)
@@ -74,7 +81,8 @@ func _on_druid_help_end_of_event(data):
 	druid_hum.post_event()
 
 func _on_druid_restoration_end_of_event(data):
+	druid_path_dialog.post_event()
+
+func _on_druid_path_dialog_end_of_event(data):
 	player.set_cutscene(false)
 	quest_complete.emit()
-
-

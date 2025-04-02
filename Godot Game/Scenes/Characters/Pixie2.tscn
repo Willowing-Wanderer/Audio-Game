@@ -18,7 +18,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 shape = SubResource("SphereShape3D_2lhut")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 
 [node name="Pixie_Humming_2" type="AkEvent3D" parent="."]
@@ -67,6 +67,7 @@ event = {
 "name": "Crystal_Drop"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [connection signal="end_of_event" from="Pixie_Trade_2" to="." method="_on_pixie_trade_2_end_of_event"]
 [connection signal="end_of_event" from="Pixie_Flyoff" to="." method="_on_pixie_flyoff_end_of_event"]

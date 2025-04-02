@@ -27,7 +27,6 @@ func stop_narration():
 	
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	mushroom_patch = $Mushroom_Patch
 	mushroom_patch_narration = $Mushroom_Patch_Narration

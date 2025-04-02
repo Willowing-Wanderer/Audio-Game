@@ -28,6 +28,7 @@ event = {
 "name": "Mushroom_Patch"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Mushroom_Patch_Narration" type="AkEvent3D" parent="."]
 event = {
@@ -35,6 +36,7 @@ event = {
 "name": "Mushroom_Patch_Narration"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Mushroom_Pick" type="AkEvent3D" parent="."]
 event = {
@@ -42,6 +44,7 @@ event = {
 "name": "Insect_Catch"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="end_of_event" from="Mushroom_Pick" to="." method="_on_mushroom_pick_end_of_event"]

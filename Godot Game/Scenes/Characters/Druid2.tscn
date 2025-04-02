@@ -18,7 +18,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 shape = SubResource("SphereShape3D_2lhut")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 
 [node name="Druid_Hum" type="AkEvent3D" parent="."]
@@ -59,6 +59,7 @@ event = {
 "name": "Druid_Restoration"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [connection signal="end_of_event" from="Druid_Help_2" to="." method="_on_druid_help_2_end_of_event"]
 [connection signal="end_of_event" from="Druid_Thanks_2" to="." method="_on_druid_thanks_2_end_of_event"]

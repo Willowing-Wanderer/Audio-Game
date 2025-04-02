@@ -26,8 +26,7 @@ func stop_narration():
 	insect_cloud_narration.stop_event()
 	
 func _ready():
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
+	Wwise.register_game_obj(self, self.get_name()) 
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	insect_cloud = $Insect_Cloud
 	insect_cloud_narration = $Insect_Cloud_Narration
