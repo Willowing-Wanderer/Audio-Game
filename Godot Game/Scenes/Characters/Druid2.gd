@@ -55,3 +55,6 @@ func _on_druid_thanks_2_end_of_event(data):
 func _on_druid_restoration_end_of_event(data):
 	player.set_cutscene(false)
 	quest_complete.emit()
+
+func _on_druid_help_2_end_of_event(data):
+	player.set_cutscene(false)

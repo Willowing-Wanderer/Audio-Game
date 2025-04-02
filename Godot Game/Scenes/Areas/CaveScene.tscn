@@ -37,32 +37,20 @@ script = ExtResource("1_be42p")
 
 [node name="player_ears" parent="." instance=ExtResource("2_wuwqm")]
 
-[node name="Circle3" parent="." instance=ExtResource("1_w2ttr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.4958, 0, 12.172)
-
-[node name="Net" parent="Circle3" instance=ExtResource("4_fli38")]
-transform = Transform3D(-0.404312, 0, -0.914621, 0, 1, 0, 0.914621, 0, -0.404312, 0, 0, 0)
-
-[node name="Path_NW_SE" parent="Circle3" instance=ExtResource("9_tlgvb")]
-transform = Transform3D(0.880254, 0, 0.474503, 0, 1, 0, -0.474503, 0, 0.880254, -2.22031, 0, -3.79173)
-
-[node name="NW_End" parent="Circle3/Path_NW_SE" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../..")
-
-[node name="SE_End" parent="Circle3/Path_NW_SE" index="2" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../CaveFoyer")
-
 [node name="CaveEntrance" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.7604, 0, 4.5297)
 
-[node name="Path_NE_SW" parent="CaveEntrance" instance=ExtResource("12_o8ge7")]
-transform = Transform3D(0.831198, 0, -0.555977, 0, 1, 0, 0.555977, 0, 0.831198, -2.40286, 0, 3.79612)
+[node name="Path_East_West" parent="CaveEntrance" instance=ExtResource("12_dsbcn")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.5, 0, 0)
 
-[node name="NE_End" parent="CaveEntrance/Path_NE_SW" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../Circle3")
-
-[node name="SW_End" parent="CaveEntrance/Path_NE_SW" index="2" node_paths=PackedStringArray("circle")]
+[node name="West_End" parent="CaveEntrance/Path_East_West" index="1" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
+
+[node name="East_End" parent="CaveEntrance/Path_East_West" index="2" node_paths=PackedStringArray("circle")]
+circle = NodePath("../../../CaveFoyer")
+
+[node name="Net" parent="CaveEntrance" instance=ExtResource("4_fli38")]
+transform = Transform3D(-0.378519, 0, -0.925593, 0, 1, 0, 0.925593, 0, -0.378519, 0, 0, 0)
 
 [node name="CaveFoyer" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.8029, 0, 4.52629)
@@ -713,8 +701,7 @@ circle = NodePath("..")
 [connection signal="you_path_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_You/SW_End" method="_on_bat_you_path_unlocked"]
 [connection signal="quest_complete" from="Druid2" to="." method="_on_druid_2_quest_complete"]
 
-[editable path="Circle3/Path_NW_SE"]
-[editable path="CaveEntrance/Path_NE_SW"]
+[editable path="CaveEntrance/Path_East_West"]
 [editable path="CaveFoyer/Path_East_West"]
 [editable path="WhisperingCavern1/Path_I"]
 [editable path="WhisperingCavern1/Path_We"]

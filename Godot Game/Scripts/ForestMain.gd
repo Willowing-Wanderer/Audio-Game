@@ -6,8 +6,7 @@ var cave_scene = preload("res://Scenes/Areas/CaveScene.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	#add_child(title_screen.instantiate())
-	finish_level_1()
+	add_child(title_screen.instantiate())
 
 func start_game():
 	var raccoon = raccoon_scene.instantiate()
@@ -21,12 +20,8 @@ func finish_level_1():
 	add_child(cave)
 
 func finish_level_2():
-	print("hi")
-	finish_game()
-
-func finish_game():
-	add_child(title_screen.instantiate())
-
+	call_deferred("add_child",title_screen.instantiate())
+	
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):
 		get_tree().quit()
