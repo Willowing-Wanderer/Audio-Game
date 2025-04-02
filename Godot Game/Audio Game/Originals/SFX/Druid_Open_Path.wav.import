@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dl3786brobd35"
+path="res://.godot/imported/Druid_Open_Path.wav-dc89ab5e1859eea4ec2d9ba09abc4b52.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Druid_Open_Path.wav"
+dest_files=["res://.godot/imported/Druid_Open_Path.wav-dc89ab5e1859eea4ec2d9ba09abc4b52.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

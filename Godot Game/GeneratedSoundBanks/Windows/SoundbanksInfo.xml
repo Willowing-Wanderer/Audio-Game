@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{68756E2C-D974-6C94-7A92-84C224C2D32C}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{638E9761-A5ED-C930-1F24-0D65950AACF4}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -182,6 +182,10 @@
 				<File Id="13993429" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Help_2.wav</ShortName>
 					<CachePath>SFX/Druid_Help_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="14427774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Entrance.wav</ShortName>
+					<CachePath>SFX/Cave_Entrance_818F3B66.wem</CachePath>
 				</File>
 				<File Id="23917326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tree_Swish.wav</ShortName>
@@ -235,9 +239,17 @@
 					<ShortName>Apples_Fall.wav</ShortName>
 					<CachePath>SFX/Apples_Fall_818F3B66.wem</CachePath>
 				</File>
+				<File Id="194600092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Footsteps_2.wav</ShortName>
+					<CachePath>SFX/Cave_Footsteps_2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="194724780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Backdrop_Placeholder.wav</ShortName>
 					<CachePath>SFX/Backdrop_Placeholder_1EF53104.wem</CachePath>
+				</File>
+				<File Id="197747135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stream_Source.wav</ShortName>
+					<CachePath>SFX/Stream_Source_818F3B66.wem</CachePath>
 				</File>
 				<File Id="235742163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bat_Narration.wav</ShortName>
@@ -270,6 +282,10 @@
 				<File Id="303202623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Path_Narration.wav</ShortName>
 					<CachePath>SFX/Cave_Path_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="313971614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cubs_Eating.wav</ShortName>
+					<CachePath>SFX/Cubs_Eating_818F3B66.wem</CachePath>
 				</File>
 				<File Id="318985466" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Path.wav</ShortName>
@@ -371,6 +387,10 @@
 					<ShortName>To_AppleTree_Path_Narration.wav</ShortName>
 					<CachePath>SFX/To_AppleTree_Path_Narration_818F3B66.wem</CachePath>
 				</File>
+				<File Id="534976455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Footsteps_1.wav</ShortName>
+					<CachePath>SFX/Cave_Footsteps_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="535661321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BlackWind.wav</ShortName>
 					<CachePath>SFX/BlackWind_818F3B66.wem</CachePath>
@@ -382,6 +402,10 @@
 				<File Id="546806146" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Ending.wav</ShortName>
 					<CachePath>SFX/Narrate_Ending_DBCDD5C1.wem</CachePath>
+				</File>
+				<File Id="546914351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bear_Pacing.wav</ShortName>
+					<CachePath>SFX/Bear_Pacing_818F3B66.wem</CachePath>
 				</File>
 				<File Id="565012098" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apart_Whisper.wav</ShortName>
@@ -411,6 +435,10 @@
 					<ShortName>Event_Placeholder.wav</ShortName>
 					<CachePath>SFX/Event_Placeholder_830BD1A1.wem</CachePath>
 				</File>
+				<File Id="651900428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience_818F3B66.wem</CachePath>
+				</File>
 				<File Id="662431969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mushroom_Patch_Narration.wav</ShortName>
 					<CachePath>SFX/Mushroom_Patch_Narration_818F3B66.wem</CachePath>
@@ -430,6 +458,10 @@
 				<File Id="715519790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Raccoon_Satisfied.wav</ShortName>
 					<CachePath>SFX/Narrate_Raccoon_Satisfied_DB22EFDF.wem</CachePath>
+				</File>
+				<File Id="721586608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mushroom_Pick.wav</ShortName>
+					<CachePath>SFX/Mushroom_Pick_818F3B66.wem</CachePath>
 				</File>
 				<File Id="743792783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Forest_Path_Narration.wav</ShortName>
@@ -467,6 +499,10 @@
 					<ShortName>PickupGenericV2.wav</ShortName>
 					<CachePath>SFX/PickupGenericV2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="808824018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stream_Flow_1.wav</ShortName>
+					<CachePath>SFX/Stream_Flow_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="822964253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Crystal.wav</ShortName>
 					<CachePath>SFX/Narrate_Crystal_F117850F.wem</CachePath>
@@ -490,6 +526,10 @@
 				<File Id="892378372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Asleep_Whisper.wav</ShortName>
 					<CachePath>SFX/Asleep_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913450259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stream_Flow_2.wav</ShortName>
+					<CachePath>SFX/Stream_Flow_2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="913583772" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>new controls.wav</ShortName>
@@ -515,9 +555,17 @@
 					<ShortName>Apple.wav</ShortName>
 					<CachePath>SFX/Apple_16C91FE2.wem</CachePath>
 				</File>
+				<File Id="985053354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Insect_Catch.wav</ShortName>
+					<CachePath>SFX/Insect_Catch_818F3B66.wem</CachePath>
+				</File>
 				<File Id="985936957" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Myself_Whisper.wav</ShortName>
 					<CachePath>SFX/Myself_Whisper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="989864445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Forest_Birds.wav</ShortName>
+					<CachePath>SFX/Forest_Birds_818F3B66.wem</CachePath>
 				</File>
 				<File Id="994445067" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PutdownV1.wav</ShortName>
@@ -642,7 +690,7 @@
 				</Event>
 				<Event Id="777395070" Name="Bear_Pacing">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="546914351"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2829008681" Name="Bear_Thanks">
@@ -667,12 +715,12 @@
 				</Event>
 				<Event Id="1455232537" Name="Cave_Ambience">
 					<MediaRefs>
-						<MediaRef Id="194724780"/>
+						<MediaRef Id="651900428"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="156193455" Name="Cave_Entrance">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="14427774"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1362342512" Name="Cave_Entrance_Narration">
@@ -682,7 +730,8 @@
 				</Event>
 				<Event Id="479262342" Name="Cave_Footsteps">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="194600092"/>
+						<MediaRef Id="534976455"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="889140339" Name="Cave_Path_Narration">
@@ -722,7 +771,7 @@
 				</Event>
 				<Event Id="1652453217" Name="Cubs_Eating">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="313971614"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="509748587" Name="Cubs_Narration">
@@ -825,7 +874,7 @@
 				</Event>
 				<Event Id="1856253495" Name="Forest_Birds">
 					<MediaRefs>
-						<MediaRef Id="194724780"/>
+						<MediaRef Id="989864445"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2154420340" Name="Forest_Insects">
@@ -870,7 +919,7 @@
 				</Event>
 				<Event Id="1304319317" Name="Insect_Catch">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="985053354"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3751069619" Name="Insect_Cloud">
@@ -925,7 +974,7 @@
 				</Event>
 				<Event Id="1391500537" Name="Mushroom_Pick">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="721586608"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1184354894" Name="Myself_Whisper">
@@ -1141,12 +1190,12 @@
 				</Event>
 				<Event Id="3106261316" Name="Stream_Flow_1">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="808824018"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3106261319" Name="Stream_Flow_2">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="913450259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1867833310" Name="Stream_Narration">
@@ -1156,7 +1205,7 @@
 				</Event>
 				<Event Id="3609441159" Name="Stream_Source">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="197747135"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2994956728" Name="Stream_Source_Narration">
@@ -1215,5 +1264,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{51E5206A-8A0D-83AA-E57B-FA76C4050D01}</FileHash>
+	<FileHash>{5CE8F30D-2B02-BFA2-9C45-6D9895449645}</FileHash>
 </SoundBanksInfo>
