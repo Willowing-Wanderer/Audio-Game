@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8idvu4iok4wf"
+path="res://.godot/imported/Bear_Dialog_1.wav-5b72f8ecc75a7eb4a66e253f72a79d43.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Bear_Dialog_1.wav"
+dest_files=["res://.godot/imported/Bear_Dialog_1.wav-5b72f8ecc75a7eb4a66e253f72a79d43.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

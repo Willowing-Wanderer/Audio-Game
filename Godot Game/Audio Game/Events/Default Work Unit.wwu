@@ -434,7 +434,7 @@
 								<Action Name="" ID="{BDBF8C03-CB36-43A6-8D6F-80F79A275460}" ShortID="330808442">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="221755__motion_s__long-birds-forest-ambience" ID="{12B6ED46-F3D0-4D12-8D7C-5FE96F4DE7D5}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Forest_Birds" ID="{2DD9D5C6-2D57-4F2C-BAE2-CA53C5492D39}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -488,7 +488,7 @@
 										<Action Name="" ID="{F92D7916-67E8-4777-8AA1-59AB46E86ADF}" ShortID="284234997">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Dialog_2" ID="{040C69A7-FB3C-44C7-93A9-62D0C236ABAE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -499,7 +499,7 @@
 										<Action Name="" ID="{353D01A7-8B85-4F82-A6DF-C62BBD23E924}" ShortID="11264798">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Humming_2" ID="{9936093D-2AB0-4560-BF56-A7FFB62CBC57}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -510,7 +510,7 @@
 										<Action Name="" ID="{597E2FDE-1000-4F6A-BB0D-732BFDB861C7}" ShortID="183781989">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Trade_2" ID="{C777D058-D1B4-40DE-9703-93E4E1CE4924}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -521,7 +521,7 @@
 										<Action Name="" ID="{10071E79-D92F-4E64-BF0A-72D156265667}" ShortID="173466961">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Pixie_Narration_2" ID="{03035597-A94E-4C46-97C1-26367F0F97F3}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -580,7 +580,7 @@
 										<Action Name="" ID="{EE2E81E3-2F66-4A0E-B1E5-255BAE687DB1}" ShortID="1022548231">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Mushroom_Pick" ID="{F18B773E-7A17-4A85-89C2-5E9251D53AAC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -591,7 +591,7 @@
 										<Action Name="" ID="{A2244A62-981D-49F2-8DF9-408A024D09F6}" ShortID="572250975">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Mushroom_Patch_Narration" ID="{84D19302-685D-44BF-B0DA-990B73D1536C}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -613,7 +613,7 @@
 										<Action Name="" ID="{038D8616-206F-4107-BB57-8F296894775F}" ShortID="797416034">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Mushroom_Narration" ID="{A08491DF-46F3-4C25-A5CB-1597624A1C7E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -639,7 +639,7 @@
 										<Action Name="" ID="{64688508-DFF7-41DD-9F31-FEC90595ACB4}" ShortID="962723384">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Pacing" ID="{F1555FCB-FFE0-4A1A-A482-0E7D7018AF4F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -650,7 +650,7 @@
 										<Action Name="" ID="{F5810145-7AD7-46A2-BD13-6F5FE28491C4}" ShortID="40662163">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Dialog" ID="{FCE2C330-5AAE-4127-A3DD-0C2D52A43A00}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -661,7 +661,7 @@
 										<Action Name="" ID="{DE7800E6-8093-4B31-8566-7E8C814B10A8}" ShortID="1043558990">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Thanks" ID="{286AB4F3-59B9-41D4-9A84-B67732176D3D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -683,7 +683,7 @@
 										<Action Name="" ID="{A0F50598-F4F7-4D0C-A5DF-F2F89C970964}" ShortID="330711530">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Narration_1" ID="{37BD07F3-72E7-4F3B-9807-36458BB91330}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -694,7 +694,7 @@
 										<Action Name="" ID="{ABFDC5E9-E6BF-46A7-A7FC-FE1DEA168F3B}" ShortID="532301181">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Narration_2" ID="{DD6CF1AC-7B91-4122-959A-D1E7B367004E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -720,7 +720,7 @@
 										<Action Name="" ID="{B26C1AF2-91D0-4BB3-B0A5-C4FD71AC193B}" ShortID="188600535">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Insect_Cloud_Narration" ID="{3BA8C608-8C7E-49A2-A055-810A513A9EB2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -742,7 +742,7 @@
 										<Action Name="" ID="{15F9E525-D897-4256-81EF-6A5B986A2402}" ShortID="533570693">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Insect_Item_Narration" ID="{765F31C0-A065-4F1C-A6D5-5EE44EDE0546}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -753,7 +753,7 @@
 										<Action Name="" ID="{A8273B42-778E-49A8-B5C0-20707E2D1D7E}" ShortID="180591528">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Insect_Catch" ID="{C6081CB5-3197-4647-B5CA-1CCF983B03A1}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -790,7 +790,7 @@
 										<Action Name="" ID="{C0E75D93-BA0A-4B0E-88DB-83733841AA13}" ShortID="624114366">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Thanks_2" ID="{AE4789FD-5AF7-415F-B981-8E3B0840A891}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -801,7 +801,7 @@
 										<Action Name="" ID="{1672177D-5CC7-44AE-982E-02DEFE56B13C}" ShortID="230679805">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Dialog_1" ID="{CEFF0296-21A9-474C-A09E-ED44F4EB7C75}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -834,7 +834,7 @@
 										<Action Name="" ID="{7C1CFE63-D98F-4987-84FF-E35C88336254}" ShortID="345637384">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Help_2" ID="{AD59974E-3176-4C00-AD78-B6B0CE2FE8FE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -845,7 +845,7 @@
 										<Action Name="" ID="{76964CF6-8FB1-4A80-BA3D-EC8DB6C0DDB1}" ShortID="958158265">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Druid_Thanks" ID="{286282AA-5902-44AA-B4AA-712B75687053}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Thanks_1" ID="{D21B31A8-069E-4A1E-B2F4-47A5AFD2101F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -867,7 +867,7 @@
 										<Action Name="" ID="{0B0126A8-F502-41E1-8316-F2B4FBDA2C75}" ShortID="790280318">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Druid_Help" ID="{CE2E9D3C-CB03-4987-8688-B4B76A48A96B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Help_1" ID="{3BD712B7-799E-4A99-B9D7-1E7327AB4FD0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -878,7 +878,7 @@
 										<Action Name="" ID="{F68EC76F-F855-4DEA-BA18-F7CF3243ACBB}" ShortID="762719695">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Path_Dialog" ID="{67198F19-B12D-4C9D-8A7A-6DC637CB5C9E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -889,7 +889,7 @@
 										<Action Name="" ID="{5DB529CB-2DF1-47F7-8364-DA4B4355BACB}" ShortID="465342400">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Druid_Open_Path" ID="{5A7427C8-A9CB-4918-A224-833931631006}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -904,7 +904,7 @@
 										<Action Name="" ID="{204FC592-7362-431F-885C-6333FB0A8568}" ShortID="64027155">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Cavern_Locked" ID="{24D74DB2-8868-4541-BBC4-097A77BE73F1}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -915,7 +915,7 @@
 										<Action Name="" ID="{49C874F3-3D87-416D-9A57-194F4E42A839}" ShortID="499413151">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Bumping" ID="{D5A50AA4-3A6F-4B6C-B7D3-F076B83659D0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -926,7 +926,7 @@
 										<Action Name="" ID="{30871333-E0E0-46F7-B027-7D32143B1093}" ShortID="916862608">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Dialog" ID="{C105E021-5543-4850-9DCD-A5F00D443DA6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -937,7 +937,7 @@
 										<Action Name="" ID="{2B7C090C-7EB4-4F6B-8034-F896DE973852}" ShortID="766808018">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Thanks" ID="{2431CA8C-5F12-45A8-AEA2-F192F05CE0BB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -948,7 +948,7 @@
 										<Action Name="" ID="{B58E4E1D-1EF7-407A-9532-E3067F3483A6}" ShortID="269450427">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Narration" ID="{9D0BF1BE-5526-4521-9B3D-6C01D0CB6639}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -959,7 +959,7 @@
 										<Action Name="" ID="{40063E97-CF5E-4C17-9E18-CC131957FAE2}" ShortID="268478583">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bat_Eating" ID="{EFAF8D4F-AFA0-4928-8CF0-40F989C1D6F3}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -974,7 +974,7 @@
 										<Action Name="" ID="{ABAC348F-767A-4335-A6D5-15DEB0C590BF}" ShortID="102779851">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Dialog_Placeholder" ID="{5F56BE0B-DC63-43E6-99D2-10570456F530}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cubs_Dialog" ID="{686C912A-16A5-451E-849A-3FE80E6693B6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -985,7 +985,7 @@
 										<Action Name="" ID="{F02827CF-36D6-4E7C-8636-938EE2D55F86}" ShortID="47171523">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cubs_Eating" ID="{CD933A49-0782-49ED-93F7-C9038E8FB4CC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -996,7 +996,7 @@
 										<Action Name="" ID="{8EFC1DC4-DB0A-452D-A415-6BFC8AD6A422}" ShortID="543686639">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cubs_Narration" ID="{60A86C07-BDC1-4568-8272-9D86A409D1BC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1011,7 +1011,7 @@
 										<Action Name="" ID="{37AB16EF-F0A3-432F-8423-F25535AE2DF9}" ShortID="359896293">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Stream_Source" ID="{22DDBB7B-246E-4D28-9F1C-29BE1B4C5C5B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1022,7 +1022,7 @@
 										<Action Name="" ID="{F4BC0968-0B8E-4D95-92FF-212F6BE5EB57}" ShortID="789301516">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Stream_Flow_1" ID="{7FADBC70-DB1E-4722-A724-758EE64EB008}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1033,7 +1033,7 @@
 										<Action Name="" ID="{666909FC-66B8-4B01-BE5E-B5D830591A20}" ShortID="697180252">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Stream_Flow_2" ID="{E51C1A88-810B-4805-823E-A58F7A8FCDF8}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1044,7 +1044,7 @@
 										<Action Name="" ID="{632CEB92-3BF7-4CC3-84A9-690C8258CB9F}" ShortID="229500969">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Stream_Narration" ID="{6AE8623D-18C3-4D92-874C-6EC4F1E66558}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1055,7 +1055,7 @@
 										<Action Name="" ID="{BC75673F-400F-4A41-AD2B-5DE901BA2D2C}" ShortID="353430424">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Stream_Source_Narration" ID="{84E7D931-16E3-4764-9355-EA32EEFA9611}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1072,7 +1072,7 @@
 												<Action Name="" ID="{B1559351-FE0F-487C-AC2A-52BABB916D45}" ShortID="685300192">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="I_Whisper" ID="{49E3D19A-FDCC-478D-9638-4BACBE3D560E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1083,7 +1083,7 @@
 												<Action Name="" ID="{77B9503B-0E64-4E78-9776-825044D9413D}" ShortID="233791719">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="We_Whisper" ID="{899CAA6B-1902-421E-A748-356032F3A4A8}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1094,7 +1094,7 @@
 												<Action Name="" ID="{283A0872-7DC3-46A1-9214-D9585C3960AA}" ShortID="62204184">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="You_Whisper" ID="{50B8B1AF-3C7E-4599-B6B9-11AF67FEDC32}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1105,7 +1105,7 @@
 												<Action Name="" ID="{36A5F8D8-097B-4CA4-9CDF-C9760EED271A}" ShortID="711909503">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Love_Whisper" ID="{EE299233-9732-45F4-AD3E-BC0AE911871C}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1116,7 +1116,7 @@
 												<Action Name="" ID="{6BE6E0DB-4D31-4442-B129-7EBABDE1D975}" ShortID="601225637">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Hate_Whisper" ID="{F4367646-5431-4B3D-9E55-220BED634A68}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1127,7 +1127,7 @@
 												<Action Name="" ID="{E7A36D88-8936-4F27-A059-A9F198AF5574}" ShortID="210965254">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Myself_Whisper" ID="{9FAF35C0-A5AF-4A6D-88DE-FF113381999A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1138,7 +1138,7 @@
 												<Action Name="" ID="{F9839CAF-1E66-4928-928B-E1CC7B325D25}" ShortID="1072521522">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Fear_Whisper" ID="{D992BF62-D1E6-443E-A986-99F8976BC09B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1149,7 +1149,7 @@
 												<Action Name="" ID="{8CA02A12-A7AB-499A-B397-8EBCD914F019}" ShortID="585862994">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Exist_Whisper" ID="{053CC060-1246-4621-A8AF-AACBF0DF50EB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1160,7 +1160,7 @@
 												<Action Name="" ID="{EDBDC661-818E-4FED-849C-9189E9281AA6}" ShortID="355563287">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Belong_Whisper" ID="{D3231AA5-C914-42C9-A57E-BC0150AD9B1D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1171,7 +1171,7 @@
 												<Action Name="" ID="{31E6F357-B54D-4F0C-A4BA-A222230D08C6}" ShortID="703989455">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Alone_Whisper" ID="{053FFB7C-8CBA-4A70-A74D-4D29C8E0FB79}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1182,7 +1182,7 @@
 												<Action Name="" ID="{B015B6D6-8C6C-4565-8F48-17DEE5AC15B6}" ShortID="329112557">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Here_Whisper" ID="{6ED18B52-069A-4ADB-ACCF-FA1EC9695C0C}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1193,7 +1193,7 @@
 												<Action Name="" ID="{EE1843FF-CB15-457E-9400-092439F42C96}" ShortID="238528913">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Asleep_Whisper" ID="{6520B37B-D6E2-4801-9E4E-7A58204E0075}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1204,7 +1204,7 @@
 												<Action Name="" ID="{B2CD2F0E-ECB4-40A8-8C44-9DD78C342DAD}" ShortID="644053139">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Survive_Whisper" ID="{FD2A3328-36BB-4F90-B1C1-E34060884994}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1215,7 +1215,7 @@
 												<Action Name="" ID="{2D798FD2-75ED-456F-B3A2-B09CCC5C51B4}" ShortID="321927578">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Die_Whisper" ID="{CBD51482-E9D6-49F3-9669-C36DE098AD66}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1226,7 +1226,7 @@
 												<Action Name="" ID="{AB9A04F6-E5E1-40F6-8850-EB2C4B1415D5}" ShortID="881752731">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Apart_Whisper" ID="{689BAC85-CC7E-4044-A8EE-282FC8C5E776}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1237,7 +1237,7 @@
 												<Action Name="" ID="{FBDC7AB6-6415-4073-9890-96E2CEFFFE40}" ShortID="140250682">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Together_Whisper" ID="{CF16D338-01CA-409D-A181-C76A8502C024}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1252,7 +1252,7 @@
 												<Action Name="" ID="{A17434DE-66CB-43AC-8F28-7D6CE3C9DF2F}" ShortID="1040151989">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+															<ObjectRef Name="Cave_Path_Narration" ID="{1A9F0056-FE81-4AE5-BC81-3ED7D3FC1562}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1269,7 +1269,7 @@
 										<Action Name="" ID="{217318BA-6371-4778-9366-373D99943007}" ShortID="327297604">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Backdrop_Placeholder" ID="{1C8F7914-D29D-4C2F-B7C5-CFA36BED043D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cave_Ambience" ID="{FC14A6C1-C447-47AE-A43C-538407EFCD06}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1280,7 +1280,7 @@
 										<Action Name="" ID="{649FB602-7F1F-4CDE-BAA5-7F3FBA4FFC0F}" ShortID="1037432559">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cave_Entrance" ID="{ED54E272-F823-4E24-90C1-EABF544D690D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1291,7 +1291,7 @@
 										<Action Name="" ID="{38506E43-7C58-4CE4-9B77-9833DAB2A5FD}" ShortID="260139196">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cave_Entrance_Narration" ID="{ABDCB59A-6C87-4958-BB85-2812A883E094}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1302,7 +1302,7 @@
 										<Action Name="" ID="{1FF9B3BB-1215-4721-B102-0EB483C2D7A5}" ShortID="410129447">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cave_Footsteps" ID="{3AA88BED-DA1E-40A0-A5EB-0CFAF4090870}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1328,7 +1328,7 @@
 										<Action Name="" ID="{9D8AF916-3781-440A-B93D-0019A7704ECA}" ShortID="596561011">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Backdrop_Placeholder" ID="{1C8F7914-D29D-4C2F-B7C5-CFA36BED043D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Forest_Birds" ID="{2DD9D5C6-2D57-4F2C-BAE2-CA53C5492D39}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1402,7 +1402,7 @@
 										<Action Name="" ID="{D2529B9A-8A17-44A4-A7E9-220286A8AFE1}" ShortID="393525612">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="To_Campsite_Path_Narration" ID="{E9D3F32C-4D06-4003-9D8B-9BB726697C82}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1413,7 +1413,7 @@
 										<Action Name="" ID="{FF433255-E7E5-4A8D-A591-9B2C22A67C11}" ShortID="294613609">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Forest_Path_Narration" ID="{149A5FF7-D7FA-4C40-8411-AB466E296862}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1424,7 +1424,7 @@
 										<Action Name="" ID="{38EAA6D5-E6EF-451C-AF86-13C1122579AE}" ShortID="826325156">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="To_AppleTree_Path_Narration" ID="{E1EE3151-2EAF-43D6-99E2-9ACB811927FD}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmbavprx40jmx"
+path="res://.godot/imported/Insect_Cloud_Narration.wav-98a75b413ee5b254e21f581b4da2321d.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Insect_Cloud_Narration.wav"
+dest_files=["res://.godot/imported/Insect_Cloud_Narration.wav-98a75b413ee5b254e21f581b4da2321d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://df7rbn4b4vxbk"
+path="res://.godot/imported/Cubs_Eating.wav-9c0c40842d863455161ac7799becf634.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Cubs_Eating.wav"
+dest_files=["res://.godot/imported/Cubs_Eating.wav-9c0c40842d863455161ac7799becf634.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

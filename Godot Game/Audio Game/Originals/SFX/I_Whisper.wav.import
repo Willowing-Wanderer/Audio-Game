@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1dfcigr1c6tr"
+path="res://.godot/imported/I_Whisper.wav-76193843b5ca2eaef2da453b464b884a.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/I_Whisper.wav"
+dest_files=["res://.godot/imported/I_Whisper.wav-76193843b5ca2eaef2da453b464b884a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
