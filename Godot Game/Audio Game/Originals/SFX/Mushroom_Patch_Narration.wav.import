@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://caumr6w8abyh4"
+path="res://.godot/imported/Mushroom_Patch_Narration.wav-b2cad51e0ec7a4d431d06a68e6fc25bf.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Mushroom_Patch_Narration.wav"
+dest_files=["res://.godot/imported/Mushroom_Patch_Narration.wav-b2cad51e0ec7a4d431d06a68e6fc25bf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
