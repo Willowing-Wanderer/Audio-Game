@@ -35,6 +35,7 @@ func _ready():
 	druid_help = $Druid_Help_2
 	druid_thanks = $Druid_Thanks_2
 	druid_restoration = $Druid_Restoration
+	narrate_druid = $Narrate_Druid
 	druid_hum.post_event()
 
 func on_click(selected):
