@@ -38,16 +38,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Druid_Dialog" type="AkEvent3D" parent="."]
 event = {
-"id": 3393591398,
-"name": "Druid_Dialog"
+"id": 3995925126,
+"name": "Druid_Dialog_1"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Druid_Help" type="AkEvent3D" parent="."]
 event = {
-"id": 876613367,
-"name": "Druid_Help"
+"id": 1918198543,
+"name": "Druid_Help_1"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

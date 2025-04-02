@@ -48,3 +48,13 @@ func on_click(selected):
 		druid_thanks.post_event()
 	else:
 		druid_help.post_event()
+
+func _on_druid_thanks_2_end_of_event(data):
+	druid_restoration.post_event()
+
+func _on_druid_restoration_end_of_event(data):
+	player.set_cutscene(false)
+	quest_complete.emit()
+
+func _on_druid_help_2_end_of_event(data):
+	player.set_cutscene(false)

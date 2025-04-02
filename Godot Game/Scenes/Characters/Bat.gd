@@ -65,7 +65,8 @@ func on_click(selected):
 		if(fed):
 			bat_thanks.post_event()
 		else:
-			bat_dialog.post_event()
+			#bat_dialog.post_event()
+			bat_cavern_locked.post_event()
 			you_path_unlocked.emit()
 
 func _on_timer_timeout():
