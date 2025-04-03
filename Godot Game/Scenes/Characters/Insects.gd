@@ -26,7 +26,6 @@ func stop_narration():
 	insect_cloud_narration.stop_event()
 	
 func _ready():
-	Wwise.register_game_obj(self, self.get_name()) 
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	insect_cloud = $Insect_Cloud
 	insect_cloud_narration = $Insect_Cloud_Narration
@@ -34,14 +33,10 @@ func _ready():
 	insect_cloud.post_event()
 
 func on_click(selected):
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	await get_tree().create_timer(0.8).timeout
-	
 	if(selected == "Net"):
 		player.set_cutscene(true)
 		insect_catch.post_event()
 
 func _on_insect_catch_end_of_event(data):
-	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 	player.add_to_inventory("Insect")
 	player.set_cutscene(false)

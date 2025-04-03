@@ -40,8 +40,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Mushroom_Pick" type="AkEvent3D" parent="."]
 event = {
-"id": 1304319317,
-"name": "Insect_Catch"
+"id": 1391500537,
+"name": "Mushroom_Pick"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)

@@ -39,8 +39,6 @@ func stop_narration():
 	
 func _ready():
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 	druid_hum = $Druid_Hum
 	druid_dialog = $Druid_Dialog
 	druid_help = $Druid_Help
@@ -53,7 +51,6 @@ func _ready():
 func on_click(selected):
 	druid_nervous.stop_event()
 	druid_hum.stop_event()
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 	player.set_cutscene(true)
 	await get_tree().create_timer(1).timeout
 	

@@ -34,11 +34,7 @@ func _ready():
 	mushroom_patch.post_event()
 
 func on_click(selected):
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	await get_tree().create_timer(0.8).timeout
-	print("Huh?")
 	mushroom_pick.post_event()
 
 func _on_mushroom_pick_end_of_event(data):
-	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 	player.add_to_inventory("Mushroom")

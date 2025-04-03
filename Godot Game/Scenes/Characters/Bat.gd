@@ -33,8 +33,6 @@ func stop_narration():
 	bat_narration.stop_event()
 	
 func _ready():
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	bat_bumping = $Sounds/Bat_Bumping
 	bat_dialog = $Sounds/Bat_Dialog
@@ -52,9 +50,7 @@ func on_click(selected):
 	bat_bumping.stop_event()
 	bat_eating.stop_event()
 	moving = false
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 	player.set_cutscene(true)
-	await get_tree().create_timer(1).timeout
 
 	if(selected == "Insect"):
 		fed = true
