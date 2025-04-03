@@ -21,10 +21,8 @@ albedo_color = Color(0.27451, 0.47451, 0.768627, 0.454902)
 material = SubResource("StandardMaterial3D_m14mp")
 size = Vector3(0.25, 0.25, 3)
 
-[node name="Player" type="Area3D" node_paths=PackedStringArray("hover_select", "hover_deselect")]
+[node name="Player" type="Area3D"]
 script = ExtResource("1_kkkgv")
-hover_select = NodePath("Hover_Select")
-hover_deselect = NodePath("Hover_Deselect")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.125, 0)
@@ -60,6 +58,20 @@ stop_on = 3
 event = {
 "id": 1523466505,
 "name": "Hover_Deselect"
+}
+stop_on = 3
+
+[node name="Pick_up" type="AkEvent3D" parent="."]
+event = {
+"id": 467838998,
+"name": "Pick_Up"
+}
+stop_on = 3
+
+[node name="Interact" type="AkEvent3D" parent="."]
+event = {
+"id": 1466384055,
+"name": "Interact"
 }
 stop_on = 3
 

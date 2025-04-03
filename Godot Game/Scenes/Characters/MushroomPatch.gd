@@ -27,7 +27,6 @@ func stop_narration():
 	
 func _ready():
 	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	mushroom_patch = $Mushroom_Patch
 	mushroom_patch_narration = $Mushroom_Patch_Narration
@@ -35,11 +34,7 @@ func _ready():
 	mushroom_patch.post_event()
 
 func on_click(selected):
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	await get_tree().create_timer(0.8).timeout
-	print("Huh?")
 	mushroom_pick.post_event()
 
 func _on_mushroom_pick_end_of_event(data):
-	Wwise.post_event_id(AK.EVENTS.PICK_UP, self)
 	player.add_to_inventory("Mushroom")

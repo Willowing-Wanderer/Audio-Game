@@ -18,7 +18,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 shape = SubResource("SphereShape3D_2lhut")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, 0, 0, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 skeleton = NodePath("../..")
 
@@ -36,12 +36,14 @@ event = {
 "name": "Insect_Cloud_Narration"
 }
 stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Insect_Catch" type="AkEvent3D" parent="."]
 event = {
 "id": 1304319317,
 "name": "Insect_Catch"
 }
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="end_of_event" from="Insect_Catch" to="." method="_on_insect_catch_end_of_event"]

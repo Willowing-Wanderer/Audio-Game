@@ -14,8 +14,6 @@ var playing_narration = false
 var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
 
 func _ready():
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 	pixie_giggle.post_event()
 
 func narrate():
@@ -24,7 +22,6 @@ func narrate():
 	narration_timer.start()
 
 func on_click(selected):
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 	player.set_cutscene(true)
 	await get_tree().create_timer(1).timeout
 	pixie_giggle.stop_event()

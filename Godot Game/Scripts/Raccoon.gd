@@ -19,8 +19,6 @@ var fed = false
 var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
 
 func _ready():
-	Wwise.register_game_obj(self, self.get_name())
-	Wwise.set_3d_position(self, get_global_transform())
 	hungry_raccoon.post_event()
 
 @export var narration_timer:Timer
@@ -53,8 +51,7 @@ func stop_narration():
 	
 func on_click(selected):
 	player.set_cutscene(true)
-	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
-	
+
 	if(fed):
 		raccoon_eating.stop_event()
 		raccoon_thanks_2.post_event()
