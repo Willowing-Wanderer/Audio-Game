@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{F31701AE-B594-97D2-426E-5C71C4D5FA24}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{02C8493E-5C2A-ECE4-9F47-46318C80AD5A}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -762,6 +762,11 @@
 						<MediaRef Id="60689166"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2201105581" Name="Credits">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
 					<MediaRefs>
 						<MediaRef Id="289673027"/>
@@ -903,6 +908,11 @@
 				<Event Id="1108912979" Name="Forest_Path_Narration">
 					<MediaRefs>
 						<MediaRef Id="152467493"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3612226240" Name="Game_Controls">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="828014134" Name="Hate_Whisper">
@@ -1150,6 +1160,16 @@
 						<MediaRef Id="535661321"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="597721236" Name="Pause_Info">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3422541661" Name="Pause_Menu">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="467838998" Name="Pick_Up">
 					<MediaRefs>
 						<MediaRef Id="807619168"/>
@@ -1196,6 +1216,16 @@
 						<MediaRef Id="37887682"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1943302952" Name="Play_Controls">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="327960653" Name="Quit_Game">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1146653945" Name="Raccoon_Eating">
 					<MediaRefs>
 						<MediaRef Id="918725472"/>
@@ -1216,9 +1246,19 @@
 						<MediaRef Id="757555748"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1565052233" Name="Resume_Game">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="992193856" Name="South">
 					<MediaRefs>
 						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1114964412" Name="Start_Game">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3106261316" Name="Stream_Flow_1">
@@ -1252,6 +1292,11 @@
 						<MediaRef Id="98800008"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3705726509" Name="Title">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3417648280" Name="To_AppleTree_Path_Narration">
 					<MediaRefs>
 						<MediaRef Id="601218938"/>
@@ -1277,6 +1322,11 @@
 						<MediaRef Id="23917326"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="606097659" Name="Turn_Info">
+					<MediaRefs>
+						<MediaRef Id="349029664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3484778486" Name="We_Whisper">
 					<MediaRefs>
 						<MediaRef Id="750148011"/>
@@ -1298,5 +1348,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{332A8AB0-8986-47B8-CB4B-911C7EAE719B}</FileHash>
+	<FileHash>{E895CFB6-39F1-5336-E263-BCBC53C3A007}</FileHash>
 </SoundBanksInfo>

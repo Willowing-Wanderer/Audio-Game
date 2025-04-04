@@ -1,14 +1,19 @@
 extends Node3D
 
-var title_screen = preload("res://Scenes/UI/title_screen.tscn")
+var title_screen
+var title_menu = preload("res://Scenes/UI/TitleMenu.tscn")
 var raccoon_scene = preload("res://Scenes/Areas/raccoon_scene.tscn")
 var cave_scene = preload("res://Scenes/Areas/CaveScene.tscn")
 
+var credits = preload("res://Scenes/UI/Credits.tscn")
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	add_child(title_screen.instantiate())
+	title_screen = title_menu.instantiate()
+	add_child(title_screen)
 
 func start_game():
+	remove_child(title_screen)
 	var raccoon = raccoon_scene.instantiate()
 	raccoon.player = $Player
 	add_child(raccoon)
@@ -20,8 +25,7 @@ func finish_level_1():
 	add_child(cave)
 
 func finish_level_2():
-	call_deferred("add_child",title_screen.instantiate())
+	call_deferred("add_child",credits.instantiate())
 	
 func _input(event):
-	if event.is_action_pressed("ui_cancel"):
-		get_tree().quit()
+	pass

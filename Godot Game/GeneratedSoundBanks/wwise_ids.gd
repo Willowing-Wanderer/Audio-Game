@@ -108,8 +108,12 @@ class EVENTS:
 	const PATH_SOUTHWEST_NARRATION = 516307540
 	const PATH_SOUTHEAST_NARRATION = 4262209266
 	const DRUID_NERVOUS = 3975215452
+	const GAME_CONTROLS = 3612226240
+	const RESUME_GAME = 1565052233
+	const QUIT_GAME = 327960653
 	const LOVE_WHISPER = 2681543802
 	const STREAM_SOURCE_NARRATION = 2994956728
+	const PLAY_CONTROLS = 1943302952
 	const STREAM_SOURCE = 3609441159
 	const BELONG_WHISPER = 3007764503
 	const SURVIVE_WHISPER = 2316560346
@@ -129,11 +133,17 @@ class EVENTS:
 	const ASLEEP_WHISPER = 645753248
 	const APART_WHISPER = 1585408714
 	const CAVE_FOOTSTEPS = 479262342
+	const START_GAME = 1114964412
 	const MYSELF_WHISPER = 1184354894
 	const FOREST_INSECTS = 2154420340
 	const FOREST_ANIMALS = 3565432312
 	const NORTH = 4279573130
 	const STREAM_NARRATION = 1867833310
+	const TURN_INFO = 606097659
+	const PAUSE_MENU = 3422541661
+	const TITLE = 3705726509
+	const CREDITS = 2201105581
+	const PAUSE_INFO = 597721236
 
 	const _dict = {
 		"Narrate_Apple": NARRATE_APPLE,
@@ -242,8 +252,12 @@ class EVENTS:
 		"Path_Southwest_Narration": PATH_SOUTHWEST_NARRATION,
 		"Path_Southeast_Narration": PATH_SOUTHEAST_NARRATION,
 		"Druid_Nervous": DRUID_NERVOUS,
+		"Game_Controls": GAME_CONTROLS,
+		"Resume_Game": RESUME_GAME,
+		"Quit_Game": QUIT_GAME,
 		"Love_Whisper": LOVE_WHISPER,
 		"Stream_Source_Narration": STREAM_SOURCE_NARRATION,
+		"Play_Controls": PLAY_CONTROLS,
 		"Stream_Source": STREAM_SOURCE,
 		"Belong_Whisper": BELONG_WHISPER,
 		"Survive_Whisper": SURVIVE_WHISPER,
@@ -263,11 +277,17 @@ class EVENTS:
 		"Asleep_Whisper": ASLEEP_WHISPER,
 		"Apart_Whisper": APART_WHISPER,
 		"Cave_Footsteps": CAVE_FOOTSTEPS,
+		"Start_Game": START_GAME,
 		"Myself_Whisper": MYSELF_WHISPER,
 		"Forest_Insects": FOREST_INSECTS,
 		"Forest_Animals": FOREST_ANIMALS,
 		"North": NORTH,
-		"Stream_Narration": STREAM_NARRATION
+		"Stream_Narration": STREAM_NARRATION,
+		"Turn_Info": TURN_INFO,
+		"Pause_Menu": PAUSE_MENU,
+		"Title": TITLE,
+		"Credits": CREDITS,
+		"Pause_Info": PAUSE_INFO
 	}
 
 class STATES:
