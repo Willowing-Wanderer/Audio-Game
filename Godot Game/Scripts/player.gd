@@ -109,6 +109,9 @@ func _on_area_entered(area):
 func _on_area_exited(area):
 	if(!cutscene):
 		hover_deselect.post_event()
+		
+func get_count(item_name):
+	return inventory.get_count(item_name)
 
 func set_cutscene(boolean):
 	cutscene = boolean

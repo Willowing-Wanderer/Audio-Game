@@ -5,10 +5,15 @@ var sounds = {"Empty": AK.EVENTS.CLICK_FAIL,
 				"Crystal": AK.EVENTS.CRYSTAL_ITEM,
 				"Net": AK.EVENTS.NET_ITEM,
 				"Insect": AK.EVENTS.INSECT_ITEM,
-				"Mushroom": AK.EVENTS.MUSHROOM_ITEM}
+				"Mushroom": AK.EVENTS.MUSHROOM_PICK}
 
+# TODO: Remove all items from inventory before shipping
 var items = {"Empty": null,
-			"Crystal": 1}
+			"Apple": 1,
+			"Crystal": 1,
+			"Insect": 1,
+			"Net": 1,
+			"Mushroom": 1}
 			
 var selected = 0
 
@@ -24,6 +29,9 @@ func clean_up():
 
 func get_selected():
 	return items.keys()[selected]
+	
+func get_count(item_name):
+	return items[item_name]
 			
 func add_item(item_name):
 	if(item_name in items.keys()):

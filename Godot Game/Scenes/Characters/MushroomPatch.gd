@@ -34,7 +34,10 @@ func _ready():
 	mushroom_patch.post_event()
 
 func on_click(selected):
+	player.set_cutscene(true)
+	await get_tree().create_timer(0.5).timeout
 	mushroom_pick.post_event()
 
 func _on_mushroom_pick_end_of_event(data):
 	player.add_to_inventory("Mushroom")
+	player.set_cutscene(false)
