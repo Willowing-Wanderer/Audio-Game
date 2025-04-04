@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=27 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
@@ -21,6 +21,7 @@
 [ext_resource type="PackedScene" uid="uid://8cfxqm5b5bat" path="res://Scenes/Characters/Druid2.tscn" id="14_pksas"]
 [ext_resource type="PackedScene" uid="uid://dln2wwjd5x1ka" path="res://Scenes/Characters/Insects.tscn" id="15_7gd6a"]
 [ext_resource type="PackedScene" uid="uid://dobekv7hggqwy" path="res://Scenes/Characters/MushroomPatch.tscn" id="17_abco8"]
+[ext_resource type="PackedScene" uid="uid://blhgra1ieusm3" path="res://Scenes/Backdrops/ForestBirds.tscn" id="22_8okm4"]
 [ext_resource type="PackedScene" uid="uid://pq2lksvyubd5" path="res://Scenes/UI/PauseMenu.tscn" id="22_xxtov"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jc2j7"]
@@ -632,21 +633,6 @@ circle = NodePath("../..")
 [node name="SE_End" parent="Circle2/Path_NW_SE" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../CaveEntrance")
 
-[node name="ForestInsects" parent="." instance=ExtResource("10_7sasn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5882, 0, 4.62743)
-
-[node name="ForestInsects2" parent="." instance=ExtResource("10_7sasn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.10578, 0, -5.29166)
-
-[node name="ForestInsects3" parent="." instance=ExtResource("10_7sasn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42044, 0, -9.58194)
-
-[node name="ForestInsects4" parent="." instance=ExtResource("10_7sasn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
-
-[node name="ForestInsects5" parent="." instance=ExtResource("10_7sasn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66985, 0, 5.91925)
-
 [node name="Campsite" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 0, 0)
 
@@ -694,7 +680,44 @@ circle = NodePath("..")
 
 [node name="Druid2" parent="." instance=ExtResource("14_pksas")]
 
+[node name="Birds" type="Node3D" parent="."]
+
+[node name="ForestBirds4" parent="Birds" instance=ExtResource("22_8okm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.49586, 0, -19.7648)
+
+[node name="ForestBirds" parent="Birds" instance=ExtResource("22_8okm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.49587, 0, 4.75035)
+
+[node name="ForestBirds2" parent="Birds" instance=ExtResource("22_8okm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95587, 0, 2.03586)
+
+[node name="ForestBirds3" parent="Birds" instance=ExtResource("22_8okm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61172, 0, -14.5904)
+
+[node name="ForestBirds5" parent="Birds" instance=ExtResource("22_8okm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.171, 0, 9.24621)
+
+[node name="ForestBirds6" parent="Birds" instance=ExtResource("22_8okm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.82207, 0, 13.9966)
+
+[node name="ForestInsects2" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.10578, 0, -5.29166)
+
+[node name="ForestInsects3" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42044, 0, -9.58194)
+
+[node name="ForestInsects5" parent="." instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66985, 0, 5.91925)
+
 [node name="PauseMenu" parent="." instance=ExtResource("22_xxtov")]
+
+[node name="Insects" type="Node3D" parent="."]
+
+[node name="ForestInsects" parent="Insects" instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5882, 0, 4.62743)
+
+[node name="ForestInsects4" parent="Insects" instance=ExtResource("10_7sasn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
 
 [connection signal="path_locked" from="WhisperingCavern1/Path_I/North_End" to="WhisperingCavern1/Bat" method="_on_north_end_path_locked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_We/NE_End" to="WhisperingCavern1/Bat" method="_on_ne_end_path_locked"]
@@ -703,6 +726,12 @@ circle = NodePath("..")
 [connection signal="cave_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_We/NE_End" method="_on_bat_cave_unlocked"]
 [connection signal="you_path_unlocked" from="WhisperingCavern1/Bat" to="WhisperingCavern1/Path_You/SW_End" method="_on_bat_you_path_unlocked"]
 [connection signal="quest_complete" from="Druid2" to="." method="_on_druid_2_quest_complete"]
+[connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds4" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds2" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds3" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds5" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds6" method="_on_druid_restoration_end_of_event"]
 
 [editable path="CaveEntrance/Path_East_West"]
 [editable path="CaveFoyer/Path_East_West"]
@@ -731,3 +760,4 @@ circle = NodePath("..")
 [editable path="Campsite/Path_East_West"]
 [editable path="Raccoon's Home/Path_NE_SW"]
 [editable path="Apple Tree/AppleTree"]
+[editable path="Druid2"]
