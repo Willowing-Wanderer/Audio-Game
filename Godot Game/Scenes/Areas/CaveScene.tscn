@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=26 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
@@ -21,6 +21,7 @@
 [ext_resource type="PackedScene" uid="uid://8cfxqm5b5bat" path="res://Scenes/Characters/Druid2.tscn" id="14_pksas"]
 [ext_resource type="PackedScene" uid="uid://dln2wwjd5x1ka" path="res://Scenes/Characters/Insects.tscn" id="15_7gd6a"]
 [ext_resource type="PackedScene" uid="uid://dobekv7hggqwy" path="res://Scenes/Characters/MushroomPatch.tscn" id="17_abco8"]
+[ext_resource type="PackedScene" uid="uid://pq2lksvyubd5" path="res://Scenes/UI/PauseMenu.tscn" id="22_xxtov"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jc2j7"]
 albedo_color = Color(0.411765, 0.686275, 0.505882, 1)
@@ -692,6 +693,8 @@ transform = Transform3D(-0.78238, 0, -0.622801, 0, 1, 0, 0.622801, 0, -0.78238, 
 circle = NodePath("..")
 
 [node name="Druid2" parent="." instance=ExtResource("14_pksas")]
+
+[node name="PauseMenu" parent="." instance=ExtResource("22_xxtov")]
 
 [connection signal="path_locked" from="WhisperingCavern1/Path_I/North_End" to="WhisperingCavern1/Bat" method="_on_north_end_path_locked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_We/NE_End" to="WhisperingCavern1/Bat" method="_on_ne_end_path_locked"]

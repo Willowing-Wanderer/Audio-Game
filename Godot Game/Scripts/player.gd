@@ -46,6 +46,8 @@ func _process(delta):
 func _input(event):
 	
 	# Left click
+	if (event.is_action_pressed("Pause")):
+		pause_game()
 	if (event.is_action_pressed("Interact")):
 		if(has_overlapping_areas()):
 			interact.post_event()
@@ -122,3 +124,18 @@ func set_cutscene(boolean):
 		else:
 			if(narrator.playing_narration):
 				narrator.stop_narration()
+
+var game_paused = false
+var last_position
+var last_rotation
+func pause_game():
+	if (game_paused):
+		position = last_position
+		rotation = last_rotation
+		game_paused = false
+	else:
+		last_position = position
+		last_rotation = rotation
+		position = Vector3(75,0,0)
+		rotation = Vector3(0,0,0)
+		game_paused = true

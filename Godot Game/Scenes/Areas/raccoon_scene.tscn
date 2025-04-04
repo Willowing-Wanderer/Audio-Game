@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://chy1yjgdcqplw"]
+[gd_scene load_steps=11 format=3 uid="uid://chy1yjgdcqplw"]
 
 [ext_resource type="Script" path="res://Scripts/raccoon_scene.gd" id="1_a5oek"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_88yt1"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://b8b7h44plka7b" path="res://Scenes/Areas/path_north_south.tscn" id="5_tmolf"]
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
 [ext_resource type="PackedScene" uid="uid://bblapp6yq562n" path="res://Scenes/Areas/path_ne_sw.tscn" id="8_djkys"]
+[ext_resource type="PackedScene" uid="uid://pq2lksvyubd5" path="res://Scenes/UI/PauseMenu.tscn" id="10_g3jm4"]
 
 [node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Path_Dialog", "Druid_Open_Path")]
 script = ExtResource("1_a5oek")
@@ -105,6 +106,8 @@ event = {
 "id": 3931060456,
 "name": "Druid_Open_Path"
 }
+
+[node name="PauseMenu" parent="." instance=ExtResource("10_g3jm4")]
 
 [connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
 [connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]

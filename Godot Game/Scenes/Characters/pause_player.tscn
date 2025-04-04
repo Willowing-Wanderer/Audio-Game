@@ -1,0 +1,71 @@
+[gd_scene load_steps=7 format=3 uid="uid://bys4hges2qhmn"]
+
+[ext_resource type="Script" path="res://Scenes/Characters/pause_player.gd" id="1_tba1s"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bh6x6"]
+albedo_color = Color(0.929412, 0.337255, 0.054902, 1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_fwfd5"]
+material = SubResource("StandardMaterial3D_bh6x6")
+size = Vector3(0.5, 0.5, 0.25)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4xfgn"]
+size = Vector3(0.25, 0.25, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m14mp"]
+albedo_color = Color(0.27451, 0.47451, 0.768627, 0.454902)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tb3ab"]
+material = SubResource("StandardMaterial3D_m14mp")
+size = Vector3(0.25, 0.25, 3)
+
+[node name="PausePlayer" type="Area3D"]
+script = ExtResource("1_tba1s")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.125, 0)
+mesh = SubResource("PrismMesh_fwfd5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 1.5)
+shape = SubResource("BoxShape3D_4xfgn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+mesh = SubResource("BoxMesh_tb3ab")
+
+[node name="Hover_Select" type="AkEvent3D" parent="."]
+event = {
+"id": 3971078520,
+"name": "Hover_Select"
+}
+stop_on = 3
+
+[node name="Hover_Deselect" type="AkEvent3D" parent="."]
+event = {
+"id": 1523466505,
+"name": "Hover_Deselect"
+}
+stop_on = 3
+
+[node name="Interact" type="AkEvent3D" parent="."]
+event = {
+"id": 1466384055,
+"name": "Interact"
+}
+stop_on = 3
+
+[node name="Click_Fail" type="AkEvent3D" parent="."]
+event = {
+"id": 1352158686,
+"name": "Click_Fail"
+}
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153, 0.565648, 0.0244612, 0.566285, -0.823846, 0.0357521, 0.907363, -0.671099)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.270634, 0.962682, 0, -0.962682, 0.270634, 0, 1.25305, 0)
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
