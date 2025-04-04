@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{25DF759B-289F-32D6-5218-8F254DA11275}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{02C8493E-5C2A-ECE4-9F47-46318C80AD5A}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -764,7 +764,7 @@
 				</Event>
 				<Event Id="2201105581" Name="Credits">
 					<MediaRefs>
-						<MediaRef Id="30417168"/>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1757040115" Name="Crystal_Drop">
@@ -1294,7 +1294,7 @@
 				</Event>
 				<Event Id="3705726509" Name="Title">
 					<MediaRefs>
-						<MediaRef Id="30417168"/>
+						<MediaRef Id="349029664"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3417648280" Name="To_AppleTree_Path_Narration">
@@ -1348,5 +1348,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DD98BAB9-E6F3-27A8-2696-4ABF917BA7DA}</FileHash>
+	<FileHash>{4A07A227-6543-80D3-D76B-B8020460C16C}</FileHash>
 </SoundBanksInfo>

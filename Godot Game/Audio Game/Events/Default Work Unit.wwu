@@ -1675,10 +1675,10 @@
 							<ChildrenList>
 								<Event Name="Title" ID="{5E4747D1-41B5-41B9-B807-DFEC2B2CCD1D}">
 									<ChildrenList>
-										<Action Name="" ID="{55246F2F-E6B8-4B0B-8BD7-C878697F2DA7}" ShortID="33479196">
+										<Action Name="" ID="{5E55CC22-DCED-4FDA-8BAB-8F8A4AC1D98B}" ShortID="1047363263">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Cave_Entrance_Narration" ID="{ABDCB59A-6C87-4958-BB85-2812A883E094}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1686,10 +1686,10 @@
 								</Event>
 								<Event Name="Credits" ID="{6904FA3B-261E-48D4-B810-0ADC3CAE134B}">
 									<ChildrenList>
-										<Action Name="" ID="{AEE0D445-5E1D-4A45-A34F-FA4A26226586}" ShortID="380387467">
+										<Action Name="" ID="{0FAB7FA6-878F-464C-9A7E-F11CE0EEB6AD}" ShortID="893889041">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Cave_Entrance_Narration" ID="{ABDCB59A-6C87-4958-BB85-2812A883E094}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

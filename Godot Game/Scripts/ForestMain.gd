@@ -5,6 +5,8 @@ var title_menu = preload("res://Scenes/UI/TitleMenu.tscn")
 var raccoon_scene = preload("res://Scenes/Areas/raccoon_scene.tscn")
 var cave_scene = preload("res://Scenes/Areas/CaveScene.tscn")
 
+var credits = preload("res://Scenes/UI/Credits.tscn")
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	title_screen = title_menu.instantiate()
@@ -23,7 +25,7 @@ func finish_level_1():
 	add_child(cave)
 
 func finish_level_2():
-	call_deferred("add_child",title_screen.instantiate())
+	call_deferred("add_child",credits.instantiate())
 	
 func _input(event):
 	pass
