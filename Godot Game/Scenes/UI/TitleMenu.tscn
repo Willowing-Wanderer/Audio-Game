@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=3 uid="uid://ct42kl508jw55"]
+
+[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_y345u"]
+[ext_resource type="Script" path="res://Scenes/Environmentals/Start_Game.gd" id="3_muwsc"]
+[ext_resource type="PackedScene" uid="uid://kjlf5k1kqet4" path="res://Scenes/Environmentals/environmentalObject.tscn" id="3_t36h5"]
+[ext_resource type="Script" path="res://Scenes/UI/Game_Controls.gd" id="5_rqlte"]
+[ext_resource type="Script" path="res://Scenes/UI/Quit_Game.gd" id="6_4fbcj"]
+
+[node name="TitleMenu" type="Node3D"]
+transform = Transform3D(0.485023, 0, -0.874501, 0, 1, 0, 0.874501, 0, 0.485023, 0, 0, 0)
+
+[node name="Circle" parent="." instance=ExtResource("2_y345u")]
+
+[node name="Start_Game" parent="Circle" instance=ExtResource("3_t36h5")]
+transform = Transform3D(0.998338, 0, 0.0576164, 0, 1, 0, -0.0576164, 0, 0.998338, 0, 0, 0)
+script = ExtResource("3_muwsc")
+
+[node name="EnvironmentalEvent" parent="Circle/Start_Game" index="2"]
+event = {
+"id": 49143091,
+"name": "Item_Ping"
+}
+
+[node name="Narrate_Environmental" parent="Circle/Start_Game" index="3"]
+event = {
+"id": 1565052233,
+"name": "Resume_Game"
+}
+
+[node name="Game_Controls" parent="Circle" instance=ExtResource("3_t36h5")]
+transform = Transform3D(-0.415027, 0, 0.909809, 0, 1, 0, -0.909809, 0, -0.415027, 0, 0, 0)
+script = ExtResource("5_rqlte")
+
+[node name="EnvironmentalEvent" parent="Circle/Game_Controls" index="2"]
+event = {
+"id": 49143091,
+"name": "Item_Ping"
+}
+
+[node name="Narrate_Environmental" parent="Circle/Game_Controls" index="3"]
+event = {
+"id": 3612226240,
+"name": "Game_Controls"
+}
+
+[node name="Play_Controls" type="AkEvent3D" parent="Circle/Game_Controls"]
+event = {
+"id": 1943302952,
+"name": "Play_Controls"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Quit_Game" parent="Circle" instance=ExtResource("3_t36h5")]
+transform = Transform3D(-0.509312, 0, -0.860582, 0, 1, 0, 0.860582, 0, -0.509312, 0, 0, 0)
+script = ExtResource("6_4fbcj")
+
+[node name="EnvironmentalEvent" parent="Circle/Quit_Game" index="2"]
+event = {
+"id": 49143091,
+"name": "Item_Ping"
+}
+
+[node name="Narrate_Environmental" parent="Circle/Quit_Game" index="3"]
+event = {
+"id": 327960653,
+"name": "Quit_Game"
+}
+
+[connection signal="area_entered" from="Circle/Start_Game" to="Circle/Start_Game" method="_on_area_entered"]
+[connection signal="area_entered" from="Circle/Game_Controls" to="Circle/Game_Controls" method="_on_area_entered"]
+[connection signal="end_of_event" from="Circle/Game_Controls/Play_Controls" to="Circle/Game_Controls" method="_on_play_controls_end_of_event"]
+[connection signal="area_entered" from="Circle/Quit_Game" to="Circle/Quit_Game" method="_on_area_entered"]
+
+[editable path="Circle/Start_Game"]
+[editable path="Circle/Game_Controls"]
+[editable path="Circle/Quit_Game"]
