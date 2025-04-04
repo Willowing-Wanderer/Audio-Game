@@ -37,8 +37,9 @@ func _on_narrate_pixie_end_of_event(data):
 func on_click(selected):
 	player.set_cutscene(true)
 	pixie_humming_2.stop_event()
-	if(selected == "Mushroom"):
-		player.remove_from_inventory("Mushroom")
+	if(selected == "Mushroom" && player.get_count("Mushroom") >= 5):
+		for i in range(0,5):
+			player.remove_from_inventory("Mushroom")
 		pixie_trade_2.post_event()
 		await get_tree().create_timer(5).timeout
 		drop_crystal()
