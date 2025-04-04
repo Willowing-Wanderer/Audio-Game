@@ -1579,6 +1579,98 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Menus" ID="{C7D3B61F-F065-4835-8A3E-4D133EAA8849}" ShortID="251956328">
+							<ChildrenList>
+								<Event Name="Resume_Game" ID="{FA1240C3-E28F-4A02-8C5F-1EA6639CDA54}">
+									<ChildrenList>
+										<Action Name="" ID="{FFF4CD9B-734A-4407-9D49-2C5ADD7C5C5A}" ShortID="140190079">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Game_Controls" ID="{FF7BFB8F-7B20-4D1B-A793-BEEFBDE55A32}">
+									<ChildrenList>
+										<Action Name="" ID="{61CF696F-E025-462F-97A4-8871CC9B4159}" ShortID="735082467">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Quit_Game" ID="{7E417188-9729-4181-9803-76D41DC6DA06}">
+									<ChildrenList>
+										<Action Name="" ID="{45A6D076-A881-479B-8BFE-C9A771C3A344}" ShortID="439189115">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Start_Game" ID="{F24194C9-26A7-4BEC-914E-77A01DC2A053}">
+									<ChildrenList>
+										<Action Name="" ID="{70C5C674-7901-42C7-952D-07177E4B901B}" ShortID="161644102">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Controls" ID="{5D842D95-3713-415B-B8F2-768EA0D46B50}">
+									<ChildrenList>
+										<Action Name="" ID="{B6B4D67C-9E99-44A2-AD4F-B2D3CBB47AF6}" ShortID="522299204">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pause_Info" ID="{EB65AC21-EF3F-4FCB-88CF-1AECB213559C}">
+									<ChildrenList>
+										<Action Name="" ID="{481ED1E0-47B0-49A1-85FA-6A345D61C1D1}" ShortID="876907705">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Turn_Info" ID="{D4A19352-C7D5-4DA1-BD62-570C2AC2B685}">
+									<ChildrenList>
+										<Action Name="" ID="{28A2528C-42C5-4241-8894-EBF7B904EDF0}" ShortID="686931834">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pause_Menu" ID="{FEFDB6DC-0EDC-424B-B29E-39A753B70EEF}">
+									<ChildrenList>
+										<Action Name="" ID="{FD936257-20C1-4A52-B7E7-C42909AE7E37}" ShortID="274110112">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

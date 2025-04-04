@@ -18,7 +18,11 @@ func stop_narration():
 	playing_narration = false
 
 func on_click(selected):
-	pass
+	get_tree().quit()
 
 func _on_narrate_environmental_end_of_event(data):
 	playing_narration = false
+
+func _on_area_entered(area):
+	await get_tree().create_timer(0.1).timeout
+	narrate_environmental.post_event()
