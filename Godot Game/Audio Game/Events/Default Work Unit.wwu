@@ -1671,6 +1671,32 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Credits" ID="{5659092C-C195-4B70-8F99-065BC19EF26D}" ShortID="873723323">
+							<ChildrenList>
+								<Event Name="Title" ID="{5E4747D1-41B5-41B9-B807-DFEC2B2CCD1D}">
+									<ChildrenList>
+										<Action Name="" ID="{55246F2F-E6B8-4B0B-8BD7-C878697F2DA7}" ShortID="33479196">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cave_Entrance_Narration" ID="{ABDCB59A-6C87-4958-BB85-2812A883E094}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Credits" ID="{6904FA3B-261E-48D4-B810-0ADC3CAE134B}">
+									<ChildrenList>
+										<Action Name="" ID="{AEE0D445-5E1D-4A45-A34F-FA4A26226586}" ShortID="380387467">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cave_Entrance_Narration" ID="{ABDCB59A-6C87-4958-BB85-2812A883E094}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

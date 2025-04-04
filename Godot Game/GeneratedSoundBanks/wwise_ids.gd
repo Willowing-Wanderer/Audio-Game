@@ -141,6 +141,8 @@ class EVENTS:
 	const STREAM_NARRATION = 1867833310
 	const TURN_INFO = 606097659
 	const PAUSE_MENU = 3422541661
+	const TITLE = 3705726509
+	const CREDITS = 2201105581
 	const PAUSE_INFO = 597721236
 
 	const _dict = {
@@ -283,6 +285,8 @@ class EVENTS:
 		"Stream_Narration": STREAM_NARRATION,
 		"Turn_Info": TURN_INFO,
 		"Pause_Menu": PAUSE_MENU,
+		"Title": TITLE,
+		"Credits": CREDITS,
 		"Pause_Info": PAUSE_INFO
 	}
 
