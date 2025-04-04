@@ -5,6 +5,7 @@ var hover_deselect:AkEvent3D
 var pick_up:AkEvent3D
 var interact:AkEvent3D
 var pause_menu:AkEvent3D
+var credits:AkEvent3D
 
 @export_range(0.1, 3.0, 0.1, "or_greater") var player_sensitivity: float = 1.0
 var mouse_captured: bool = false
@@ -18,6 +19,7 @@ var facing_playing_id
 var cutscene = false
 var area_being_narrated:Area3D = null
 var area_narration_playing = false
+var completed_game = false
 
 @onready var inventory = $Inventory
 @onready var narrator = $Inventory_Narrator
@@ -29,6 +31,7 @@ func _ready() -> void:
 	hover_deselect = $Hover_Deselect
 	interact = $Interact
 	pause_menu = $Pause_Menu
+	credits = $Credits
 	capture_mouse()
 
 func _process(delta):
@@ -139,7 +142,10 @@ func pause_game():
 		rotation = last_rotation
 		game_paused = false
 	else:
-		pause_menu.post_event()
+		if (completed_game):
+			credits.post_event()
+		else:
+			pause_menu.post_event()
 		last_position = position
 		last_rotation = rotation
 		position = Vector3(75,0,0)

@@ -51,6 +51,7 @@ func _on_druid_thanks_2_end_of_event(data):
 	druid_restoration.post_event()
 
 func _on_druid_restoration_end_of_event(data):
+	await get_tree().create_timer(5).timeout
 	player.set_cutscene(false)
 	quest_complete.emit()
 

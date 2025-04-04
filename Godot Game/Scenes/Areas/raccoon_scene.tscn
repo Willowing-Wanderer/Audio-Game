@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://chy1yjgdcqplw"]
+[gd_scene load_steps=12 format=3 uid="uid://chy1yjgdcqplw"]
 
 [ext_resource type="Script" path="res://Scripts/raccoon_scene.gd" id="1_a5oek"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_88yt1"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
 [ext_resource type="PackedScene" uid="uid://bblapp6yq562n" path="res://Scenes/Areas/path_ne_sw.tscn" id="8_djkys"]
 [ext_resource type="PackedScene" uid="uid://pq2lksvyubd5" path="res://Scenes/UI/PauseMenu.tscn" id="10_g3jm4"]
+[ext_resource type="PackedScene" uid="uid://bgapasb0bya6p" path="res://Scenes/Backdrops/ForestInsects.tscn" id="11_twekm"]
 
 [node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Path_Dialog", "Druid_Open_Path")]
 script = ExtResource("1_a5oek")
@@ -17,7 +18,7 @@ narrate_controls = NodePath("Narrate_Controls")
 narrate_ending = NodePath("Narrate_Ending")
 narrate_start = NodePath("Narrate_Start")
 forest_ambience = NodePath("Forest_Ambience")
-Druid_Path_Dialog = NodePath("Druid_Path_Dialog")
+Druid_Path_Dialog = NodePath("")
 Druid_Open_Path = NodePath("Druid_Open_Path")
 
 [node name="player_ears" parent="." instance=ExtResource("2_fqr4v")]
@@ -95,24 +96,33 @@ event = {
 }
 stop_on = 3
 
-[node name="Druid_Path_Dialog" type="AkEvent3D" parent="."]
-event = {
-"id": 2335167966,
-"name": "Druid_Path_Dialog"
-}
-
 [node name="Druid_Open_Path" type="AkEvent3D" parent="."]
 event = {
 "id": 3931060456,
 "name": "Druid_Open_Path"
 }
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.00112, 0, 0)
 
 [node name="PauseMenu" parent="." instance=ExtResource("10_g3jm4")]
 
+[node name="Insects" type="Node3D" parent="."]
+
+[node name="ForestInsects2" parent="Insects" instance=ExtResource("11_twekm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.10578, 0, -5.29166)
+
+[node name="ForestInsects3" parent="Insects" instance=ExtResource("11_twekm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42044, 0, -9.58194)
+
+[node name="ForestInsects5" parent="Insects" instance=ExtResource("11_twekm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66985, 0, 5.91925)
+
 [connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
+[connection signal="end_of_event" from="Circle/Druid/Druid_Restoration" to="Insects/ForestInsects2" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Circle/Druid/Druid_Restoration" to="Insects/ForestInsects3" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Circle/Druid/Druid_Restoration" to="Insects/ForestInsects5" method="_on_druid_restoration_end_of_event"]
 [connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]
-[connection signal="end_of_event" from="Druid_Path_Dialog" to="." method="_on_druid_path_dialog_end_of_event"]
 [connection signal="end_of_event" from="Druid_Open_Path" to="." method="_on_druid_open_path_end_of_event"]
 
+[editable path="Circle/Druid"]
 [editable path="Circle/Path_North-South"]
 [editable path="Circle2/Path_NE_SW"]
