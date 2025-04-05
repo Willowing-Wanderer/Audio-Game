@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{02C8493E-5C2A-ECE4-9F47-46318C80AD5A}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7330B9AF-86A7-797C-2E79-854D9800BE2D}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -792,6 +792,11 @@
 						<MediaRef Id="971782946"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3655741448" Name="Cubs_Footsteps">
+					<MediaRefs>
+						<MediaRef Id="401630820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="509748587" Name="Cubs_Narration">
 					<MediaRefs>
 						<MediaRef Id="487660991"/>
@@ -1348,5 +1353,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4A07A227-6543-80D3-D76B-B8020460C16C}</FileHash>
+	<FileHash>{7E3A6FDB-AA3D-D137-52DF-811052A77EE4}</FileHash>
 </SoundBanksInfo>

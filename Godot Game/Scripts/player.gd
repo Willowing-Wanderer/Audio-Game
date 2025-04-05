@@ -12,6 +12,7 @@ var mouse_captured: bool = false
 var look_dir: Vector2 # Input direction for look/aim
 
 var in_title = true
+var has_bears = false
 
 var playing_id
 var selected_max = 3
@@ -20,6 +21,7 @@ var cutscene = false
 var area_being_narrated:Area3D = null
 var area_narration_playing = false
 var completed_game = false
+var cubs_footsteps:AkEvent3D
 
 @onready var inventory = $Inventory
 @onready var narrator = $Inventory_Narrator
@@ -32,6 +34,7 @@ func _ready() -> void:
 	interact = $Interact
 	pause_menu = $Pause_Menu
 	credits = $Credits
+	cubs_footsteps = $Cubs_Footsteps
 	capture_mouse()
 
 func _process(delta):
@@ -98,6 +101,9 @@ func _rotate_player(sens_mod: float = 1.0) -> void:
 
 func process_left_click(area: Area3D):
 	area.on_click(inventory.get_selected())
+	if(has_bears && area.get_parent().name.begins_with("Path")):
+		cubs_footsteps.post_event()
+	
 	
 func process_right_click(area: Area3D):
 	area_being_narrated = area

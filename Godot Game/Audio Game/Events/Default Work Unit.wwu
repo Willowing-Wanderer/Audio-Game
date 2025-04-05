@@ -1013,6 +1013,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Cubs_Footsteps" ID="{E7434BF9-0BFE-424A-836B-6C5162D60854}">
+									<ChildrenList>
+										<Action Name="" ID="{522E3FA2-741D-4CE3-8318-3BF558716299}" ShortID="332487954">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Stream" ID="{6B090F90-D4C8-4117-98C3-F8C15D5E1B9F}" ShortID="1011747054">
