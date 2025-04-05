@@ -138,6 +138,7 @@ class EVENTS:
 	const FOREST_INSECTS = 2154420340
 	const FOREST_ANIMALS = 3565432312
 	const NORTH = 4279573130
+	const CUBS_FOOTSTEPS = 3655741448
 	const STREAM_NARRATION = 1867833310
 	const TURN_INFO = 606097659
 	const PAUSE_MENU = 3422541661
@@ -282,6 +283,7 @@ class EVENTS:
 		"Forest_Insects": FOREST_INSECTS,
 		"Forest_Animals": FOREST_ANIMALS,
 		"North": NORTH,
+		"Cubs_Footsteps": CUBS_FOOTSTEPS,
 		"Stream_Narration": STREAM_NARRATION,
 		"Turn_Info": TURN_INFO,
 		"Pause_Menu": PAUSE_MENU,

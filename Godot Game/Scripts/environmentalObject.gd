@@ -8,6 +8,7 @@ var playing_narration = false
 func _ready():
 	environmental = $EnvironmentalEvent
 	narrate_environmental = $Narrate_Environmental
+	environmental.post_event()
 
 func narrate():
 	narrate_environmental.post_event()

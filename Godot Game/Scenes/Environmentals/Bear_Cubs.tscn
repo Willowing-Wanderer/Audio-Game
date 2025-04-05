@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://kjlf5k1kqet4"]
+[gd_scene load_steps=5 format=3 uid="uid://cyjf4q1oow1ds"]
 
-[ext_resource type="Script" path="res://Scripts/environmentalObject.gd" id="1_j87ms"]
+[ext_resource type="Script" path="res://Scenes/Environmentals/Bear_Cubs.gd" id="1_cgrw8"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_2lhut"]
 
@@ -10,8 +10,8 @@ albedo_color = Color(0.403922, 0.0352941, 0.439216, 1)
 [sub_resource type="SphereMesh" id="SphereMesh_ltkxe"]
 material = SubResource("StandardMaterial3D_plhd5")
 
-[node name="Environmental" type="Area3D"]
-script = ExtResource("1_j87ms")
+[node name="Bear_Cubs" type="Area3D"]
+script = ExtResource("1_cgrw8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
@@ -21,21 +21,29 @@ shape = SubResource("SphereShape3D_2lhut")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 mesh = SubResource("SphereMesh_ltkxe")
 
-[node name="EnvironmentalEvent" type="AkEvent3D" parent="."]
+[node name="Cubs_Eating" type="AkEvent3D" parent="."]
 event = {
-"id": 162560690,
-"name": "Tree_Swish"
-}
-trigger_on = 3
-stop_on = 3
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
-
-[node name="Narrate_Environmental" type="AkEvent3D" parent="."]
-event = {
-"id": 3477674050,
-"name": "Narrate_Apple_Tree"
+"id": 1652453217,
+"name": "Cubs_Eating"
 }
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[connection signal="end_of_event" from="Narrate_Environmental" to="." method="_on_narrate_environmental_end_of_event"]
+[node name="Cubs_Narration" type="AkEvent3D" parent="."]
+event = {
+"id": 509748587,
+"name": "Cubs_Narration"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Cubs_Dialog" type="AkEvent3D" parent="."]
+event = {
+"id": 331307707,
+"name": "Cubs_Dialog"
+}
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[connection signal="end_of_event" from="Cubs_Narration" to="." method="_on_narrate_environmental_end_of_event"]
+[connection signal="end_of_event" from="Cubs_Dialog" to="." method="_on_cubs_dialog_end_of_event"]

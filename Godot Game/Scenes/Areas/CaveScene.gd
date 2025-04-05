@@ -18,3 +18,6 @@ func _on_druid_2_quest_complete():
 	player.pause_game()
 	#get_parent().finish_level_2()
 	#queue_free()
+
+func _on_mother_bear_cave_unlocked():
+	$CaveEntrance/Path_East_West.process_mode = PROCESS_MODE_INHERIT

@@ -82,6 +82,13 @@ event = {
 }
 stop_on = 3
 
+[node name="Cubs_Footsteps" type="AkEvent3D" parent="."]
+event = {
+"id": 3655741448,
+"name": "Cubs_Footsteps"
+}
+stop_on = 3
+
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.999293, -0.00967845, -0.0363231, -0.0285428, 0.824153, 0.565648, 0.0244612, 0.566285, -0.823846, 0.0357521, 0.907363, -0.671099)
 current = true
