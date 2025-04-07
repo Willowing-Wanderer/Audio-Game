@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3gkglo48hkfd"
+path="res://.godot/imported/Pause_Info.wav-531d0db58799304f5fd0f0fba32ec6b0.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Pause_Info.wav"
+dest_files=["res://.godot/imported/Pause_Info.wav-531d0db58799304f5fd0f0fba32ec6b0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

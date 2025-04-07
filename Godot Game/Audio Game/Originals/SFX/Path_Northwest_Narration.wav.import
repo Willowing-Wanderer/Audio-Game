@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdqp8ly1lhrqj"
+path="res://.godot/imported/Path_Northwest_Narration.wav-a891fcfe0ee0d50ae8aab0cabb2bd541.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Path_Northwest_Narration.wav"
+dest_files=["res://.godot/imported/Path_Northwest_Narration.wav-a891fcfe0ee0d50ae8aab0cabb2bd541.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

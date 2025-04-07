@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxeol0iq5ycc3"
+path="res://.godot/imported/Path_Southwest_Narration.wav-a4b832dd56e2d86a3c59ac0c2ef33a60.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Path_Southwest_Narration.wav"
+dest_files=["res://.godot/imported/Path_Southwest_Narration.wav-a4b832dd56e2d86a3c59ac0c2ef33a60.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
