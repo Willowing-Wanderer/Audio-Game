@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{10F5ADC4-408E-5F80-B5BD-F0500AB428D1}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8A53B941-E42E-E858-6FBF-7F78254DDDA3}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -570,6 +570,10 @@
 				<File Id="770593081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Apart_Whisper.wav</ShortName>
 					<CachePath>SFX/Apart_Whisper_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="781838794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Title.wav</ShortName>
+					<CachePath>SFX/Title_818F3B66.wem</CachePath>
 				</File>
 				<File Id="799573216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Nothing.wav</ShortName>
@@ -1367,7 +1371,7 @@
 				</Event>
 				<Event Id="3705726509" Name="Title">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="781838794"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3417648280" Name="To_AppleTree_Path_Narration">
@@ -1421,5 +1425,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AF6955DC-5558-B616-3EE5-4F7FA427EE79}</FileHash>
+	<FileHash>{82A6FC5C-C723-9E3A-945E-ED82E59027B9}</FileHash>
 </SoundBanksInfo>
