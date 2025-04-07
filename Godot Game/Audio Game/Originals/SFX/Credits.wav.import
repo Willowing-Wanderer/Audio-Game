@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://beap4yiilsrd"
+path="res://.godot/imported/Credits.wav-ca3f99288c0bd4d34143a58883f3f44e.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Credits.wav"
+dest_files=["res://.godot/imported/Credits.wav-ca3f99288c0bd4d34143a58883f3f44e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

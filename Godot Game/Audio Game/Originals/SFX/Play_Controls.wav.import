@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7tm742s8jsap"
+path="res://.godot/imported/Play_Controls.wav-390937645d53c21eb49d4bf1a0446cfa.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Play_Controls.wav"
+dest_files=["res://.godot/imported/Play_Controls.wav-390937645d53c21eb49d4bf1a0446cfa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

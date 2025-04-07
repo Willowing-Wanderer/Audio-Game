@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://br8alph0lv3yi"
+path="res://.godot/imported/Path_East_Narration.wav-377e2f2c82b44d78c4fe0dc2401598da.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Path_East_Narration.wav"
+dest_files=["res://.godot/imported/Path_East_Narration.wav-377e2f2c82b44d78c4fe0dc2401598da.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

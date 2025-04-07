@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{7330B9AF-86A7-797C-2E79-854D9800BE2D}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{10F5ADC4-408E-5F80-B5BD-F0500AB428D1}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -199,6 +199,10 @@
 					<ShortName>Tree_Shake.wav</ShortName>
 					<CachePath>SFX/Tree_Shake_818F3B66.wem</CachePath>
 				</File>
+				<File Id="75497720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_Southwest_Narration.wav</ShortName>
+					<CachePath>SFX/Path_Southwest_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="76911740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Facing.wav</ShortName>
 					<CachePath>SFX/Facing_FBC78EF0.wem</CachePath>
@@ -219,6 +223,10 @@
 					<ShortName>Survive_Whisper.wav</ShortName>
 					<CachePath>SFX/Survive_Whisper_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="114895961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_Northwest_Narration.wav</ShortName>
+					<CachePath>SFX/Path_Northwest_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="122705217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Belong_Whisper.wav</ShortName>
 					<CachePath>SFX/Belong_Whisper_FBC78EF0.wem</CachePath>
@@ -234,6 +242,10 @@
 				<File Id="152467493" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Forest_Path_Narration.wav</ShortName>
 					<CachePath>SFX/Forest_Path_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="158815670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_Southeast_Narration.wav</ShortName>
+					<CachePath>SFX/Path_Southeast_Narration_818F3B66.wem</CachePath>
 				</File>
 				<File Id="171344150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal_Item.wav</ShortName>
@@ -259,6 +271,10 @@
 					<ShortName>Backdrop_Placeholder.wav</ShortName>
 					<CachePath>SFX/Backdrop_Placeholder_1EF53104.wem</CachePath>
 				</File>
+				<File Id="195247747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_North_Narration.wav</ShortName>
+					<CachePath>SFX/Path_North_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="197750041" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Path_Dialog.wav</ShortName>
 					<CachePath>SFX/Druid_Path_Dialog_818F3B66.wem</CachePath>
@@ -266,6 +282,10 @@
 				<File Id="202035263" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bat_Dialog.wav</ShortName>
 					<CachePath>SFX/Bat_Dialog_818F3B66.wem</CachePath>
+				</File>
+				<File Id="212160853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Net_Item_Narration.wav</ShortName>
+					<CachePath>SFX/Net_Item_Narration_818F3B66.wem</CachePath>
 				</File>
 				<File Id="212554456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Myself_Whisper.wav</ShortName>
@@ -303,6 +323,10 @@
 					<ShortName>Bear_Dialog_1.wav</ShortName>
 					<CachePath>SFX/Bear_Dialog_1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="292913768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_South_Narration.wav</ShortName>
+					<CachePath>SFX/Path_South_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="297512709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie_Aww.wav</ShortName>
 					<CachePath>SFX/Pixie_Aww_818F3B66.wem</CachePath>
@@ -326,6 +350,10 @@
 				<File Id="329592623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Footsteps_2.wav</ShortName>
 					<CachePath>SFX/Cave_Footsteps_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="330087968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Turn_Info.wav</ShortName>
+					<CachePath>SFX/Turn_Info_818F3B66.wem</CachePath>
 				</File>
 				<File Id="332441921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stream_Flow_1.wav</ShortName>
@@ -379,6 +407,10 @@
 					<ShortName>LeafCrunchHard4.wav</ShortName>
 					<CachePath>SFX/LeafCrunchHard4_1142F2B9.wem</CachePath>
 				</File>
+				<File Id="414481275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quit_Game.wav</ShortName>
+					<CachePath>SFX/Quit_Game_818F3B66.wem</CachePath>
+				</File>
 				<File Id="439381172" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bat_Narration.wav</ShortName>
 					<CachePath>SFX/Bat_Narration_818F3B66.wem</CachePath>
@@ -410,6 +442,10 @@
 				<File Id="509455863" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Entrance.wav</ShortName>
 					<CachePath>SFX/Cave_Entrance_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="511653071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_East_Narration.wav</ShortName>
+					<CachePath>SFX/Path_East_Narration_818F3B66.wem</CachePath>
 				</File>
 				<File Id="512147104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Druid.wav</ShortName>
@@ -467,6 +503,10 @@
 					<ShortName>Environmental_Placeholder (1).wav</ShortName>
 					<CachePath>SFX/Environmental_Placeholder (1)_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="689758017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_Northeast_Narration.wav</ShortName>
+					<CachePath>SFX/Path_Northeast_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="690857897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Die_Whisper.wav</ShortName>
 					<CachePath>SFX/Die_Whisper_FBC78EF0.wem</CachePath>
@@ -487,6 +527,10 @@
 					<ShortName>Bat_Thanks.wav</ShortName>
 					<CachePath>SFX/Bat_Thanks_818F3B66.wem</CachePath>
 				</File>
+				<File Id="723426396" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Path_West_Narration.wav</ShortName>
+					<CachePath>SFX/Path_West_Narration_818F3B66.wem</CachePath>
+				</File>
 				<File Id="735996904" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stream_Source_Narration.wav</ShortName>
 					<CachePath>SFX/Stream_Source_Narration_818F3B66.wem</CachePath>
@@ -499,6 +543,10 @@
 					<ShortName>We_Whisper.wav</ShortName>
 					<CachePath>SFX/We_Whisper_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="755530693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pause_Info.wav</ShortName>
+					<CachePath>SFX/Pause_Info_818F3B66.wem</CachePath>
+				</File>
 				<File Id="757045285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Pixie.wav</ShortName>
 					<CachePath>SFX/Narrate_Pixie_5888BD59.wem</CachePath>
@@ -506,6 +554,14 @@
 				<File Id="757555748" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Thanks2.wav</ShortName>
 					<CachePath>SFX/Raccoon_Thanks2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="761275217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Game_Controls.wav</ShortName>
+					<CachePath>SFX/Game_Controls_818F3B66.wem</CachePath>
+				</File>
+				<File Id="762584218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pause_Menu.wav</ShortName>
+					<CachePath>SFX/Pause_Menu_818F3B66.wem</CachePath>
 				</File>
 				<File Id="763944260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bear_Narration_1.wav</ShortName>
@@ -542,6 +598,10 @@
 				<File Id="869352405" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Insect_Cloud_Narration.wav</ShortName>
 					<CachePath>SFX/Insect_Cloud_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="900238868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Start_Game.wav</ShortName>
+					<CachePath>SFX/Start_Game_818F3B66.wem</CachePath>
 				</File>
 				<File Id="913583772" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>new controls.wav</ShortName>
@@ -614,6 +674,14 @@
 				<File Id="1048699721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Druid_Hum.wav</ShortName>
 					<CachePath>SFX/Druid_Hum_99028C3C.wem</CachePath>
+				</File>
+				<File Id="1053201089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Resume_Game.wav</ShortName>
+					<CachePath>SFX/Resume_Game_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1064389336" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Play_Controls.wav</ShortName>
+					<CachePath>SFX/Play_Controls_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1066718709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience.wav</ShortName>
@@ -917,7 +985,7 @@
 				</Event>
 				<Event Id="3612226240" Name="Game_Controls">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="761275217"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="828014134" Name="Hate_Whisper">
@@ -1087,12 +1155,12 @@
 				</Event>
 				<Event Id="3267870896" Name="Net_Item">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="472582512"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3576666763" Name="Net_Item_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="212160853"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4279573130" Name="North">
@@ -1107,7 +1175,7 @@
 				</Event>
 				<Event Id="344680759" Name="Path_East_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="511653071"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3768164332" Name="Path_North">
@@ -1117,17 +1185,17 @@
 				</Event>
 				<Event Id="3885360447" Name="Path_North_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="195247747"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2004849428" Name="Path_Northeast_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="689758017"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1996543922" Name="Path_Northwest_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="114895961"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="909344094" Name="Path_South">
@@ -1137,17 +1205,17 @@
 				</Event>
 				<Event Id="2845173913" Name="Path_South_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="292913768"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4262209266" Name="Path_Southeast_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="158815670"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="516307540" Name="Path_Southwest_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="75497720"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1325065690" Name="Path_West">
@@ -1157,7 +1225,7 @@
 				</Event>
 				<Event Id="3899584429" Name="Path_West_Narration">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="723426396"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1008262333" Name="Path_Wind">
@@ -1167,12 +1235,12 @@
 				</Event>
 				<Event Id="597721236" Name="Pause_Info">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="755530693"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3422541661" Name="Pause_Menu">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="762584218"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="467838998" Name="Pick_Up">
@@ -1223,12 +1291,12 @@
 				</Event>
 				<Event Id="1943302952" Name="Play_Controls">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="1064389336"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="327960653" Name="Quit_Game">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="414481275"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1146653945" Name="Raccoon_Eating">
@@ -1253,7 +1321,7 @@
 				</Event>
 				<Event Id="1565052233" Name="Resume_Game">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="1053201089"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="992193856" Name="South">
@@ -1263,7 +1331,7 @@
 				</Event>
 				<Event Id="1114964412" Name="Start_Game">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="900238868"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3106261316" Name="Stream_Flow_1">
@@ -1329,7 +1397,7 @@
 				</Event>
 				<Event Id="606097659" Name="Turn_Info">
 					<MediaRefs>
-						<MediaRef Id="349029664"/>
+						<MediaRef Id="330087968"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3484778486" Name="We_Whisper">
@@ -1353,5 +1421,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7E3A6FDB-AA3D-D137-52DF-811052A77EE4}</FileHash>
+	<FileHash>{11706F9A-73EF-AB3B-EDEA-8B64752C32B2}</FileHash>
 </SoundBanksInfo>

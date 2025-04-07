@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dhsqki605qe18"
+path="res://.godot/imported/Quit_Game.wav-94fdf69e45b864a43287bb9f0dc8816e.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Quit_Game.wav"
+dest_files=["res://.godot/imported/Quit_Game.wav-94fdf69e45b864a43287bb9f0dc8816e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

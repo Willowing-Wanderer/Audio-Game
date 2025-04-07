@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwqggy5yabdls"
+path="res://.godot/imported/Turn_Info.wav-8f34ca1daf4e11cbd69a593177393cc8.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Turn_Info.wav"
+dest_files=["res://.godot/imported/Turn_Info.wav-8f34ca1daf4e11cbd69a593177393cc8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
