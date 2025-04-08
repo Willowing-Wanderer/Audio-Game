@@ -1721,6 +1721,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{67808EAD-035A-43E2-A2A6-0CF1FBA64FAD}" ShortID="294696931">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="4"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turn_Info" ID="{44A869FD-4A62-4E2B-8348-AC404FB458EE}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Credits" ID="{6904FA3B-261E-48D4-B810-0ADC3CAE134B}">
