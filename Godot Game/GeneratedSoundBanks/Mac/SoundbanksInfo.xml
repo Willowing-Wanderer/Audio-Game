@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8561A748-6D36-E332-195C-1F1A0F1A336C}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{28157A3D-7966-9918-20DE-8B7924277595}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -422,6 +422,10 @@
 				<File Id="439381172" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bat_Narration.wav</ShortName>
 					<CachePath>SFX/Bat_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="449738052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Insect_Cloud.wav</ShortName>
+					<CachePath>SFX/Insect_Cloud_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="472582512" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Insect_Catch.wav</ShortName>
@@ -1045,7 +1049,7 @@
 				</Event>
 				<Event Id="3751069619" Name="Insect_Cloud">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="449738052"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3737277484" Name="Insect_Cloud_Narration">
@@ -1441,5 +1445,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{724A9F93-9D81-ACEE-4B6D-BE79C751355F}</FileHash>
+	<FileHash>{D55745C3-74A8-2336-3ED5-1D0AFA48083F}</FileHash>
 </SoundBanksInfo>
