@@ -712,11 +712,20 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.82207, 0, 13.9966)
 [node name="ForestInsects2" parent="." instance=ExtResource("10_7sasn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.10578, 0, -5.29166)
 
+[node name="Forest_Insects" parent="ForestInsects2" index="1"]
+trigger_on = 1
+
 [node name="ForestInsects3" parent="." instance=ExtResource("10_7sasn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42044, 0, -9.58194)
 
+[node name="Forest_Insects" parent="ForestInsects3" index="1"]
+trigger_on = 1
+
 [node name="ForestInsects5" parent="." instance=ExtResource("10_7sasn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66985, 0, 5.91925)
+
+[node name="Forest_Insects" parent="ForestInsects5" index="1"]
+trigger_on = 1
 
 [node name="PauseMenu" parent="." instance=ExtResource("22_xxtov")]
 
@@ -771,3 +780,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
 [editable path="Raccoon's Home/Path_NE_SW"]
 [editable path="Apple Tree/AppleTree"]
 [editable path="Druid2"]
+[editable path="ForestInsects2"]
+[editable path="ForestInsects3"]
+[editable path="ForestInsects5"]
