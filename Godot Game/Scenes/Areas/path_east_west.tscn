@@ -93,5 +93,7 @@ event = {
 }
 stop_on = 3
 
+[connection signal="end_of_event" from="West_End/Path_East_Narration" to="West_End" method="_on_path_east_narration_end_of_event"]
 [connection signal="end_of_event" from="West_End/Footsteps" to="West_End" method="_on_footsteps_end_of_event"]
+[connection signal="end_of_event" from="East_End/Path_West_Narration" to="East_End" method="_on_path_west_narration_end_of_event"]
 [connection signal="end_of_event" from="East_End/Footsteps" to="East_End" method="_on_footsteps_end_of_event"]

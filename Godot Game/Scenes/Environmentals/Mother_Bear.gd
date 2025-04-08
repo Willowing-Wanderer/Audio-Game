@@ -39,6 +39,7 @@ func stop_narration():
 
 func on_click(selected):
 	bear_pacing.stop_event()
+	bears_playing.stop_event()
 	player.set_cutscene(true)
 	if(reunited || player.has_bears == true):
 		if(player.has_bears):

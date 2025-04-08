@@ -467,8 +467,8 @@ circle = NodePath("../..")
 
 [node name="Path_Sound" parent="WhisperingCavern4/Path_Die/SW_End" index="3"]
 event = {
-"id": 2316560346,
-"name": "Survive_Whisper"
+"id": 98240150,
+"name": "Die_Whisper"
 }
 
 [node name="Path_Survive" parent="WhisperingCavern4" instance=ExtResource("9_tlgvb")]
@@ -488,8 +488,8 @@ circle = NodePath("../../../WhisperingCavern11")
 
 [node name="Path_Sound" parent="WhisperingCavern4/Path_Survive/SE_End" index="3"]
 event = {
-"id": 98240150,
-"name": "Die_Whisper"
+"id": 2316560346,
+"name": "Survive_Whisper"
 }
 
 [node name="WhisperingCavern11" parent="." instance=ExtResource("1_w2ttr")]
