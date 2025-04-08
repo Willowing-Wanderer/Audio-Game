@@ -709,7 +709,7 @@
 										<Action Name="" ID="{5DBA7A48-2988-4270-AE97-072BB458994F}" ShortID="257112712">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Insect_Cloud" ID="{244E1447-7BC3-418F-AB00-28A4FF7ACF0B}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
