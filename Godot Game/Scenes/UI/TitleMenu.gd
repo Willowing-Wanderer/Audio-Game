@@ -11,3 +11,4 @@ func _ready():
 
 func _on_title_end_of_event(data):
 	turn_info.post_event()
+	title.duration

@@ -12,6 +12,7 @@ func _ready():
 	environmental = $EnvironmentalEvent
 	narrate_environmental = $Narrate_Environmental
 	play_controls = $Play_Controls
+	environmental.post_event()
 
 func narrate():
 	narrate_environmental.post_event()
@@ -29,8 +30,9 @@ func _on_narrate_environmental_end_of_event(data):
 	playing_narration = false
 
 func _on_area_entered(area):
-	await get_tree().create_timer(0.1).timeout
-	narrate_environmental.post_event()
+	if(!player.cutscene):
+		await get_tree().create_timer(0.1).timeout
+		narrate_environmental.post_event()
 
 func _on_play_controls_end_of_event(data):
 	player.set_cutscene(false)

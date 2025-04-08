@@ -1461,7 +1461,7 @@
 										<Action Name="" ID="{BED4852C-39ED-4692-8551-6E2C45116A3E}" ShortID="178930472">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="North" ID="{AC04605F-CFC7-46CB-A490-AB665AF1D22E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1472,7 +1472,7 @@
 										<Action Name="" ID="{E7B6E0FE-7565-4B92-893A-20C2D8419E5C}" ShortID="66655623">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="South" ID="{B3C39166-85D1-4B6F-88CB-BBA191C0161A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1483,7 +1483,7 @@
 										<Action Name="" ID="{17E7B8C7-2575-4DDA-8F90-35B21B1E8CA5}" ShortID="21328860">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="East" ID="{2D89EE81-325A-4C40-B986-F3B37DAB0DCA}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1494,7 +1494,7 @@
 										<Action Name="" ID="{33275601-3F90-4C6E-9D7B-46F8FD39A859}" ShortID="715269900">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="West" ID="{6142D976-C83A-424E-9AB5-94C039811FC0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
