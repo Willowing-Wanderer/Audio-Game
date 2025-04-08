@@ -8,6 +8,3 @@ func _ready():
 	turn_info = $Turn_Info
 	title = $Title
 	title.post_event()
-
-func _on_title_end_of_event(data):
-	turn_info.post_event()

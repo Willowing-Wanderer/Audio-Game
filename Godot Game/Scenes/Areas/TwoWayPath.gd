@@ -38,3 +38,27 @@ func _on_footsteps_end_of_event(data):
 	walking = false
 	destination = null
 	player.set_cutscene(false)
+
+func _on_path_northeast_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_southwest_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_southeast_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_northwest_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_south_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_north_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_east_narration_end_of_event(data):
+	playing_narration = false
+
+func _on_path_west_narration_end_of_event(data):
+	playing_narration = false
