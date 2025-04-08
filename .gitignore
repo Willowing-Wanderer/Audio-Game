@@ -3,6 +3,9 @@ Godot Game/Audio Game/.cache/LMDB/data.mdb
 Godot Game/Audio Game/.cache/LMDB/lock.mdb
 Godot Game/Audio Game/Audio Game.rmtou.validationcache
 Godot Game/Audio Game/Audio Game.rmtou.wsettings
-Godot Game/GeneratedSoundBanks/Mac/English(US)/Main.bnk
+Godot Game/GeneratedSoundBanks/
 *.txt
 *.bnk
+Godot Game/GeneratedSoundBanks/Mac/SoundbanksInfo.xml
+Godot Game/GeneratedSoundBanks/Windows/SoundbanksInfo.xml
+Godot Game/GeneratedSoundBanks/wwise_ids.gd
