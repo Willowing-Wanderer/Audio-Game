@@ -12,13 +12,12 @@
 [ext_resource type="PackedScene" uid="uid://pq2lksvyubd5" path="res://Scenes/UI/PauseMenu.tscn" id="10_g3jm4"]
 [ext_resource type="PackedScene" uid="uid://bgapasb0bya6p" path="res://Scenes/Backdrops/ForestInsects.tscn" id="11_twekm"]
 
-[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Path_Dialog", "Druid_Open_Path")]
+[node name="RaccoonScene" type="Node3D" node_paths=PackedStringArray("narrate_controls", "narrate_ending", "narrate_start", "forest_ambience", "Druid_Open_Path")]
 script = ExtResource("1_a5oek")
 narrate_controls = NodePath("Narrate_Controls")
 narrate_ending = NodePath("Narrate_Ending")
 narrate_start = NodePath("Narrate_Start")
 forest_ambience = NodePath("Forest_Ambience")
-Druid_Path_Dialog = NodePath("")
 Druid_Open_Path = NodePath("Druid_Open_Path")
 
 [node name="player_ears" parent="." instance=ExtResource("2_fqr4v")]
@@ -32,12 +31,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 0, 0)
 
 [node name="North_End" parent="Circle/Path_North-South" index="1" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
-
-[node name="Path_Sound" parent="Circle/Path_North-South/North_End" index="3"]
-event = {
-"id": 3768164332,
-"name": "Path_North"
-}
 
 [node name="South_End" parent="Circle/Path_North-South" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../Circle2")

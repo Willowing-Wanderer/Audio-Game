@@ -26,7 +26,6 @@ event = {
 "id": 162560690,
 "name": "Tree_Swish"
 }
-trigger_on = 3
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
