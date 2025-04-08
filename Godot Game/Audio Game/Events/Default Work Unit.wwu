@@ -1465,6 +1465,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{51E0C4C4-42FC-4EA3-942F-572B3066082C}" ShortID="320713448">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Path_South" ID="{F3010C0B-07B8-4500-BB71-497D52E9D448}">
@@ -1473,6 +1480,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="South" ID="{B3C39166-85D1-4B6F-88CB-BBA191C0161A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{69115940-9C25-4FC7-9BE2-D72DA4FD5635}" ShortID="494788692">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1487,6 +1501,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{5F311D3E-BA0D-4C78-AD0A-BD1BDB4893F9}" ShortID="452285605">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Path_West" ID="{61DB27A8-198A-4D4D-9B0C-858304EE90EC}">
@@ -1495,6 +1516,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="West" ID="{6142D976-C83A-424E-9AB5-94C039811FC0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{8638FB18-4BB6-445E-9359-859A45E223B3}" ShortID="905087383">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Path Wind" ID="{6DC9BC67-8326-4ABA-8463-49B30667433D}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
