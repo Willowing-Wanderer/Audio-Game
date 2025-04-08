@@ -8,7 +8,5 @@ func _ready():
 	turn_info = $Turn_Info
 	title = $Title
 	title.post_event()
-
-func _on_title_end_of_event(data):
+	await get_tree().create_timer(3.5).timeout
 	turn_info.post_event()
-	title.duration
