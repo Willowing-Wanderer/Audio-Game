@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8A53B941-E42E-E858-6FBF-7F78254DDDA3}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{8561A748-6D36-E332-195C-1F1A0F1A336C}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -234,6 +234,10 @@
 				<File Id="126095673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raccoon_Go_Away.wav</ShortName>
 					<CachePath>SFX/Raccoon_Go_Away_AB2B0307.wem</CachePath>
+				</File>
+				<File Id="133511689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>South.wav</ShortName>
+					<CachePath>SFX/South_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="150446866" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard2.wav</ShortName>
@@ -339,6 +343,10 @@
 					<ShortName>Narrate_Path.wav</ShortName>
 					<CachePath>SFX/Narrate_Path_9A94127C.wem</CachePath>
 				</File>
+				<File Id="319295820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>North.wav</ShortName>
+					<CachePath>SFX/North_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="323560728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Forest_Birds.wav</ShortName>
 					<CachePath>SFX/Forest_Birds_818F3B66.wem</CachePath>
@@ -426,6 +434,10 @@
 				<File Id="487660991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cubs_Narration.wav</ShortName>
 					<CachePath>SFX/Cubs_Narration_818F3B66.wem</CachePath>
+				</File>
+				<File Id="490375823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>West.wav</ShortName>
+					<CachePath>SFX/West_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="501403929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LeafCrunchHard3.wav</ShortName>
@@ -586,6 +598,10 @@
 				<File Id="822964253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Crystal.wav</ShortName>
 					<CachePath>SFX/Narrate_Crystal_F117850F.wem</CachePath>
+				</File>
+				<File Id="839884986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>East.wav</ShortName>
+					<CachePath>SFX/East_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="844437356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Narrate_Apple_Tree.wav</ShortName>
@@ -936,7 +952,7 @@
 				</Event>
 				<Event Id="529018174" Name="East">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="839884986"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2656148257" Name="Exist_Whisper">
@@ -1169,7 +1185,7 @@
 				</Event>
 				<Event Id="4279573130" Name="North">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="319295820"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2509188052" Name="Path_East">
@@ -1330,7 +1346,7 @@
 				</Event>
 				<Event Id="992193856" Name="South">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="133511689"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1114964412" Name="Start_Game">
@@ -1411,7 +1427,7 @@
 				</Event>
 				<Event Id="1723483016" Name="West">
 					<MediaRefs>
-						<MediaRef Id="401630820"/>
+						<MediaRef Id="490375823"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3224125185" Name="You_Whisper">
@@ -1425,5 +1441,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CDF16625-21DA-E631-E343-55C7DC9D7F74}</FileHash>
+	<FileHash>{2F49327E-4EBC-8AE6-46D4-0CFC2DF3CD49}</FileHash>
 </SoundBanksInfo>

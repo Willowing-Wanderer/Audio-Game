@@ -1376,7 +1376,7 @@
 										<Action Name="" ID="{C0CA7F86-12E1-415F-8DB5-04DC5FA64F42}" ShortID="53971007">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="North" ID="{AC04605F-CFC7-46CB-A490-AB665AF1D22E}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1387,7 +1387,7 @@
 										<Action Name="" ID="{99D4C61C-CA12-4F9C-9761-BD0C7A3044F9}" ShortID="1057172404">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="South" ID="{B3C39166-85D1-4B6F-88CB-BBA191C0161A}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1398,7 +1398,7 @@
 										<Action Name="" ID="{4290DA5F-CF22-4AA5-94B2-A28144CAA151}" ShortID="292475045">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="East" ID="{2D89EE81-325A-4C40-B986-F3B37DAB0DCA}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1409,7 +1409,7 @@
 										<Action Name="" ID="{2E2227C2-6F69-45EF-9C93-DA3B60201770}" ShortID="378607376">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="West" ID="{6142D976-C83A-424E-9AB5-94C039811FC0}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
