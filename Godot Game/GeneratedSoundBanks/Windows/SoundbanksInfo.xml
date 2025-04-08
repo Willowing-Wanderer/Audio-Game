@@ -163,7 +163,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{28157A3D-7966-9918-20DE-8B7924277595}">
+		<SoundBank Id="3161908922" Type="User" Language="English(US)" Hash="{25FA106D-0771-AD5C-4DBE-F71013218F9D}">
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
@@ -1194,7 +1194,8 @@
 				</Event>
 				<Event Id="2509188052" Name="Path_East">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="535661321"/>
+						<MediaRef Id="839884986"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="344680759" Name="Path_East_Narration">
@@ -1204,7 +1205,8 @@
 				</Event>
 				<Event Id="3768164332" Name="Path_North">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="319295820"/>
+						<MediaRef Id="535661321"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3885360447" Name="Path_North_Narration">
@@ -1224,7 +1226,8 @@
 				</Event>
 				<Event Id="909344094" Name="Path_South">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="133511689"/>
+						<MediaRef Id="535661321"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2845173913" Name="Path_South_Narration">
@@ -1244,7 +1247,8 @@
 				</Event>
 				<Event Id="1325065690" Name="Path_West">
 					<MediaRefs>
-						<MediaRef Id="686063000"/>
+						<MediaRef Id="490375823"/>
+						<MediaRef Id="535661321"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3899584429" Name="Path_West_Narration">
@@ -1445,5 +1449,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E608D46C-8243-5D88-F649-ECEE3C55E8A7}</FileHash>
+	<FileHash>{67D6AF50-0E47-B9A7-9B51-860B82EAC5EF}</FileHash>
 </SoundBanksInfo>
