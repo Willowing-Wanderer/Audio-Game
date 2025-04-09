@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cimnbkfbkf55a"
+path="res://.godot/imported/Mushroom_Patch.wav-896ed6d448c385caf58c06199e71bad8.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Mushroom_Patch.wav"
+dest_files=["res://.godot/imported/Mushroom_Patch.wav-896ed6d448c385caf58c06199e71bad8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
