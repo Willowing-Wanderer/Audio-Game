@@ -1559,6 +1559,28 @@
 								<ActiveSource Name="Mushroom_Pick" ID="{BA6773BD-29AA-4243-9276-7323DFF1BF4F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Druid_Restoration" ID="{058066DC-2737-4C75-91B4-DD0CAFCF50D1}" ShortID="243138660">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Druid_Restoration" ID="{FEFDD550-323C-44B4-8E62-A49414633045}">
+									<Language>SFX</Language>
+									<AudioFile>Druid_Restoration.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="517251770"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Druid_Restoration" ID="{FEFDD550-323C-44B4-8E62-A49414633045}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Narrations" ID="{53570A71-7C9C-4500-9369-75DAACF190F1}" ShortID="639598190">
