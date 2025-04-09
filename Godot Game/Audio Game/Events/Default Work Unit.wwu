@@ -624,7 +624,7 @@
 										<Action Name="" ID="{955E7E47-B246-4A09-B3C7-2AD829EE4BB8}" ShortID="927425375">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Mushroom_Patch" ID="{58C4DA7D-B13F-4B3F-A2F4-CA407FB51F38}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -672,7 +672,14 @@
 										<Action Name="" ID="{5A8F13EA-A6FC-40CA-B34A-FDA8F77D0E0B}" ShortID="1025110346">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Environmental_Placeholder" ID="{0E602795-A9E6-40F6-BE7B-A3DE1A0E0573}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Bear_Steps" ID="{9B7D1492-E713-464A-AC15-30BE9FD3E382}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EE3F3F76-E55C-4111-88F2-006409FC49DD}" ShortID="695498252">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cub_Steps" ID="{5CB47114-1BC5-4B67-86E0-0F88FAB8848F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
