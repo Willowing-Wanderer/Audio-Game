@@ -54,6 +54,12 @@ circle = NodePath("../..")
 [node name="East_End" parent="CaveEntrance/Path_East_West" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../CaveFoyer")
 
+[node name="Footsteps" parent="CaveEntrance/Path_East_West/East_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="Net" parent="CaveEntrance" instance=ExtResource("4_fli38")]
 transform = Transform3D(-0.378519, 0, -0.925593, 0, 1, 0, 0.925593, 0, -0.378519, 0, 0, 0)
 
@@ -69,8 +75,20 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.5, 
 [node name="West_End" parent="CaveFoyer/Path_East_West" index="1" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
+[node name="Footsteps" parent="CaveFoyer/Path_East_West/West_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="East_End" parent="CaveFoyer/Path_East_West" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern1")
+
+[node name="Footsteps" parent="CaveFoyer/Path_East_West/East_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
 
 [node name="Pixie2" parent="CaveFoyer" node_paths=PackedStringArray("circle") instance=ExtResource("5_gyeic")]
 transform = Transform3D(-0.738808, 0, 0.673916, 0, 1, 0, -0.673916, 0, -0.738808, 0, 0, 0)
@@ -92,6 +110,12 @@ event = {
 "name": "I_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern1/Path_I/North_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="South_End" parent="WhisperingCavern1/Path_I" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -102,6 +126,12 @@ transform = Transform3D(1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0, 0, 0)
 event = {
 "id": 580890269,
 "name": "I_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern1/Path_I/South_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Path_We" parent="WhisperingCavern1" instance=ExtResource("12_o8ge7")]
@@ -117,6 +147,12 @@ event = {
 "name": "We_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern1/Path_We/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern1/Path_We" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -124,6 +160,12 @@ circle = NodePath("../..")
 event = {
 "id": 3484778486,
 "name": "We_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern1/Path_We/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Path_You" parent="WhisperingCavern1" instance=ExtResource("12_o8ge7")]
@@ -138,6 +180,12 @@ event = {
 "name": "You_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern1/Path_You/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern1/Path_You" index="2" node_paths=PackedStringArray("circle")]
 script = ExtResource("10_bx6re")
 circle = NodePath("../../../WhisperingCavern3")
@@ -146,6 +194,12 @@ circle = NodePath("../../../WhisperingCavern3")
 event = {
 "id": 3224125185,
 "name": "You_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern1/Path_You/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Bat" parent="WhisperingCavern1" instance=ExtResource("8_k74wq")]
@@ -184,6 +238,12 @@ event = {
 "name": "Hate_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern2/Path_Hate/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern2/Path_Hate" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -191,6 +251,12 @@ circle = NodePath("../..")
 event = {
 "id": 828014134,
 "name": "Hate_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern2/Path_Hate/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Path_Love" parent="WhisperingCavern2" instance=ExtResource("9_tlgvb")]
@@ -205,6 +271,12 @@ event = {
 "name": "Love_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern2/Path_Love/NW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SE_End" parent="WhisperingCavern2/Path_Love" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -212,6 +284,12 @@ circle = NodePath("../..")
 event = {
 "id": 2681543802,
 "name": "Love_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern2/Path_Love/SE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern13" parent="." instance=ExtResource("1_w2ttr")]
@@ -229,6 +307,12 @@ event = {
 "name": "You_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern13/Path_You/NW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SE_End" parent="WhisperingCavern13/Path_You" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -236,6 +320,12 @@ circle = NodePath("../..")
 event = {
 "id": 3224125185,
 "name": "You_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern13/Path_You/SE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Path_Myself" parent="WhisperingCavern13" instance=ExtResource("12_o8ge7")]
@@ -250,6 +340,12 @@ event = {
 "name": "Myself_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern13/Path_Myself/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern13/Path_Myself" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -257,6 +353,12 @@ circle = NodePath("../..")
 event = {
 "id": 1184354894,
 "name": "Myself_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern13/Path_Myself/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern14" parent="." instance=ExtResource("1_w2ttr")]
@@ -280,6 +382,12 @@ event = {
 "name": "Fear_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern16/Path_Fear/North_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="South_End" parent="WhisperingCavern16/Path_Fear" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -287,6 +395,12 @@ circle = NodePath("../..")
 event = {
 "id": 3230454396,
 "name": "Fear_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern16/Path_Fear/South_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern17" parent="." instance=ExtResource("1_w2ttr")]
@@ -307,6 +421,12 @@ event = {
 "name": "Belong_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern3/Path_Belong/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern3/Path_Belong" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern7")
 
@@ -314,6 +434,12 @@ circle = NodePath("../../../WhisperingCavern7")
 event = {
 "id": 3007764503,
 "name": "Belong_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern3/Path_Belong/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Path_Exist" parent="WhisperingCavern3" instance=ExtResource("9_tlgvb")]
@@ -328,6 +454,12 @@ event = {
 "name": "Exist_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern3/Path_Exist/NW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SE_End" parent="WhisperingCavern3/Path_Exist" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern6")
 
@@ -335,6 +467,12 @@ circle = NodePath("../../../WhisperingCavern6")
 event = {
 "id": 2656148257,
 "name": "Exist_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern3/Path_Exist/SE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern6" parent="." instance=ExtResource("1_w2ttr")]
@@ -357,6 +495,12 @@ event = {
 "name": "Alone_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern6/Path_Alone/North_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="South_End" parent="WhisperingCavern6/Path_Alone" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern10")
 
@@ -364,6 +508,12 @@ circle = NodePath("../../../WhisperingCavern10")
 event = {
 "id": 111733845,
 "name": "Alone_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern6/Path_Alone/South_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern10" parent="." instance=ExtResource("1_w2ttr")]
@@ -389,6 +539,12 @@ event = {
 "name": "Here_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern7/Path_Here/North_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="South_End" parent="WhisperingCavern7/Path_Here" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern8")
 
@@ -409,6 +565,10 @@ event = {
 transform = Transform3D(1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0, 0, 0)
 
 [node name="Footsteps" parent="WhisperingCavern7/Path_Here/South_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
 transform = Transform3D(1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0, 0, 0)
 
 [node name="Path_Asleep" parent="WhisperingCavern7" instance=ExtResource("12_dsbcn")]
@@ -423,6 +583,12 @@ event = {
 "name": "Asleep_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern7/Path_Asleep/West_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="East_End" parent="WhisperingCavern7/Path_Asleep" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -430,6 +596,12 @@ circle = NodePath("../..")
 event = {
 "id": 645753248,
 "name": "Asleep_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern7/Path_Asleep/East_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern8" parent="." instance=ExtResource("1_w2ttr")]
@@ -483,6 +655,12 @@ event = {
 "name": "Survive_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern4/Path_Survive/NW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SE_End" parent="WhisperingCavern4/Path_Survive" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../WhisperingCavern11")
 
@@ -490,6 +668,12 @@ circle = NodePath("../../../WhisperingCavern11")
 event = {
 "id": 2316560346,
 "name": "Survive_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern4/Path_Survive/SE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern11" parent="." instance=ExtResource("1_w2ttr")]
@@ -513,6 +697,12 @@ event = {
 "name": "Together_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern11/Path_Together/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern11/Path_Together" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -520,6 +710,12 @@ circle = NodePath("../..")
 event = {
 "id": 1585408714,
 "name": "Apart_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern11/Path_Together/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="WhisperingCavern5" parent="." instance=ExtResource("1_w2ttr")]
@@ -537,6 +733,12 @@ event = {
 "name": "Apart_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern5/Path_Apart/NW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SE_End" parent="WhisperingCavern5/Path_Apart" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../../../StreamSource")
 
@@ -544,6 +746,12 @@ circle = NodePath("../../../StreamSource")
 event = {
 "id": 1414056144,
 "name": "Together_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern5/Path_Apart/SE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="StreamSource" parent="." instance=ExtResource("1_w2ttr")]

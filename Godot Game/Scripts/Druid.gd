@@ -10,32 +10,27 @@ var druid_restoration:AkEvent3D
 var druid_path_dialog:AkEvent3D
 var druid_nervous:AkEvent3D
 
-# Needed if you want to do anything with the player's controls
-@export var player:Node3D
+var player:Node3D
 
 signal quest_complete
 
 var first_click = true
 
-@export var narration_timer:Timer
-@export var narrate_item:AkEvent3D
+var narrate_druid:AkEvent3D
 
 var playing_narration = false
 
 # All items must include the following functions:
 func narrate():
 	playing_narration = true
-	narrate_item.post_event()
-	narration_timer.start()
+	narrate_druid.post_event()
 
-func _on_narration_timer_timeout():
+func _on_narrate_druid_end_of_event(data):
 	playing_narration = false
-	narration_timer.stop()
 	
 func stop_narration():
 	playing_narration = false
-	narrate_item.stop_event()
-	narration_timer.stop()
+	narrate_druid.stop_event()
 	
 func _ready():
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
@@ -59,7 +54,7 @@ func on_click(selected):
 		druid_thanks.post_event()
 	else:
 		if(first_click):
-			print("first click")
+			player.set_cutscene(true)
 			druid_dialog.post_event()
 			first_click = false
 		else:
@@ -83,3 +78,4 @@ func _on_druid_restoration_end_of_event(data):
 func _on_druid_path_dialog_end_of_event(data):
 	player.set_cutscene(false)
 	quest_complete.emit()
+

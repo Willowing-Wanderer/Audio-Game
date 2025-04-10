@@ -14,6 +14,31 @@
 
 [node name="RaccoonScene" type="Node3D"]
 script = ExtResource("1_a5oek")
+narrate_controls = Object(AkEvent3D,"event":{
+"id": 2696084023,
+"name": "Narrate_Controls"
+},"trigger_on":0,"stop_on":3,"stop_fade_time":0,"interpolation_mode":4,"is_environment_aware":false,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":null)
+
+narrate_ending = Object(AkEvent3D,"event":{
+"id": 2633894792,
+"name": "Narrate_Ending"
+},"trigger_on":0,"stop_on":3,"stop_fade_time":0,"interpolation_mode":4,"is_environment_aware":false,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":null)
+
+narrate_start = Object(AkEvent3D,"event":{
+"id": 3006996971,
+"name": "Narrate_Start"
+},"trigger_on":0,"stop_on":3,"stop_fade_time":0,"interpolation_mode":4,"is_environment_aware":false,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":null)
+
+forest_ambience = Object(AkEvent3D,"event":{
+"id": 2084169529,
+"name": "Forest_Ambience"
+},"trigger_on":0,"stop_on":3,"stop_fade_time":0,"interpolation_mode":4,"is_environment_aware":false,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":null)
+
+Druid_Open_Path = Object(AkEvent3D,"event":{
+"id": 3931060456,
+"name": "Druid_Open_Path"
+},"trigger_on":0,"stop_on":0,"stop_fade_time":0,"interpolation_mode":4,"is_environment_aware":false,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.00112, 0, 0),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"script":null)
+
 
 [node name="player_ears" parent="." instance=ExtResource("2_fqr4v")]
 
