@@ -56,34 +56,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29065, -1.90735e-06, -15.40
 transform = Transform3D(-0.78238, 0, -0.622801, 0, 1, 0, 0.622801, 0, -0.78238, 0, 0, 0)
 circle = NodePath("..")
 
-[node name="Narrate_Ending" type="AkEvent3D" parent="."]
-event = {
-"id": 2633894792,
-"name": "Narrate_Ending"
-}
-stop_on = 3
-
-[node name="Forest_Ambience" type="AkEvent3D" parent="."]
-event = {
-"id": 2084169529,
-"name": "Forest_Ambience"
-}
-stop_on = 3
-
-[node name="Narrate_Controls" type="AkEvent3D" parent="."]
-event = {
-"id": 2696084023,
-"name": "Narrate_Controls"
-}
-stop_on = 3
-
-[node name="Narrate_Start" type="AkEvent3D" parent="."]
-event = {
-"id": 3006996971,
-"name": "Narrate_Start"
-}
-stop_on = 3
-
 [node name="Druid_Open_Path" type="AkEvent3D" parent="."]
 event = {
 "id": 3931060456,

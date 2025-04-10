@@ -920,6 +920,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.82207, 0, 13.9966)
 [node name="ForestInsects2" parent="." instance=ExtResource("10_7sasn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.10578, 0, -5.29166)
 
+[node name="MeshInstance3D" parent="ForestInsects2" index="0"]
+transform = Transform3D(0.532019, 0, -0.846732, 0, 1, 0, 0.846732, 0, 0.532019, -24.8608, 0, 14.1001)
+
 [node name="Forest_Insects" parent="ForestInsects2" index="1"]
 trigger_on = 1
 
