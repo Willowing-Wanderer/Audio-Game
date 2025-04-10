@@ -13,7 +13,7 @@ func _process(delta):
 	$player_ears.rotation = player.rotation
 
 func _on_druid_2_quest_complete():
-	$PauseMenu.rotation = Vector3(0,57.5,0)
+	#$PauseMenu.rotation = Vector3(0,57.5,0)
 	player.completed_game = true
 	player.pause_game()
 	#get_parent().finish_level_2()

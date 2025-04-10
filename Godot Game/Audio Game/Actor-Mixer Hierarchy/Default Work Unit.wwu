@@ -161,7 +161,146 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+						<Sound Name="Cave_Ambience" ID="{FC14A6C1-C447-47AE-A43C-538407EFCD06}" ShortID="970693786">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cave_Ambience" ID="{4158AD73-DB75-4A0B-9735-FBFC1A78A699}">
+									<Language>SFX</Language>
+									<AudioFile>Cave_Ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1066718709"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cave_Ambience" ID="{4158AD73-DB75-4A0B-9735-FBFC1A78A699}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Forest_Birds" ID="{2DD9D5C6-2D57-4F2C-BAE2-CA53C5492D39}" ShortID="7386610">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Forest_Birds" ID="{63362196-929B-4144-8C78-43FECF27300C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0720841264922454"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.096112168656326"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Forest_Birds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="323560728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Forest_Birds" ID="{63362196-929B-4144-8C78-43FECF27300C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Forest_Insects" ID="{D8DFD71D-1384-4E59-8D36-D8ACC95D0785}" ShortID="133578856">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Forest_Insects" ID="{42BDC77F-543B-460E-A195-F177FD451867}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0480560843281637"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.240280421640819"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Forest_Insects.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583270188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Forest_Insects" ID="{42BDC77F-543B-460E-A195-F177FD451867}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{9EC8A7C4-A4F9-481B-BE9D-D075AC3B1C82}" ShortID="256756689">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{6CB633A0-E7B4-46A1-8D45-48526FBE8756}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-15</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-15</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{E5B372A1-9DA8-4055-A367-607F2B11A963}" ShortID="129286920">
 					<ReferenceList>
@@ -460,26 +599,71 @@
 								<ActiveSource Name="FailedClickV2" ID="{73E5A940-62F2-4261-9E15-F62529A579D5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="SoundEvents" ID="{F36D9403-1B3D-49F2-B6AE-A81828FB6D96}" ShortID="275928948">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
+						<RandomSequenceContainer Name="Cave_Footsteps" ID="{3AA88BED-DA1E-40A0-A5EB-0CFAF4090870}" ShortID="726800526">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Cave_Footsteps_1" ID="{97C21CB0-A385-4C9B-8A2F-61140DBDDEEA}" ShortID="780108250">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cave_Footsteps_1" ID="{5D7508C7-7B26-4D17-9895-293DF758FD9B}">
+											<Language>SFX</Language>
+											<AudioFile>Cave_Footsteps_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1011028239"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cave_Footsteps_1" ID="{5D7508C7-7B26-4D17-9895-293DF758FD9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cave_Footsteps_2" ID="{5973ACBB-46F1-41F5-B1AA-DD8DCD01070F}" ShortID="462813707">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cave_Footsteps_2" ID="{4AB1B924-B9F1-4546-BE81-B1E14FD5272D}">
+											<Language>SFX</Language>
+											<AudioFile>Cave_Footsteps_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329592623"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cave_Footsteps_2" ID="{4AB1B924-B9F1-4546-BE81-B1E14FD5272D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Footstep" ID="{DBCB7331-01A7-4095-8440-C7DEF12759B0}" ShortID="309870926">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -488,6 +672,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
 								</Reference>
@@ -641,6 +828,24 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="SoundEvents" ID="{F36D9403-1B3D-49F2-B6AE-A81828FB6D96}" ShortID="275928948">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
 						<Sound Name="Event_Placeholder" ID="{7B7140C5-0076-427A-BF25-121A3342EE40}" ShortID="807730967">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1167,63 +1372,10 @@
 								<ActiveSource Name="221755__motion_s__long-birds-forest-ambience" ID="{2F111465-53E8-4B29-AC1A-E1930B45DB3C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Cave_Footsteps" ID="{3AA88BED-DA1E-40A0-A5EB-0CFAF4090870}" ShortID="726800526">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Cave_Footsteps_1" ID="{97C21CB0-A385-4C9B-8A2F-61140DBDDEEA}" ShortID="780108250">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cave_Footsteps_1" ID="{5D7508C7-7B26-4D17-9895-293DF758FD9B}">
-											<Language>SFX</Language>
-											<AudioFile>Cave_Footsteps_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1011028239"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cave_Footsteps_1" ID="{5D7508C7-7B26-4D17-9895-293DF758FD9B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Cave_Footsteps_2" ID="{5973ACBB-46F1-41F5-B1AA-DD8DCD01070F}" ShortID="462813707">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cave_Footsteps_2" ID="{4AB1B924-B9F1-4546-BE81-B1E14FD5272D}">
-											<Language>SFX</Language>
-											<AudioFile>Cave_Footsteps_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="329592623"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cave_Footsteps_2" ID="{4AB1B924-B9F1-4546-BE81-B1E14FD5272D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<Sound Name="Cubs_Footsteps" ID="{1471E08D-DF43-4CC5-AB3E-CD1892F4A0A6}" ShortID="649144806">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1237,7 +1389,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Cubs_Footsteps.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="513481949"/>
+										<MediaID ID="139969482"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -1383,250 +1535,6 @@
 								<ActiveSource Name="Druid_Open_Path" ID="{187247D8-41CA-4433-9199-B556BCABA18D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Forest_Birds" ID="{2DD9D5C6-2D57-4F2C-BAE2-CA53C5492D39}" ShortID="7386610">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Forest_Birds" ID="{63362196-929B-4144-8C78-43FECF27300C}">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0720841264922454"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.096112168656326"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Forest_Birds.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="323560728"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{3E52AEF4-C17B-42CC-BBC2-D73592F4AD2E}" ShortID="319261854">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{54FB808F-E75A-4CA5-BDE6-B1E4E7DD47D6}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Forest_Birds" ID="{63362196-929B-4144-8C78-43FECF27300C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Insect_Catch" ID="{C6081CB5-3197-4647-B5CA-1CCF983B03A1}" ShortID="5181961">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Insect_Catch" ID="{01E826C0-CCFA-4524-BE45-F46A98D2D05F}">
-									<Language>SFX</Language>
-									<AudioFile>Insect_Catch.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="472582512"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{11FCCCD0-C8A6-4022-A118-08810160CDEC}" ShortID="320966072">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{776AE0F6-034C-44BD-83CF-390353494748}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Insect_Catch" ID="{01E826C0-CCFA-4524-BE45-F46A98D2D05F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Mushroom_Pick" ID="{F18B773E-7A17-4A85-89C2-5E9251D53AAC}" ShortID="1055915374">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Mushroom_Pick" ID="{BA6773BD-29AA-4243-9276-7323DFF1BF4F}">
-									<Language>SFX</Language>
-									<AudioFile>Mushroom_Pick.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="194234276"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{9C8B356A-C244-4109-849A-4CC43438B9EB}" ShortID="734129294">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{EB0ADF17-F3F4-4AFA-8D3E-803B04FD78B7}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-26</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Mushroom_Pick" ID="{BA6773BD-29AA-4243-9276-7323DFF1BF4F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Druid_Restoration" ID="{058066DC-2737-4C75-91B4-DD0CAFCF50D1}" ShortID="243138660">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1649,14 +1557,11 @@
 								<ActiveSource Name="Druid_Restoration" ID="{FEFDD550-323C-44B4-8E62-A49414633045}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Forest_Insects" ID="{D8DFD71D-1384-4E59-8D36-D8ACC95D0785}" ShortID="133578856">
+						<Sound Name="Cubs_Footsteps_01" ID="{862CBF6F-1FD4-4ADD-BBFD-170DBAA101E2}" ShortID="254385322">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
 								</Reference>
@@ -1665,15 +1570,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Forest_Insects" ID="{42BDC77F-543B-460E-A195-F177FD451867}">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0480560843281637"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.240280421640819"/>
-									</PropertyList>
+								<AudioFileSource Name="Cubs_Footsteps" ID="{35475B65-186B-49B1-8EE7-CE9DF80C2127}">
 									<Language>SFX</Language>
-									<AudioFile>Forest_Insects.wav</AudioFile>
+									<AudioFile>Cubs_Footsteps.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="583270188"/>
+										<MediaID ID="139969482"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -1681,7 +1582,7 @@
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
-											<RTPC Name="" ID="{A3563F4A-B125-4612-9F1B-CCC67994CCBE}" ShortID="581006195">
+											<RTPC Name="" ID="{CC35C72A-05AF-434F-BB78-6B971AAC7E1A}" ShortID="1987339">
 												<PropertyList>
 													<Property Name="PropertyName" Type="string" Value="Volume"/>
 												</PropertyList>
@@ -1691,7 +1592,7 @@
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
-															<Curve Name="" ID="{B512E550-513C-435B-AD99-B8EE8B32F5F0}">
+															<Curve Name="" ID="{0C888E19-F530-46D5-8EA8-9F513C6EB66E}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -1736,7 +1637,7 @@
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="Forest_Insects" ID="{42BDC77F-543B-460E-A195-F177FD451867}" Platform="Linked"/>
+								<ActiveSource Name="Cubs_Footsteps" ID="{35475B65-186B-49B1-8EE7-CE9DF80C2127}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -3179,6 +3080,62 @@
 								<ActiveSource Name="Insect_Item" ID="{A0CF1D1D-D273-4EB7-9E91-0104E0B13BD0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Mushroom_Pick" ID="{F18B773E-7A17-4A85-89C2-5E9251D53AAC}" ShortID="1055915374">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mushroom_Pick" ID="{BA6773BD-29AA-4243-9276-7323DFF1BF4F}">
+									<Language>SFX</Language>
+									<AudioFile>Mushroom_Pick.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="194234276"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Mushroom_Pick" ID="{BA6773BD-29AA-4243-9276-7323DFF1BF4F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Insect_Catch" ID="{C6081CB5-3197-4647-B5CA-1CCF983B03A1}" ShortID="5181961">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Insect_Catch" ID="{01E826C0-CCFA-4524-BE45-F46A98D2D05F}">
+									<Language>SFX</Language>
+									<AudioFile>Insect_Catch.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="472582512"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Insect_Catch" ID="{01E826C0-CCFA-4524-BE45-F46A98D2D05F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Environmentals" ID="{63FBF901-3E9B-4651-AB31-716E154EBF50}" ShortID="570175855">
@@ -4130,89 +4087,6 @@
 							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Bear_Pacing" ID="{675BC314-0C10-4618-8997-ACB66653BAAB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Cave_Ambience" ID="{FC14A6C1-C447-47AE-A43C-538407EFCD06}" ShortID="970693786">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Cave_Ambience" ID="{4158AD73-DB75-4A0B-9735-FBFC1A78A699}">
-									<Language>SFX</Language>
-									<AudioFile>Cave_Ambience.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1066718709"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{589D20F9-6E55-458C-AEC0-FF8FB92DA79D}" ShortID="349742970">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Player_Cone" ID="{19DDC6E4-4F2F-4891-9ED8-31637B5483E2}" WorkUnitID="{2B4B75F0-4140-4332-AE40-6F7E5437FA71}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{DEC5EB71-310E-4AD8-87CB-FF432278E9C1}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>75</XPos>
-																		<YPos>-12</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>180</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="Cave_Ambience" ID="{4158AD73-DB75-4A0B-9735-FBFC1A78A699}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Cave_Entrance" ID="{ED54E272-F823-4E24-90C1-EABF544D690D}" ShortID="941033933">
@@ -5592,7 +5466,6 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">

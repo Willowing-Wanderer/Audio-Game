@@ -14,6 +14,7 @@ func _ready():
 
 func start_game():
 	remove_child(title_screen)
+	#finish_level_1()
 	var raccoon = raccoon_scene.instantiate()
 	raccoon.player = $Player
 	add_child(raccoon)

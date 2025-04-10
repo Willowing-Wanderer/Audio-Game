@@ -16,8 +16,8 @@ mesh = SubResource("SphereMesh_p58qx")
 
 [node name="BackdropEvent" type="AkEvent3D" parent="."]
 event = {
-"id": 4000258095,
-"name": "Backdrop_1"
+"id": 1455232537,
+"name": "Cave_Ambience"
 }
 trigger_on = 1
 stop_on = 3

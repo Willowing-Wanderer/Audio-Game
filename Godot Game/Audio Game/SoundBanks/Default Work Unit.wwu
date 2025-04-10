@@ -3,16 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{7592B724-ABF0-423B-8B44-DAD59E1DD8D4}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{9607C35E-9128-42D6-910C-1653052CE00E}">
+				<SoundBank Name="Main" ID="{2A13B8FE-D026-47E1-866B-785502719CCB}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Backdrops" ID="{6A4A2A2B-95FC-43EE-B477-62932B446C43}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Items" ID="{571C9BBC-739B-458E-A87F-5B1A4B160DEA}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SoundEvents" ID="{722EBB8E-647E-45AD-81D1-ECC2C835E5E7}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Phase 2 Events" ID="{66CB9C4F-5905-4625-B3D7-91FB48AA2489}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Dialogue" ID="{F38B0A6C-9B10-462B-81D3-99D740E48F8D}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Environmentals" ID="{AC700D64-3E47-464F-A0F3-15488D483A1B}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI" ID="{127D4EAB-940B-4B2D-BE75-9FFB364E7F1B}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Narrations" ID="{5DDD1B68-5971-4C53-8B9E-351C27187834}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" WorkUnitID="{0A71D531-3769-4CB2-A0A1-19C6B6B4280C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

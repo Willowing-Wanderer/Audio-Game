@@ -679,7 +679,7 @@
 										<Action Name="" ID="{EE3F3F76-E55C-4111-88F2-006409FC49DD}" ShortID="695498252">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Cub_Steps" ID="{5CB47114-1BC5-4B67-86E0-0F88FAB8848F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cubs_Footsteps" ID="{1471E08D-DF43-4CC5-AB3E-CD1892F4A0A6}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1025,7 +1025,7 @@
 										<Action Name="" ID="{522E3FA2-741D-4CE3-8318-3BF558716299}" ShortID="332487954">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Cub_Steps" ID="{5CB47114-1BC5-4B67-86E0-0F88FAB8848F}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1745,7 +1745,7 @@
 										<Action Name="" ID="{0FAB7FA6-878F-464C-9A7E-F11CE0EEB6AD}" ShortID="893889041">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Narration_Placeholder" ID="{A933DCBF-A43D-4035-8550-763B341724B2}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Credits" ID="{DF419E6D-2D39-4923-BEC2-461A7F7420D8}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
