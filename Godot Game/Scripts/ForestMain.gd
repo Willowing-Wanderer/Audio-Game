@@ -14,9 +14,10 @@ func _ready():
 
 func start_game():
 	remove_child(title_screen)
-	var raccoon = raccoon_scene.instantiate()
-	raccoon.player = $Player
-	add_child(raccoon)
+	finish_level_1()
+	#var raccoon = raccoon_scene.instantiate()
+	#raccoon.player = $Player
+	#add_child(raccoon)
 
 func finish_level_1():
 	await get_tree().create_timer(0.1).timeout
