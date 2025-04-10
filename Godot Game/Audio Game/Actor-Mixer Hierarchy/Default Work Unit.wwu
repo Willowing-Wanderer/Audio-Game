@@ -888,11 +888,6 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -999,7 +994,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1087,7 +1082,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1178,7 +1173,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1265,6 +1260,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Pixie_Flyoff" ID="{01E0C9C6-C052-4329-8603-B9CA8216EB81}" ShortID="133301967">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1275,6 +1277,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Pixie_Flyoff" ID="{FFC9B3C5-55FA-4391-A59F-7BC8413EAC64}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.04988465378921"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Pixie_Flyoff.wav</AudioFile>
 									<MediaIDList>
@@ -1375,6 +1380,11 @@
 						<Sound Name="Cubs_Footsteps" ID="{1471E08D-DF43-4CC5-AB3E-CD1892F4A0A6}" ShortID="649144806">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1456,6 +1466,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Druid_Open_Path" ID="{5A7427C8-A9CB-4918-A224-833931631006}" ShortID="446407939">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1536,6 +1553,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Druid_Restoration" ID="{058066DC-2737-4C75-91B4-DD0CAFCF50D1}" ShortID="243138660">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
@@ -1546,6 +1570,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Druid_Restoration" ID="{FEFDD550-323C-44B4-8E62-A49414633045}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.881029114465743"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Druid_Restoration.wav</AudioFile>
 									<MediaIDList>
@@ -1560,6 +1587,11 @@
 						<Sound Name="Cubs_Footsteps_01" ID="{862CBF6F-1FD4-4ADD-BBFD-170DBAA101E2}" ShortID="254385322">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
