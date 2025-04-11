@@ -1,8 +1,9 @@
-[gd_scene load_steps=29 format=3 uid="uid://ca6kfdsjravht"]
+[gd_scene load_steps=30 format=3 uid="uid://ca6kfdsjravht"]
 
 [ext_resource type="Script" path="res://Scenes/Areas/CaveScene.gd" id="1_be42p"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_w2ttr"]
 [ext_resource type="PackedScene" uid="uid://86uxk2w8f6te" path="res://Scenes/Characters/player_ears.tscn" id="2_wuwqm"]
+[ext_resource type="Script" path="res://Scenes/Areas/CaveEntrance.gd" id="4_cppmh"]
 [ext_resource type="PackedScene" uid="uid://dulnxqbe8hp0v" path="res://Scenes/Environmentals/StreamFlow1.tscn" id="4_ejpsh"]
 [ext_resource type="PackedScene" uid="uid://d0gqfpptv6jwh" path="res://Scenes/Items/net.tscn" id="4_fli38"]
 [ext_resource type="PackedScene" uid="uid://cuaoxrei5776w" path="res://Scenes/Backdrops/CaveAmbience.tscn" id="4_o1yti"]
@@ -43,22 +44,7 @@ script = ExtResource("1_be42p")
 
 [node name="CaveEntrance" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.7604, 0, 4.5297)
-
-[node name="Path_East_West" parent="CaveEntrance" instance=ExtResource("12_dsbcn")]
-process_mode = 4
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.5, 0, 0)
-
-[node name="West_End" parent="CaveEntrance/Path_East_West" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../..")
-
-[node name="East_End" parent="CaveEntrance/Path_East_West" index="2" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../CaveFoyer")
-
-[node name="Footsteps" parent="CaveEntrance/Path_East_West/East_End" index="4"]
-event = {
-"id": 479262342,
-"name": "Cave_Footsteps"
-}
+script = ExtResource("4_cppmh")
 
 [node name="Net" parent="CaveEntrance" instance=ExtResource("4_fli38")]
 transform = Transform3D(-0.378519, 0, -0.925593, 0, 1, 0, 0.925593, 0, -0.378519, 0, 0, 0)
@@ -522,12 +508,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.0043, -9.53674e-07, -17.1
 [node name="WhisperingCavern7" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.5577, -9.53674e-07, -8.41928)
 
-[node name="StreamFlow1" parent="WhisperingCavern7" instance=ExtResource("4_ejpsh")]
-transform = Transform3D(0.471304, 0, 0.881971, 0, 1, 0, -0.881971, 0, 0.471304, 0, 0, 0)
-
-[node name="StreamSource" parent="WhisperingCavern7" instance=ExtResource("5_n3q1f")]
-transform = Transform3D(-0.38721, 0, -0.921992, 0, 1, 0, 0.921992, 0, -0.38721, 0, 0, 0)
-
 [node name="Path_Here" parent="WhisperingCavern7" instance=ExtResource("11_rpum0")]
 
 [node name="North_End" parent="WhisperingCavern7/Path_Here" index="1" node_paths=PackedStringArray("circle")]
@@ -610,6 +590,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.4661, -0.000153542, -17.2
 [node name="Insects" parent="WhisperingCavern8" instance=ExtResource("15_7gd6a")]
 transform = Transform3D(-0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, -0.866025, 0, 0, 0)
 
+[node name="StreamFlow1" parent="WhisperingCavern8" instance=ExtResource("4_ejpsh")]
+transform = Transform3D(0.228963, 0, -0.973435, 0, 1, 0, 0.973435, 0, 0.228963, 0, 0, 0)
+
+[node name="StreamFlow2" parent="WhisperingCavern8/StreamFlow1" instance=ExtResource("5_n3q1f")]
+transform = Transform3D(-0.868381, 0, 0.495898, 0, 1, 0, -0.495898, 0, -0.868381, 0, 0, 0)
+
 [node name="WhisperingCavern9" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844, -13.5402, -0.000153542, -8.46058)
 
@@ -617,7 +603,7 @@ transform = Transform3D(0.0103844, 0, 0.999946, 0, 1, 0, -0.999946, 0, 0.0103844
 transform = Transform3D(0.984252, 0, -0.176776, 0, 1, 0, 0.176776, 0, 0.984252, 0, 0, 0)
 
 [node name="StreamSource" parent="WhisperingCavern9" instance=ExtResource("5_n3q1f")]
-transform = Transform3D(-0.828871, 0, -0.559438, 0, 1, 0, 0.559438, 0, -0.828871, 0, 0, 0)
+transform = Transform3D(-0.596574, 0, 0.802557, 0, 1, 0, -0.802557, 0, -0.596574, 0, 0, 0)
 
 [node name="WhisperingCavern4" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.2529, 0, 9.54627)
@@ -634,6 +620,12 @@ event = {
 "name": "Die_Whisper"
 }
 
+[node name="Footsteps" parent="WhisperingCavern4/Path_Die/NE_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
 [node name="SW_End" parent="WhisperingCavern4/Path_Die" index="2" node_paths=PackedStringArray("circle")]
 circle = NodePath("../..")
 
@@ -641,6 +633,12 @@ circle = NodePath("../..")
 event = {
 "id": 98240150,
 "name": "Die_Whisper"
+}
+
+[node name="Footsteps" parent="WhisperingCavern4/Path_Die/SW_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
 }
 
 [node name="Path_Survive" parent="WhisperingCavern4" instance=ExtResource("9_tlgvb")]
@@ -820,15 +818,6 @@ transform = Transform3D(-0.0783895, 0, 0.996923, 0, 1, 0, -0.996923, 0, -0.07838
 [node name="Circle" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.02245, 0, -0.107002)
 
-[node name="Path_North-South" parent="Circle" instance=ExtResource("11_rpum0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.5)
-
-[node name="North_End" parent="Circle/Path_North-South" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../Circle2")
-
-[node name="South_End" parent="Circle/Path_North-South" index="2" node_paths=PackedStringArray("circle")]
-circle = NodePath("../..")
-
 [node name="Path_NE_SW" parent="Circle" instance=ExtResource("12_o8ge7")]
 transform = Transform3D(0.595776, 0, -0.80315, 0, 1, 0, 0.80315, 0, 0.595776, -3.8083, 0, 2.42971)
 
@@ -881,12 +870,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
 
 [node name="Path_NE_SW" parent="Raccoon\'s Home" instance=ExtResource("12_o8ge7")]
 transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 3.14295, 9.53674e-07, -3.17603)
-
-[node name="NE_End" parent="Raccoon\'s Home/Path_NE_SW" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../..")
-
-[node name="SW_End" parent="Raccoon\'s Home/Path_NE_SW" index="2" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../Apple Tree")
 
 [node name="Apple Tree" parent="." instance=ExtResource("1_w2ttr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29065, -1.90735e-06, -15.4058)
@@ -943,12 +926,12 @@ trigger_on = 1
 [node name="Insects" type="Node3D" parent="."]
 
 [node name="ForestInsects" parent="Insects" instance=ExtResource("10_7sasn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5882, 0, 4.62743)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.73291, 0, 4.57144)
 
 [node name="ForestInsects4" parent="Insects" instance=ExtResource("10_7sasn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
 
-[connection signal="cave_unlocked" from="CaveEntrance/Mother_Bear" to="." method="_on_mother_bear_cave_unlocked"]
+[connection signal="cave_unlocked" from="CaveEntrance/Mother_Bear" to="CaveEntrance" method="_on_mother_bear_cave_unlocked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_I/North_End" to="WhisperingCavern1/Bat" method="_on_north_end_path_locked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_We/NE_End" to="WhisperingCavern1/Bat" method="_on_ne_end_path_locked"]
 [connection signal="path_locked" from="WhisperingCavern1/Path_You/SW_End" to="WhisperingCavern1/Bat" method="_on_sw_end_path_locked"]
@@ -963,7 +946,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
 [connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds5" method="_on_druid_restoration_end_of_event"]
 [connection signal="end_of_event" from="Druid2/Druid_Restoration" to="Birds/ForestBirds6" method="_on_druid_restoration_end_of_event"]
 
-[editable path="CaveEntrance/Path_East_West"]
 [editable path="CaveFoyer/Path_East_West"]
 [editable path="WhisperingCavern1/Path_I"]
 [editable path="WhisperingCavern1/Path_We"]
@@ -983,7 +965,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 20)
 [editable path="WhisperingCavern11/Path_Together"]
 [editable path="WhisperingCavern5/Path_Apart"]
 [editable path="Berry Bush/Path_NW_SE"]
-[editable path="Circle/Path_North-South"]
 [editable path="Circle/Path_NE_SW"]
 [editable path="Circle2/Path_NW_SE"]
 [editable path="Campsite/Path_North-South"]

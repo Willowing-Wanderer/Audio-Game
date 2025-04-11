@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://pxxp1ms674l6"]
+
+[ext_resource type="Script" path="res://Scenes/Areas/CaveEntrancePath.gd" id="1_18j08"]
+[ext_resource type="PackedScene" uid="uid://ixdvcilqktbt" path="res://Scenes/Areas/path_east_west.tscn" id="1_pbu0k"]
+
+[node name="CaveEntrancePath" type="Node3D"]
+script = ExtResource("1_18j08")
+
+[node name="Path_East_West" parent="." instance=ExtResource("1_pbu0k")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.5, 0, 0)
+
+[node name="West_End" parent="Path_East_West" index="1" node_paths=PackedStringArray("path_narration")]
+path_narration = NodePath("../..")
+
+[node name="Footsteps" parent="Path_East_West/West_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
+[node name="Path_West_Narration" parent="Path_East_West/East_End" index="2"]
+event = {
+"id": 1362342512,
+"name": "Cave_Entrance_Narration"
+}
+
+[node name="Footsteps" parent="Path_East_West/East_End" index="4"]
+event = {
+"id": 479262342,
+"name": "Cave_Footsteps"
+}
+
+[editable path="Path_East_West"]
