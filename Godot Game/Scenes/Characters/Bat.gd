@@ -43,6 +43,9 @@ func _ready():
 	bat_bumping.post_event()
 	
 func _process(delta):
+	# catch bat if out of bounds
+	if(rotation_degrees[1] < 153 && rotation_degrees[1] > -65):
+		rotation = Vector3(0,-135,0)
 	if(moving && !fed):
 		rotate_y(speed * direction)
 
