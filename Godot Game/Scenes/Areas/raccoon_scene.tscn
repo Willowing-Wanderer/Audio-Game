@@ -24,12 +24,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 0, 0)
 
 [node name="Path_North-South" parent="Circle" instance=ExtResource("5_tmolf")]
 
-[node name="North_End" parent="Circle/Path_North-South" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../..")
-
-[node name="South_End" parent="Circle/Path_North-South" index="2" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../Circle2")
-
 [node name="Circle2" parent="." instance=ExtResource("2_88yt1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
 
@@ -42,12 +36,6 @@ transform = Transform3D(0.220646, 0, 0.975354, 0, 1, 0, -0.975354, 0, 0.220646, 
 
 [node name="Path_NE_SW" parent="Circle2" instance=ExtResource("8_djkys")]
 transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 3.14295, 9.53674e-07, -3.17603)
-
-[node name="NE_End" parent="Circle2/Path_NE_SW" index="1" node_paths=PackedStringArray("circle")]
-circle = NodePath("../..")
-
-[node name="SW_End" parent="Circle2/Path_NE_SW" index="2" node_paths=PackedStringArray("circle")]
-circle = NodePath("../../../Circle3")
 
 [node name="Circle3" parent="." instance=ExtResource("2_88yt1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29065, -1.90735e-06, -15.4058)

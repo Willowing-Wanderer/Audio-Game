@@ -14,7 +14,7 @@ script = ExtResource("1_s6apw")
 [node name="Circle" parent="." instance=ExtResource("1_81nky")]
 
 [node name="Resume_Game" parent="Circle" instance=ExtResource("3_2yt2d")]
-transform = Transform3D(0.997478, 0, 0.0709751, 0, 1, 0, -0.0709751, 0, 0.997478, 0, 0, 0)
+transform = Transform3D(0.988366, 0, -0.152089, 0, 1, 0, 0.152089, 0, 0.988366, 0, 0, 0)
 script = ExtResource("4_d2b1q")
 
 [node name="EnvironmentalEvent" parent="Circle/Resume_Game" index="2"]
@@ -30,7 +30,7 @@ event = {
 }
 
 [node name="Game_Controls" parent="Circle" instance=ExtResource("3_2yt2d")]
-transform = Transform3D(-0.508861, 0, 0.860849, 0, 1, 0, -0.860849, 0, -0.508861, 0, 0, 0)
+transform = Transform3D(0.901667, 0, 0.432432, 0, 1, 0, -0.432432, 0, 0.901667, 0, 0, 0)
 script = ExtResource("5_wcah3")
 
 [node name="EnvironmentalEvent" parent="Circle/Game_Controls" index="2"]
@@ -54,7 +54,7 @@ stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Quit_Game" parent="Circle" instance=ExtResource("3_2yt2d")]
-transform = Transform3D(-0.509312, 0, -0.860582, 0, 1, 0, 0.860582, 0, -0.509312, 0, 0, 0)
+transform = Transform3D(0.697002, 0, -0.717069, 0, 1, 0, 0.717069, 0, 0.697002, 0, 0, 0)
 script = ExtResource("6_a2fjo")
 
 [node name="EnvironmentalEvent" parent="Circle/Quit_Game" index="2"]

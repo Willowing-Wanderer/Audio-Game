@@ -10,6 +10,7 @@ var bear_narration_2:AkEvent3D
 
 var playing_narration = false
 var reunited = false
+var moving = false
 
 var player:Node3D
 
@@ -24,6 +25,12 @@ func _ready():
 	bears_playing = $Bears_Playing
 	bear_narration_2 = $Bear_Narration_2
 	bear_pacing.post_event()
+
+func _process(delta):
+	if (rotation_degrees[1] < -130):
+		moving = false
+	if (moving):
+		rotate_y(-0.005)
 
 func narrate():
 	if (reunited):
@@ -43,7 +50,7 @@ func on_click(selected):
 	player.set_cutscene(true)
 	if(reunited || player.has_bears == true):
 		if(player.has_bears):
-			rotate_y(5.0)
+			moving = true
 		bear_thanks.post_event()
 		player.has_bears = false
 		reunited = true

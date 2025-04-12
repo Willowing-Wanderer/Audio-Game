@@ -14,7 +14,7 @@ script = ExtResource("1_27f0c")
 [node name="Circle" parent="." instance=ExtResource("2_y345u")]
 
 [node name="Start_Game" parent="Circle" instance=ExtResource("3_t36h5")]
-transform = Transform3D(0.998338, 0, 0.0576164, 0, 1, 0, -0.0576164, 0, 0.998338, 0, 0, 0)
+transform = Transform3D(0.995914, 0, -0.0903021, 0, 1, 0, 0.0903021, 0, 0.995914, 0, 0, 0)
 script = ExtResource("3_muwsc")
 
 [node name="EnvironmentalEvent" parent="Circle/Start_Game" index="2"]
@@ -30,8 +30,11 @@ event = {
 }
 
 [node name="Game_Controls" parent="Circle" instance=ExtResource("3_t36h5")]
-transform = Transform3D(-0.415027, 0, 0.909809, 0, 1, 0, -0.909809, 0, -0.415027, 0, 0, 0)
+transform = Transform3D(0.835567, 0, 0.549388, 0, 1, 0, -0.549388, 0, 0.835567, 0, 0, 0)
 script = ExtResource("5_rqlte")
+
+[node name="CollisionShape3D" parent="Circle/Game_Controls" index="0"]
+transform = Transform3D(1, 0, 2.98023e-08, 0, 1, 0, -2.98023e-08, 0, 1, 4.76837e-07, 0, 3)
 
 [node name="EnvironmentalEvent" parent="Circle/Game_Controls" index="2"]
 event = {
@@ -54,7 +57,7 @@ stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
 [node name="Quit_Game" parent="Circle" instance=ExtResource("3_t36h5")]
-transform = Transform3D(-0.509312, 0, -0.860582, 0, 1, 0, 0.860582, 0, -0.509312, 0, 0, 0)
+transform = Transform3D(0.749649, 0, -0.661835, 0, 1, 0, 0.661835, 0, 0.749649, 0, 0, 0)
 script = ExtResource("6_4fbcj")
 
 [node name="EnvironmentalEvent" parent="Circle/Quit_Game" index="2"]
