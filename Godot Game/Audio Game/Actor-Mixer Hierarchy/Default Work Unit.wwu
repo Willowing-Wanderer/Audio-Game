@@ -3274,6 +3274,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Mushroom_Pick" ID="{BA6773BD-29AA-4243-9276-7323DFF1BF4F}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.219880103885372"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.321498000501719"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Mushroom_Pick.wav</AudioFile>
 									<MediaIDList>
@@ -9727,6 +9732,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Bear_Thanks" ID="{4369BBE7-9322-4A3B-A615-DFCE6EC52437}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.297612899100347"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.84507602028519"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Bear_Thanks.wav</AudioFile>
 											<MediaIDList>
