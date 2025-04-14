@@ -61,4 +61,7 @@ event = {
 stop_on = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
+[connection signal="end_of_event" from="Pixie_Aww" to="." method="_on_pixie_aww_end_of_event"]
+[connection signal="end_of_event" from="Pixie_Flyoff" to="." method="_on_pixie_flyoff_end_of_event"]
+[connection signal="end_of_event" from="Pixie1_Dialog" to="." method="_on_pixie_1_dialog_end_of_event"]
 [connection signal="end_of_event" from="Narrate_Pixie" to="." method="_on_narrate_pixie_end_of_event"]

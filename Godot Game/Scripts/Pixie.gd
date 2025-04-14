@@ -31,21 +31,11 @@ func on_click(selected):
 	pixie_giggle.stop_event()
 	pixie1_dialog.post_event()
 	
-	await get_tree().create_timer(3.8).timeout
-	
-	pixie_giggle.post_event()
-	player.set_cutscene(false)
-	
 func _on_raccoon_raccoon_fed():
 	player.set_cutscene(true)
 	pixie_giggle.stop_event()
 	await get_tree().create_timer(2).timeout
 	pixie_aww.post_event()
-	await get_tree().create_timer(2).timeout
-	pixie_flyoff.post_event()
-	await get_tree().create_timer(3).timeout
-	player.set_cutscene(false)
-	queue_free()
 
 func stop_narration():
 	playing_narration = false
@@ -53,3 +43,14 @@ func stop_narration():
 
 func _on_narrate_pixie_end_of_event(data):
 	playing_narration = false
+
+func _on_pixie_1_dialog_end_of_event(data):
+	pixie_giggle.post_event()
+	player.set_cutscene(false)
+
+func _on_pixie_aww_end_of_event(data):
+	pixie_flyoff.post_event()
+
+func _on_pixie_flyoff_end_of_event(data):
+	player.set_cutscene(false)
+	queue_free()
