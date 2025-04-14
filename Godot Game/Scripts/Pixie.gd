@@ -1,25 +1,29 @@
 extends Area3D
 
-@export var object_name:String
-@export var pixie_giggle:AkEvent3D
-@export var pixie_aww:AkEvent3D
-@export var pixie_flyoff:AkEvent3D
-@export var pixie1_dialog:AkEvent3D
-@export var narrate_pixie:AkEvent3D
-@export var narration_timer:Timer
-@export var player:Node3D
+var object_name:String
+var pixie_giggle:AkEvent3D
+var pixie_aww:AkEvent3D
+var pixie_flyoff:AkEvent3D
+var pixie1_dialog:AkEvent3D
+var narrate_pixie:AkEvent3D
+var player:Node3D
 
 var playing_narration = false
 
 var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
 
 func _ready():
+	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
+	pixie_giggle = $Pixie_Giggle
+	pixie_aww = $Pixie_Aww
+	pixie_flyoff = $Pixie_Flyoff
+	pixie1_dialog = $Pixie1_Dialog
+	narrate_pixie = $Narrate_Pixie
 	pixie_giggle.post_event()
 
 func narrate():
 	playing_narration = true
 	narrate_pixie.post_event()
-	narration_timer.start()
 
 func on_click(selected):
 	player.set_cutscene(true)
@@ -43,11 +47,9 @@ func _on_raccoon_raccoon_fed():
 	player.set_cutscene(false)
 	queue_free()
 
-func _on_narration_timer_timeout():
-	playing_narration = false
-	narration_timer.stop()
-
 func stop_narration():
 	playing_narration = false
 	narrate_pixie.stop_event()
-	narration_timer.stop()
+
+func _on_narrate_pixie_end_of_event(data):
+	playing_narration = false

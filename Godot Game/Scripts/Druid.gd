@@ -41,6 +41,7 @@ func _ready():
 	druid_restoration = $Druid_Restoration
 	druid_path_dialog = $Druid_Path_Dialog
 	druid_nervous = $Druid_Nervous
+	narrate_druid = $Narrate_Druid
 	druid_nervous.post_event()
 
 func on_click(selected):

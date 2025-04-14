@@ -3,7 +3,6 @@
 [ext_resource type="Script" path="res://Scripts/item.gd" id="1_tqe0t"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_fy6tf"]
-radius = 0.25
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l873f"]
 albedo_color = Color(0.113725, 1, 1, 1)

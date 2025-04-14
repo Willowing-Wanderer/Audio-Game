@@ -24,4 +24,3 @@ script = ExtResource("1_4djt5")
 [node name="Player" parent="AkBank2/ForestMain" instance=ExtResource("2_stgei")]
 
 [node name="ColorRect" parent="AkBank2/ForestMain" instance=ExtResource("2_wlrir")]
-visible = false
