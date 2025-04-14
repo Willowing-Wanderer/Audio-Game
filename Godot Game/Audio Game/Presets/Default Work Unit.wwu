@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0AF969A3-78A0-4769-A18F-AC26897D399B}" SchemaVersion="119">
 	<Presets>
-		<WorkUnit Name="Default Work Unit" ID="{0AF969A3-78A0-4769-A18F-AC26897D399B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0AF969A3-78A0-4769-A18F-AC26897D399B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Animals" ID="{6112E306-20C4-4914-B1A8-243F65AA282B}">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="OverrideEffect" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Object_Attenuation" ID="{B833B3C9-C3AB-4D15-8B66-2557E6B7EB80}" WorkUnitID="{9A93DCD5-FB64-424F-981C-3FCB6413A59F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5765F278-97F6-45DD-8D61-36173A30EB71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{00286270-540C-42A8-B7DB-9621F64BB94E}" ShortID="903694645">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Delay (Custom)" ID="{A95FDDA1-5EB7-4B2F-B9F3-1B1DADB9C473}" ShortID="667813830" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.2"/>
+															<Property Name="Feedback" Type="Real32" Value="30"/>
+															<Property Name="WetDryMix" Type="Real32" Value="10"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{3A12886D-7310-4B8D-BA99-EC21A9C60557}" ShortID="136203333">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Flanger (Custom)" ID="{1F928D76-150F-4454-8E80-F3825DF803DB}" ShortID="132825119" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+														<PropertyList>
+															<Property Name="DryLevel" Type="Real32" Value="0.5"/>
+															<Property Name="FeedBackLevel" Type="Real32" Value="0.1"/>
+															<Property Name="ModDepth" Type="Real32" Value="40"/>
+															<Property Name="ModSmoothing" Type="Real32" Value="80"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</Presets>
 </WwiseDocument>
