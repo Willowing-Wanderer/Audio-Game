@@ -357,7 +357,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -451,7 +451,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4033,7 +4033,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4409,13 +4409,13 @@
 																<PointList>
 																	<Point>
 																		<XPos>-180</XPos>
-																		<YPos>-25</YPos>
+																		<YPos>-10</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>-40</XPos>
-																		<YPos>-20</YPos>
+																		<YPos>-8</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -4427,13 +4427,13 @@
 																	</Point>
 																	<Point>
 																		<XPos>40</XPos>
-																		<YPos>-20</YPos>
+																		<YPos>-8</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>180</XPos>
-																		<YPos>-25</YPos>
+																		<YPos>-10</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -4833,7 +4833,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4921,7 +4921,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5007,6 +5007,11 @@
 						<Sound Name="Stream_Source" ID="{22DDBB7B-246E-4D28-9F1C-29BE1B4C5C5B}" ShortID="78004151">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5184,7 +5189,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -10565,6 +10570,9 @@
 									<Reference>
 										<Local>
 											<EffectSlot Name="" ID="{DBD18CDA-BF20-4215-B37F-C1ED1D8EFDED}" ShortID="466699007">
+												<PropertyList>
+													<Property Name="Render" Type="bool" Value="True"/>
+												</PropertyList>
 												<ReferenceList>
 													<Reference Name="Effect">
 														<Custom>
@@ -10585,6 +10593,9 @@
 									<Reference>
 										<Local>
 											<EffectSlot Name="" ID="{1313E73B-98E1-4EB3-ABB6-B43F722CBADB}" ShortID="362510872">
+												<PropertyList>
+													<Property Name="Render" Type="bool" Value="True"/>
+												</PropertyList>
 												<ReferenceList>
 													<Reference Name="Effect">
 														<Custom>
