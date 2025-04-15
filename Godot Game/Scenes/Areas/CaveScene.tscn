@@ -706,8 +706,8 @@ circle = NodePath("../..")
 
 [node name="Path_Sound" parent="WhisperingCavern11/Path_Together/SW_End" index="3"]
 event = {
-"id": 1585408714,
-"name": "Apart_Whisper"
+"id": 1414056144,
+"name": "Together_Whisper"
 }
 
 [node name="Footsteps" parent="WhisperingCavern11/Path_Together/SW_End" index="4"]
@@ -742,8 +742,8 @@ circle = NodePath("../../../StreamSource")
 
 [node name="Path_Sound" parent="WhisperingCavern5/Path_Apart/SE_End" index="3"]
 event = {
-"id": 1414056144,
-"name": "Together_Whisper"
+"id": 1585408714,
+"name": "Apart_Whisper"
 }
 
 [node name="Footsteps" parent="WhisperingCavern5/Path_Apart/SE_End" index="4"]

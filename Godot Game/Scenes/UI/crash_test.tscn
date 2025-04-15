@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3awak8lv3a04"]
+
+[ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="1_5irxa"]
+[ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="2_ixsse"]
+
+[node name="Crash_Test" type="Node3D"]
+
+[node name="Circle" parent="." instance=ExtResource("1_5irxa")]
+
+[node name="AppleTree" parent="Circle" node_paths=PackedStringArray("circle") instance=ExtResource("2_ixsse")]
+circle = NodePath("..")
