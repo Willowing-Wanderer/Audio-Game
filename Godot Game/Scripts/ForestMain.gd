@@ -10,9 +10,9 @@ var credits = preload("res://Scenes/UI/Credits.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	title_screen = title_menu.instantiate()
-	add_child(title_screen)
-	#add_child(crash_test.instantiate())
+	#title_screen = title_menu.instantiate()
+	#add_child(title_screen)
+	add_child(crash_test.instantiate())
 
 func start_game():
 	remove_child(title_screen)

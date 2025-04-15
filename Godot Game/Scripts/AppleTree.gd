@@ -49,7 +49,10 @@ func on_click(_selected):
 	await get_tree().create_timer(0.8).timeout
 	tree_shake.post_event()
 	await get_tree().create_timer(0.8).timeout
-
+	
+	# TODO: DO NOT LEAVE THIS IN
+	has_apples = true
+	
 	if(has_apples):
 		apples_fall.post_event()
 		var apple1 = apple_scene.instantiate()
