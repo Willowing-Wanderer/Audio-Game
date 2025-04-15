@@ -17,8 +17,6 @@ var playing_narration = false
 signal raccoon_fed
 var fed = false
 
-var crystal_scene = preload("res://Scenes/Items/crystal.tscn")
-
 func _ready():
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	hungry_raccoon = $Hungry_Raccoon
@@ -60,11 +58,7 @@ func on_click(selected):
 	
 func drop_crystal():
 	crystal_drop.post_event()
-	var crystal = crystal_scene.instantiate()
-	crystal.player = player
-	crystal.object_name = "Crystal"
-	circle.add_child(crystal)
-	raccoon_fed.emit()
+	raccoon_fed.emit() # also connecting this to Raccoon_Circle
 	fed = true
 
 func _on_narrate_raccoon_satisfied_end_of_event(data):
