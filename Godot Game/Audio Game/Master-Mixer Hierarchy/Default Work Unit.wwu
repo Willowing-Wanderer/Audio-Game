@@ -9,6 +9,57 @@
 							<ObjectRef Name="System" ID="{7144BD14-9BAB-4346-9C49-E16B66D80A50}" WorkUnitID="{BEA76C94-A460-49DC-A28E-43652D86F8A3}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="AnimalMagic" ID="{C8D943C3-D28E-4338-B964-08EF58D9FED9}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{6E082382-40CE-4DB7-AD1C-98346977F0BB}" ShortID="358454522">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Delay (Custom)" ID="{8EBC13D2-65E5-4C0A-8995-04129DB59CF0}" ShortID="548314310" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+																<PropertyList>
+																	<Property Name="DelayTime" Type="Real32" Value="0.15"/>
+																	<Property Name="Feedback" Type="Real32" Value="25"/>
+																	<Property Name="OutputLevel" Type="Real32" Value="-8"/>
+																	<Property Name="WetDryMix" Type="Real32" Value="8"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{CA3E5F9F-E660-49D0-B15A-6372368A08ED}" ShortID="848954209">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Flanger (Custom)" ID="{B25DAD9A-88C8-4F6E-B316-4EFDDE1CA9DD}" ShortID="942132931" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+																<PropertyList>
+																	<Property Name="DelayTime" Type="Real32" Value="6"/>
+																	<Property Name="DryLevel" Type="Real32" Value="0.2"/>
+																	<Property Name="FeedBackLevel" Type="Real32" Value="0.4"/>
+																	<Property Name="ModDepth" Type="Real32" Value="30"/>
+																	<Property Name="ModFrequency" Type="Real32" Value="1.5"/>
+																	<Property Name="ModSmoothing" Type="Real32" Value="30"/>
+																	<Property Name="WetDryMix" Type="Real32" Value="70"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

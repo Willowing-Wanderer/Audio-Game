@@ -190,7 +190,14 @@
 								<Action Name="" ID="{61C31B3F-3129-49F8-AF4B-8C255E4134AC}" ShortID="487687831">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hungry_Raccoon" ID="{2B5D0C7D-0947-4E98-8858-A9110D787E32}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Hungry_Raccoon_Voice" ID="{0B05EE46-E9B2-4793-86B6-BF59D233FD52}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9EA48BD2-8030-47C6-BDE3-B8699B946082}" ShortID="602557188">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hungry_Raccoon_Scuffle" ID="{FEE8A57B-ABD1-4B52-9611-FA46A6E9CD59}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -201,7 +208,14 @@
 								<Action Name="" ID="{6708C688-C1AA-451F-A241-03C9EFBBA4FF}" ShortID="220055352">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Raccoon_Eating" ID="{390BC8A4-3F18-4B50-AB9B-696E12E20E07}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+											<ObjectRef Name="Raccoon_Eating_Voice" ID="{5E07F570-9D1C-4C93-94A5-F1A1E3BF9BE3}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{13DF795C-37F1-4448-A8A1-325E37650531}" ShortID="50747454">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Raccoon_Eating_AppleBites" ID="{EEF2EA8C-8D2E-4C27-B8FB-4B086C928513}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -602,7 +616,7 @@
 										<Action Name="" ID="{5A78E925-0C50-4B21-AC8A-1A3035FBD8BE}" ShortID="169778862">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Sound_Placeholder" ID="{FE863F14-6953-45BD-AAC8-76B406A25E92}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+													<ObjectRef Name="Mushroom_Pick" ID="{F18B773E-7A17-4A85-89C2-5E9251D53AAC}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
