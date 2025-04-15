@@ -40,6 +40,7 @@ func narrate():
 func stop_narration():
 	playing_narration = false
 	narrate_raccoon.stop_event()
+	narrate_raccoon_satisfied.stop_event()
 	
 func on_click(selected):
 	player.set_cutscene(true)
