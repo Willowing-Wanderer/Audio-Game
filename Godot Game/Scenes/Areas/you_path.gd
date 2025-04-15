@@ -26,7 +26,7 @@ func narrate():
 	playing_narration = true
 	path_narration.post_event()
 
-func on_click(selected):
+func on_click(_selected):
 	if(locked):
 		path_locked.emit()
 	else:
@@ -39,7 +39,7 @@ func stop_narration():
 	playing_narration = false
 	path_narration.stop_event()
 
-func _on_footsteps_end_of_event(data):
+func _on_footsteps_end_of_event(_data):
 	player.position = destination
 	walking = false
 	destination = null

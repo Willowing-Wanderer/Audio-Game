@@ -62,21 +62,21 @@ func drop_crystal():
 	raccoon_fed.emit() # also connecting this to Raccoon_Circle
 	fed = true
 
-func _on_narrate_raccoon_satisfied_end_of_event(data):
+func _on_narrate_raccoon_satisfied_end_of_event(_data):
 	playing_narration = false
 
-func _on_narrate_raccoon_end_of_event(data):
+func _on_narrate_raccoon_end_of_event(_data):
 	playing_narration = false
 
-func _on_raccoon_thanks_2_end_of_event(data):
+func _on_raccoon_thanks_2_end_of_event(_data):
 	raccoon_eating.post_event()
 	player.set_cutscene(false)
 
-func _on_raccoon_thanks_end_of_event(data):
+func _on_raccoon_thanks_end_of_event(_data):
 	drop_crystal()
 	raccoon_eating.post_event()
 	player.set_cutscene(false)
 
-func _on_raccoon_go_away_end_of_event(data):
+func _on_raccoon_go_away_end_of_event(_data):
 	hungry_raccoon.post_event()
 	player.set_cutscene(false)

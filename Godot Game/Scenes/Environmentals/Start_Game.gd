@@ -19,14 +19,14 @@ func stop_narration():
 	narrate_environmental.stop_event()
 	playing_narration = false
 
-func on_click(selected):
+func on_click(_selected):
 	player.in_title = false
 	player.get_parent().start_game()
 
-func _on_narrate_environmental_end_of_event(data):
+func _on_narrate_environmental_end_of_event(_data):
 	playing_narration = false
 
-func _on_area_entered(area):
+func _on_area_entered(_area):
 	if(!player.cutscene):
 		await get_tree().create_timer(0.1).timeout
 		narrate_environmental.post_event()

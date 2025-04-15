@@ -28,5 +28,5 @@ func finish_level_1():
 func finish_level_2():
 	call_deferred("add_child",credits.instantiate())
 	
-func _input(event):
+func _input(_event):
 	pass

@@ -21,8 +21,8 @@ func stop_narration():
 	narrate_environmental.stop_event()
 	playing_narration = false
 
-func on_click(selected):
+func on_click(_selected):
 	Wwise.post_event_id(AK.EVENTS.INTERACT, self)
 
-func _on_narrate_environmental_end_of_event(data):
+func _on_narrate_environmental_end_of_event(_data):
 	playing_narration = false

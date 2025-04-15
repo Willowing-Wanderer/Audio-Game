@@ -25,15 +25,15 @@ func stop_narration():
 	narrate_environmental.stop_event()
 	playing_narration = false
 
-func on_click(selected):
+func on_click(_selected):
 	cubs_eating.stop_event()
 	player.set_cutscene(true)
 	cubs_dialog.post_event()
 
-func _on_narrate_environmental_end_of_event(data):
+func _on_narrate_environmental_end_of_event(_data):
 	playing_narration = false
 
-func _on_cubs_dialog_end_of_event(data):
+func _on_cubs_dialog_end_of_event(_data):
 	player.has_bears = true
 	player.set_cutscene(false)
 	queue_free()

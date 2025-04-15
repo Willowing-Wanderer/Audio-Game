@@ -26,7 +26,7 @@ func _ready():
 	bear_narration_2 = $Bear_Narration_2
 	bear_pacing.post_event()
 
-func _process(delta):
+func _process(_delta):
 	if (rotation_degrees[1] < -130):
 		moving = false
 	if (moving):
@@ -44,7 +44,7 @@ func stop_narration():
 	bear_narration_2.stop_event()
 	playing_narration = false
 
-func on_click(selected):
+func on_click(_selected):
 	bear_pacing.stop_event()
 	bears_playing.stop_event()
 	player.set_cutscene(true)
@@ -58,16 +58,16 @@ func on_click(selected):
 	else:
 		bear_dialog.post_event()
 
-func _on_bear_narration_1_end_of_event(data):
+func _on_bear_narration_1_end_of_event(_data):
 	playing_narration = false
 
-func _on_bear_narration_2_end_of_event(data):
+func _on_bear_narration_2_end_of_event(_data):
 	playing_narration = false
 
-func _on_bear_dialog_end_of_event(data):
+func _on_bear_dialog_end_of_event(_data):
 	player.set_cutscene(false)
 	bear_pacing.post_event()
 
-func _on_bear_thanks_end_of_event(data):
+func _on_bear_thanks_end_of_event(_data):
 	player.set_cutscene(false)
 	bears_playing.post_event()

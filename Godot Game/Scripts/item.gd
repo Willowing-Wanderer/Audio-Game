@@ -18,9 +18,10 @@ func stop_narration():
 	playing_narration = false
 	narrate_item.stop_event()
 
-func on_click(selected):
+func on_click(_selected):
 	player.add_to_inventory(object_name)
-	call_deferred("free") # using this instead of queue_free() because of random crashing
+	print(object_name)
+	call_deferred("free") # using this instead of queue_free() because of random crashing, didn't actually help
 
-func _on_narrate_item_end_of_event(data):
+func _on_narrate_item_end_of_event(_data):
 	playing_narration = false

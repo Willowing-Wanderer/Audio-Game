@@ -7,14 +7,14 @@ func _ready():
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
 	druid_open_path = $Druid_Open_Path
 	
-func _process(delta):
+func _process(_delta):
 	$player_ears.position = player.position
 	$player_ears.rotation = player.rotation
 
 func _on_druid_quest_complete():
 	druid_open_path.post_event()
 
-func _on_druid_open_path_end_of_event(data):
+func _on_druid_open_path_end_of_event(_data):
 	get_parent().finish_level_1()
 	queue_free()
 

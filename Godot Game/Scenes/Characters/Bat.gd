@@ -25,7 +25,7 @@ func narrate():
 	playing_narration = true
 	bat_narration.post_event()
 
-func _on_narrate_druid_end_of_event(data):
+func _on_narrate_druid_end_of_event(_data):
 	playing_narration = false
 	
 func stop_narration():
@@ -42,7 +42,7 @@ func _ready():
 	bat_narration = $Sounds/Bat_Narration
 	bat_bumping.post_event()
 	
-func _process(delta):
+func _process(_delta):
 	# catch bat if out of bounds
 	if(rotation_degrees[1] < 153 && rotation_degrees[1] > -65):
 		rotation = Vector3(0,-135,0)
@@ -70,21 +70,21 @@ func on_click(selected):
 func _on_timer_timeout():
 	direction *= -1
 
-func _on_bat_thanks_end_of_event(data):
+func _on_bat_thanks_end_of_event(_data):
 	bat_eating.post_event()
 	player.set_cutscene(false)
 
-func _on_bat_dialog_end_of_event(data):
+func _on_bat_dialog_end_of_event(_data):
 	bat_bumping.post_event()
 	moving = true
 	player.set_cutscene(false)
 
-func _on_bat_cavern_locked_end_of_event(data):
+func _on_bat_cavern_locked_end_of_event(_data):
 	bat_bumping.post_event()
 	moving = true
 	player.set_cutscene(false)
 
-func _on_body_entered(body):
+func _on_body_entered(_body):
 	direction *= -1
 
 func on_path_locked():

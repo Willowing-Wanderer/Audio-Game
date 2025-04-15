@@ -31,7 +31,7 @@ func stop_narration():
 	playing_narration = false
 	narrate_pixie.stop_event()
 
-func _on_narrate_pixie_end_of_event(data):
+func _on_narrate_pixie_end_of_event(_data):
 	playing_narration = false
 	
 func on_click(selected):
@@ -46,14 +46,14 @@ func on_click(selected):
 	else:
 		pixie_dialog_2.post_event()
 
-func _on_crystal_drop_end_of_event(data):
+func _on_crystal_drop_end_of_event(_data):
 	pixie_flyoff.post_event()
 
-func _on_pixie_flyoff_end_of_event(data):
+func _on_pixie_flyoff_end_of_event(_data):
 	queue_free()
 	player.set_cutscene(false)
 
-func _on_pixie_dialog_2_end_of_event(data):
+func _on_pixie_dialog_2_end_of_event(_data):
 	pixie_humming_2.post_event()
 	player.set_cutscene(false)
 
