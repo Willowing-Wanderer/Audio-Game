@@ -1,6 +1,5 @@
 extends Area3D
 
-var environmental:AkEvent3D
 var narrate_environmental:AkEvent3D
 var cubs_eating:AkEvent3D
 var cubs_dialog:AkEvent3D
@@ -11,7 +10,6 @@ var player:Node3D
 
 func _ready():
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
-	environmental = $EnvironmentalEvent
 	narrate_environmental = $Cubs_Narration
 	cubs_eating = $Cubs_Eating
 	cubs_dialog = $Cubs_Dialog

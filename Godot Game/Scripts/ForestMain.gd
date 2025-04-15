@@ -4,6 +4,7 @@ var title_screen
 var title_menu = preload("res://Scenes/UI/TitleMenu.tscn")
 var raccoon_scene = preload("res://Scenes/Areas/raccoon_scene.tscn")
 var cave_scene = preload("res://Scenes/Areas/CaveScene.tscn")
+var crash_test = preload("res://Scenes/UI/crash_test.tscn")
 
 var credits = preload("res://Scenes/UI/Credits.tscn")
 
@@ -11,6 +12,7 @@ var credits = preload("res://Scenes/UI/Credits.tscn")
 func _ready():
 	title_screen = title_menu.instantiate()
 	add_child(title_screen)
+	#add_child(crash_test.instantiate())
 
 func start_game():
 	remove_child(title_screen)
