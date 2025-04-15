@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://chy1yjgdcqplw"]
+[gd_scene load_steps=13 format=3 uid="uid://chy1yjgdcqplw"]
 
 [ext_resource type="Script" path="res://Scripts/raccoon_scene.gd" id="1_a5oek"]
 [ext_resource type="PackedScene" uid="uid://cc6vlsocdoy61" path="res://Scenes/Areas/ModularCircle.tscn" id="2_88yt1"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://75074s6brwaf" path="res://Scenes/Characters/Pixie.tscn" id="5_s6fus"]
 [ext_resource type="PackedScene" uid="uid://b8b7h44plka7b" path="res://Scenes/Areas/path_north_south.tscn" id="5_tmolf"]
 [ext_resource type="PackedScene" uid="uid://btysa7s88gvvm" path="res://Scenes/Environmentals/AppleTree.tscn" id="6_kuire"]
+[ext_resource type="Script" path="res://Scenes/Areas/RaccoonCircle.gd" id="6_wqxn4"]
 [ext_resource type="PackedScene" uid="uid://bblapp6yq562n" path="res://Scenes/Areas/path_ne_sw.tscn" id="8_djkys"]
 [ext_resource type="PackedScene" uid="uid://pq2lksvyubd5" path="res://Scenes/UI/PauseMenu.tscn" id="10_g3jm4"]
 [ext_resource type="PackedScene" uid="uid://bgapasb0bya6p" path="res://Scenes/Backdrops/ForestInsects.tscn" id="11_twekm"]
@@ -17,25 +18,38 @@ script = ExtResource("1_a5oek")
 
 [node name="player_ears" parent="." instance=ExtResource("2_fqr4v")]
 
-[node name="Circle" parent="." instance=ExtResource("2_88yt1")]
+[node name="Campsite" parent="." instance=ExtResource("2_88yt1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008, 0, 0)
 
-[node name="Druid" parent="Circle" instance=ExtResource("3_3lh8a")]
+[node name="Druid" parent="Campsite" instance=ExtResource("3_3lh8a")]
 
-[node name="Path_North-South" parent="Circle" instance=ExtResource("5_tmolf")]
+[node name="Path_North-South" parent="Campsite" instance=ExtResource("5_tmolf")]
 
-[node name="Circle2" parent="." instance=ExtResource("2_88yt1")]
+[node name="North_End" parent="Campsite/Path_North-South" index="1" node_paths=PackedStringArray("circle")]
+circle = NodePath("../..")
+
+[node name="South_End" parent="Campsite/Path_North-South" index="2" node_paths=PackedStringArray("circle")]
+circle = NodePath("../../../Raccoon_Circle")
+
+[node name="Raccoon_Circle" parent="." instance=ExtResource("2_88yt1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
+script = ExtResource("6_wqxn4")
 
-[node name="Raccoon" parent="Circle2" node_paths=PackedStringArray("circle") instance=ExtResource("4_qmtsh")]
+[node name="Raccoon" parent="Raccoon_Circle" node_paths=PackedStringArray("circle") instance=ExtResource("4_qmtsh")]
 transform = Transform3D(-0.119686, 0, -0.992811, 0, 1, 0, 0.992811, 0, -0.119686, 0, 0, 0)
 circle = NodePath("..")
 
-[node name="Pixie" parent="Circle2" instance=ExtResource("5_s6fus")]
+[node name="Pixie" parent="Raccoon_Circle" instance=ExtResource("5_s6fus")]
 transform = Transform3D(0.220646, 0, 0.975354, 0, 1, 0, -0.975354, 0, 0.220646, 0, 0, 0)
 
-[node name="Path_NE_SW" parent="Circle2" instance=ExtResource("8_djkys")]
+[node name="Path_NE_SW" parent="Raccoon_Circle" instance=ExtResource("8_djkys")]
 transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 3.14295, 9.53674e-07, -3.17603)
+
+[node name="NE_End" parent="Raccoon_Circle/Path_NE_SW" index="1" node_paths=PackedStringArray("circle")]
+circle = NodePath("../..")
+
+[node name="SW_End" parent="Raccoon_Circle/Path_NE_SW" index="2" node_paths=PackedStringArray("circle")]
+circle = NodePath("../../../Circle3")
 
 [node name="Circle3" parent="." instance=ExtResource("2_88yt1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29065, -1.90735e-06, -15.4058)
@@ -64,13 +78,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42044, 0, -9.58194)
 [node name="ForestInsects5" parent="Insects" instance=ExtResource("11_twekm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66985, 0, 5.91925)
 
-[connection signal="quest_complete" from="Circle/Druid" to="." method="_on_druid_quest_complete"]
-[connection signal="end_of_event" from="Circle/Druid/Druid_Restoration" to="Insects/ForestInsects2" method="_on_druid_restoration_end_of_event"]
-[connection signal="end_of_event" from="Circle/Druid/Druid_Restoration" to="Insects/ForestInsects3" method="_on_druid_restoration_end_of_event"]
-[connection signal="end_of_event" from="Circle/Druid/Druid_Restoration" to="Insects/ForestInsects5" method="_on_druid_restoration_end_of_event"]
-[connection signal="raccoon_fed" from="Circle2/Raccoon" to="Circle2/Pixie" method="_on_raccoon_raccoon_fed"]
+[connection signal="quest_complete" from="Campsite/Druid" to="." method="_on_druid_quest_complete"]
+[connection signal="end_of_event" from="Campsite/Druid/Druid_Restoration" to="Insects/ForestInsects2" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Campsite/Druid/Druid_Restoration" to="Insects/ForestInsects3" method="_on_druid_restoration_end_of_event"]
+[connection signal="end_of_event" from="Campsite/Druid/Druid_Restoration" to="Insects/ForestInsects5" method="_on_druid_restoration_end_of_event"]
+[connection signal="raccoon_fed" from="Raccoon_Circle/Raccoon" to="Raccoon_Circle" method="_on_raccoon_raccoon_fed"]
+[connection signal="raccoon_fed" from="Raccoon_Circle/Raccoon" to="Raccoon_Circle/Pixie" method="_on_raccoon_raccoon_fed"]
 [connection signal="end_of_event" from="Druid_Open_Path" to="." method="_on_druid_open_path_end_of_event"]
 
-[editable path="Circle/Druid"]
-[editable path="Circle/Path_North-South"]
-[editable path="Circle2/Path_NE_SW"]
+[editable path="Campsite/Druid"]
+[editable path="Campsite/Path_North-South"]
+[editable path="Raccoon_Circle/Path_NE_SW"]
