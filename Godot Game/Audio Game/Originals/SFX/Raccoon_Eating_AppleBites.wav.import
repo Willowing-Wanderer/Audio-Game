@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwp7rl5bwivkp"
+path="res://.godot/imported/Raccoon_Eating_AppleBites.wav-d9a814aa7fa4ae553611eee63d784c5f.sample"
+
+[deps]
+
+source_file="res://Audio Game/Originals/SFX/Raccoon_Eating_AppleBites.wav"
+dest_files=["res://.godot/imported/Raccoon_Eating_AppleBites.wav-d9a814aa7fa4ae553611eee63d784c5f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

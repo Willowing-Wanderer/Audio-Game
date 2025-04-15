@@ -3,7 +3,7 @@
 	<Presets>
 		<WorkUnit Name="Default Work Unit" ID="{0AF969A3-78A0-4769-A18F-AC26897D399B}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="AnimalDialogue" ID="{91E3174C-A542-4182-89CC-EF0545F1384F}">
+				<ActorMixer Name="AnimalDialogue" ID="{6D4BD890-B696-42F5-94DC-2434D3786959}">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -18,16 +18,22 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="AnimalMagic" ID="{C8D943C3-D28E-4338-B964-08EF58D9FED9}" WorkUnitID="{12B056CC-A5E5-4D02-A4B5-F5D2F617213F}"/>
+						</Reference>
 					</ReferenceList>
 					<ObjectLists>
 						<ObjectList Name="Effects">
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{D51E3B95-F0F5-4C7C-86C0-A466A71FA387}" ShortID="269333553">
+									<EffectSlot Name="" ID="{4EC458FF-8A4E-4EA7-9144-CB4C21976DA0}" ShortID="759891981">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom>
-													<Effect Name="Delay (Custom)" ID="{71967D64-3681-4BD6-A92C-DAF42E24F018}" ShortID="382418531" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+													<Effect Name="Delay (Custom)" ID="{ED811818-46E3-419E-9A2D-F31753632524}" ShortID="461189544" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 														<PropertyList>
 															<Property Name="DelayTime" Type="Real32" Value="0.15"/>
 															<Property Name="Feedback" Type="Real32" Value="25"/>
@@ -43,11 +49,14 @@
 							</Reference>
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{EC022056-A804-42C2-A84D-A417ED7AF5AA}" ShortID="856901672">
+									<EffectSlot Name="" ID="{CC3BBE97-86ED-4F93-8308-6176F49F2E14}" ShortID="274729487">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom>
-													<Effect Name="Flanger (Custom)" ID="{E68E4E75-E878-453D-8FD3-E48CE0EF7DE2}" ShortID="878033566" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+													<Effect Name="Flanger (Custom)" ID="{3E804B21-A65B-4B2D-89C1-8F43B95D3A72}" ShortID="566573113" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 														<PropertyList>
 															<Property Name="DelayTime" Type="Real32" Value="6"/>
 															<Property Name="DryLevel" Type="Real32" Value="0.2"/>
