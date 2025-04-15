@@ -9,12 +9,12 @@ var sounds = {"Empty": AK.EVENTS.CLICK_FAIL,
 
 # TODO: Remove all items from inventory before shipping
 var items = {"Empty": null,
-			"Apple": 1,
-			"Crystal": 2,
-			"Insect": 1,
-			"Net": 1,
-			"Mushroom": 1}
-			
+			#"Apple": 1,
+			#"Crystal": 2,
+			#"Insect": 1,
+			#"Net": 1,
+			#"Mushroom": 1
+			}
 var selected = 0
 
 var playing_id

@@ -18,7 +18,7 @@ func narrate():
 	playing_narration = true
 	insect_cloud_narration.post_event()
 
-func _on_narrate_druid_end_of_event(data):
+func _on_narrate_druid_end_of_event(_data):
 	playing_narration = false
 	
 func stop_narration():
@@ -37,6 +37,6 @@ func on_click(selected):
 		player.set_cutscene(true)
 		insect_catch.post_event()
 
-func _on_insect_catch_end_of_event(data):
+func _on_insect_catch_end_of_event(_data):
 	player.add_to_inventory("Insect")
 	player.set_cutscene(false)

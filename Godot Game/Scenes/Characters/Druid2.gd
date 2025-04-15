@@ -20,7 +20,7 @@ func narrate():
 	playing_narration = true
 	narrate_druid.post_event()
 
-func _on_narrate_druid_end_of_event(data):
+func _on_narrate_druid_end_of_event(_data):
 	playing_narration = false
 	
 func stop_narration():
@@ -47,13 +47,13 @@ func on_click(selected):
 	else:
 		druid_help.post_event()
 
-func _on_druid_thanks_2_end_of_event(data):
+func _on_druid_thanks_2_end_of_event(_data):
 	druid_restoration.post_event()
 
-func _on_druid_restoration_end_of_event(data):
+func _on_druid_restoration_end_of_event(_data):
 	await get_tree().create_timer(5).timeout
 	player.set_cutscene(false)
 	quest_complete.emit()
 
-func _on_druid_help_2_end_of_event(data):
+func _on_druid_help_2_end_of_event(_data):
 	player.set_cutscene(false)

@@ -18,7 +18,7 @@ func narrate():
 	playing_narration = true
 	mushroom_patch_narration.post_event()
 
-func _on_narrate_druid_end_of_event(data):
+func _on_narrate_druid_end_of_event(_data):
 	playing_narration = false
 	
 func stop_narration():
@@ -33,11 +33,11 @@ func _ready():
 	mushroom_pick = $Mushroom_Pick
 	mushroom_patch.post_event()
 
-func on_click(selected):
+func on_click(_selected):
 	player.set_cutscene(true)
 	await get_tree().create_timer(0.1).timeout
 	mushroom_pick.post_event()
 
-func _on_mushroom_pick_end_of_event(data):
+func _on_mushroom_pick_end_of_event(_data):
 	player.add_to_inventory("Mushroom")
 	player.set_cutscene(false)

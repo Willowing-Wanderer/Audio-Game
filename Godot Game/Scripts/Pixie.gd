@@ -25,7 +25,7 @@ func narrate():
 	playing_narration = true
 	narrate_pixie.post_event()
 
-func on_click(selected):
+func on_click(_selected):
 	player.set_cutscene(true)
 	await get_tree().create_timer(1).timeout
 	pixie_giggle.stop_event()
@@ -41,16 +41,16 @@ func stop_narration():
 	playing_narration = false
 	narrate_pixie.stop_event()
 
-func _on_narrate_pixie_end_of_event(data):
+func _on_narrate_pixie_end_of_event(_data):
 	playing_narration = false
 
-func _on_pixie_1_dialog_end_of_event(data):
+func _on_pixie_1_dialog_end_of_event(_data):
 	pixie_giggle.post_event()
 	player.set_cutscene(false)
 
-func _on_pixie_aww_end_of_event(data):
+func _on_pixie_aww_end_of_event(_data):
 	pixie_flyoff.post_event()
 
-func _on_pixie_flyoff_end_of_event(data):
+func _on_pixie_flyoff_end_of_event(_data):
 	player.set_cutscene(false)
 	queue_free()

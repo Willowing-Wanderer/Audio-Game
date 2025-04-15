@@ -25,7 +25,6 @@ var cubs_footsteps:AkEvent3D
 
 @onready var inventory = $Inventory
 @onready var narrator = $Inventory_Narrator
-@onready var player: Area3D = $Player
 
 func _ready() -> void:
 	pick_up = $Pick_up
@@ -37,7 +36,7 @@ func _ready() -> void:
 	cubs_footsteps = $Cubs_Footsteps
 	capture_mouse()
 
-func _process(delta):
+func _process(_delta):
 	var sensitivity = 0.03
 	rotate_y(-Input.get_joy_axis(0,JOY_AXIS_RIGHT_X) * sensitivity)
 		
@@ -111,17 +110,19 @@ func process_right_click(area: Area3D):
 	area.narrate()
 
 func add_to_inventory(item_name):
+	print("player.add_to_inventory, before pick_up.post_event()")
 	pick_up.post_event()
+	print("player.add_to_inventory, before inventory.add_item call")
 	inventory.add_item(item_name)
 	
 func remove_from_inventory(item_name):
 	inventory.remove_item(item_name)
 
-func _on_area_entered(area):
+func _on_area_entered(_area):
 	if(!cutscene):
 		hover_select.post_event()
 
-func _on_area_exited(area):
+func _on_area_exited(_area):
 	if(!cutscene):
 		hover_deselect.post_event()
 		
