@@ -65,6 +65,13 @@ event = {
 }
 stop_on = 3
 
+[node name="Bat_Fed_Narration" type="AkEvent3D" parent="Sounds"]
+event = {
+"id": 172306977,
+"name": "Bat_Fed_Narration"
+}
+stop_on = 3
+
 [node name="Bat_Cavern_Locked" type="AkEvent3D" parent="Sounds"]
 event = {
 "id": 2212254451,
