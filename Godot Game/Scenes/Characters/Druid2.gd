@@ -57,3 +57,4 @@ func _on_druid_restoration_end_of_event(_data):
 
 func _on_druid_help_2_end_of_event(_data):
 	player.set_cutscene(false)
+	druid_hum.post_event()

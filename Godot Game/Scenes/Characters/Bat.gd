@@ -4,6 +4,7 @@ var bat_bumping:AkEvent3D
 var bat_dialog:AkEvent3D
 var bat_thanks:AkEvent3D
 var bat_narration:AkEvent3D
+var bat_fed_narration:AkEvent3D
 var bat_cavern_locked:AkEvent3D
 var bat_eating:AkEvent3D
 
@@ -23,14 +24,15 @@ var playing_narration = false
 # All items must include the following functions:
 func narrate():
 	playing_narration = true
-	bat_narration.post_event()
-
-func _on_narrate_druid_end_of_event(_data):
-	playing_narration = false
+	if(fed):
+		bat_fed_narration.post_event()
+	else:
+		bat_narration.post_event()
 	
 func stop_narration():
 	playing_narration = false
 	bat_narration.stop_event()
+	bat_fed_narration.stop_event()
 	
 func _ready():
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
@@ -40,6 +42,7 @@ func _ready():
 	bat_cavern_locked = $Sounds/Bat_Cavern_Locked
 	bat_eating = $Sounds/Bat_Eating
 	bat_narration = $Sounds/Bat_Narration
+	bat_fed_narration = $Sounds/Bat_Fed_Narration
 	bat_bumping.post_event()
 	
 func _process(_delta):

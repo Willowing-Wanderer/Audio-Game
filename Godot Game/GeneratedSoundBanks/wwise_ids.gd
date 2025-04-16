@@ -145,6 +145,7 @@ class EVENTS:
 	const PATH_WEST_NARRATION = 3899584429
 	const PAUSE_INFO = 597721236
 	const TOGETHER_WHISPER = 1414056144
+	const BAT_FED_NARRATION = 172306977
 
 	const _dict = {
 		"Facing": FACING,
@@ -289,7 +290,8 @@ class EVENTS:
 		"Here_Whisper": HERE_WHISPER,
 		"Path_West_Narration": PATH_WEST_NARRATION,
 		"Pause_Info": PAUSE_INFO,
-		"Together_Whisper": TOGETHER_WHISPER
+		"Together_Whisper": TOGETHER_WHISPER,
+		"Bat_Fed_Narration": BAT_FED_NARRATION
 	}
 
 class STATES:

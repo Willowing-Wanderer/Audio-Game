@@ -997,6 +997,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Bat_Fed_Narration" ID="{CAC6E858-556F-4DF2-89D0-916E527AAB5D}">
+									<ChildrenList>
+										<Action Name="" ID="{616D5F9A-1FF0-4A35-A47E-225D8FF10D9A}" ShortID="860519485">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bat_Fed_Narration" ID="{D29B9B79-1470-4F36-98C5-FF1AC4B7D9CB}" WorkUnitID="{3D1E0581-0F2A-4156-935C-60FF920602E7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Bear Cubs" ID="{03D9DBE9-E10C-471A-88B6-51E5C9B90530}" ShortID="842192362">
