@@ -3,11 +3,14 @@ var player:Node3D
 
 @export var object_name:String
 @export var narrate_item:AkEvent3D
+var item_ping:AkEvent3D
 
 var playing_narration = false
 
 func _ready():
+	item_ping = $ItemEvent
 	player = get_node("/root/AkBank/AkBank2/ForestMain/Player")
+	item_ping.post_event()
 
 # All items must include the following functions:
 func narrate():
@@ -21,7 +24,8 @@ func stop_narration():
 func on_click(_selected):
 	player.add_to_inventory(object_name)
 	print(object_name)
-	call_deferred("free") # using this instead of queue_free() because of random crashing, didn't actually help
+	item_ping.stop_event()
+	visible = false
 
 func _on_narrate_item_end_of_event(_data):
 	playing_narration = false

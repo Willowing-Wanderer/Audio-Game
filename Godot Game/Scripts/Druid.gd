@@ -74,6 +74,7 @@ func _on_druid_help_end_of_event(_data):
 	druid_hum.post_event()
 
 func _on_druid_restoration_end_of_event(_data):
+	await get_tree().create_timer(2).timeout
 	druid_path_dialog.post_event()
 
 func _on_druid_path_dialog_end_of_event(_data):

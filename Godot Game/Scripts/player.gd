@@ -58,7 +58,7 @@ func _input(event):
 	if (event.is_action_pressed("Pause") && !in_title):
 		pause_game()
 	if (event.is_action_pressed("Interact")):
-		if(has_overlapping_areas()):
+		if(has_overlapping_areas() && get_overlapping_areas()[0].visible == true):
 			interact.post_event()
 			process_left_click(get_overlapping_areas()[0])
 			await get_tree().create_timer(0.2).timeout
@@ -118,12 +118,12 @@ func add_to_inventory(item_name):
 func remove_from_inventory(item_name):
 	inventory.remove_item(item_name)
 
-func _on_area_entered(_area):
-	if(!cutscene):
+func _on_area_entered(area):
+	if(!cutscene && area.visible == true):
 		hover_select.post_event()
 
-func _on_area_exited(_area):
-	if(!cutscene):
+func _on_area_exited(area):
+	if(!cutscene && area.visible == true):
 		hover_deselect.post_event()
 		
 func get_count(item_name):
