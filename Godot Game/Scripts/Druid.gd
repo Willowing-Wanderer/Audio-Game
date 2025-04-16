@@ -51,11 +51,12 @@ func on_click(selected):
 	await get_tree().create_timer(1).timeout
 	
 	if(selected == "Crystal"):
+		player.set_cutscene(true)
 		player.remove_from_inventory("Crystal")
 		druid_thanks.post_event()
 	else:
+		player.set_cutscene(true)
 		if(first_click):
-			player.set_cutscene(true)
 			druid_dialog.post_event()
 			first_click = false
 		else:
@@ -78,6 +79,5 @@ func _on_druid_restoration_end_of_event(_data):
 	druid_path_dialog.post_event()
 
 func _on_druid_path_dialog_end_of_event(_data):
-	player.set_cutscene(false)
 	quest_complete.emit()
 

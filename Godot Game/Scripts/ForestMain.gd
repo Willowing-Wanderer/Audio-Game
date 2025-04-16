@@ -26,6 +26,7 @@ func finish_level_1():
 	var cave = cave_scene.instantiate()
 	cave.player = $Player
 	add_child(cave)
+	$Player.set_cutscene(false)
 
 func finish_level_2():
 	call_deferred("add_child",credits.instantiate())
