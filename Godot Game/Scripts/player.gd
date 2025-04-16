@@ -110,9 +110,7 @@ func process_right_click(area: Area3D):
 	area.narrate()
 
 func add_to_inventory(item_name):
-	print("player.add_to_inventory, before pick_up.post_event()")
 	pick_up.post_event()
-	print("player.add_to_inventory, before inventory.add_item call")
 	inventory.add_item(item_name)
 	
 func remove_from_inventory(item_name):
@@ -130,6 +128,8 @@ func get_count(item_name):
 	return inventory.get_count(item_name)
 
 func set_cutscene(boolean):
+	print("setting cutscene to:")
+	print(boolean)
 	cutscene = boolean
 	set_process_input(!boolean)
 	if(boolean):
