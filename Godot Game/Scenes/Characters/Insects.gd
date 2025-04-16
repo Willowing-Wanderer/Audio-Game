@@ -13,6 +13,8 @@ var first_click = true
 
 var playing_narration = false
 
+var count = 5
+
 # All items must include the following functions:
 func narrate():
 	playing_narration = true
@@ -33,7 +35,7 @@ func _ready():
 	insect_cloud.post_event()
 
 func on_click(selected):
-	if(selected == "Net"):
+	if(selected == "Net" && count >= 1):
 		player.set_cutscene(true)
 		insect_catch.post_event()
 

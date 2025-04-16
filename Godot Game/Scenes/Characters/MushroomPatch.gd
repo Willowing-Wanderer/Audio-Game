@@ -13,6 +13,8 @@ var first_click = true
 
 var playing_narration = false
 
+var count = 10
+
 # All items must include the following functions:
 func narrate():
 	playing_narration = true
@@ -34,9 +36,11 @@ func _ready():
 	mushroom_patch.post_event()
 
 func on_click(_selected):
-	player.set_cutscene(true)
-	await get_tree().create_timer(0.1).timeout
-	mushroom_pick.post_event()
+	if(count >= 1):
+		player.set_cutscene(true)
+		await get_tree().create_timer(0.1).timeout
+		mushroom_pick.post_event()
+	count -= 1
 
 func _on_mushroom_pick_end_of_event(_data):
 	player.add_to_inventory("Mushroom")
