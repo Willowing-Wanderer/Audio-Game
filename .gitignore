@@ -7,3 +7,4 @@ Godot Game/GeneratedSoundBanks/Mac
 Godot Game/GeneratedSoundBanks/Windows
 *.txt
 *.bnk
+Godot Game/addons/Wwise/native/lib/win64/debug/~libwwise.windows.template_debug.dll
